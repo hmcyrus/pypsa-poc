@@ -1,7 +1,7 @@
 {
     "name": "pypsa-poc",
     "image": "mcr.microsoft.com/devcontainers/python:3.11",
-    "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+    "postCreateCommand": "poetry config virtualenvs.in-project true && poetry install",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -11,7 +11,7 @@
                 "ms-toolsai.jupyter"
             ],
             "settings": {
-                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python",
                 "editor.formatOnSave": true,
                 "[python]": {
                     "editor.defaultFormatter": "ms-python.black-formatter"
@@ -23,6 +23,7 @@
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
             "installZsh": true
-        }
+        },
+        "ghcr.io/devcontainers-contrib/features/poetry:2": {}
     }
 }
