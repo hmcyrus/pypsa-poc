@@ -1,0 +1,5 @@
+pypsa>=1.1.2
+pandas>=3.0.2
+numpy>=2.4.4
+xarray>=2025.12.0,<2026.1.0
+matplotlib>=3.9
