@@ -1,0 +1,355 @@
+SN,Name of Lines,Length in Route km,Length in Ckt. Km,No. of Ckt.,Conductor,Size,Voltage Level
+1,HVDC Bheramara-Bangladesh Border(Baharampur),27,54.70,Double,Twin Finch,1113 MCM,400 kV
+2,Aminbazar-Meghnaghat,55.00,110.00,Double,Quad Egret,636 MCM,400 kV
+3,Comilla(N)- Bangladesh Border,28.00,56.00,Double,Twin Finch,1113 MCM,400 kV
+4,Bibiyana-Kaliakoir,170,339,Double,Twin Finch,1113 MCM,400 kV
+5,Ashuganj(N)-Bhulta,69.00,138.00,Double,Twin Finch,1113 MCM,400 kV
+6,Payra-Gopalganj(N),164,327.10,Double,Quad ACCC Finch,1113 MCM,400 kV
+7,BSRM- Mirsarai,16.50,33.00,Double,Twin ACCC Finch,1113 MCM,400 kV
+8,HVDC Bheramara-Bangladesh Border(Baharampur) 2nd,28,56,Double,Twin Finch,1113 MCM,400 kV
+9,Payra PP - Payra SS,1.20,2.40,Double,,,400 kV
+10,Banskhali-Madunaghat,55,111,Double,LL-Quad ACSR Finch,1113 MCM,400 kV
+11,LILO of Matarbari-Madunaghat,3,14,Four,LL-Quad ACSR Finch,1113 MCM,400 kV
+12,Monakosa-Rahanpur,30,60,Double,Quad ACSR Finch,1113 MCM,400 kV
+13,Rampal-Gopalganj,96.70,193.40,Double,Quad ACCC Finch,1113 MCM,400 kV
+14,Gopalganj-Aminbazar(With River),75.30,150.60,Double,Quad ACCC Finch,1113 MCM,400 kV
+15,Gopalganj-Aminbazar River Crossing,7.50,15.00,Double,Quad ACCC Finch,1113 MCM,400 kV
+17,Bogura(West)-Rahanpur,105,210,Double,Twin ACCC Finch,1113 MCM,400 kV
+18,Barguna PP - Payra PP,27.80,27.80,Single,Single ACSR Finch,1113 MCM,400 kV
+19,Matarbari-Banskhali,38,76,Double,LL-Quad ACSR Finch,1113 MCM,400 kV
+20,Madunaghat-Meghnaghat,217.20,434.40,Double,LL-Quad ACSR Finch,1113 MCM,400 kV
+21,Rooppur-Bogura(West),90,90,Single,Quad ACCC Finch,1113 MCM,400 kV
+22,Bogura(West)-Barapukuria,112.20,224,Double,Quad ACCC Finch,1113 MCM,400 kV
+23,LILO of Payra-Gopalganj at Amtali,5,18.90,Double,Quad ACCC Finch,1113 MCM,400 kV
+24,Amtali-RNPL,9.90,19.80,Double,Quad ACSR Finch,1113 MCM,400 kV
+25,Bogura-Kaliakoir (Upto river crossing),73,146,Double,Quad ACCC Finch,1113 MCM,400 kV
+26,Aminbazar-Kaliakoir,51,51,Single,Quad ACCC Finch,1113 MCM,400 kV
+27,Roopur-Gopalganj (overhead),156,156,Single,Quad ACCC Finch,1113 MCM,400 kV
+28,Roopur-Gopalganj (UG),2,2,Single,Quad ACCC Finch,1113 MCM,400 kV
+29,LILO of Madunaghat-Meghnaghat atKorerhat,0,0,Four,LL-Quad ACSR Finch,1113 MCM,400 kV
+1,Ghorasal-Ishurdi,175.00,350.00,Double,Mallard & AAAC,795 MCM,230 kV
+2,Tongi - Ghorasal,27.00,54.00,Double,ACCC Mallard,795 MCM,230 kV
+3,Ghorasal - Ashuganj,44.00,88.00,Double,Mallard,795 MCM,230 kV
+4,Raojan - Hathazari,22.50,45.00,Double,Twin 300 sq.mm,,230 kV
+5,Ashuganj - Comilla North,79.00,158.00,Double,Finch,1113 MCM,230 kV
+6,Ghorasal - Rampura,50.00,100.00,Double,Twin Mallard,2x795 MCM,230 kV
+7,Rampura - Haripur,22.00,44.00,Double,Twin Mallard,2x795 MCM,230 kV
+8,Haripur - Meghnaghat,12.50,25.00,Double,Twin Mallard,2x795 MCM,230 kV
+9,Meghnaghat - Hasnabad,24.50,49.00,Double,Twin Mallard,2x795 MCM,230 kV
+10,Comilla North - Hathazari,151.00,302.00,Double,Finch,1113 MCM,230 kV
+11,"AES, Haripur - Haripur",2.40,4.80,Double,Finch,1113 MCM,230 kV
+12,Comilla North - Meghnaghat,58.00,116.00,Double,Twin Mallard,2x795 MCM,230 kV
+13,Tongi-Aminbazar,25.20,50.40,Double,Twin AAAC,37/4.176 mm.,230 kV
+14,Aminbazar-Hasnabad,21.50,43.00,Double,Twin AAAC,37/4.176 mm.,230 kV
+15,Siddhirganj 210 MW P/S -Haripur,1.50,1.50,Single,ACSR,600 sq. mm.,230 kV
+16,Ashuganj - Sirajganj,144.00,288.00,Double,Twin AAAC,37/4.176 mm.,230 kV
+17,Khulna-Bheramara HVDC,176.50,353.00,Double,Twin AAAC,37/4.176 mm.,230 kV
+18,Bheramara HVDC-Ishurdi,10.10,20.20,Double,Twin AAAC,37/4.176 mm.,230 kV
+19,Bogra-Barapukuria,106.00,212.00,Double,Twin AAAC,37/4.176 mm.,230 kV
+20,Sirajganj-Bogra,72.50,145.00,Double,Twin AAAC,37/4.176 mm.,230 kV
+21,Ishurdi-Baghabari,55.00,110.00,Double,Twin AAAC,37/4.176 mm.,230 kV
+22,Baghabari-Sirajganj,38.00,76.00,Double,Twin AAAC,37/4.176 mm.,230 kV
+23,Fenchuganj-Bibiyana,33,67,Double,Twin Mallard,2x795 MCM,230 kV
+24,Bibiyana-Comilla(N),154,307.00,Double,Twin Mallard,2x795 MCM,230 kV
+25,Aminbazar-Old Airport (O/H),4,7,Double,Twin Mallard,2x795 MCM,230 kV
+26,Aminbazar-Old Airport (U/G),4,8,Double,XLPE,2000 sq. mm.,230 kV
+27,Siddhirganj-Maniknagar,11.00,22.00,Double,Twin Mallard,2x795 MCM,230 kV
+28,Bhola-Barisal,62.50,125.00,Double,Twin Mallard,2x795 MCM,230 kV
+29,LILO of Comilla(N)-Hathazari line at BSRM,0,1,Double,Finch,1113 MCM,230 kV
+30,LILO of Comilla(N)-Hathazari line at AKSPL,6.50,13.00,Double,Finch,1113 MCM,230 kV
+31,LILO of Aminbazar-Tongi line at Kaliakoir,32,128,Four,Twin AAAC,,230 kV
+32,Bheramara HVDC-Bheramara 230,3.00,12.00,Double,Twin AAAC,,230 kV
+33,LILO of Ghorashal-Rampura at Bhulta,2,4,Double,Twin Mallard,2x795 MCM,230 kV
+34,LILO of Haripur-Rampura at Bhulta,3,10,Four,Twin Mallard,2x795 MCM,230 kV
+35,Haripur-Siddhirganj,2,3.30,Double,Twin Mallard,2x795 MCM,230 kV
+36,Bheramara HVDC- Ishwardi,12.80,25.60,Double,Quad Mallard,4x795 MCM,230 kV
+37,LILO of Tongi-Kaliakoir at Kodda PP,1,2,Double,Twin Mallard,2x795 MCM,230 kV
+38,LILO of Hasnabad-Aminbazar at Keraniganj,0,2,Four,Twin Mallard,2x795 MCM,230 kV
+39,Sikalbaha-Anowara,17,35,Double,Twin Mallard,2x795 MCM,230 kV
+40,LILO of Hasnabad-Meghnaghat at Shyampur,0,0,Four,Twin Mallard,2x795 MCM,230 kV
+41,Patuakhali-Payra,46.50,93.00,Double,Twin ACCC Mallard,2x795 MCM,230 kV
+42,Ishurdi-Rajshahi,79,158,Double,Twin Mallard,2x795 MCM,230 kV
+43,LILO of Bheramara-Khulna (S) at Jhenaidah,2,8,Four,Twin Mallard,2x795 MCM,230 kV
+44,Sikalbaha-Hathazari,28,56.70,Double,Quad Mallard,4x795 MCM,230 kV
+45,Mongla- Khulna(S),24,48,Double,Twin Mallard,2x795 MCM,230 kV
+46,Barishal(N)-Gopalganj,75,150,Double,Twin ACCC Mallard,2x795 MCM,230 kV
+47,Gopalganj-Faridpur,49,98,Double,Twin ACCC Mallard,2x795 MCM,230 kV
+48,LILO of Sikalbaha-Hathazari at Madunaghat(N),6,23.40,Double,Quad Mallard,4x795 MCM,230 kV
+49,Rooppur-Baghabari,65,131,Double,Twin ACCC Mallard,2x795 MCM,230 kV
+50,Khula 330MW-Khula(S),14.00,14.00,Single,,,230 kV
+51,LILO of Bogura-Barapukuria at Bogura(West),11,44,Double,Twin Mallard,2x795 MCM,230 kV
+52,LILO of Ashuganj-Sirajganj at Sreepur,1.40,5.60,Four,Twin Mallard,2x795 MCM,230 kV
+53,Madunaght(O)-Madunaghat 400kV,7,14,Double,Twin Mallard,2x795 MCM,230 kV
+54,Sonagazi (EGCB)- Mirsarai,13.30,13.30,Single,Twin Mallard,2x795 MCM,230 kV
+55,Bogura(S)-Noagaon (Partial),12,23,Double,Twin Mallard,2x795 MCM,230 kV
+56,LILO of Bogura(S)-Noagaon,1,6,Four,Twin Mallard,2x795 MCM,230 kV
+57,Korerhat-Chowmuhani,54.00,216,Four,Twin Mallard,2x795 MCM,230 kV
+58,Chowmuhani-Kachua,51,202,Four,Twin Mallard,2x795 MCM,230 kV
+59,Chowmuhani-Maijdee,20,41,Double,Twin Mallard,2x795 MCM,230 kV
+60,Barapukuria-Purbasadipur,38.70,77.40,Double,Twin Mallard,2x795 MCM,230 kV
+61,Kachua-Gazaria,49,196,Four,Twin Mallard,2x795 MCM,230 kV
+62,Ghorasal GIS2AIS double circuit,1.10,2.20,Double,XLPE,2000 sq. mm.,230 kV
+63,Ghorasal GIS2AIS 3rd Circuit,1.10,1.10,Single,XLPE,2000 sq. mm.,230 kV
+1,Shahjibazar-Brahmanbaria,57.0,114,Double,Grosbeak,636 MCM,132 kV
+2,Brahmanbaria-Ashuganj,17,33,Double,Grosbeak,636 MCM,132 kV
+3,Ashuganj-Ghorasal,45,91,Double,ACCC Grosbeak,636 MCM,132 kV
+4,Ghorasal-Narsingdi,13,27,Double,Grosbeak,636 MCM,132 kV
+5,Narsingdi-Haripur,34,34,Single,Grosbeak,636 MCM,132 kV
+6,Narsingdi-Bhulta,16,16,Single,Grosbeak,636 MCM,132 kV
+7,Bhulta-Haripur,15,15,Single,ACCC Grosbeak,636 MCM,132 kV
+8,Haripur-Siddhirganj,2.0,4,Double,Grosbeak,636 MCM,132 kV
+9,Shahjibazar-Srimangal,36,72,Double,Grosbeak,636 MCM,132 kV
+10,Srimangal-Fenchuganj,49.0,98,Double,Grosbeak,636 MCM,132 kV
+11,Fenchuganj-Fenchuganj PS,4,15,Four,ACCC Grosbeak,636 MCM,132 kV
+12,Fenchuganj-Sylhet,32,63,Double,ACCC Grosbeak,636 MCM,132 kV
+13,Sylhet-Chhatak,33,66,Double,Grosbeak,636 MCM,132 kV
+14,Kaptai-Hathazari,45.0,90,Double,Grosbeak,636 MCM,132 kV
+15,Hathazari-Baroirhat,63,127,Double,Grosbeak,636 MCM,132 kV
+16,Feni-Comilla (N),66.0,132,Double,Grosbeak,636 MCM,132 kV
+17,Comilla (N)- Daudkandi,55.0,110,Double,Grosbeak/AAAC,636 MCM,132 kV
+18,Daudkandi-Sonargaon,62,123,Double,Grosbeak/AAAC,636 MCM,132 kV
+19,Sonargaon-Haripur,15.0,30,Double,Grosbeak/AAAC,636 MCM,132 kV
+20,Haripur-Siddhirganj,2,5,Double,Grosbeak,636 MCM,132 kV
+21,Khulshi-Halishahar,13.0,26,Double,Grosbeak,636 MCM,132 kV
+22,Comilla (N)-Chandpur,78,78,Single,Linnet +Grosbeak,(336.4 + 636)MCM,132 kV
+23,Comilla (N)-Comilla (S),16,16,Single,Grosbeak,636 MCM,132 kV
+24,Comilla (S)-Chandpur,62,62,Single,ACCC Linnet,336.4 mCM,132 kV
+25,Ashuganj-Kishoreganj,52.0,104,Double,ACCC Grosbeak,636 MCM,132 kV
+26,Kishoreganj-Mymensingh,59.0,118,Double,Grosbeak,636 MCM,132 kV
+27,Mymensingh-Jamalpur,55.0,110,Double,ACCC Grosbeak,636 MCM,132 kV
+28,Madunaghat-Sikalbaha,17,17,Single,Grosbeak,636 MCM,132 kV
+29,Madunaghat-TKC,9,9,Single,Grosbeak,636 MCM,132 kV
+30,TKC-Sikalbaha,9,9,Single,Grosbeak,636 MCM,132 kV
+31,Sikalbaha-Dohazari,32.0,64,Double,ACCC Grosbeak,636 MCM,132 kV
+32,Sikalbaha-Juldah,8,8,Single,AAAC,804 sq.mm,132 kV
+33,Juldah-Halishahar,8.0,8.0,Single,AAAC,804 sq.mm,132 kV
+34,Khulshi-Baroaulia,15,15,single,Grosbeak,636 MCM,132 kV
+35,Khulshi-AKSML,11,11,single,Grosbeak,636 MCM,132 kV
+36,AKSML-Baroaulia,4,4,single,Grosbeak,636 MCM,132 kV
+37,Madunaghat-Khulshi,13.0,13.0,Single,Grosbeak,636 MCM,132 kV
+38,Madunaghat-Khulshi,13.0,13.0,Single,Grosbeak,636 MCM,132 kV
+39,Kaptai-Chandraghona,12,23,Double,Grosbeak,636 MCM,132 kV
+40,Chandraghona-Madunaghat,27.0,54,Double,Grosbeak,636 MCM,132 kV
+41,Madunaghat-Hathazari,10,20,Double,Grosbeak,636 MCM,132 kV
+42,Hathazari-Baroaulia,11.0,22,Double,Grosbeak,636 MCM,132 kV
+43,Dohazari-Cox's Bazar,87.0,174,Double,ACCC Grosbeak,636 MCM,132 kV
+44,Feni-Chowmuhani,32.0,64,Double,Grosbeak,636 MCM,132 kV
+45,Baroaulia- Kabir Steel,4.0,4.0,Single,Grosbeak,636 MCM,132 kV
+46,Mymensingh-Netrokona,34.0,68,Double,Grosbeak,636 MCM,132 kV
+47,Goalpara-Khulna (C),2,3,Double,AAAC,804 MCM,132 kV
+48,Khulna (C)-Noapara,23,46,Double,AAAC,804 MCM,132 kV
+49,Noapara-Jessore,28,56,Double,AAAC,804 MCM,132 kV
+50,Jessore-Jhenaidah,48,95,Double,AAAC,804 MCM,132 kV
+51,Jhenaidah-Kustia,43.0,86,Double,ACCC AAAC,804 MCM,132 kV
+52,Kustia-Bheramana,23.0,46,Double,ACCC Grosbeak,804 MCM,132 kV
+53,Bheramara-Ishwardi,10.0,20,Double,AAAC,804 MCM,132 kV
+54,Ishwardi-Natore,42.0,84,Double,AAAC,804 MCM,132 kV
+55,Natore-Bogra,61.0,122,Double,AAAC,804 MCM,132 kV
+56,Bogra-Palashbari,50.0,100,Double,AAAC,804 MCM,132 kV
+57,Palashbari-Rangpur,52.0,104,Double,AAAC,804 MCM,132 kV
+58,Rangpur-Saidpur,42,83,Double,AAAC,804 MCM,132 kV
+59,Saidpur-Purbasadipur,25,49,Double,ACCC Grosbeak,804 MCM,132 kV
+60,Purbasadipur-Thakurgaon,45.0,90,Double,AAAC,804 MCM,132 kV
+61,Barisal-Bhandaria,49.0,49.0,Single,HAWK,477 MCM,132 kV
+62,Bhandaria-Bagerhat,40.0,40.0,Single,HAWK,477 MCM,132 kV
+63,Bagerhat-Mongla,28.0,28.0,Single,HAWK,477 MCM,132 kV
+64,Barisal-Patuakhali,38,38,Single,HAWK,477 MCM,132 kV
+65,Bheramara-Faridpur,105.0,210,Double,ACCC HAWK,477 MCM,132 kV
+66,Faridpur-Madaripur,66,131,Double,HAWK,477 MCM,132 kV
+67,Madaripur-Barisal(N),49.0,97,Double,HAWK,477 MCM,132 kV
+68,Barishal(N)-Barishal,10.0,20,Double,ACCC HAWK,477 MCM,132 kV
+69,Rajshahi-Natore,37.0,37.0,Single,HAWK,477 MCM,132 kV
+70,Ishwardi-Baghabari,63.0,63.0,Single,HAWK,477 MCM,132 kV
+71,Baghabari-Shahjadpur,5.0,5.0,Single,HAWK,477 MCM,132 kV
+72,Ishwardi-Pabna,18.0,18.0,Single,Grosbeak,636 MCM,132 kV
+73,Pabna-Shahjadpur,41.0,41.0,Single,Grosbeak,636 MCM,132 kV
+74,Bogra-Sirajganj,66.0,132,Double,Grosbeak,636 MCM,132 kV
+75,Sirajganj-Shahjadpur,34,34,Single,Grosbeak,636 MCM,132 kV
+76,Sirajganj-Baghabari,40,40,Single,Grosbeak,636 MCM,132 kV
+77,Rajshahi-Chapai Nawabganj,48.0,96,Double,Grosbeak,636 MCM,132 kV
+78,Rangpur-Lalmonirhat,38.0,38.0,Single,Grosbeak,636 MCM,132 kV
+79,Bogra-Naogaon,44.0,88,Double,ACCC Grosbeak,636 MCM,132 kV
+80,Kabirpur-Tangail,51.0,102,Double,ACCC/ACSRGrosbeak,636 MCM,132 kV
+81,Tongi-Mirpur,17,17,Single,ACCC Grosbeak,636 MCM,132 kV
+82,Tongi-Uttara,15,15,Single,ACCC Grosbeak,636 MCM,132 kV
+83,Uttara-Mirpur,9,9,Single,ACCC Grosbeak,636 MCM,132 kV
+84,Mirpur-Aminbazar,7.0,14,Double,ACCC Grosbeak,636 MCM,132 kV
+85,Aminbazar-Kallayanpur,4.0,8,Double,Grosbeak,636 MCM,132 kV
+86,Hasnabad-Lalbagh,30,30,Single,Grosbeak,636 MCM,132 kV
+87,Kamrangirchar-Lalbagh,3,3,Single,Grosbeak,636 MCM,132 kV
+88,Kallayanpur-Kamrangirchar,11,11,Single,Grosbeak,636 MCM,132 kV
+89,Kallayanpur-Keraniganj,20,20,Single,Grosbeak,636 MCM,132 kV
+90,Hasnabad-Keraniganj,14,14,Single,Grosbeak,636 MCM,132 kV
+91,Tongi-New Tongi,1,1,Double,XLPE,500 sq.mm,132 kV
+92,Hasnabad-Sitalakhya,13,13,Single,Grosbeak,636 MCM,132 kV
+93,Madanganj-Sitalakhya,4,4,Single,Grosbeak,636 MCM,132 kV
+94,Hasnabad-Shyampur,21,21,Single,Grosbeak,636 MCM,132 kV
+95,Shyampur-Haripur,30,30,Single,Grosbeak,636 MCM,132 kV
+96,Madanganj-Haripur,12,12,Single,Grosbeak,636 MCM,132 kV
+97,Siddhirganj-Ullon,16.0,32,Double,Grosbeak,636 MCM,132 kV
+98,Haripur-Matuail,6,6,Single,Grosbeak,636 MCM,132 kV
+99,Maniknagar-Matuail,16,16,Single,Grosbeak,636 MCM,132 kV
+100,Siddhirganj-Maniknagar,10,10,Single,Grosbeak,636 MCM,132 kV
+101,Maniknagar-Narinda,5.0,10,Double,Cu.Cable,240 sq.mm,132 kV
+102,Ullon-Dhanmondi,6,11,Double,Cu.Cable,240 sq.mm,132 kV
+103,Ullon-Dhanmondi,6,11,Double,XLPE,500 sq.mm,132 kV
+104,Tongi-Kabirpur,23,45,Double,Grosbeak,636 MCM,132 kV
+105,Kabirpur-Manikganj,32.0,64,Double,Grosbeak,636 MCM,132 kV
+106,Ullon-Rampura,4.0,8,Double,XLPE,800 sq.mm,132 kV
+107,Rampura-Bashundhara,8.0,16,Double,Grosbeak,636 MCM,132 kV
+108,Bashundhara-Tongi,11.0,22,Double,Grosbeak,636 MCM,132 kV
+109,Rampura-Moghbazar,5,9,Double,Grosbeak,636 MCM,132 kV
+110,Ghorasal-Joydevpur,28.0,56,Double,Grosbeak,636 MCM,132 kV
+111,Baghabari-Shahjadpur,6,6,Single,Grosbeak,636 MCM,132 kV
+112,Chandpur-Chowmuhani,68.0,136,Double,Grosbeak,636 MCM,132 kV
+113,Barapukuria-Rangpur,42.0,84,Double,Grosbeak,636 MCM,132 kV
+114,Barapukuria-Saidpur,36.0,72,Double,ACCC AAAC,636 MCM,132 kV
+115,Madaripur-Gopalganj,45.0,45.0,Single,AAAC,804 MCM,132 kV
+116,Khulna (C)-Khulna(S),9.0,18,Double,Twin AAAC,37/4.176 mm.,132 kV
+117,Khulna(S)-Satkhira,47.0,94,Double,AAAC,804 MCM,132 kV
+118,Rajshahi-Natore,40.0,40.0,Single,Grosbeak,636 MCM,132 kV
+119,Rampura-Gulshan,3,7,Double,XLPE,800 sq.mm,132 kV
+120,Sikalbaha-Bakulia,4.0,8,Double,Grosbeak,636 MCM,132 kV
+121,Juldah-Shahmirpur,6.0,12,Double,Grosbeak,636 MCM,132 kV
+122,Khulshi-Bakulia,15.0,30,Double,Grosbeak,636 MCM,132 kV
+123,Haripur-Maniknagar,13,13,Single,Grosbeak,636 MCM,132 kV
+124,Joydevpur-Kodda PP,8.0,16,Double,Grosbeak,636 MCM,132 kV
+125,Kodda PP-Kabirpur,10.0,20,Double,Grosbeak,636 MCM,132 kV
+126,Sikalbaha-Shahmirpur,9.0,18,Double,Grosbeak,636 MCM,132 kV
+127,Khulshi-Halishahar,13.0,13.0,Single,Grosbeak,636 MCM,132 kV
+128,BograOld-BograNew,2,3,Double,Twin AAAC,37/4.176 mm.,132 kV
+129,Ashuganj-Shahjibazar,53.0,53.0,Single,Grosbeak,636 MCM,132 kV
+130,Khulna (S) -Gallamari,4,8,Double,Grosbeak,636 MCM,132 kV
+131,Naogaon-Niyamatpur,46.0,46.0,Single,AAAC,804 MCM,132 kV
+132,Aminbazar-Savar,16,32,Double,Grosbeak,636 MCM,132 kV
+133,Jhenaidah-Magura,27,53.0,Double,Grosbeak,636 MCM,132 kV
+134,Jhenaidah-Chuadanga,39,39,Single,Grosbeak,636 MCM,132 kV
+135,Naogaon-Joypurhat,46,46,Single,Grosbeak,636 MCM,132 kV
+136,Thakurgaon-Panchagarh,45.0,45.0,Single,AAAC,636 MCM,132 kV
+137,Sonargaon S/S to Megnaghat Rental PP,5.0,10,Double,Grosbeak,636 MCM,132 kV
+138,Shiddhirganj to Siddhirganj Dutch Bangla PP,2,2,Single,Grosbeak,636 MCM,132 kV
+139,Goalpara-Khulna ©,2,2,Single,XLPE,637 MCM,132 kV
+140,Noapara PP to Noapara Ss,2,2,Single,Grosbeak,638 MCM,132 kV
+141,Daudkandi PP to Daudkandi ss,1,1,Single,Grosbeak,639 MCM,132 kV
+142,Gopalganj PP to Gopalganj ss,1,1,Single,Grosbeak,640 MCM,132 kV
+143,Shiddhirganj desh energy PP to Siddhirganj ss,3,3,Single,Grosbeak,641 MCM,132 kV
+144,Faridpur PP to Faridpur -Bheramara,1.0,1.0,Single,Grosbeak,642 MCM,132 kV
+145,Bera PP to Baghabari -Ishwardi line,5,5,Single,Grosbeak,643 MCM,132 kV
+146,Amnura PP to Rajshahi-Chapai,13,13,Single,Grosbeak,644 MCM,132 kV
+147,Madanganj-Munsiganj,4.0,8,Double,Grosbeak,645 MCM,132 kV
+148,Old Airport-Cantonment,7.0,14,Double,XLPE,800 sq.mm,132 kV
+149,Fenchuganj- Kulaura,25.0,50,Double,Grosbeak,636 MCM,132 kV
+150,Jamalpur- Sherpur,20.0,40,Double,Grosbeak,636 MCM,132 kV
+151,Old Airport-Sajmasjid,8,17,Double,XLPE,800 sq.mm,132 kV
+152,Rampura-Madertek,5,9,Double,XLPE,500 sq.mm,132 kV
+153,Comilla(N)- Comilla(S),19.0,38,Double,Grosbeak,636 MCM,132 kV
+154,Goalpara-Bagerhat,45.0,90,Double,Grosbeak,636 MCM,132 kV
+155,LILO of Kabirpur-Tangail at Kaliakoir,4,17,Four,ACCC/ACSRGrosbeak,636 MCM,132 kV
+156,Tangail-RPCL,93,187,Double,Grosbeak,636 MCM,132 kV
+157,Amnura-Chapai Nawabganj,13,13,Single,Grosbeak,636 MCM,132 kV
+158,Kaliakoir-Dhamrai,23,45,Double,Grosbeak,636 MCM,132 kV
+159,Rangamati-Khagrachari,52,105,Double,Grosbeak,636 MCM,132 kV
+160,Chandraghona-Rangamati,28,55,Double,Grosbeak,636 MCM,132 kV
+161,Chhatak-Sunamganj,32,64,Double,Grosbeak,636 MCM,132 kV
+162,Beanibazar-Sylhet T-Connection,30.0,60,Double,Grosbeak,636 MCM,132 kV
+163,LILO of Tongi-Mirpur Single circuit at Uttara 3P,1,2,Single,XLPE,800sq,132 kV
+164,T-connection from Dohazari-Cox's Bazar toMatarbari,18,18,Single,Grosbeak,636 MCM,132 kV
+165,Feni- Baroirhat,28,57,Double,ACCC Grosbeak,636 MCM,132 kV
+166,Brahmanbaria-Narsingdi,55,110,Double,Grosbeak,636 MCM,132 kV
+167,Saidpur-Jaldhaka,30.0,60,Double,Grosbeak,636 MCM,132 kV
+168,RNPP-Ishurdi,7.0,14.00,Double,Grosbeak,636 MCM,132 kV
+169,Confedence PP - Bogura 230kV,8,16,Double,Grosbeak,637 MCM,132 kV
+170,LILO of Jamalpur-Sherpur at United PP,3,13,Four,Grosbeak,638 MCM,132 kV
+171,LILO of Goalpara-Bagerhat single circuit atLabanchora PP,6,12,Double,Grosbeak,639 MCM,132 kV
+172,Mymensingh-Bhaluka,43.0,86,Double,Grosbeak,636 MCM,132 kV
+173,LILO of Bogura-Palashbari at Mahasthangarh,1,1,Double,Grosbeak,636 MCM,132 kV
+174,Modhumati PP - Gopalganj,15,15,Single,Grosbeak,636 MCM,132 kV
+175,Jashore-Benapole,31,61,Double,Grosbeak,636 MCM,132 kV
+176,Madaripur-Shariatpur,22.0,44,Double,Grosbeak,636 MCM,132 kV
+177,LILO of Shyampur-Haripur at Shyampur,0,1,Four,Grosbeak,636 MCM,132 kV
+178,Rangpur-Kurigram,41,41,Single,Grosbeak,636 MCM,132 kV
+179,Magura-Narail,39,79,Double,Grosbeak,636 MCM,132 kV
+180,LILO of Bogura-Sirajganj at Sherpur (Bogura),1,3,Four,Grosbeak,636 MCM,132 kV
+181,LILO of Rajshahi-Chapai-Nawabganj-Amnura atRajshahi)N),0,2,Four,Grosbeak,636 MCM,132 kV
+182,Rampura-Aftabnagar,4,7,Double,XLPE,800sq,132 kV
+183,LILO of Feni-Cumilla(N) at Chowddagram,1,3,Four,Grosbeak,636 MCM,132 kV
+184,LILO of Faridpur-Madaripur line at Gopalganj(N),2,6,Four,ACCC Grosbeak,636 MCM,132 kV
+185,LILO of Gopalanj-Madaripur line at Gopalganj(N),11,42,Four,Grosbeak,636 MCM,132 kV
+186,Kodda - Rajendrapur,25,49,Double,ACCC Grosbeak,636 MCM,132 kV
+187,LILO of Rangpur-Palashbari at Confidence PP,1,6,Four,AAAC,636 MCM,132 kV
+188,LILO of Khulshi - Halishahar at Rampur,3,6,Four,XLPE,800sq,132 kV
+189,Rampur-Agrabad,5,9,Double,XLPE,800sq,132 kV
+190,Keraniganj-Sreenagar,16,32,Double,Grosbeak,636 MCM,132 kV
+191,Keraniganj-Nawabganj,27,54,Double,Grosbeak,636 MCM,132 kV
+192,LILO of Shyampur-Haripur at Fatullah,1,4,Double,XLPE,800sq,132 kV
+193,DU- Dhanmondi,2,4,Double,XLPE,500sq,132 kV
+194,Bagerhat-Mongla,29,57,Double,Grosbeak,636 MCM,132 kV
+195,Baghabari-Bangura,25,50,Double,Grosbeak,636 MCM,132 kV
+196,Bakerganj-Barguna,50,50,Single,Grosbeak,636 MCM,132 kV
+197,Gallamari- Gopalganj,52,104,Double,Grosbeak,636 MCM,132 kV
+198,Gopalganj - Madaripur 2nd Ckt,45,45,Single,Grosbeak,636 MCM,132 kV
+199,LILI of Rangpur-Palashbari line at Mithapukur,1,2,Four,Grosbeak,636 MCM,132 kV
+200,Maniknagar-Kazla,3,5,Double,XLPE,800sq,132 kV
+201,Hasnabad-Keraniganj PP line re-routing atKeraniganj,3,11,Four,Grosbeak,636 MCM,132 kV
+202,Purbachal-Basundhara,5,9,Double,XLPE,800sq,132 kV
+203,Banani-Basundhara,13,27,Double,XLPE,800sq,132 kV
+204,LILO of Bhermara-Fardipur at Rajbari,1,5,Four,Grosbeak,636 MCM,132 kV
+205,S/c LILO of Jhenaidah- Chuadanga at Jhenaidah,3,6,Double,Grosbeak,636 MCM,132 kV
+206,Keraniganj-Lalbagh& Kamrangirchar four circuit,3,12,Four,Grosbeak,636 MCM,132 kV
+207,Tongi-Tongi-3 (Mill Gate),3,5,Double,XLPE,800sq,132 kV
+208,LILO of Jessore-Jhenaidah d/c line at Jhenaidah,0,1,Four,Grosbeak,636 MCM,132 kV
+209,Manaknagar-Motijheel,2,4,Double,XLPE,800sq,132 kV
+210,Motijheel-Bangabhaban,1,1,Double,XLPE,800sq,132 kV
+211,Madanganj-Char Saidpur,3,6,Double,Mallard+XLPE,800sq,132 kV
+212,Kamrangirchar-Zigatola,7,14,Double,XLPE,800sq,132 kV
+213,Energaon-Mongla,9,9,Single,Grosbeak,636 MCM,132 kV
+214,Hasnabad-Postogola,2,4,Double,XLPE,800sq,132 kV
+215,Bashundhara-Purbachal,6,11,Double,XLPE,800sq,132 kV
+216,Chapai Nawabganj-Rahanpur,26,52,Single,ACCC Grosbeak,636 MCM,132 kV
+217,LILO of Madunaghat-Khulshi at Sholoshahar,0,0,Single,XLPE,800sq,132 kV
+218,Madunaghat-Kalurghat,7,14,Double,XLPE,800sq,132 kV
+219,Khulshi-Halishahar LILO at Rampur,3,5,Single,XLPE,800sq,132 kV
+220,Sudarganj Solar - Rangpur,36,71,Double,Grosbeak,636 MCM,132 kV
+221,Rampura-Dhaka University,7,15,Double,XLPE,800sq,132 kV
+222,Aminbazar 400/132kV transformer connecting132kV line,1,0,Single,,,132 kV
+223,Sripur-Bhaluka,22,45,Double,Grosbeak,636 MCM,132 kV
+224,LILO of Kaliakoir-Tangail at Mirzapur,2,7,Four,ACCC Grosbeak,636 MCM,132 kV
+225,LILO of Sylhet-Fenchuganj at Sylhet(S),2,8,Four,ACCC Grosbeak,636 MCM,132 kV
+226,LILO of Sirajganj-Shahjadpur-Baghabari at Ullapara,3,11,Four,Grosbeak,636 MCM,132 kV
+227,LILO of Madunaghat-Khulshi (Circuit-2) atSholoshahor substation,1,2,Double,XLPE,800sq,132 kV
+228,LILO of Niamatpur-Chowdala at Rahanpur,2,8,Four,Grosbeak,636 MCM,132 kV
+229,Bhaluka- Barmi (BR Powergen),32,65,Double,ACCC Grosbeak,636 MCM,132 kV
+230,LILO of Tangail-RPCL at Ghatail,1,3,Double,Grosbeak,636 MCM,132 kV
+231,Niyamatpur-Rahanpur (LILO point),28,56,Double,Grosbeak,636 MCM,132 kV
+232,Naogaon-Joypurhat,47.0,47.0,Single,Grosbeak,636 MCM,132 kV
+233,Panchagarh-Thakurgaon,45.0,45.0,Single,Grosbeak,636 MCM,132 kV
+234,US DK - Cox's Bazar,11,11,Single,Grosbeak,636 MCM,132 kV
+235,Barishal (N)-Bhandaria,47,93,Double,Grosbeak,636 MCM,132 kV
+236,LILO of Ghorashal-Joydevpur at Pubail,3,13,Four,Grosbeak,636 MCM,132 kV
+237,Sirangj 68MW Solar-Sirajganj,10,20,Double,Grosbeak,636 MCM,132 kV
+238,LILO of Cumilla(N)-Daudkandi at Muradnagar,2,7,Four,Grosbeak,636 MCM,132 kV
+239,LILO of Ashuganj-Kishoreganj at Bajitpur,0,1,Four,ACCC Grosbeak,636 MCM,132 kV
+240,Rahanpur-Chowdala(Section onward),7,14,Double,Grosbeak,636 MCM,132 kV
+241,LILO of Ghatial-RPCL at Muktagacha,1,3,Four,Grosbeak,636 MCM,132 kV
+242,Muradnagar-Kosba,24,48,Double,Grosbeak,636 MCM,132 kV
+243,Jhenaidah-Chuadanga,39,39,Single,Grosbeak,636 MCM,132 kV
+244,Kurigram-Lalmonirht 2nd circuit,31,31,Single,Grosbeak,636 MCM,132 kV
+245,LILO of Hairpur-Narsinghdi at Bhulta (N),0,1,Four,Grosbeak,636 MCM,132 kV
+246,LILO of Sikalbaha-Dohazari at Patiya,0,2,Four,ACCC Grosbeak,636 MCM,132 kV
+247,LILO of Halishahar-Khulsi at Anandabazar,0,1,Four,Grosbeak,636 MCM,132 kV
+248,Cumilla(N)-Chandina,16,32,Double,Grosbeak,636 MCM,132 kV
+249,Rajendrapur-Sreepur,20,41,Double,Grosbeak,636 MCM,132 kV
+250,Araihazar-Bhulta,8,16,Double,Grosbeak,636 MCM,132 kV
+251,Dynamics Solar Plant-Ishurdi,22,44,Double,Grosbeak,636 MCM,132 kV
+252,Kachua-Laksam,32,64,Double,Grosbeak,636 MCM,132 kV
+253,Chowmuhani-Lakshmipur,27,54,Double,Grosbeak,636 MCM,132 kV
+254,LILO of Saidpur-Rangpur at Taraganj,0,1,Four,Grosbeak,636 MCM,132 kV
+255,LILO of Feni-Chowmuhani at Dagunbhuyan,3,11,Four,Grosbeak,636 MCM,132 kV
+256,Rampura-Basundhara,12,23,Double,Grosbeak,636 MCM,132 kV
+257,Sripur-Kodda (Partial),9,18,Double,Grosbeak,636 MCM,132 kV
+258,Sirajganj Solar-Sirajganj Grid,10,20,Double,Grosbeak,636 MCM,132 kV
+259,LILO of Ishwardi-Baghabari line at Sathia,1,1,Double,Grosbeak,636 MCM,132 kV
+260,Kaliganj- Maheshpur,26,52,Double,Grosbeak,636 MCM,132 kV
+261,LILO of Feni Chauddagram at Feni 230/132 kV,4,16,Four,Grosbeak,636 MCM,132 kV
+262,LILO of Barishal-Patuakhali at Bakerganj,3,5,Double,Grosbeak,636 MCM,132 kV
+263,Sathia-Pabna 64 MW Solar,35,69,Double,Grosbeak,636 MCM,132 kV
