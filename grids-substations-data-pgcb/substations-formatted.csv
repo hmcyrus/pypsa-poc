@@ -1,252 +1,252 @@
 SN,Name of Grid Substation,Operation Zone,Transformer Detail (MVA),Total Capacity (MVA),Owership,Grid Circle,Voltage Level
-1,BIPTC 1st Block,Khulna,1x500 MW,,500 MW,,POWER GRID
-2,BIPTC 2nd Block,Khulna,1x500 MW,,500 MW,,POWER GRID
-1,Aminbazar,Dhaka,3x520,,1560,,POWER GRID
-2,Amtali Switching,Barishal,-,,-,,POWER GRID
-3,Ashuganj (N),Cumilla,2x244/325,,650,,APSCL
-4,Bhulta,Dhaka,2x520,,1040,,POWER GRID
-5,Bibiyana,Sylhet,2x520,,1040,,POWER GRID
-6,Bogura (W),Rajshahi,3x750,,2250,,POWER GRID
-7,Gopalganj (N),Khulna,2x750,,1500,,POWER GRID
-8,Kaliakoir,Dhaka,2x520,,1040,,POWER GRID
-9,Korerhat,Chattogram,2x1000,,2000,,POWER GRID
-10,Meghnaghat,Dhaka,3x750,,2250,,POWER GRID
-11,Madunaghat,Chattogram,3x750,,2250,,POWER GRID
-12,Rampal,Khulna,2x520,,1040,,BIFPCL
-13,RNPP,Rajshahi,2x520,,1040,,RNPP
-1,Gopalganj (N),Khulna,3x325,,975,,POWER GRID
-2,Kaliakoir,Dhaka,"3x325, 1x300",,1275,,POWER GRID
-3,Rahanpur,Rajshahi,2x520,,1040,,POWER GRID
-4,Payra,Barishal,2x325,,650,,POWER GRID
-1,Agargaon,Dhaka,2x300,,600,,POWER GRID
-2,Aminbazar,Dhaka,3x225,,675,,POWER GRID
-3,Ashuganj,Cumilla,2x300,,600,,APSCL
-4,Baghabari,Rajshahi,"1x225, 1x300",,525,,POWER GRID
-5,Barapukuria,Rangpur,2x225 1x225/300,,750,,POWER GRID
-6,Barishal (N),Barishal,2x300,,600,,POWER GRID
-7,Bheramara,Khulna,2x225,,450,,POWER GRID
-8,Bhulta,Dhaka,2x300,,600,,POWER GRID
-9,Bogura (S),Rajshahi,"2x225(7x75), 2x225/300",,1050,,POWER GRID
-10,Chowmuhani,Cumilla,2x350,,700,,POWER GRID
-11,Cumilla (N),Cumilla,3x225,,675,,POWER GRID
-12,Faridpur,Khulna,2x350,,700,,POWER GRID
-13,Fenchuganj,Sylhet,2x300,,600,,POWER GRID
-14,Feni (N),Cumilla,2x300,,600,,POWER GRID
-15,Ghorashal,Dhaka,2x125,,250,,BPDB
-16,Haripur,Dhaka,3x225(10x75),,675,,POWER GRID
-17,Hasnabad,Dhaka,3x225(10x75),,675,,POWER GRID
-18,Hathazari,Chattogram,4x150,,600,,POWER GRID
-19,Jhenaidah(S),Khulna,2x300,,600,,POWER GRID
-20,Ishwardi,Rajshahi,3x225,,675,,POWER GRID
-21,Kachua,Cumilla,2x350,,700,,POWER GRID
-22,Keraniganj,Dhaka,3x300,,900,,POWER GRID
-23,Khulna (S),Khulna,2x225(7x75) 1x300,,750,,POWER GRID
-24,Madunaghat,Chattogram,3x300,,900,,POWER GRID
-25,Maniknagar,Dhaka,2x300,,600,,POWER GRID
-26,Meghnaghat Switching,Dhaka,-,,-,,POWER GRID
-27,Purbasadipur,Rangpur,2x300,,600,,POWER GRID
-28,Rajshahi(N),Rajshahi,2x300,,600,,POWER GRID
-29,Rampura,Dhaka,3x450,,1350,,POWER GRID
-30,Rampur,Chattogram,2x300,,600,,POWER GRID
-31,Siddhirganj,Dhaka,2x300,,600,,POWER GRID
-32,Sirajganj Switching,Rajshahi,-,,-,,POWER GRID
-33,Shyampur,Dhaka,2x225/300,,600,,POWER GRID
-34,Sripur,Dhaka,2x225/300,,600,,POWER GRID
-35,Tongi,Dhaka,3x225(10x75),,675,,POWER GRID
-36,Sikalbaha,Chattogram,2x300,,600,,POWER GRID
-1,AKSPL,Chattogram,"2x130/150, 1x80",,380,,Bulk
-2,BSRM,Chattogram,2x130/140,,280,,Bulk
-3,GPH,Chattogram,2x100/125,,250,,Bulk
-4,Borhanuddin,Barishal,1x120/140 (230/33kV),,140,,BPDB
-5,Mirsarai,Chattogram,2x125/140,,280,,POWER GRID
-6,Ghorasal SW,Dhaka,1x125/140,,140,,POWER GRID
-1,Aftabnagar,Dhaka,2x80/120,,240,,DESCO
-2,Agargaon,Dhaka,2x80/120,,240,,POWER GRID
-3,Agrabad,Chattogram,2x80/120,,240,,POWER GRID
-4,AKSML,Chattogram,1x50/80,,80,,Bulk
-5,Amnura,Rajshahi,3x35/50,,150,,POWER GRID
-6,Ashuganj,Cumilla,1x25/41 1x50/75,,116,,APSCL
-7,Bagerhat,Khulna,"2x25/41, 1x50/75",,157,,POWER GRID
-8,Bajitpur,Mymensingh,2x80/120,,240,,POWER GRID
-9,Bakulia,Chattogram,2x48/64 2x50/75,,278,,POWER GRID
-10,Bangabhaban,Dhaka,"1x28/35, 1x80/120",,155,,DPDC
-11,Bhangura,Rajshahi,2x50/75,,150,,POWER GRID
-12,Barguna,Barishal,2x50/75,,150,,POWER GRID
-13,Barapukuria,Rangpur,"1x50/75, 2x25/41",,157,,POWER GRID
-14,Barishal,Barishal,"1x80/120, 1x50/75",,195,,POWER GRID
-15,Barishal(N),Barishal,2x80/120,,240,,POWER GRID
-16,Baroaulia,Chattogram,2x80/120,,240,,POWER GRID
-17,Bashundhara,Dhaka,3x80/120,,360,,DESCO
-18,Bashundhara Cement,Dhaka,1x35,,35,,Bulk
-19,Banani,Dhaka,2x80/120,,240,,DESCO
-20,Baroirhat,Chattogram,2x50/75,,150,,POWER GRID
-21,Beanibazar,Sylhet,2x50/75,,150,,POWER GRID
-22,Bhaluka,Mymensingh,2x80/120,,240,,POWER GRID
-23,Benapole,Khulna,2x50/75,,150,,POWER GRID
-24,Bhandaria,Barishal,"1x50/75, 1x25/41",,116,,POWER GRID
-25,Bhasantek,Dhaka,2x80/120,,240,,POWER GRID
-26,Bheramara,Khulna,"3x25/41, 1x15/20",,143,,POWER GRID
-27,Bhulta,Dhaka,2x80/120,,240,,POWER GRID
-28,BMPIL,Dhaka,1x50/75,,75,,Bulk
-29,Bogura,Rajshahi,4x80/120,,480,,POWER GRID
-30,Brahmanbaria,Cumilla,2x80/120 1x25/41,,281,,POWER GRID
-31,BSRM(Khulshi),Chattogram,1x64/80,,80,,Bulk
-32,Chandpur,Cumilla,3x50/75,,225,,POWER GRID
-33,Chandraghona,Chattogram,"1x50/75, 1x25/41",,116,,POWER GRID
-34,Chapai Nawabganj,Rajshahi,"1x15/20, 2x50/75, 1x25/41",,1,,POWER GRID
-35,Char Saidpur,Dhaka,2x80/120,,240,,DPDC
-36,Chauddagram,Cumilla,2x50/75,,150,,POWER GRID
-37,Chhatak,Sylhet,"2x15/20,1x25/41",,81,,POWER GRID
-38,Chandina,Cumilla,2x80/120,,240,,POWER GRID
-39,Chowdala,Rajshahi,2x50/75,,150,,POWER GRID
-40,Chowmuhani,Cumilla,3x80/120,,360,,POWER GRID
-41,Chuadanga,Khulna,2x50/75 1x25/41,,191,,POWER GRID
-42,Cumilla (N),Cumilla,3x50/75,,225,,POWER GRID
-43,Cumilla (S),Cumilla,4x50/75,,300,,POWER GRID
-44,Cox's Bazar,Chattogram,"2x80/120, 1x50/75",,315,,POWER GRID
-45,Daganbhuiyan,Cumilla,1x80/120,,120,,POWER GRID
-46,Dhaka University (DU),Dhaka,2x80/120,,240,,DPDC
-47,Daudkandi,Cumilla,3x50/75,,225,,POWER GRID
-48,Dhamrai,Dhaka,2x50/75,,150,,POWER GRID
-49,Dhanmondi,Dhaka,1x50/75 3x80/120,,435,,DPDC
-50,Dohazari,Chattogram,2x80/120,,240,,POWER GRID
-51,Faridpur,Khulna,"2x80/120, 1x25/41",,281,,POWER GRID
-52,Fatullah,Dhaka,2x80/120,,240,,DPDC
-53,Fenchuganj,Sylhet,"2x15/20,1x25/41",,81,,POWER GRID
-54,Feni,Cumilla,2x80/120,,240,,POWER GRID
-55,Gallamari,Khulna,2x80/120,,240,,POWER GRID
-56,Ghatail,Mymensingh,2x50/75,,150,,POWER GRID
-57,Ghorashal,Dhaka,2x41/63,,126,,BPDB
-58,Goalpara,Khulna,2x25/41,,82,,POWER GRID
-59,Gopalganj,Khulna,2x80/120,,240,,POWER GRID
-60,Gulshan,Dhaka,2x80/120,,240,,POWER GRID
-61,Halishahar,Chattogram,"1x44.1/63, 2x80/120",,303,,POWER GRID
-62,Haripur SBU,Dhaka,2x80/120,,240,,POWER GRID
-63,Hasnabad,Dhaka,3x66/100,,300,,POWER GRID
-64,Hathazari,Chattogram,"1x50/75, 1x80/120",,195,,POWER GRID
-65,Ishwardi,Rajshahi,"2x50/75, 1x80/120",,270,,POWER GRID
-66,Jaldhaka,Rangpur,2x50/75,,150,,POWER GRID
-67,Jamalpur,Mymensingh,"3x50/75, 1x25/41",,266,,POWER GRID
-68,Jashore,Khulna,3x80/120,,360,,POWER GRID
-69,Jhenaidah,Khulna,"2x80/120, 1x50/83.3",,323,,POWER GRID
-70,Joydebpur,Dhaka,"1x35/50 1x50/75, 1x80/120",,245,,POWER GRID
-71,Joypurhat,Rajshahi,4x25/41,,164,,POWER GRID
-72,Juldah,Chattogram,2x50/75,,150,,POWER GRID
-73,Kabirpur,Dhaka,3x80/120,,360,,POWER GRID
-74,Kachua,Cumilla,2x50/75,,150,,POWER GRID
-75,Kallayanpur,Dhaka,3x50/75,,225,,POWER GRID
-76,Kalurghat,Chattogram,2x80/120,,240,,POWER GRID
-77,Kamrangirchar,Dhaka,3x50/75,,225,,DPDC
-78,Kaptai,Chattogram,1x15/20 (132/11kV),,,,BPDB
-79,Kazla,Dhaka,2x80/120,,240,,DPDC
-80,Keraniganj,Dhaka,2x50/75,,150,,POWER GRID
-81,Khagrachari,Chattogram,2x30/39 (2x3x10/13),,78,,POWER GRID
-82,Khulna (C),Khulna,3x48/64,,192,,POWER GRID
-83,Khulshi,Chattogram,2x80/120,,240,,POWER GRID
-84,Kishoreganj,Mymensingh,3x80/120,,360,,POWER GRID
-85,Kodda,Dhaka,5x50/75,,375,,POWER GRID
-86,Kosba,Cumilla,2x80/120,,240,,POWER GRID
-87,KSRM,Chattogram,2x35/50,,100,,Bulk
-88,Kulaura,Sylhet,3x25/41,,123,,POWER GRID
-89,Kurigram,Rangpur,2x50/75,,150,,POWER GRID
-90,Kushtia,Khulna,2x80/120,,240,,POWER GRID
-91,KYCR,Chattogram,1x20/25,,20,,Bulk
-92,Laksam,Cumilla,2x80/120,,240,,POWER GRID
-93,Lakshmipur,Cumilla,2x80/120,,240,,POWER GRID
-94,Lalbagh,Dhaka,2x50/75,,150,,DPDC
-95,Lalmonirhat,Rangpur,2x50/75 2X15/20 1X25/33,,223,,POWER GRID
-96,Mahasthangarh,Rajshahi,2x80/120,,240,,POWER GRID
-97,Madanganj,Dhaka,2x35/50,,100,,POWER GRID
-98,Madaripur,Khulna,1x25/41 2x50/75,,191,,POWER GRID
-99,Madartek,Dhaka,2x50/75,,150,,DPDC
-100,Madunaghat,Chattogram,2x80/120,,240,,POWER GRID
-101,Magura,Khulna,"2x25/41, 1x80/120",,202,,POWER GRID
-102,Maijdee,Cumilla,2x80/120,,240,,POWER GRID
-103,Manikganj,Dhaka,2x50/75 1x35/50,,200,,POWER GRID
-104,Maniknagar,Dhaka,2x50/75,,150,,DPDC
-105,Matarbari,Chattogram,2x25/41,,82,,POWER GRID
-106,Matuail,Dhaka,2x50/75,,150,,DPDC
-107,MI Cement,Dhaka,1x28,,28,,Bulk
-108,Mirpur,Dhaka,3x80/120,,360,,DESCO
-109,Mirzapur,Mymensingh,2x50/75,,150,,POWER GRID
-110,Mithapukur,Rangpur,2x50/75,,150,,POWER GRID
-111,MSML,Chattogram,1x25/30,,30,,Bulk
-112,Moghbazar,Dhaka,3x50/75,,225,,DPDC
-113,Mongla,Khulna,2x50/75,,150,,POWER GRID
-114,Motijheel,Dhaka,2x80/120,,240,,DPDC
-115,MRT Motijheel,Dhaka,2x40/50,,100,,DMTCL
-116,MRT Uttara,Dhaka,2x40/50,,100,,DMTCL
-117,Mukhtagacha,Mymensingh,3x50/75,,225,,POWER GRID
-118,Munshiganj,Dhaka,2x80/120,,240,,POWER GRID
-119,Muradnagar,Cumilla,2x80/120,,240,,POWER GRID
-120,Mymensingh,Mymensingh,3x80/120,,360,,POWER GRID
-121,Naogaon,Rajshahi,"2x50/75, 1x80/120",,270,,POWER GRID
-122,Narail,Khulna,2x50/75,,150,,POWER GRID
-123,Narinda,Dhaka,2x50/75,,150,,DPDC
-124,Narsingdi,Dhaka,4x50/75,,300,,POWER GRID
-125,Natore,Rajshahi,"3x50/75, 1x35/50",,275,,POWER GRID
-126,Nawabganj,Dhaka,2x50/75,,,,POWER GRID
-127,Netrokona,Mymensingh,"2x25/41,1x50/75",,157,,POWER GRID
-128,New Tongi,Dhaka,2x80/120,,240,,DESCO
-129,Niamatpur,Rajshahi,"2x50/75, 1x35/50",,200,,POWER GRID
-130,Noapara,Khulna,2x50/75 1x44.1/63,,213,,POWER GRID
-131,Pabna,Rajshahi,"2x50/75, 2x25/41",,232,,POWER GRID
-132,Palashbari,Rangpur,2x50/75 2X25/41,,232,,POWER GRID
-133,Panchagarh,Rangpur,4x25/41,,164,,POWER GRID
-134,Patiya,Chattogram,2x80/120,,240,,POWER GRID
-135,Patuakhali,Barishal,2x50/75 1x25/41,,191,,POWER GRID
-136,Payra,Barishal,2x80/120,,240,,POWER GRID
-137,PHP,Cumilla,1x30/35,,35,,Bulk
-138,Postagola,Dhaka,2x80/120,,240,,DPDC
-139,Purbachal,Dhaka,2x80/120,,240,,DESCO
-140,Purbasadipur,Rangpur,"1x80/120, 1x25/41 2x50/75",,311,,POWER GRID
-141,RSRM,Dhaka,1x20/25,,25,,Bulk
-142,Rajbari,Khulna,"2x50/75, 1x25/41",,191,,POWER GRID
-143,Rajshahi,Rajshahi,"1x80/120, 1x50/75,1x35/50",,290,,POWER GRID
-144,Rajshahi(N),Rajshahi,2x80/120,,240,,POWER GRID
-145,Rajendrapur,Dhaka,3x80/120,,360,,POWER GRID
-146,Ramganj,Cumilla,2x50/75,,150,,POWER GRID
-147,Rampur,Chattogram,2x80/120,,240,,POWER GRID
-148,Rangamati,Chattogram,2x25/41,,82,,POWER GRID
-149,Rangpur,Rangpur,"2x80/120, 1x25/41",,281,,POWER GRID
-150,Rooppur,Rajshahi,2x25/41,,82,,MoST
-151,Saidpur,Rangpur,"1x35/50, 2x50/75",,241,,POWER GRID
-152,Satkhira,Khulna,"2x25/41, 1x40 1x80/120",,242,,POWER GRID
-153,Sathia,Rajshahi,2x50/75,,150,,POWER GRID
-154,Satmasjid,Dhaka,2x80/120,,240,,POWER GRID
-155,Savar,Dhaka,4x50/75,,300,,POWER GRID
-156,Seven Circle,Dhaka,2x30,,60,,Bulk
-157,Shah Cement,Dhaka,1x80/120,,120,,Private
-158,Shahjadpur,Rajshahi,"2x50/75, 2x35/50",,250,,POWER GRID
-159,Shahjibazar,Sylhet,"1x25/41, 1x50/75, 1x80/120",,236,,POWER GRID
-160,Shahmirpur,Chattogram,2x48/64,,128,,POWER GRID
-161,Shariatpur,Khulna,2x80/120,,240,,POWER GRID
-162,Sherpur,Mymensingh,3x50/75,,225,,POWER GRID
-163,Sherpur(Bogura),Rajshahi,3x50/75,,225,,POWER GRID
-164,Sholoshahar,Chattogram,2x80/120,,240,,POWER GRID
-165,Shyampur,Dhaka,"2x50/75, 2x80/120",,390,,DPDC
-166,Siddhirganj,Dhaka,3x80/120,,360,,POWER GRID
-167,Sikalbaha,Chattogram,"1x25/41.6, 1x50/75",,116.6,,BPDB
-168,Sitakunda,Chattogram,2x50/75,,150,,POWER GRID
-169,Sirajganj,Rajshahi,"2x50/75, 2x80/120",,390,,POWER GRID
-170,Sitalakhya,Dhaka,3x50/75,,225,,DPDC
-171,Sonargaon,Dhaka,2x80/120,,240,,POWER GRID
-172,Srimangal,Sylhet,"1x15/20, 3x25/41",,143,,POWER GRID
-173,Sreenagar,Dhaka,2x50/75,,150,,POWER GRID
-174,SSML,Chattogram,1x25/30,,30,,Bulk
-175,Sripur,Dhaka,2x50/75,,150,,POWER GRID
-176,Sunamganj,Sylhet,2x30/39 (2x3x10/13),,78,,POWER GRID
-177,Sylhet,Sylhet,"1x80/120, 2x25/41,1x50/83",,285,,POWER GRID
-178,Sylhet (S),Sylhet,2x50/75,,150,,POWER GRID
-179,Tangail,Mymensingh,"2x80/120, 1x50/75, 1x25/41",,356,,POWER GRID
-180,Taraganj,Rangpur,2x25/41,,82,,POWER GRID
-181,Tasnim Chemical,Dhaka,1x80/120,,120,,Bulk
-182,Thakurgaon,Rangpur,"2x50/75, 1x25/41",,191,,POWER GRID
-183,TKCCL,Chattogram,2x50/75,,75,,Bulk
-184,Tongi,Dhaka,"1x50/75, 2x80/120",,315,,POWER GRID
-185,Tongi-3 (Mill Gate),Dhaka,2x80/120,,240,,DESCO
-186,Ullapara,Rajshahi,2x80/120,,240,,POWER GRID
-187,Ullon,Dhaka,3x35/50,,150,,DPDC
-188,Uttara 3P,Dhaka,2x80/120,,240,,DESCO
-189,Uttara,Dhaka,3x80/120,,360,,DESCO
-190,Zigatola,Dhaka,2x80/120,,240,,DPDC
+1,BIPTC 1st Block,Khulna,1x500 MW,500 MW,POWER GRID
+2,BIPTC 2nd Block,Khulna,1x500 MW,500 MW,POWER GRID
+1,Aminbazar,Dhaka,3x520,1560,POWER GRID
+2,Amtali Switching,Barishal,-,-,POWER GRID
+3,Ashuganj (N),Cumilla,2x244/325,650,APSCL
+4,Bhulta,Dhaka,2x520,1040,POWER GRID
+5,Bibiyana,Sylhet,2x520,1040,POWER GRID
+6,Bogura (W),Rajshahi,3x750,2250,POWER GRID
+7,Gopalganj (N),Khulna,2x750,1500,POWER GRID
+8,Kaliakoir,Dhaka,2x520,1040,POWER GRID
+9,Korerhat,Chattogram,2x1000,2000,POWER GRID
+10,Meghnaghat,Dhaka,3x750,2250,POWER GRID
+11,Madunaghat,Chattogram,3x750,2250,POWER GRID
+12,Rampal,Khulna,2x520,1040,BIFPCL
+13,RNPP,Rajshahi,2x520,1040,RNPP
+1,Gopalganj (N),Khulna,3x325,975,POWER GRID
+2,Kaliakoir,Dhaka,"3x325, 1x300",1275,POWER GRID
+3,Rahanpur,Rajshahi,2x520,1040,POWER GRID
+4,Payra,Barishal,2x325,650,POWER GRID
+1,Agargaon,Dhaka,2x300,600,POWER GRID
+2,Aminbazar,Dhaka,3x225,675,POWER GRID
+3,Ashuganj,Cumilla,2x300,600,APSCL
+4,Baghabari,Rajshahi,"1x225, 1x300",525,POWER GRID
+5,Barapukuria,Rangpur,2x225 1x225/300,750,POWER GRID
+6,Barishal (N),Barishal,2x300,600,POWER GRID
+7,Bheramara,Khulna,2x225,450,POWER GRID
+8,Bhulta,Dhaka,2x300,600,POWER GRID
+9,Bogura (S),Rajshahi,"2x225(7x75), 2x225/300",1050,POWER GRID
+10,Chowmuhani,Cumilla,2x350,700,POWER GRID
+11,Cumilla (N),Cumilla,3x225,675,POWER GRID
+12,Faridpur,Khulna,2x350,700,POWER GRID
+13,Fenchuganj,Sylhet,2x300,600,POWER GRID
+14,Feni (N),Cumilla,2x300,600,POWER GRID
+15,Ghorashal,Dhaka,2x125,250,BPDB
+16,Haripur,Dhaka,3x225(10x75),675,POWER GRID
+17,Hasnabad,Dhaka,3x225(10x75),675,POWER GRID
+18,Hathazari,Chattogram,4x150,600,POWER GRID
+19,Jhenaidah(S),Khulna,2x300,600,POWER GRID
+20,Ishwardi,Rajshahi,3x225,675,POWER GRID
+21,Kachua,Cumilla,2x350,700,POWER GRID
+22,Keraniganj,Dhaka,3x300,900,POWER GRID
+23,Khulna (S),Khulna,2x225(7x75) 1x300,750,POWER GRID
+24,Madunaghat,Chattogram,3x300,900,POWER GRID
+25,Maniknagar,Dhaka,2x300,600,POWER GRID
+26,Meghnaghat Switching,Dhaka,-,-,POWER GRID
+27,Purbasadipur,Rangpur,2x300,600,POWER GRID
+28,Rajshahi(N),Rajshahi,2x300,600,POWER GRID
+29,Rampura,Dhaka,3x450,1350,POWER GRID
+30,Rampur,Chattogram,2x300,600,POWER GRID
+31,Siddhirganj,Dhaka,2x300,600,POWER GRID
+32,Sirajganj Switching,Rajshahi,-,-,POWER GRID
+33,Shyampur,Dhaka,2x225/300,600,POWER GRID
+34,Sripur,Dhaka,2x225/300,600,POWER GRID
+35,Tongi,Dhaka,3x225(10x75),675,POWER GRID
+36,Sikalbaha,Chattogram,2x300,600,POWER GRID
+1,AKSPL,Chattogram,"2x130/150, 1x80",380,Bulk
+2,BSRM,Chattogram,2x130/140,280,Bulk
+3,GPH,Chattogram,2x100/125,250,Bulk
+4,Borhanuddin,Barishal,1x120/140 (230/33kV),140,BPDB
+5,Mirsarai,Chattogram,2x125/140,280,POWER GRID
+6,Ghorasal SW,Dhaka,1x125/140,140,POWER GRID
+1,Aftabnagar,Dhaka,2x80/120,240,DESCO
+2,Agargaon,Dhaka,2x80/120,240,POWER GRID
+3,Agrabad,Chattogram,2x80/120,240,POWER GRID
+4,AKSML,Chattogram,1x50/80,80,Bulk
+5,Amnura,Rajshahi,3x35/50,150,POWER GRID
+6,Ashuganj,Cumilla,1x25/41 1x50/75,116,APSCL
+7,Bagerhat,Khulna,"2x25/41, 1x50/75",157,POWER GRID
+8,Bajitpur,Mymensingh,2x80/120,240,POWER GRID
+9,Bakulia,Chattogram,2x48/64 2x50/75,278,POWER GRID
+10,Bangabhaban,Dhaka,"1x28/35, 1x80/120",155,DPDC
+11,Bhangura,Rajshahi,2x50/75,150,POWER GRID
+12,Barguna,Barishal,2x50/75,150,POWER GRID
+13,Barapukuria,Rangpur,"1x50/75, 2x25/41",157,POWER GRID
+14,Barishal,Barishal,"1x80/120, 1x50/75",195,POWER GRID
+15,Barishal(N),Barishal,2x80/120,240,POWER GRID
+16,Baroaulia,Chattogram,2x80/120,240,POWER GRID
+17,Bashundhara,Dhaka,3x80/120,360,DESCO
+18,Bashundhara Cement,Dhaka,1x35,35,Bulk
+19,Banani,Dhaka,2x80/120,240,DESCO
+20,Baroirhat,Chattogram,2x50/75,150,POWER GRID
+21,Beanibazar,Sylhet,2x50/75,150,POWER GRID
+22,Bhaluka,Mymensingh,2x80/120,240,POWER GRID
+23,Benapole,Khulna,2x50/75,150,POWER GRID
+24,Bhandaria,Barishal,"1x50/75, 1x25/41",116,POWER GRID
+25,Bhasantek,Dhaka,2x80/120,240,POWER GRID
+26,Bheramara,Khulna,"3x25/41, 1x15/20",143,POWER GRID
+27,Bhulta,Dhaka,2x80/120,240,POWER GRID
+28,BMPIL,Dhaka,1x50/75,75,Bulk
+29,Bogura,Rajshahi,4x80/120,480,POWER GRID
+30,Brahmanbaria,Cumilla,2x80/120 1x25/41,281,POWER GRID
+31,BSRM(Khulshi),Chattogram,1x64/80,80,Bulk
+32,Chandpur,Cumilla,3x50/75,225,POWER GRID
+33,Chandraghona,Chattogram,"1x50/75, 1x25/41",116,POWER GRID
+34,Chapai Nawabganj,Rajshahi,"1x15/20, 2x50/75, 1x25/41",1,POWER GRID
+35,Char Saidpur,Dhaka,2x80/120,240,DPDC
+36,Chauddagram,Cumilla,2x50/75,150,POWER GRID
+37,Chhatak,Sylhet,"2x15/20,1x25/41",81,POWER GRID
+38,Chandina,Cumilla,2x80/120,240,POWER GRID
+39,Chowdala,Rajshahi,2x50/75,150,POWER GRID
+40,Chowmuhani,Cumilla,3x80/120,360,POWER GRID
+41,Chuadanga,Khulna,2x50/75 1x25/41,191,POWER GRID
+42,Cumilla (N),Cumilla,3x50/75,225,POWER GRID
+43,Cumilla (S),Cumilla,4x50/75,300,POWER GRID
+44,Cox's Bazar,Chattogram,"2x80/120, 1x50/75",315,POWER GRID
+45,Daganbhuiyan,Cumilla,1x80/120,120,POWER GRID
+46,Dhaka University (DU),Dhaka,2x80/120,240,DPDC
+47,Daudkandi,Cumilla,3x50/75,225,POWER GRID
+48,Dhamrai,Dhaka,2x50/75,150,POWER GRID
+49,Dhanmondi,Dhaka,1x50/75 3x80/120,435,DPDC
+50,Dohazari,Chattogram,2x80/120,240,POWER GRID
+51,Faridpur,Khulna,"2x80/120, 1x25/41",281,POWER GRID
+52,Fatullah,Dhaka,2x80/120,240,DPDC
+53,Fenchuganj,Sylhet,"2x15/20,1x25/41",81,POWER GRID
+54,Feni,Cumilla,2x80/120,240,POWER GRID
+55,Gallamari,Khulna,2x80/120,240,POWER GRID
+56,Ghatail,Mymensingh,2x50/75,150,POWER GRID
+57,Ghorashal,Dhaka,2x41/63,126,BPDB
+58,Goalpara,Khulna,2x25/41,82,POWER GRID
+59,Gopalganj,Khulna,2x80/120,240,POWER GRID
+60,Gulshan,Dhaka,2x80/120,240,POWER GRID
+61,Halishahar,Chattogram,"1x44.1/63, 2x80/120",303,POWER GRID
+62,Haripur SBU,Dhaka,2x80/120,240,POWER GRID
+63,Hasnabad,Dhaka,3x66/100,300,POWER GRID
+64,Hathazari,Chattogram,"1x50/75, 1x80/120",195,POWER GRID
+65,Ishwardi,Rajshahi,"2x50/75, 1x80/120",270,POWER GRID
+66,Jaldhaka,Rangpur,2x50/75,150,POWER GRID
+67,Jamalpur,Mymensingh,"3x50/75, 1x25/41",266,POWER GRID
+68,Jashore,Khulna,3x80/120,360,POWER GRID
+69,Jhenaidah,Khulna,"2x80/120, 1x50/83.3",323,POWER GRID
+70,Joydebpur,Dhaka,"1x35/50 1x50/75, 1x80/120",245,POWER GRID
+71,Joypurhat,Rajshahi,4x25/41,164,POWER GRID
+72,Juldah,Chattogram,2x50/75,150,POWER GRID
+73,Kabirpur,Dhaka,3x80/120,360,POWER GRID
+74,Kachua,Cumilla,2x50/75,150,POWER GRID
+75,Kallayanpur,Dhaka,3x50/75,225,POWER GRID
+76,Kalurghat,Chattogram,2x80/120,240,POWER GRID
+77,Kamrangirchar,Dhaka,3x50/75,225,DPDC
+78,Kaptai,Chattogram,1x15/20 (132/11kV),,BPDB
+79,Kazla,Dhaka,2x80/120,240,DPDC
+80,Keraniganj,Dhaka,2x50/75,150,POWER GRID
+81,Khagrachari,Chattogram,2x30/39 (2x3x10/13),78,POWER GRID
+82,Khulna (C),Khulna,3x48/64,192,POWER GRID
+83,Khulshi,Chattogram,2x80/120,240,POWER GRID
+84,Kishoreganj,Mymensingh,3x80/120,360,POWER GRID
+85,Kodda,Dhaka,5x50/75,375,POWER GRID
+86,Kosba,Cumilla,2x80/120,240,POWER GRID
+87,KSRM,Chattogram,2x35/50,100,Bulk
+88,Kulaura,Sylhet,3x25/41,123,POWER GRID
+89,Kurigram,Rangpur,2x50/75,150,POWER GRID
+90,Kushtia,Khulna,2x80/120,240,POWER GRID
+91,KYCR,Chattogram,1x20/25,20,Bulk
+92,Laksam,Cumilla,2x80/120,240,POWER GRID
+93,Lakshmipur,Cumilla,2x80/120,240,POWER GRID
+94,Lalbagh,Dhaka,2x50/75,150,DPDC
+95,Lalmonirhat,Rangpur,2x50/75 2X15/20 1X25/33,223,POWER GRID
+96,Mahasthangarh,Rajshahi,2x80/120,240,POWER GRID
+97,Madanganj,Dhaka,2x35/50,100,POWER GRID
+98,Madaripur,Khulna,1x25/41 2x50/75,191,POWER GRID
+99,Madartek,Dhaka,2x50/75,150,DPDC
+100,Madunaghat,Chattogram,2x80/120,240,POWER GRID
+101,Magura,Khulna,"2x25/41, 1x80/120",202,POWER GRID
+102,Maijdee,Cumilla,2x80/120,240,POWER GRID
+103,Manikganj,Dhaka,2x50/75 1x35/50,200,POWER GRID
+104,Maniknagar,Dhaka,2x50/75,150,DPDC
+105,Matarbari,Chattogram,2x25/41,82,POWER GRID
+106,Matuail,Dhaka,2x50/75,150,DPDC
+107,MI Cement,Dhaka,1x28,28,Bulk
+108,Mirpur,Dhaka,3x80/120,360,DESCO
+109,Mirzapur,Mymensingh,2x50/75,150,POWER GRID
+110,Mithapukur,Rangpur,2x50/75,150,POWER GRID
+111,MSML,Chattogram,1x25/30,30,Bulk
+112,Moghbazar,Dhaka,3x50/75,225,DPDC
+113,Mongla,Khulna,2x50/75,150,POWER GRID
+114,Motijheel,Dhaka,2x80/120,240,DPDC
+115,MRT Motijheel,Dhaka,2x40/50,100,DMTCL
+116,MRT Uttara,Dhaka,2x40/50,100,DMTCL
+117,Mukhtagacha,Mymensingh,3x50/75,225,POWER GRID
+118,Munshiganj,Dhaka,2x80/120,240,POWER GRID
+119,Muradnagar,Cumilla,2x80/120,240,POWER GRID
+120,Mymensingh,Mymensingh,3x80/120,360,POWER GRID
+121,Naogaon,Rajshahi,"2x50/75, 1x80/120",270,POWER GRID
+122,Narail,Khulna,2x50/75,150,POWER GRID
+123,Narinda,Dhaka,2x50/75,150,DPDC
+124,Narsingdi,Dhaka,4x50/75,300,POWER GRID
+125,Natore,Rajshahi,"3x50/75, 1x35/50",275,POWER GRID
+126,Nawabganj,Dhaka,2x50/75,,POWER GRID
+127,Netrokona,Mymensingh,"2x25/41,1x50/75",157,POWER GRID
+128,New Tongi,Dhaka,2x80/120,240,DESCO
+129,Niamatpur,Rajshahi,"2x50/75, 1x35/50",200,POWER GRID
+130,Noapara,Khulna,2x50/75 1x44.1/63,213,POWER GRID
+131,Pabna,Rajshahi,"2x50/75, 2x25/41",232,POWER GRID
+132,Palashbari,Rangpur,2x50/75 2X25/41,232,POWER GRID
+133,Panchagarh,Rangpur,4x25/41,164,POWER GRID
+134,Patiya,Chattogram,2x80/120,240,POWER GRID
+135,Patuakhali,Barishal,2x50/75 1x25/41,191,POWER GRID
+136,Payra,Barishal,2x80/120,240,POWER GRID
+137,PHP,Cumilla,1x30/35,35,Bulk
+138,Postagola,Dhaka,2x80/120,240,DPDC
+139,Purbachal,Dhaka,2x80/120,240,DESCO
+140,Purbasadipur,Rangpur,"1x80/120, 1x25/41 2x50/75",311,POWER GRID
+141,RSRM,Dhaka,1x20/25,25,Bulk
+142,Rajbari,Khulna,"2x50/75, 1x25/41",191,POWER GRID
+143,Rajshahi,Rajshahi,"1x80/120, 1x50/75,1x35/50",290,POWER GRID
+144,Rajshahi(N),Rajshahi,2x80/120,240,POWER GRID
+145,Rajendrapur,Dhaka,3x80/120,360,POWER GRID
+146,Ramganj,Cumilla,2x50/75,150,POWER GRID
+147,Rampur,Chattogram,2x80/120,240,POWER GRID
+148,Rangamati,Chattogram,2x25/41,82,POWER GRID
+149,Rangpur,Rangpur,"2x80/120, 1x25/41",281,POWER GRID
+150,Rooppur,Rajshahi,2x25/41,82,MoST
+151,Saidpur,Rangpur,"1x35/50, 2x50/75",241,POWER GRID
+152,Satkhira,Khulna,"2x25/41, 1x40 1x80/120",242,POWER GRID
+153,Sathia,Rajshahi,2x50/75,150,POWER GRID
+154,Satmasjid,Dhaka,2x80/120,240,POWER GRID
+155,Savar,Dhaka,4x50/75,300,POWER GRID
+156,Seven Circle,Dhaka,2x30,60,Bulk
+157,Shah Cement,Dhaka,1x80/120,120,Private
+158,Shahjadpur,Rajshahi,"2x50/75, 2x35/50",250,POWER GRID
+159,Shahjibazar,Sylhet,"1x25/41, 1x50/75, 1x80/120",236,POWER GRID
+160,Shahmirpur,Chattogram,2x48/64,128,POWER GRID
+161,Shariatpur,Khulna,2x80/120,240,POWER GRID
+162,Sherpur,Mymensingh,3x50/75,225,POWER GRID
+163,Sherpur(Bogura),Rajshahi,3x50/75,225,POWER GRID
+164,Sholoshahar,Chattogram,2x80/120,240,POWER GRID
+165,Shyampur,Dhaka,"2x50/75, 2x80/120",390,DPDC
+166,Siddhirganj,Dhaka,3x80/120,360,POWER GRID
+167,Sikalbaha,Chattogram,"1x25/41.6, 1x50/75",116.6,BPDB
+168,Sitakunda,Chattogram,2x50/75,150,POWER GRID
+169,Sirajganj,Rajshahi,"2x50/75, 2x80/120",390,POWER GRID
+170,Sitalakhya,Dhaka,3x50/75,225,DPDC
+171,Sonargaon,Dhaka,2x80/120,240,POWER GRID
+172,Srimangal,Sylhet,"1x15/20, 3x25/41",143,POWER GRID
+173,Sreenagar,Dhaka,2x50/75,150,POWER GRID
+174,SSML,Chattogram,1x25/30,30,Bulk
+175,Sripur,Dhaka,2x50/75,150,POWER GRID
+176,Sunamganj,Sylhet,2x30/39 (2x3x10/13),78,POWER GRID
+177,Sylhet,Sylhet,"1x80/120, 2x25/41,1x50/83",285,POWER GRID
+178,Sylhet (S),Sylhet,2x50/75,150,POWER GRID
+179,Tangail,Mymensingh,"2x80/120, 1x50/75, 1x25/41",356,POWER GRID
+180,Taraganj,Rangpur,2x25/41,82,POWER GRID
+181,Tasnim Chemical,Dhaka,1x80/120,120,Bulk
+182,Thakurgaon,Rangpur,"2x50/75, 1x25/41",191,POWER GRID
+183,TKCCL,Chattogram,2x50/75,75,Bulk
+184,Tongi,Dhaka,"1x50/75, 2x80/120",315,POWER GRID
+185,Tongi-3 (Mill Gate),Dhaka,2x80/120,240,DESCO
+186,Ullapara,Rajshahi,2x80/120,240,POWER GRID
+187,Ullon,Dhaka,3x35/50,150,DPDC
+188,Uttara 3P,Dhaka,2x80/120,240,DESCO
+189,Uttara,Dhaka,3x80/120,360,DESCO
+190,Zigatola,Dhaka,2x80/120,240,DPDC
