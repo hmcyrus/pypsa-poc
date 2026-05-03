@@ -1,3 +1,4 @@
+```
 Network
 ├── Buses          (nodes — the "locations" in your graph)
 ├── Generators     (attach to a bus, inject power)
@@ -6,4 +7,4 @@ Network
 └── snapshots      (the time axis — a DatetimeIndex)
 
 We need capacitor banks for some points, for example, left top, northern parts
-
+```
