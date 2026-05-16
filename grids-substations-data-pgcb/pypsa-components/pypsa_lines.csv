@@ -1,0 +1,703 @@
+name,bus0,bus1,length,r_ohm_per_km,x_ohm_per_km,b_siemens_per_km,v_nom_kv,n_circuits,conductor,is_lilo,source_name
+Bheramara_Bangladesh Border_TL_1,Bheramara_400kV,Bangladesh Border_400kV,27.35,0.026,0.321,3.4e-06,400,2,Twin Finch,False,HVDC Bheramara-Bangladesh Border(Baharampur)
+Bheramara_Bangladesh Border_TL_2,Bheramara_400kV,Bangladesh Border_400kV,27.35,0.026,0.321,3.4e-06,400,2,Twin Finch,False,HVDC Bheramara-Bangladesh Border(Baharampur)
+Aminbazar_Meghnaghat_TL_1,Aminbazar_400kV,Meghnaghat_400kV,55.0,0.0162,0.297,6.1e-06,400,2,Quad Egret,False,Aminbazar-Meghnaghat
+Aminbazar_Meghnaghat_TL_2,Aminbazar_400kV,Meghnaghat_400kV,55.0,0.0162,0.297,6.1e-06,400,2,Quad Egret,False,Aminbazar-Meghnaghat
+Cumilla (N)_Bangladesh Border_TL_1,Cumilla (N)_400kV,Bangladesh Border_400kV,28.0,0.026,0.321,3.4e-06,400,2,Twin Finch,False,Comilla(N)- Bangladesh Border
+Cumilla (N)_Bangladesh Border_TL_2,Cumilla (N)_400kV,Bangladesh Border_400kV,28.0,0.026,0.321,3.4e-06,400,2,Twin Finch,False,Comilla(N)- Bangladesh Border
+Bibiyana_Kaliakoir_TL_1,Bibiyana_400kV,Kaliakoir_400kV,169.5,0.026,0.321,3.4e-06,400,2,Twin Finch,False,Bibiyana-Kaliakoir
+Bibiyana_Kaliakoir_TL_2,Bibiyana_400kV,Kaliakoir_400kV,169.5,0.026,0.321,3.4e-06,400,2,Twin Finch,False,Bibiyana-Kaliakoir
+Ashuganj (N)_Bhulta_TL_1,Ashuganj (N)_400kV,Bhulta_400kV,69.0,0.026,0.321,3.4e-06,400,2,Twin Finch,False,Ashuganj(N)-Bhulta
+Ashuganj (N)_Bhulta_TL_2,Ashuganj (N)_400kV,Bhulta_400kV,69.0,0.026,0.321,3.4e-06,400,2,Twin Finch,False,Ashuganj(N)-Bhulta
+Payra_Gopalganj (N)_TL_1,Payra_400kV,Gopalganj (N)_400kV,163.55,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Payra-Gopalganj(N)
+Payra_Gopalganj (N)_TL_2,Payra_400kV,Gopalganj (N)_400kV,163.55,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Payra-Gopalganj(N)
+BSRM_230kV_Mirsarai_230kV_TL_1,BSRM_230kV,Mirsarai_230kV,16.5,0.0852,0.4097,2.73e-06,400,2,Twin ACCC Finch,False,BSRM- Mirsarai
+BSRM_230kV_Mirsarai_230kV_TL_2,BSRM_230kV,Mirsarai_230kV,16.5,0.0852,0.4097,2.73e-06,400,2,Twin ACCC Finch,False,BSRM- Mirsarai
+Bheramara_Bangladesh Border_TL_1,Bheramara_400kV,Bangladesh Border_400kV,28.0,0.026,0.321,3.4e-06,400,2,Twin Finch,False,HVDC Bheramara-Bangladesh Border(Baharampur) 2nd
+Bheramara_Bangladesh Border_TL_2,Bheramara_400kV,Bangladesh Border_400kV,28.0,0.026,0.321,3.4e-06,400,2,Twin Finch,False,HVDC Bheramara-Bangladesh Border(Baharampur) 2nd
+Payra_Payra_TL_1,Payra_400kV,Payra_400kV,1.2,0.026,0.321,3.4e-06,400,2,,False,Payra PP - Payra SS
+Payra_Payra_TL_2,Payra_400kV,Payra_400kV,1.2,0.026,0.321,3.4e-06,400,2,,False,Payra PP - Payra SS
+Banskhali_Madunaghat_TL_1,Banskhali_400kV,Madunaghat_400kV,55.5,0.013,0.282,6.8e-06,400,2,LL-Quad ACSR Finch,False,Banskhali-Madunaghat
+Banskhali_Madunaghat_TL_2,Banskhali_400kV,Madunaghat_400kV,55.5,0.013,0.282,6.8e-06,400,2,LL-Quad ACSR Finch,False,Banskhali-Madunaghat
+Matarbari_132kV_Madunaghat_TL_1,Matarbari_132kV,Madunaghat_400kV,3.5,0.013,0.282,6.8e-06,400,4,LL-Quad ACSR Finch,False,LILO of Matarbari-Madunaghat
+Matarbari_132kV_Madunaghat_TL_2,Matarbari_132kV,Madunaghat_400kV,3.5,0.013,0.282,6.8e-06,400,4,LL-Quad ACSR Finch,False,LILO of Matarbari-Madunaghat
+Matarbari_132kV_Madunaghat_TL_3,Matarbari_132kV,Madunaghat_400kV,3.5,0.013,0.282,6.8e-06,400,4,LL-Quad ACSR Finch,False,LILO of Matarbari-Madunaghat
+Matarbari_132kV_Madunaghat_TL_4,Matarbari_132kV,Madunaghat_400kV,3.5,0.013,0.282,6.8e-06,400,4,LL-Quad ACSR Finch,False,LILO of Matarbari-Madunaghat
+Monakosa_Rahanpur_TL_1,Monakosa_400kV,Rahanpur_400kV,30.0,0.013,0.282,6.8e-06,400,2,Quad ACSR Finch,False,Monakosa-Rahanpur
+Monakosa_Rahanpur_TL_2,Monakosa_400kV,Rahanpur_400kV,30.0,0.013,0.282,6.8e-06,400,2,Quad ACSR Finch,False,Monakosa-Rahanpur
+Rampal_Gopalganj_132kV_TL_1,Rampal_400kV,Gopalganj_132kV,96.7,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Rampal-Gopalganj
+Rampal_Gopalganj_132kV_TL_2,Rampal_400kV,Gopalganj_132kV,96.7,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Rampal-Gopalganj
+Gopalganj_132kV_Aminbazar_TL_1,Gopalganj_132kV,Aminbazar_400kV,75.3,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Gopalganj-Aminbazar(With River)
+Gopalganj_132kV_Aminbazar_TL_2,Gopalganj_132kV,Aminbazar_400kV,75.3,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Gopalganj-Aminbazar(With River)
+Gopalganj_132kV_Aminbazar_TL_1,Gopalganj_132kV,Aminbazar_400kV,7.5,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Gopalganj-Aminbazar River Crossing
+Gopalganj_132kV_Aminbazar_TL_2,Gopalganj_132kV,Aminbazar_400kV,7.5,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Gopalganj-Aminbazar River Crossing
+Bogura (W)_Rahanpur_TL_1,Bogura (W)_400kV,Rahanpur_400kV,105.0,0.0852,0.4097,2.73e-06,400,2,Twin ACCC Finch,False,Bogura(West)-Rahanpur
+Bogura (W)_Rahanpur_TL_2,Bogura (W)_400kV,Rahanpur_400kV,105.0,0.0852,0.4097,2.73e-06,400,2,Twin ACCC Finch,False,Bogura(West)-Rahanpur
+Barguna_132kV_Payra_TL_1,Barguna_132kV,Payra_400kV,27.8,0.0519,0.3986,2.86e-06,400,1,Single ACSR Finch,False,Barguna PP - Payra PP
+Matarbari_132kV_Banskhali_TL_1,Matarbari_132kV,Banskhali_400kV,38.0,0.013,0.282,6.8e-06,400,2,LL-Quad ACSR Finch,False,Matarbari-Banskhali
+Matarbari_132kV_Banskhali_TL_2,Matarbari_132kV,Banskhali_400kV,38.0,0.013,0.282,6.8e-06,400,2,LL-Quad ACSR Finch,False,Matarbari-Banskhali
+Madunaghat_Meghnaghat_TL_1,Madunaghat_400kV,Meghnaghat_400kV,217.2,0.013,0.282,6.8e-06,400,2,LL-Quad ACSR Finch,False,Madunaghat-Meghnaghat
+Madunaghat_Meghnaghat_TL_2,Madunaghat_400kV,Meghnaghat_400kV,217.2,0.013,0.282,6.8e-06,400,2,LL-Quad ACSR Finch,False,Madunaghat-Meghnaghat
+RNPP_Bogura (W)_TL_1,RNPP_400kV,Bogura (W)_400kV,90.0,0.011,0.275,6.8e-06,400,1,Quad ACCC Finch,False,Rooppur-Bogura(West)
+Bogura (W)_Barapukuria_230kV_TL_1,Bogura (W)_400kV,Barapukuria_230kV,112.0,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Bogura(West)-Barapukuria
+Bogura (W)_Barapukuria_230kV_TL_2,Bogura (W)_400kV,Barapukuria_230kV,112.0,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Bogura(West)-Barapukuria
+LILO_Amtali Switching_Payra_TL_1,Amtali Switching_400kV,Payra_400kV,9.45,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,True,LILO of Payra-Gopalganj at Amtali
+LILO_Amtali Switching_Payra_TL_2,Amtali Switching_400kV,Payra_400kV,9.45,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,True,LILO of Payra-Gopalganj at Amtali
+Amtali Switching_RNPP_TL_1,Amtali Switching_400kV,RNPP_400kV,9.9,0.013,0.282,6.8e-06,400,2,Quad ACSR Finch,False,Amtali-RNPL
+Amtali Switching_RNPP_TL_2,Amtali Switching_400kV,RNPP_400kV,9.9,0.013,0.282,6.8e-06,400,2,Quad ACSR Finch,False,Amtali-RNPL
+Bogura (S)_230kV_Kaliakoir_TL_1,Bogura (S)_230kV,Kaliakoir_400kV,73.0,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Bogura-Kaliakoir (Upto river crossing)
+Bogura (S)_230kV_Kaliakoir_TL_2,Bogura (S)_230kV,Kaliakoir_400kV,73.0,0.011,0.275,6.8e-06,400,2,Quad ACCC Finch,False,Bogura-Kaliakoir (Upto river crossing)
+Aminbazar_Kaliakoir_TL_1,Aminbazar_400kV,Kaliakoir_400kV,51.0,0.011,0.275,6.8e-06,400,1,Quad ACCC Finch,False,Aminbazar-Kaliakoir
+RNPP_Gopalganj_132kV_TL_1,RNPP_400kV,Gopalganj_132kV,156.0,0.011,0.275,6.8e-06,400,1,Quad ACCC Finch,False,Roopur-Gopalganj (overhead)
+RNPP_Gopalganj_132kV_TL_1,RNPP_400kV,Gopalganj_132kV,2.0,0.011,0.275,6.8e-06,400,1,Quad ACCC Finch,False,Roopur-Gopalganj (UG)
+Madunaghat_Korerhat_TL_1,Madunaghat_400kV,Korerhat_400kV,0.0,0.013,0.282,6.8e-06,400,4,LL-Quad ACSR Finch,False,LILO of Madunaghat-Meghnaghat atKorerhat
+Madunaghat_Korerhat_TL_2,Madunaghat_400kV,Korerhat_400kV,0.0,0.013,0.282,6.8e-06,400,4,LL-Quad ACSR Finch,False,LILO of Madunaghat-Meghnaghat atKorerhat
+Madunaghat_Korerhat_TL_3,Madunaghat_400kV,Korerhat_400kV,0.0,0.013,0.282,6.8e-06,400,4,LL-Quad ACSR Finch,False,LILO of Madunaghat-Meghnaghat atKorerhat
+Madunaghat_Korerhat_TL_4,Madunaghat_400kV,Korerhat_400kV,0.0,0.013,0.282,6.8e-06,400,4,LL-Quad ACSR Finch,False,LILO of Madunaghat-Meghnaghat atKorerhat
+Ghorashal_Ishwardi_TL_1,Ghorashal_230kV,Ishwardi_230kV,175.0,0.0677,0.4016,2.84e-06,230,2,Mallard & AAAC,False,Ghorasal-Ishurdi
+Ghorashal_Ishwardi_TL_2,Ghorashal_230kV,Ishwardi_230kV,175.0,0.0677,0.4016,2.84e-06,230,2,Mallard & AAAC,False,Ghorasal-Ishurdi
+Tongi_Ghorashal_TL_1,Tongi_230kV,Ghorashal_230kV,27.0,0.055,0.39,2.84e-06,230,2,ACCC Mallard,False,Tongi - Ghorasal
+Tongi_Ghorashal_TL_2,Tongi_230kV,Ghorashal_230kV,27.0,0.055,0.39,2.84e-06,230,2,ACCC Mallard,False,Tongi - Ghorasal
+Ghorashal_Ashuganj_TL_1,Ghorashal_230kV,Ashuganj_230kV,44.0,0.0677,0.4016,2.84e-06,230,2,Mallard,False,Ghorasal - Ashuganj
+Ghorashal_Ashuganj_TL_2,Ghorashal_230kV,Ashuganj_230kV,44.0,0.0677,0.4016,2.84e-06,230,2,Mallard,False,Ghorasal - Ashuganj
+Raozan_Hathazari_TL_1,Raozan_230kV,Hathazari_230kV,22.5,0.0852,0.4097,2.73e-06,230,2,Twin 300 sq.mm,False,Raojan - Hathazari
+Raozan_Hathazari_TL_2,Raozan_230kV,Hathazari_230kV,22.5,0.0852,0.4097,2.73e-06,230,2,Twin 300 sq.mm,False,Raojan - Hathazari
+Ashuganj_Cumilla (N)_TL_1,Ashuganj_230kV,Cumilla (N)_230kV,79.0,0.026,0.321,3.4e-06,230,2,Finch,False,Ashuganj - Comilla North
+Ashuganj_Cumilla (N)_TL_2,Ashuganj_230kV,Cumilla (N)_230kV,79.0,0.026,0.321,3.4e-06,230,2,Finch,False,Ashuganj - Comilla North
+Ghorashal_Rampura_TL_1,Ghorashal_230kV,Rampura_230kV,50.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Ghorasal - Rampura
+Ghorashal_Rampura_TL_2,Ghorashal_230kV,Rampura_230kV,50.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Ghorasal - Rampura
+Rampura_Haripur_TL_1,Rampura_230kV,Haripur_230kV,22.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Rampura - Haripur
+Rampura_Haripur_TL_2,Rampura_230kV,Haripur_230kV,22.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Rampura - Haripur
+Haripur_Meghnaghat_400kV_TL_1,Haripur_230kV,Meghnaghat_400kV,12.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Haripur - Meghnaghat
+Haripur_Meghnaghat_400kV_TL_2,Haripur_230kV,Meghnaghat_400kV,12.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Haripur - Meghnaghat
+Meghnaghat_400kV_Hasnabad_TL_1,Meghnaghat_400kV,Hasnabad_230kV,24.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Meghnaghat - Hasnabad
+Meghnaghat_400kV_Hasnabad_TL_2,Meghnaghat_400kV,Hasnabad_230kV,24.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Meghnaghat - Hasnabad
+Cumilla (N)_Hathazari_TL_1,Cumilla (N)_230kV,Hathazari_230kV,151.0,0.026,0.321,3.4e-06,230,2,Finch,False,Comilla North - Hathazari
+Cumilla (N)_Hathazari_TL_2,Cumilla (N)_230kV,Hathazari_230kV,151.0,0.026,0.321,3.4e-06,230,2,Finch,False,Comilla North - Hathazari
+Haripur_Haripur_TL_1,Haripur_230kV,Haripur_230kV,2.4,0.026,0.321,3.4e-06,230,2,Finch,False,"AES, Haripur - Haripur"
+Haripur_Haripur_TL_2,Haripur_230kV,Haripur_230kV,2.4,0.026,0.321,3.4e-06,230,2,Finch,False,"AES, Haripur - Haripur"
+Cumilla (N)_Meghnaghat_400kV_TL_1,Cumilla (N)_230kV,Meghnaghat_400kV,58.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Comilla North - Meghnaghat
+Cumilla (N)_Meghnaghat_400kV_TL_2,Cumilla (N)_230kV,Meghnaghat_400kV,58.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Comilla North - Meghnaghat
+Tongi_Aminbazar_TL_1,Tongi_230kV,Aminbazar_230kV,25.2,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Tongi-Aminbazar
+Tongi_Aminbazar_TL_2,Tongi_230kV,Aminbazar_230kV,25.2,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Tongi-Aminbazar
+Aminbazar_Hasnabad_TL_1,Aminbazar_230kV,Hasnabad_230kV,21.5,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Aminbazar-Hasnabad
+Aminbazar_Hasnabad_TL_2,Aminbazar_230kV,Hasnabad_230kV,21.5,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Aminbazar-Hasnabad
+Siddhirganj_Haripur_TL_1,Siddhirganj_230kV,Haripur_230kV,1.5,0.013,0.282,6.8e-06,230,1,ACSR,False,Siddhirganj 210 MW P/S -Haripur
+Ashuganj_Sirajganj_132kV_TL_1,Ashuganj_230kV,Sirajganj_132kV,144.0,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Ashuganj - Sirajganj
+Ashuganj_Sirajganj_132kV_TL_2,Ashuganj_230kV,Sirajganj_132kV,144.0,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Ashuganj - Sirajganj
+Khulna (S)_Bheramara_TL_1,Khulna (S)_230kV,Bheramara_230kV,176.5,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Khulna-Bheramara HVDC
+Khulna (S)_Bheramara_TL_2,Khulna (S)_230kV,Bheramara_230kV,176.5,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Khulna-Bheramara HVDC
+Bheramara_Ishwardi_TL_1,Bheramara_230kV,Ishwardi_230kV,10.1,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Bheramara HVDC-Ishurdi
+Bheramara_Ishwardi_TL_2,Bheramara_230kV,Ishwardi_230kV,10.1,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Bheramara HVDC-Ishurdi
+Bogura (S)_Barapukuria_TL_1,Bogura (S)_230kV,Barapukuria_230kV,106.0,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Bogra-Barapukuria
+Bogura (S)_Barapukuria_TL_2,Bogura (S)_230kV,Barapukuria_230kV,106.0,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Bogra-Barapukuria
+Sirajganj_132kV_Bogura (S)_TL_1,Sirajganj_132kV,Bogura (S)_230kV,72.5,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Sirajganj-Bogra
+Sirajganj_132kV_Bogura (S)_TL_2,Sirajganj_132kV,Bogura (S)_230kV,72.5,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Sirajganj-Bogra
+Ishwardi_Baghabari_TL_1,Ishwardi_230kV,Baghabari_230kV,55.0,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Ishurdi-Baghabari
+Ishwardi_Baghabari_TL_2,Ishwardi_230kV,Baghabari_230kV,55.0,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Ishurdi-Baghabari
+Baghabari_Sirajganj_132kV_TL_1,Baghabari_230kV,Sirajganj_132kV,38.0,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Baghabari-Sirajganj
+Baghabari_Sirajganj_132kV_TL_2,Baghabari_230kV,Sirajganj_132kV,38.0,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Baghabari-Sirajganj
+Fenchuganj_Bibiyana_TL_1,Fenchuganj_230kV,Bibiyana_230kV,33.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Fenchuganj-Bibiyana
+Fenchuganj_Bibiyana_TL_2,Fenchuganj_230kV,Bibiyana_230kV,33.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Fenchuganj-Bibiyana
+Bibiyana_Cumilla (N)_TL_1,Bibiyana_230kV,Cumilla (N)_230kV,153.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Bibiyana-Comilla(N)
+Bibiyana_Cumilla (N)_TL_2,Bibiyana_230kV,Cumilla (N)_230kV,153.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Bibiyana-Comilla(N)
+Aminbazar_Agargaon_TL_1,Aminbazar_230kV,Agargaon_230kV,3.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Aminbazar-Old Airport (O/H)
+Aminbazar_Agargaon_TL_2,Aminbazar_230kV,Agargaon_230kV,3.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Aminbazar-Old Airport (O/H)
+Aminbazar_Agargaon_TL_1,Aminbazar_230kV,Agargaon_230kV,4.0,0.015,0.12,2e-05,230,2,XLPE,False,Aminbazar-Old Airport (U/G)
+Aminbazar_Agargaon_TL_2,Aminbazar_230kV,Agargaon_230kV,4.0,0.015,0.12,2e-05,230,2,XLPE,False,Aminbazar-Old Airport (U/G)
+Siddhirganj_Maniknagar_TL_1,Siddhirganj_230kV,Maniknagar_230kV,11.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Siddhirganj-Maniknagar
+Siddhirganj_Maniknagar_TL_2,Siddhirganj_230kV,Maniknagar_230kV,11.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Siddhirganj-Maniknagar
+Bhola_Barishal (N)_TL_1,Bhola_230kV,Barishal (N)_230kV,62.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Bhola-Barisal
+Bhola_Barishal (N)_TL_2,Bhola_230kV,Barishal (N)_230kV,62.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Bhola-Barisal
+LILO_BSRM_Cumilla (N)_TL_1,BSRM_230kV,Cumilla (N)_230kV,0.5,0.026,0.321,3.4e-06,230,2,Finch,True,LILO of Comilla(N)-Hathazari line at BSRM
+LILO_BSRM_Cumilla (N)_TL_2,BSRM_230kV,Cumilla (N)_230kV,0.5,0.026,0.321,3.4e-06,230,2,Finch,True,LILO of Comilla(N)-Hathazari line at BSRM
+LILO_AKSPL_Cumilla (N)_TL_1,AKSPL_230kV,Cumilla (N)_230kV,6.5,0.026,0.321,3.4e-06,230,2,Finch,True,LILO of Comilla(N)-Hathazari line at AKSPL
+LILO_AKSPL_Cumilla (N)_TL_2,AKSPL_230kV,Cumilla (N)_230kV,6.5,0.026,0.321,3.4e-06,230,2,Finch,True,LILO of Comilla(N)-Hathazari line at AKSPL
+LILO_Kaliakoir_Aminbazar_TL_1,Kaliakoir_230kV,Aminbazar_230kV,32.0,0.032,0.33,3.3e-06,230,4,Twin AAAC,True,LILO of Aminbazar-Tongi line at Kaliakoir
+LILO_Kaliakoir_Aminbazar_TL_2,Kaliakoir_230kV,Aminbazar_230kV,32.0,0.032,0.33,3.3e-06,230,4,Twin AAAC,True,LILO of Aminbazar-Tongi line at Kaliakoir
+LILO_Kaliakoir_Aminbazar_TL_3,Kaliakoir_230kV,Aminbazar_230kV,32.0,0.032,0.33,3.3e-06,230,4,Twin AAAC,True,LILO of Aminbazar-Tongi line at Kaliakoir
+LILO_Kaliakoir_Aminbazar_TL_4,Kaliakoir_230kV,Aminbazar_230kV,32.0,0.032,0.33,3.3e-06,230,4,Twin AAAC,True,LILO of Aminbazar-Tongi line at Kaliakoir
+Bheramara_Bheramara_TL_1,Bheramara_230kV,Bheramara_230kV,6.0,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Bheramara HVDC-Bheramara 230
+Bheramara_Bheramara_TL_2,Bheramara_230kV,Bheramara_230kV,6.0,0.032,0.33,3.3e-06,230,2,Twin AAAC,False,Bheramara HVDC-Bheramara 230
+LILO_Bhulta_Ghorashal_TL_1,Bhulta_230kV,Ghorashal_230kV,2.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,True,LILO of Ghorashal-Rampura at Bhulta
+LILO_Bhulta_Ghorashal_TL_2,Bhulta_230kV,Ghorashal_230kV,2.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,True,LILO of Ghorashal-Rampura at Bhulta
+LILO_Bhulta_Haripur_TL_1,Bhulta_230kV,Haripur_230kV,2.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Haripur-Rampura at Bhulta
+LILO_Bhulta_Haripur_TL_2,Bhulta_230kV,Haripur_230kV,2.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Haripur-Rampura at Bhulta
+LILO_Bhulta_Haripur_TL_3,Bhulta_230kV,Haripur_230kV,2.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Haripur-Rampura at Bhulta
+LILO_Bhulta_Haripur_TL_4,Bhulta_230kV,Haripur_230kV,2.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Haripur-Rampura at Bhulta
+Haripur_Siddhirganj_TL_1,Haripur_230kV,Siddhirganj_230kV,1.65,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Haripur-Siddhirganj
+Haripur_Siddhirganj_TL_2,Haripur_230kV,Siddhirganj_230kV,1.65,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Haripur-Siddhirganj
+Bheramara_Ishwardi_TL_1,Bheramara_230kV,Ishwardi_230kV,12.8,0.0169,0.29,7.04e-06,230,2,Quad Mallard,False,Bheramara HVDC- Ishwardi
+Bheramara_Ishwardi_TL_2,Bheramara_230kV,Ishwardi_230kV,12.8,0.0169,0.29,7.04e-06,230,2,Quad Mallard,False,Bheramara HVDC- Ishwardi
+LILO_Kodda_132kV_Tongi_TL_1,Kodda_132kV,Tongi_230kV,1.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,True,LILO of Tongi-Kaliakoir at Kodda PP
+LILO_Kodda_132kV_Tongi_TL_2,Kodda_132kV,Tongi_230kV,1.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,True,LILO of Tongi-Kaliakoir at Kodda PP
+LILO_Keraniganj_Hasnabad_TL_1,Keraniganj_230kV,Hasnabad_230kV,0.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Hasnabad-Aminbazar at Keraniganj
+LILO_Keraniganj_Hasnabad_TL_2,Keraniganj_230kV,Hasnabad_230kV,0.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Hasnabad-Aminbazar at Keraniganj
+LILO_Keraniganj_Hasnabad_TL_3,Keraniganj_230kV,Hasnabad_230kV,0.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Hasnabad-Aminbazar at Keraniganj
+LILO_Keraniganj_Hasnabad_TL_4,Keraniganj_230kV,Hasnabad_230kV,0.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Hasnabad-Aminbazar at Keraniganj
+Sikalbaha_Anowara_TL_1,Sikalbaha_230kV,Anowara_230kV,17.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Sikalbaha-Anowara
+Sikalbaha_Anowara_TL_2,Sikalbaha_230kV,Anowara_230kV,17.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Sikalbaha-Anowara
+LILO_Shyampur_Hasnabad_TL_1,Shyampur_230kV,Hasnabad_230kV,0.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Hasnabad-Meghnaghat at Shyampur
+LILO_Shyampur_Hasnabad_TL_2,Shyampur_230kV,Hasnabad_230kV,0.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Hasnabad-Meghnaghat at Shyampur
+LILO_Shyampur_Hasnabad_TL_3,Shyampur_230kV,Hasnabad_230kV,0.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Hasnabad-Meghnaghat at Shyampur
+LILO_Shyampur_Hasnabad_TL_4,Shyampur_230kV,Hasnabad_230kV,0.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Hasnabad-Meghnaghat at Shyampur
+Patuakhali_Payra_TL_1,Patuakhali_230kV,Payra_230kV,46.5,0.028,0.318,3.52e-06,230,2,Twin ACCC Mallard,False,Patuakhali-Payra
+Patuakhali_Payra_TL_2,Patuakhali_230kV,Payra_230kV,46.5,0.028,0.318,3.52e-06,230,2,Twin ACCC Mallard,False,Patuakhali-Payra
+Ishwardi_Rajshahi_132kV_TL_1,Ishwardi_230kV,Rajshahi_132kV,79.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Ishurdi-Rajshahi
+Ishwardi_Rajshahi_132kV_TL_2,Ishwardi_230kV,Rajshahi_132kV,79.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Ishurdi-Rajshahi
+LILO_Jhenaidah_132kV_Bheramara_TL_1,Jhenaidah_132kV,Bheramara_230kV,2.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Bheramara-Khulna (S) at Jhenaidah
+LILO_Jhenaidah_132kV_Bheramara_TL_2,Jhenaidah_132kV,Bheramara_230kV,2.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Bheramara-Khulna (S) at Jhenaidah
+LILO_Jhenaidah_132kV_Bheramara_TL_3,Jhenaidah_132kV,Bheramara_230kV,2.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Bheramara-Khulna (S) at Jhenaidah
+LILO_Jhenaidah_132kV_Bheramara_TL_4,Jhenaidah_132kV,Bheramara_230kV,2.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Bheramara-Khulna (S) at Jhenaidah
+Sikalbaha_Hathazari_TL_1,Sikalbaha_230kV,Hathazari_230kV,28.35,0.0169,0.29,7.04e-06,230,2,Quad Mallard,False,Sikalbaha-Hathazari
+Sikalbaha_Hathazari_TL_2,Sikalbaha_230kV,Hathazari_230kV,28.35,0.0169,0.29,7.04e-06,230,2,Quad Mallard,False,Sikalbaha-Hathazari
+Mongla_Khulna (S)_TL_1,Mongla_230kV,Khulna (S)_230kV,24.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Mongla- Khulna(S)
+Mongla_Khulna (S)_TL_2,Mongla_230kV,Khulna (S)_230kV,24.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Mongla- Khulna(S)
+Barishal (N)_Gopalganj_132kV_TL_1,Barishal (N)_230kV,Gopalganj_132kV,75.0,0.028,0.318,3.52e-06,230,2,Twin ACCC Mallard,False,Barishal(N)-Gopalganj
+Barishal (N)_Gopalganj_132kV_TL_2,Barishal (N)_230kV,Gopalganj_132kV,75.0,0.028,0.318,3.52e-06,230,2,Twin ACCC Mallard,False,Barishal(N)-Gopalganj
+Gopalganj_132kV_Faridpur_TL_1,Gopalganj_132kV,Faridpur_230kV,49.0,0.028,0.318,3.52e-06,230,2,Twin ACCC Mallard,False,Gopalganj-Faridpur
+Gopalganj_132kV_Faridpur_TL_2,Gopalganj_132kV,Faridpur_230kV,49.0,0.028,0.318,3.52e-06,230,2,Twin ACCC Mallard,False,Gopalganj-Faridpur
+LILO_Madunaght_Sikalbaha_TL_1,Madunaght_230kV,Sikalbaha_230kV,11.7,0.0169,0.29,7.04e-06,230,2,Quad Mallard,True,LILO of Sikalbaha-Hathazari at Madunaghat(N)
+LILO_Madunaght_Sikalbaha_TL_2,Madunaght_230kV,Sikalbaha_230kV,11.7,0.0169,0.29,7.04e-06,230,2,Quad Mallard,True,LILO of Sikalbaha-Hathazari at Madunaghat(N)
+RNPP_Baghabari_TL_1,RNPP_230kV,Baghabari_230kV,65.5,0.028,0.318,3.52e-06,230,2,Twin ACCC Mallard,False,Rooppur-Baghabari
+RNPP_Baghabari_TL_2,RNPP_230kV,Baghabari_230kV,65.5,0.028,0.318,3.52e-06,230,2,Twin ACCC Mallard,False,Rooppur-Baghabari
+Khula 330MW_Khulna (S)_TL_1,Khula 330MW_230kV,Khulna (S)_230kV,14.0,0.026,0.321,3.4e-06,230,1,,False,Khula 330MW-Khula(S)
+LILO_Bogura (W)_Bogura (S)_TL_1,Bogura (W)_230kV,Bogura (S)_230kV,22.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,True,LILO of Bogura-Barapukuria at Bogura(West)
+LILO_Bogura (W)_Bogura (S)_TL_2,Bogura (W)_230kV,Bogura (S)_230kV,22.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,True,LILO of Bogura-Barapukuria at Bogura(West)
+LILO_Sripur_Ashuganj_TL_1,Sripur_230kV,Ashuganj_230kV,1.4,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Ashuganj-Sirajganj at Sreepur
+LILO_Sripur_Ashuganj_TL_2,Sripur_230kV,Ashuganj_230kV,1.4,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Ashuganj-Sirajganj at Sreepur
+LILO_Sripur_Ashuganj_TL_3,Sripur_230kV,Ashuganj_230kV,1.4,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Ashuganj-Sirajganj at Sreepur
+LILO_Sripur_Ashuganj_TL_4,Sripur_230kV,Ashuganj_230kV,1.4,0.0339,0.327,3.52e-06,230,4,Twin Mallard,True,LILO of Ashuganj-Sirajganj at Sreepur
+Madunaght_Madunaght_TL_1,Madunaght_230kV,Madunaght_230kV,7.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Madunaght(O)-Madunaghat 400kV
+Madunaght_Madunaght_TL_2,Madunaght_230kV,Madunaght_230kV,7.0,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Madunaght(O)-Madunaghat 400kV
+Mirsarai_Mirsarai_TL_1,Mirsarai_230kV,Mirsarai_230kV,13.3,0.0339,0.327,3.52e-06,230,1,Twin Mallard,False,Sonagazi (EGCB)- Mirsarai
+Bogura (S)_Naogaon_132kV_TL_1,Bogura (S)_230kV,Naogaon_132kV,11.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Bogura(S)-Noagaon (Partial)
+Bogura (S)_Naogaon_132kV_TL_2,Bogura (S)_230kV,Naogaon_132kV,11.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Bogura(S)-Noagaon (Partial)
+Bogura_132kV_Naogaon_132kV_TL_1,Bogura_132kV,Naogaon_132kV,1.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,LILO of Bogura(S)-Noagaon
+Bogura_132kV_Naogaon_132kV_TL_2,Bogura_132kV,Naogaon_132kV,1.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,LILO of Bogura(S)-Noagaon
+Bogura_132kV_Naogaon_132kV_TL_3,Bogura_132kV,Naogaon_132kV,1.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,LILO of Bogura(S)-Noagaon
+Bogura_132kV_Naogaon_132kV_TL_4,Bogura_132kV,Naogaon_132kV,1.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,LILO of Bogura(S)-Noagaon
+Korerhat_Chowmuhani_TL_1,Korerhat_230kV,Chowmuhani_230kV,54.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Korerhat-Chowmuhani
+Korerhat_Chowmuhani_TL_2,Korerhat_230kV,Chowmuhani_230kV,54.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Korerhat-Chowmuhani
+Korerhat_Chowmuhani_TL_3,Korerhat_230kV,Chowmuhani_230kV,54.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Korerhat-Chowmuhani
+Korerhat_Chowmuhani_TL_4,Korerhat_230kV,Chowmuhani_230kV,54.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Korerhat-Chowmuhani
+Chowmuhani_Kachua_TL_1,Chowmuhani_230kV,Kachua_230kV,50.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Chowmuhani-Kachua
+Chowmuhani_Kachua_TL_2,Chowmuhani_230kV,Kachua_230kV,50.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Chowmuhani-Kachua
+Chowmuhani_Kachua_TL_3,Chowmuhani_230kV,Kachua_230kV,50.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Chowmuhani-Kachua
+Chowmuhani_Kachua_TL_4,Chowmuhani_230kV,Kachua_230kV,50.5,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Chowmuhani-Kachua
+Chowmuhani_Maijdee_132kV_TL_1,Chowmuhani_230kV,Maijdee_132kV,20.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Chowmuhani-Maijdee
+Chowmuhani_Maijdee_132kV_TL_2,Chowmuhani_230kV,Maijdee_132kV,20.5,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Chowmuhani-Maijdee
+Barapukuria_Purbasadipur_TL_1,Barapukuria_230kV,Purbasadipur_230kV,38.7,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Barapukuria-Purbasadipur
+Barapukuria_Purbasadipur_TL_2,Barapukuria_230kV,Purbasadipur_230kV,38.7,0.0339,0.327,3.52e-06,230,2,Twin Mallard,False,Barapukuria-Purbasadipur
+Kachua_Gazaria_TL_1,Kachua_230kV,Gazaria_230kV,49.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Kachua-Gazaria
+Kachua_Gazaria_TL_2,Kachua_230kV,Gazaria_230kV,49.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Kachua-Gazaria
+Kachua_Gazaria_TL_3,Kachua_230kV,Gazaria_230kV,49.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Kachua-Gazaria
+Kachua_Gazaria_TL_4,Kachua_230kV,Gazaria_230kV,49.0,0.0339,0.327,3.52e-06,230,4,Twin Mallard,False,Kachua-Gazaria
+Ghorashal_Ghorashal_TL_1,Ghorashal_230kV,Ghorashal_230kV,1.1,0.015,0.12,2e-05,230,2,XLPE,False,Ghorasal GIS2AIS double circuit
+Ghorashal_Ghorashal_TL_2,Ghorashal_230kV,Ghorashal_230kV,1.1,0.015,0.12,2e-05,230,2,XLPE,False,Ghorasal GIS2AIS double circuit
+Ghorashal_Ghorashal_TL_1,Ghorashal_230kV,Ghorashal_230kV,1.1,0.015,0.12,2e-05,230,1,XLPE,False,Ghorasal GIS2AIS 3rd Circuit
+Shahjibazar_Brahmanbaria_TL_1,Shahjibazar_132kV,Brahmanbaria_132kV,57.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Shahjibazar-Brahmanbaria
+Shahjibazar_Brahmanbaria_TL_2,Shahjibazar_132kV,Brahmanbaria_132kV,57.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Shahjibazar-Brahmanbaria
+Brahmanbaria_Ashuganj_TL_1,Brahmanbaria_132kV,Ashuganj_132kV,16.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Brahmanbaria-Ashuganj
+Brahmanbaria_Ashuganj_TL_2,Brahmanbaria_132kV,Ashuganj_132kV,16.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Brahmanbaria-Ashuganj
+Ashuganj_Ghorashal_TL_1,Ashuganj_132kV,Ghorashal_132kV,45.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Ashuganj-Ghorasal
+Ashuganj_Ghorashal_TL_2,Ashuganj_132kV,Ghorashal_132kV,45.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Ashuganj-Ghorasal
+Ghorashal_Narsingdi_TL_1,Ghorashal_132kV,Narsingdi_132kV,13.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Ghorasal-Narsingdi
+Ghorashal_Narsingdi_TL_2,Ghorashal_132kV,Narsingdi_132kV,13.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Ghorasal-Narsingdi
+Narsingdi_Haripur_230kV_TL_1,Narsingdi_132kV,Haripur_230kV,34.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Narsingdi-Haripur
+Narsingdi_Bhulta_TL_1,Narsingdi_132kV,Bhulta_132kV,16.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Narsingdi-Bhulta
+Bhulta_Haripur_230kV_TL_1,Bhulta_132kV,Haripur_230kV,15.0,0.065,0.39,2.73e-06,132,1,ACCC Grosbeak,False,Bhulta-Haripur
+Haripur_230kV_Siddhirganj_TL_1,Haripur_230kV,Siddhirganj_132kV,2.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Haripur-Siddhirganj
+Haripur_230kV_Siddhirganj_TL_2,Haripur_230kV,Siddhirganj_132kV,2.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Haripur-Siddhirganj
+Shahjibazar_Srimangal_TL_1,Shahjibazar_132kV,Srimangal_132kV,36.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Shahjibazar-Srimangal
+Shahjibazar_Srimangal_TL_2,Shahjibazar_132kV,Srimangal_132kV,36.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Shahjibazar-Srimangal
+Srimangal_Fenchuganj_TL_1,Srimangal_132kV,Fenchuganj_132kV,49.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Srimangal-Fenchuganj
+Srimangal_Fenchuganj_TL_2,Srimangal_132kV,Fenchuganj_132kV,49.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Srimangal-Fenchuganj
+Fenchuganj_Fenchuganj_TL_1,Fenchuganj_132kV,Fenchuganj_132kV,3.75,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,False,Fenchuganj-Fenchuganj PS
+Fenchuganj_Fenchuganj_TL_2,Fenchuganj_132kV,Fenchuganj_132kV,3.75,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,False,Fenchuganj-Fenchuganj PS
+Fenchuganj_Fenchuganj_TL_3,Fenchuganj_132kV,Fenchuganj_132kV,3.75,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,False,Fenchuganj-Fenchuganj PS
+Fenchuganj_Fenchuganj_TL_4,Fenchuganj_132kV,Fenchuganj_132kV,3.75,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,False,Fenchuganj-Fenchuganj PS
+Fenchuganj_Sylhet_TL_1,Fenchuganj_132kV,Sylhet_132kV,31.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Fenchuganj-Sylhet
+Fenchuganj_Sylhet_TL_2,Fenchuganj_132kV,Sylhet_132kV,31.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Fenchuganj-Sylhet
+Sylhet_Chhatak_TL_1,Sylhet_132kV,Chhatak_132kV,33.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sylhet-Chhatak
+Sylhet_Chhatak_TL_2,Sylhet_132kV,Chhatak_132kV,33.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sylhet-Chhatak
+Kaptai_Hathazari_TL_1,Kaptai_132kV,Hathazari_132kV,45.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kaptai-Hathazari
+Kaptai_Hathazari_TL_2,Kaptai_132kV,Hathazari_132kV,45.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kaptai-Hathazari
+Hathazari_Baroirhat_TL_1,Hathazari_132kV,Baroirhat_132kV,63.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Hathazari-Baroirhat
+Hathazari_Baroirhat_TL_2,Hathazari_132kV,Baroirhat_132kV,63.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Hathazari-Baroirhat
+Feni_Cumilla (N)_TL_1,Feni_132kV,Cumilla (N)_132kV,66.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Feni-Comilla (N)
+Feni_Cumilla (N)_TL_2,Feni_132kV,Cumilla (N)_132kV,66.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Feni-Comilla (N)
+Cumilla (N)_Daudkandi_TL_1,Cumilla (N)_132kV,Daudkandi_132kV,55.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak/AAAC,False,Comilla (N)- Daudkandi
+Cumilla (N)_Daudkandi_TL_2,Cumilla (N)_132kV,Daudkandi_132kV,55.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak/AAAC,False,Comilla (N)- Daudkandi
+Daudkandi_Sonargaon_TL_1,Daudkandi_132kV,Sonargaon_132kV,61.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak/AAAC,False,Daudkandi-Sonargaon
+Daudkandi_Sonargaon_TL_2,Daudkandi_132kV,Sonargaon_132kV,61.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak/AAAC,False,Daudkandi-Sonargaon
+Sonargaon_Haripur_230kV_TL_1,Sonargaon_132kV,Haripur_230kV,15.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak/AAAC,False,Sonargaon-Haripur
+Sonargaon_Haripur_230kV_TL_2,Sonargaon_132kV,Haripur_230kV,15.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak/AAAC,False,Sonargaon-Haripur
+Haripur_230kV_Siddhirganj_TL_1,Haripur_230kV,Siddhirganj_132kV,2.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Haripur-Siddhirganj
+Haripur_230kV_Siddhirganj_TL_2,Haripur_230kV,Siddhirganj_132kV,2.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Haripur-Siddhirganj
+Khulshi_Halishahar_TL_1,Khulshi_132kV,Halishahar_132kV,13.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Khulshi-Halishahar
+Khulshi_Halishahar_TL_2,Khulshi_132kV,Halishahar_132kV,13.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Khulshi-Halishahar
+Cumilla (N)_Chandpur_TL_1,Cumilla (N)_132kV,Chandpur_132kV,78.0,0.0852,0.4097,2.73e-06,132,1,Linnet +Grosbeak,False,Comilla (N)-Chandpur
+Cumilla (N)_Cumilla (S)_TL_1,Cumilla (N)_132kV,Cumilla (S)_132kV,16.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Comilla (N)-Comilla (S)
+Cumilla (S)_Chandpur_TL_1,Cumilla (S)_132kV,Chandpur_132kV,62.0,0.0852,0.4097,2.73e-06,132,1,ACCC Linnet,False,Comilla (S)-Chandpur
+Ashuganj_Kishoreganj_TL_1,Ashuganj_132kV,Kishoreganj_132kV,52.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Ashuganj-Kishoreganj
+Ashuganj_Kishoreganj_TL_2,Ashuganj_132kV,Kishoreganj_132kV,52.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Ashuganj-Kishoreganj
+Kishoreganj_Mymensingh_TL_1,Kishoreganj_132kV,Mymensingh_132kV,59.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kishoreganj-Mymensingh
+Kishoreganj_Mymensingh_TL_2,Kishoreganj_132kV,Mymensingh_132kV,59.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kishoreganj-Mymensingh
+Mymensingh_Jamalpur_TL_1,Mymensingh_132kV,Jamalpur_132kV,55.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Mymensingh-Jamalpur
+Mymensingh_Jamalpur_TL_2,Mymensingh_132kV,Jamalpur_132kV,55.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Mymensingh-Jamalpur
+Madunaghat_Sikalbaha_TL_1,Madunaghat_132kV,Sikalbaha_132kV,17.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Madunaghat-Sikalbaha
+Madunaghat_TKCCL_TL_1,Madunaghat_132kV,TKCCL_132kV,9.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Madunaghat-TKC
+TKCCL_Sikalbaha_TL_1,TKCCL_132kV,Sikalbaha_132kV,9.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,TKC-Sikalbaha
+Sikalbaha_Dohazari_TL_1,Sikalbaha_132kV,Dohazari_132kV,32.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Sikalbaha-Dohazari
+Sikalbaha_Dohazari_TL_2,Sikalbaha_132kV,Dohazari_132kV,32.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Sikalbaha-Dohazari
+Sikalbaha_Juldah_TL_1,Sikalbaha_132kV,Juldah_132kV,8.0,0.064,0.4,2.73e-06,132,1,AAAC,False,Sikalbaha-Juldah
+Juldah_Halishahar_TL_1,Juldah_132kV,Halishahar_132kV,8.0,0.064,0.4,2.73e-06,132,1,AAAC,False,Juldah-Halishahar
+Khulshi_Baroaulia_TL_1,Khulshi_132kV,Baroaulia_132kV,15.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Khulshi-Baroaulia
+Khulshi_AKSML_TL_1,Khulshi_132kV,AKSML_132kV,11.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Khulshi-AKSML
+AKSML_Baroaulia_TL_1,AKSML_132kV,Baroaulia_132kV,4.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,AKSML-Baroaulia
+Madunaghat_Khulshi_TL_1,Madunaghat_132kV,Khulshi_132kV,13.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Madunaghat-Khulshi
+Madunaghat_Khulshi_TL_1,Madunaghat_132kV,Khulshi_132kV,13.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Madunaghat-Khulshi
+Kaptai_Chandraghona_TL_1,Kaptai_132kV,Chandraghona_132kV,11.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kaptai-Chandraghona
+Kaptai_Chandraghona_TL_2,Kaptai_132kV,Chandraghona_132kV,11.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kaptai-Chandraghona
+Chandraghona_Madunaghat_TL_1,Chandraghona_132kV,Madunaghat_132kV,27.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Chandraghona-Madunaghat
+Chandraghona_Madunaghat_TL_2,Chandraghona_132kV,Madunaghat_132kV,27.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Chandraghona-Madunaghat
+Madunaghat_Hathazari_TL_1,Madunaghat_132kV,Hathazari_132kV,10.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Madunaghat-Hathazari
+Madunaghat_Hathazari_TL_2,Madunaghat_132kV,Hathazari_132kV,10.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Madunaghat-Hathazari
+Hathazari_Baroaulia_TL_1,Hathazari_132kV,Baroaulia_132kV,11.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Hathazari-Baroaulia
+Hathazari_Baroaulia_TL_2,Hathazari_132kV,Baroaulia_132kV,11.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Hathazari-Baroaulia
+Dohazari_Cox's Bazar_TL_1,Dohazari_132kV,Cox's Bazar_132kV,87.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Dohazari-Cox's Bazar
+Dohazari_Cox's Bazar_TL_2,Dohazari_132kV,Cox's Bazar_132kV,87.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Dohazari-Cox's Bazar
+Feni_Chowmuhani_TL_1,Feni_132kV,Chowmuhani_132kV,32.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Feni-Chowmuhani
+Feni_Chowmuhani_TL_2,Feni_132kV,Chowmuhani_132kV,32.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Feni-Chowmuhani
+Baroaulia_Kabir Steel_TL_1,Baroaulia_132kV,Kabir Steel_132kV,4.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Baroaulia- Kabir Steel
+Mymensingh_Netrokona_TL_1,Mymensingh_132kV,Netrokona_132kV,34.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Mymensingh-Netrokona
+Mymensingh_Netrokona_TL_2,Mymensingh_132kV,Netrokona_132kV,34.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Mymensingh-Netrokona
+Goalpara_Khulna (C)_TL_1,Goalpara_132kV,Khulna (C)_132kV,1.5,0.064,0.4,2.73e-06,132,2,AAAC,False,Goalpara-Khulna (C)
+Goalpara_Khulna (C)_TL_2,Goalpara_132kV,Khulna (C)_132kV,1.5,0.064,0.4,2.73e-06,132,2,AAAC,False,Goalpara-Khulna (C)
+Khulna (C)_Noapara_TL_1,Khulna (C)_132kV,Noapara_132kV,23.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Khulna (C)-Noapara
+Khulna (C)_Noapara_TL_2,Khulna (C)_132kV,Noapara_132kV,23.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Khulna (C)-Noapara
+Noapara_Jashore_TL_1,Noapara_132kV,Jashore_132kV,28.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Noapara-Jessore
+Noapara_Jashore_TL_2,Noapara_132kV,Jashore_132kV,28.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Noapara-Jessore
+Jashore_Jhenaidah_TL_1,Jashore_132kV,Jhenaidah_132kV,47.5,0.064,0.4,2.73e-06,132,2,AAAC,False,Jessore-Jhenaidah
+Jashore_Jhenaidah_TL_2,Jashore_132kV,Jhenaidah_132kV,47.5,0.064,0.4,2.73e-06,132,2,AAAC,False,Jessore-Jhenaidah
+Jhenaidah_Kushtia_TL_1,Jhenaidah_132kV,Kushtia_132kV,43.0,0.052,0.38,2.73e-06,132,2,ACCC AAAC,False,Jhenaidah-Kustia
+Jhenaidah_Kushtia_TL_2,Jhenaidah_132kV,Kushtia_132kV,43.0,0.052,0.38,2.73e-06,132,2,ACCC AAAC,False,Jhenaidah-Kustia
+Kushtia_Bheramara_TL_1,Kushtia_132kV,Bheramara_132kV,23.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Kustia-Bheramana
+Kushtia_Bheramara_TL_2,Kushtia_132kV,Bheramara_132kV,23.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Kustia-Bheramana
+Bheramara_Ishwardi_TL_1,Bheramara_132kV,Ishwardi_132kV,10.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Bheramara-Ishwardi
+Bheramara_Ishwardi_TL_2,Bheramara_132kV,Ishwardi_132kV,10.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Bheramara-Ishwardi
+Ishwardi_Natore_TL_1,Ishwardi_132kV,Natore_132kV,42.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Ishwardi-Natore
+Ishwardi_Natore_TL_2,Ishwardi_132kV,Natore_132kV,42.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Ishwardi-Natore
+Natore_Bogura_TL_1,Natore_132kV,Bogura_132kV,61.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Natore-Bogra
+Natore_Bogura_TL_2,Natore_132kV,Bogura_132kV,61.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Natore-Bogra
+Bogura_Palashbari_TL_1,Bogura_132kV,Palashbari_132kV,50.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Bogra-Palashbari
+Bogura_Palashbari_TL_2,Bogura_132kV,Palashbari_132kV,50.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Bogra-Palashbari
+Palashbari_Rangpur_TL_1,Palashbari_132kV,Rangpur_132kV,52.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Palashbari-Rangpur
+Palashbari_Rangpur_TL_2,Palashbari_132kV,Rangpur_132kV,52.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Palashbari-Rangpur
+Rangpur_Saidpur_TL_1,Rangpur_132kV,Saidpur_132kV,41.5,0.064,0.4,2.73e-06,132,2,AAAC,False,Rangpur-Saidpur
+Rangpur_Saidpur_TL_2,Rangpur_132kV,Saidpur_132kV,41.5,0.064,0.4,2.73e-06,132,2,AAAC,False,Rangpur-Saidpur
+Saidpur_Purbasadipur_TL_1,Saidpur_132kV,Purbasadipur_132kV,24.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Saidpur-Purbasadipur
+Saidpur_Purbasadipur_TL_2,Saidpur_132kV,Purbasadipur_132kV,24.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Saidpur-Purbasadipur
+Purbasadipur_Thakurgaon_TL_1,Purbasadipur_132kV,Thakurgaon_132kV,45.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Purbasadipur-Thakurgaon
+Purbasadipur_Thakurgaon_TL_2,Purbasadipur_132kV,Thakurgaon_132kV,45.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Purbasadipur-Thakurgaon
+Barishal(N)_Bhandaria_TL_1,Barishal(N)_132kV,Bhandaria_132kV,49.0,0.12,0.42,2.6e-06,132,1,HAWK,False,Barisal-Bhandaria
+Bhandaria_Bagerhat_TL_1,Bhandaria_132kV,Bagerhat_132kV,40.0,0.12,0.42,2.6e-06,132,1,HAWK,False,Bhandaria-Bagerhat
+Bagerhat_Mongla_TL_1,Bagerhat_132kV,Mongla_132kV,28.0,0.12,0.42,2.6e-06,132,1,HAWK,False,Bagerhat-Mongla
+Barishal(N)_Patuakhali_TL_1,Barishal(N)_132kV,Patuakhali_132kV,38.0,0.12,0.42,2.6e-06,132,1,HAWK,False,Barisal-Patuakhali
+Bheramara_Faridpur_TL_1,Bheramara_132kV,Faridpur_132kV,105.0,0.09,0.4,2.6e-06,132,2,ACCC HAWK,False,Bheramara-Faridpur
+Bheramara_Faridpur_TL_2,Bheramara_132kV,Faridpur_132kV,105.0,0.09,0.4,2.6e-06,132,2,ACCC HAWK,False,Bheramara-Faridpur
+Faridpur_Madaripur_TL_1,Faridpur_132kV,Madaripur_132kV,65.5,0.12,0.42,2.6e-06,132,2,HAWK,False,Faridpur-Madaripur
+Faridpur_Madaripur_TL_2,Faridpur_132kV,Madaripur_132kV,65.5,0.12,0.42,2.6e-06,132,2,HAWK,False,Faridpur-Madaripur
+Madaripur_Barishal(N)_TL_1,Madaripur_132kV,Barishal(N)_132kV,48.5,0.12,0.42,2.6e-06,132,2,HAWK,False,Madaripur-Barisal(N)
+Madaripur_Barishal(N)_TL_2,Madaripur_132kV,Barishal(N)_132kV,48.5,0.12,0.42,2.6e-06,132,2,HAWK,False,Madaripur-Barisal(N)
+Barishal(N)_Barishal_TL_1,Barishal(N)_132kV,Barishal_132kV,10.0,0.09,0.4,2.6e-06,132,2,ACCC HAWK,False,Barishal(N)-Barishal
+Barishal(N)_Barishal_TL_2,Barishal(N)_132kV,Barishal_132kV,10.0,0.09,0.4,2.6e-06,132,2,ACCC HAWK,False,Barishal(N)-Barishal
+Rajshahi_Natore_TL_1,Rajshahi_132kV,Natore_132kV,37.0,0.12,0.42,2.6e-06,132,1,HAWK,False,Rajshahi-Natore
+Ishwardi_Baghabari_TL_1,Ishwardi_132kV,Baghabari_132kV,63.0,0.12,0.42,2.6e-06,132,1,HAWK,False,Ishwardi-Baghabari
+Baghabari_Shahjadpur_TL_1,Baghabari_132kV,Shahjadpur_132kV,5.0,0.12,0.42,2.6e-06,132,1,HAWK,False,Baghabari-Shahjadpur
+Ishwardi_Pabna_TL_1,Ishwardi_132kV,Pabna_132kV,18.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Ishwardi-Pabna
+Pabna_Shahjadpur_TL_1,Pabna_132kV,Shahjadpur_132kV,41.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Pabna-Shahjadpur
+Bogura_Sirajganj_TL_1,Bogura_132kV,Sirajganj_132kV,66.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Bogra-Sirajganj
+Bogura_Sirajganj_TL_2,Bogura_132kV,Sirajganj_132kV,66.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Bogra-Sirajganj
+Sirajganj_Shahjadpur_TL_1,Sirajganj_132kV,Shahjadpur_132kV,34.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Sirajganj-Shahjadpur
+Sirajganj_Baghabari_TL_1,Sirajganj_132kV,Baghabari_132kV,40.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Sirajganj-Baghabari
+Rajshahi_Chapai Nawabganj_TL_1,Rajshahi_132kV,Chapai Nawabganj_132kV,48.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rajshahi-Chapai Nawabganj
+Rajshahi_Chapai Nawabganj_TL_2,Rajshahi_132kV,Chapai Nawabganj_132kV,48.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rajshahi-Chapai Nawabganj
+Rangpur_Lalmonirhat_TL_1,Rangpur_132kV,Lalmonirhat_132kV,38.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Rangpur-Lalmonirhat
+Bogura_Naogaon_TL_1,Bogura_132kV,Naogaon_132kV,44.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Bogra-Naogaon
+Bogura_Naogaon_TL_2,Bogura_132kV,Naogaon_132kV,44.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Bogra-Naogaon
+Kabirpur_Tangail_TL_1,Kabirpur_132kV,Tangail_132kV,51.0,0.0852,0.4097,2.73e-06,132,2,ACCC/ACSRGrosbeak,False,Kabirpur-Tangail
+Kabirpur_Tangail_TL_2,Kabirpur_132kV,Tangail_132kV,51.0,0.0852,0.4097,2.73e-06,132,2,ACCC/ACSRGrosbeak,False,Kabirpur-Tangail
+Tongi_Mirpur_TL_1,Tongi_132kV,Mirpur_132kV,17.0,0.065,0.39,2.73e-06,132,1,ACCC Grosbeak,False,Tongi-Mirpur
+Tongi_Uttara_TL_1,Tongi_132kV,Uttara_132kV,15.0,0.065,0.39,2.73e-06,132,1,ACCC Grosbeak,False,Tongi-Uttara
+Uttara_Mirpur_TL_1,Uttara_132kV,Mirpur_132kV,9.0,0.065,0.39,2.73e-06,132,1,ACCC Grosbeak,False,Uttara-Mirpur
+Mirpur_Aminbazar_230kV_TL_1,Mirpur_132kV,Aminbazar_230kV,7.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Mirpur-Aminbazar
+Mirpur_Aminbazar_230kV_TL_2,Mirpur_132kV,Aminbazar_230kV,7.0,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Mirpur-Aminbazar
+Aminbazar_230kV_Kallayanpur_TL_1,Aminbazar_230kV,Kallayanpur_132kV,4.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Aminbazar-Kallayanpur
+Aminbazar_230kV_Kallayanpur_TL_2,Aminbazar_230kV,Kallayanpur_132kV,4.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Aminbazar-Kallayanpur
+Hasnabad_Lalbagh_TL_1,Hasnabad_132kV,Lalbagh_132kV,30.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Hasnabad-Lalbagh
+Kamrangirchar_Lalbagh_TL_1,Kamrangirchar_132kV,Lalbagh_132kV,3.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Kamrangirchar-Lalbagh
+Kallayanpur_Kamrangirchar_TL_1,Kallayanpur_132kV,Kamrangirchar_132kV,11.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Kallayanpur-Kamrangirchar
+Kallayanpur_Keraniganj_TL_1,Kallayanpur_132kV,Keraniganj_132kV,20.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Kallayanpur-Keraniganj
+Hasnabad_Keraniganj_TL_1,Hasnabad_132kV,Keraniganj_132kV,14.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Hasnabad-Keraniganj
+Tongi_New Tongi_TL_1,Tongi_132kV,New Tongi_132kV,0.5,0.015,0.12,2e-05,132,2,XLPE,False,Tongi-New Tongi
+Tongi_New Tongi_TL_2,Tongi_132kV,New Tongi_132kV,0.5,0.015,0.12,2e-05,132,2,XLPE,False,Tongi-New Tongi
+Hasnabad_Sitalakhya_TL_1,Hasnabad_132kV,Sitalakhya_132kV,13.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Hasnabad-Sitalakhya
+Madanganj_Sitalakhya_TL_1,Madanganj_132kV,Sitalakhya_132kV,4.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Madanganj-Sitalakhya
+Hasnabad_Shyampur_TL_1,Hasnabad_132kV,Shyampur_132kV,21.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Hasnabad-Shyampur
+Shyampur_Haripur_230kV_TL_1,Shyampur_132kV,Haripur_230kV,30.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Shyampur-Haripur
+Madanganj_Haripur_230kV_TL_1,Madanganj_132kV,Haripur_230kV,12.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Madanganj-Haripur
+Siddhirganj_Ullon_TL_1,Siddhirganj_132kV,Ullon_132kV,16.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Siddhirganj-Ullon
+Siddhirganj_Ullon_TL_2,Siddhirganj_132kV,Ullon_132kV,16.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Siddhirganj-Ullon
+Haripur_230kV_Matuail_TL_1,Haripur_230kV,Matuail_132kV,6.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Haripur-Matuail
+Maniknagar_Matuail_TL_1,Maniknagar_132kV,Matuail_132kV,16.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Maniknagar-Matuail
+Siddhirganj_Maniknagar_TL_1,Siddhirganj_132kV,Maniknagar_132kV,10.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Siddhirganj-Maniknagar
+Maniknagar_Narinda_TL_1,Maniknagar_132kV,Narinda_132kV,5.0,0.075,0.13,2e-05,132,2,Cu.Cable,False,Maniknagar-Narinda
+Maniknagar_Narinda_TL_2,Maniknagar_132kV,Narinda_132kV,5.0,0.075,0.13,2e-05,132,2,Cu.Cable,False,Maniknagar-Narinda
+Ullon_Dhanmondi_TL_1,Ullon_132kV,Dhanmondi_132kV,5.5,0.075,0.13,2e-05,132,2,Cu.Cable,False,Ullon-Dhanmondi
+Ullon_Dhanmondi_TL_2,Ullon_132kV,Dhanmondi_132kV,5.5,0.075,0.13,2e-05,132,2,Cu.Cable,False,Ullon-Dhanmondi
+Ullon_Dhanmondi_TL_1,Ullon_132kV,Dhanmondi_132kV,5.5,0.015,0.12,2e-05,132,2,XLPE,False,Ullon-Dhanmondi
+Ullon_Dhanmondi_TL_2,Ullon_132kV,Dhanmondi_132kV,5.5,0.015,0.12,2e-05,132,2,XLPE,False,Ullon-Dhanmondi
+Tongi_Kabirpur_TL_1,Tongi_132kV,Kabirpur_132kV,22.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Tongi-Kabirpur
+Tongi_Kabirpur_TL_2,Tongi_132kV,Kabirpur_132kV,22.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Tongi-Kabirpur
+Kabirpur_Manikganj_TL_1,Kabirpur_132kV,Manikganj_132kV,32.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kabirpur-Manikganj
+Kabirpur_Manikganj_TL_2,Kabirpur_132kV,Manikganj_132kV,32.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kabirpur-Manikganj
+Ullon_Rampura_230kV_TL_1,Ullon_132kV,Rampura_230kV,4.0,0.015,0.12,2e-05,132,2,XLPE,False,Ullon-Rampura
+Ullon_Rampura_230kV_TL_2,Ullon_132kV,Rampura_230kV,4.0,0.015,0.12,2e-05,132,2,XLPE,False,Ullon-Rampura
+Rampura_230kV_Bashundhara_TL_1,Rampura_230kV,Bashundhara_132kV,8.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rampura-Bashundhara
+Rampura_230kV_Bashundhara_TL_2,Rampura_230kV,Bashundhara_132kV,8.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rampura-Bashundhara
+Bashundhara_Tongi_TL_1,Bashundhara_132kV,Tongi_132kV,11.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Bashundhara-Tongi
+Bashundhara_Tongi_TL_2,Bashundhara_132kV,Tongi_132kV,11.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Bashundhara-Tongi
+Rampura_230kV_Moghbazar_TL_1,Rampura_230kV,Moghbazar_132kV,4.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rampura-Moghbazar
+Rampura_230kV_Moghbazar_TL_2,Rampura_230kV,Moghbazar_132kV,4.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rampura-Moghbazar
+Ghorashal_Joydebpur_TL_1,Ghorashal_132kV,Joydebpur_132kV,28.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Ghorasal-Joydevpur
+Ghorashal_Joydebpur_TL_2,Ghorashal_132kV,Joydebpur_132kV,28.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Ghorasal-Joydevpur
+Baghabari_Shahjadpur_TL_1,Baghabari_132kV,Shahjadpur_132kV,6.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Baghabari-Shahjadpur
+Chandpur_Chowmuhani_TL_1,Chandpur_132kV,Chowmuhani_132kV,68.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Chandpur-Chowmuhani
+Chandpur_Chowmuhani_TL_2,Chandpur_132kV,Chowmuhani_132kV,68.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Chandpur-Chowmuhani
+Barapukuria_Rangpur_TL_1,Barapukuria_132kV,Rangpur_132kV,42.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Barapukuria-Rangpur
+Barapukuria_Rangpur_TL_2,Barapukuria_132kV,Rangpur_132kV,42.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Barapukuria-Rangpur
+Barapukuria_Saidpur_TL_1,Barapukuria_132kV,Saidpur_132kV,36.0,0.052,0.38,2.73e-06,132,2,ACCC AAAC,False,Barapukuria-Saidpur
+Barapukuria_Saidpur_TL_2,Barapukuria_132kV,Saidpur_132kV,36.0,0.052,0.38,2.73e-06,132,2,ACCC AAAC,False,Barapukuria-Saidpur
+Madaripur_Gopalganj_TL_1,Madaripur_132kV,Gopalganj_132kV,45.0,0.064,0.4,2.73e-06,132,1,AAAC,False,Madaripur-Gopalganj
+Khulna (C)_Khulna (S)_230kV_TL_1,Khulna (C)_132kV,Khulna (S)_230kV,9.0,0.032,0.33,3.3e-06,132,2,Twin AAAC,False,Khulna (C)-Khulna(S)
+Khulna (C)_Khulna (S)_230kV_TL_2,Khulna (C)_132kV,Khulna (S)_230kV,9.0,0.032,0.33,3.3e-06,132,2,Twin AAAC,False,Khulna (C)-Khulna(S)
+Khulna (S)_230kV_Satkhira_TL_1,Khulna (S)_230kV,Satkhira_132kV,47.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Khulna(S)-Satkhira
+Khulna (S)_230kV_Satkhira_TL_2,Khulna (S)_230kV,Satkhira_132kV,47.0,0.064,0.4,2.73e-06,132,2,AAAC,False,Khulna(S)-Satkhira
+Rajshahi_Natore_TL_1,Rajshahi_132kV,Natore_132kV,40.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Rajshahi-Natore
+Rampura_230kV_Gulshan_TL_1,Rampura_230kV,Gulshan_132kV,3.5,0.015,0.12,2e-05,132,2,XLPE,False,Rampura-Gulshan
+Rampura_230kV_Gulshan_TL_2,Rampura_230kV,Gulshan_132kV,3.5,0.015,0.12,2e-05,132,2,XLPE,False,Rampura-Gulshan
+Sikalbaha_Bakulia_TL_1,Sikalbaha_132kV,Bakulia_132kV,4.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sikalbaha-Bakulia
+Sikalbaha_Bakulia_TL_2,Sikalbaha_132kV,Bakulia_132kV,4.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sikalbaha-Bakulia
+Juldah_Shahmirpur_TL_1,Juldah_132kV,Shahmirpur_132kV,6.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Juldah-Shahmirpur
+Juldah_Shahmirpur_TL_2,Juldah_132kV,Shahmirpur_132kV,6.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Juldah-Shahmirpur
+Khulshi_Bakulia_TL_1,Khulshi_132kV,Bakulia_132kV,15.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Khulshi-Bakulia
+Khulshi_Bakulia_TL_2,Khulshi_132kV,Bakulia_132kV,15.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Khulshi-Bakulia
+Haripur_230kV_Maniknagar_TL_1,Haripur_230kV,Maniknagar_132kV,13.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Haripur-Maniknagar
+Joydebpur_Kodda_TL_1,Joydebpur_132kV,Kodda_132kV,8.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Joydevpur-Kodda PP
+Joydebpur_Kodda_TL_2,Joydebpur_132kV,Kodda_132kV,8.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Joydevpur-Kodda PP
+Kodda_Kabirpur_TL_1,Kodda_132kV,Kabirpur_132kV,10.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kodda PP-Kabirpur
+Kodda_Kabirpur_TL_2,Kodda_132kV,Kabirpur_132kV,10.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kodda PP-Kabirpur
+Sikalbaha_Shahmirpur_TL_1,Sikalbaha_132kV,Shahmirpur_132kV,9.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sikalbaha-Shahmirpur
+Sikalbaha_Shahmirpur_TL_2,Sikalbaha_132kV,Shahmirpur_132kV,9.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sikalbaha-Shahmirpur
+Khulshi_Halishahar_TL_1,Khulshi_132kV,Halishahar_132kV,13.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Khulshi-Halishahar
+Bogura_Bogura_TL_1,Bogura_132kV,Bogura_132kV,1.5,0.032,0.33,3.3e-06,132,2,Twin AAAC,False,BograOld-BograNew
+Bogura_Bogura_TL_2,Bogura_132kV,Bogura_132kV,1.5,0.032,0.33,3.3e-06,132,2,Twin AAAC,False,BograOld-BograNew
+Ashuganj_Shahjibazar_TL_1,Ashuganj_132kV,Shahjibazar_132kV,53.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Ashuganj-Shahjibazar
+Khulna (S)_230kV_Gallamari_TL_1,Khulna (S)_230kV,Gallamari_132kV,4.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Khulna (S) -Gallamari
+Khulna (S)_230kV_Gallamari_TL_2,Khulna (S)_230kV,Gallamari_132kV,4.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Khulna (S) -Gallamari
+Naogaon_Niamatpur_TL_1,Naogaon_132kV,Niamatpur_132kV,46.0,0.064,0.4,2.73e-06,132,1,AAAC,False,Naogaon-Niyamatpur
+Aminbazar_230kV_Savar_TL_1,Aminbazar_230kV,Savar_132kV,16.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Aminbazar-Savar
+Aminbazar_230kV_Savar_TL_2,Aminbazar_230kV,Savar_132kV,16.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Aminbazar-Savar
+Jhenaidah_Magura_TL_1,Jhenaidah_132kV,Magura_132kV,26.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Jhenaidah-Magura
+Jhenaidah_Magura_TL_2,Jhenaidah_132kV,Magura_132kV,26.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Jhenaidah-Magura
+Jhenaidah_Chuadanga_TL_1,Jhenaidah_132kV,Chuadanga_132kV,39.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Jhenaidah-Chuadanga
+Naogaon_Joypurhat_TL_1,Naogaon_132kV,Joypurhat_132kV,46.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Naogaon-Joypurhat
+Thakurgaon_Panchagarh_TL_1,Thakurgaon_132kV,Panchagarh_132kV,45.0,0.064,0.4,2.73e-06,132,1,AAAC,False,Thakurgaon-Panchagarh
+Sonargaon_Meghnaghat_400kV_TL_1,Sonargaon_132kV,Meghnaghat_400kV,5.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sonargaon S/S to Megnaghat Rental PP
+Sonargaon_Meghnaghat_400kV_TL_2,Sonargaon_132kV,Meghnaghat_400kV,5.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sonargaon S/S to Megnaghat Rental PP
+Siddhirganj_Siddhirganj_TL_1,Siddhirganj_132kV,Siddhirganj_132kV,2.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Shiddhirganj to Siddhirganj Dutch Bangla PP
+Goalpara_Khulna (C)_TL_1,Goalpara_132kV,Khulna (C)_132kV,2.0,0.015,0.12,2e-05,132,1,XLPE,False,Goalpara-Khulna ©
+Noapara_Noapara_TL_1,Noapara_132kV,Noapara_132kV,2.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Noapara PP to Noapara Ss
+Daudkandi_Daudkandi_TL_1,Daudkandi_132kV,Daudkandi_132kV,1.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Daudkandi PP to Daudkandi ss
+Gopalganj_Gopalganj_TL_1,Gopalganj_132kV,Gopalganj_132kV,1.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Gopalganj PP to Gopalganj ss
+Siddhirganj_Siddhirganj_TL_1,Siddhirganj_132kV,Siddhirganj_132kV,3.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Shiddhirganj desh energy PP to Siddhirganj ss
+Faridpur_Bheramara_TL_1,Faridpur_132kV,Bheramara_132kV,1.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Faridpur PP to Faridpur -Bheramara
+Baghabari_Baghabari_TL_1,Baghabari_132kV,Baghabari_132kV,5.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Bera PP to Baghabari -Ishwardi line
+Amnura_Rajshahi_TL_1,Amnura_132kV,Rajshahi_132kV,13.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Amnura PP to Rajshahi-Chapai
+Madanganj_Munshiganj_TL_1,Madanganj_132kV,Munshiganj_132kV,4.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Madanganj-Munsiganj
+Madanganj_Munshiganj_TL_2,Madanganj_132kV,Munshiganj_132kV,4.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Madanganj-Munsiganj
+Agargaon_Cantonment_TL_1,Agargaon_132kV,Cantonment_132kV,7.0,0.015,0.12,2e-05,132,2,XLPE,False,Old Airport-Cantonment
+Agargaon_Cantonment_TL_2,Agargaon_132kV,Cantonment_132kV,7.0,0.015,0.12,2e-05,132,2,XLPE,False,Old Airport-Cantonment
+Fenchuganj_Kulaura_TL_1,Fenchuganj_132kV,Kulaura_132kV,25.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Fenchuganj- Kulaura
+Fenchuganj_Kulaura_TL_2,Fenchuganj_132kV,Kulaura_132kV,25.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Fenchuganj- Kulaura
+Jamalpur_Sherpur_TL_1,Jamalpur_132kV,Sherpur_132kV,20.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Jamalpur- Sherpur
+Jamalpur_Sherpur_TL_2,Jamalpur_132kV,Sherpur_132kV,20.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Jamalpur- Sherpur
+Agargaon_Satmasjid_TL_1,Agargaon_132kV,Satmasjid_132kV,8.5,0.015,0.12,2e-05,132,2,XLPE,False,Old Airport-Sajmasjid
+Agargaon_Satmasjid_TL_2,Agargaon_132kV,Satmasjid_132kV,8.5,0.015,0.12,2e-05,132,2,XLPE,False,Old Airport-Sajmasjid
+Rampura_230kV_Madartek_TL_1,Rampura_230kV,Madartek_132kV,4.5,0.015,0.12,2e-05,132,2,XLPE,False,Rampura-Madertek
+Rampura_230kV_Madartek_TL_2,Rampura_230kV,Madartek_132kV,4.5,0.015,0.12,2e-05,132,2,XLPE,False,Rampura-Madertek
+Cumilla (N)_Cumilla (S)_TL_1,Cumilla (N)_132kV,Cumilla (S)_132kV,19.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Comilla(N)- Comilla(S)
+Cumilla (N)_Cumilla (S)_TL_2,Cumilla (N)_132kV,Cumilla (S)_132kV,19.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Comilla(N)- Comilla(S)
+Goalpara_Bagerhat_TL_1,Goalpara_132kV,Bagerhat_132kV,45.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Goalpara-Bagerhat
+Goalpara_Bagerhat_TL_2,Goalpara_132kV,Bagerhat_132kV,45.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Goalpara-Bagerhat
+LILO_Kaliakoir_230kV_Kabirpur_TL_1,Kaliakoir_230kV,Kabirpur_132kV,4.25,0.0852,0.4097,2.73e-06,132,4,ACCC/ACSRGrosbeak,True,LILO of Kabirpur-Tangail at Kaliakoir
+LILO_Kaliakoir_230kV_Kabirpur_TL_2,Kaliakoir_230kV,Kabirpur_132kV,4.25,0.0852,0.4097,2.73e-06,132,4,ACCC/ACSRGrosbeak,True,LILO of Kabirpur-Tangail at Kaliakoir
+LILO_Kaliakoir_230kV_Kabirpur_TL_3,Kaliakoir_230kV,Kabirpur_132kV,4.25,0.0852,0.4097,2.73e-06,132,4,ACCC/ACSRGrosbeak,True,LILO of Kabirpur-Tangail at Kaliakoir
+LILO_Kaliakoir_230kV_Kabirpur_TL_4,Kaliakoir_230kV,Kabirpur_132kV,4.25,0.0852,0.4097,2.73e-06,132,4,ACCC/ACSRGrosbeak,True,LILO of Kabirpur-Tangail at Kaliakoir
+Tangail_Tangail_TL_1,Tangail_132kV,Tangail_132kV,93.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Tangail-RPCL
+Tangail_Tangail_TL_2,Tangail_132kV,Tangail_132kV,93.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Tangail-RPCL
+Amnura_Chapai Nawabganj_TL_1,Amnura_132kV,Chapai Nawabganj_132kV,13.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Amnura-Chapai Nawabganj
+Kaliakoir_230kV_Dhamrai_TL_1,Kaliakoir_230kV,Dhamrai_132kV,22.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kaliakoir-Dhamrai
+Kaliakoir_230kV_Dhamrai_TL_2,Kaliakoir_230kV,Dhamrai_132kV,22.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kaliakoir-Dhamrai
+Rangamati_Khagrachari_TL_1,Rangamati_132kV,Khagrachari_132kV,52.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rangamati-Khagrachari
+Rangamati_Khagrachari_TL_2,Rangamati_132kV,Khagrachari_132kV,52.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rangamati-Khagrachari
+Chandraghona_Rangamati_TL_1,Chandraghona_132kV,Rangamati_132kV,27.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Chandraghona-Rangamati
+Chandraghona_Rangamati_TL_2,Chandraghona_132kV,Rangamati_132kV,27.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Chandraghona-Rangamati
+Chhatak_Sunamganj_TL_1,Chhatak_132kV,Sunamganj_132kV,32.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Chhatak-Sunamganj
+Chhatak_Sunamganj_TL_2,Chhatak_132kV,Sunamganj_132kV,32.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Chhatak-Sunamganj
+Beanibazar_Sylhet_TL_1,Beanibazar_132kV,Sylhet_132kV,30.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Beanibazar-Sylhet T-Connection
+Beanibazar_Sylhet_TL_2,Beanibazar_132kV,Sylhet_132kV,30.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Beanibazar-Sylhet T-Connection
+LILO_Uttara 3P_Tongi_TL_1,Uttara 3P_132kV,Tongi_132kV,2.0,0.015,0.12,2e-05,132,1,XLPE,True,LILO of Tongi-Mirpur Single circuit at Uttara 3P
+Cox's Bazar_Matarbari_TL_1,Cox's Bazar_132kV,Matarbari_132kV,18.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,T-connection from Dohazari-Cox's Bazar toMatarbari
+Feni_Baroirhat_TL_1,Feni_132kV,Baroirhat_132kV,28.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Feni- Baroirhat
+Feni_Baroirhat_TL_2,Feni_132kV,Baroirhat_132kV,28.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Feni- Baroirhat
+Brahmanbaria_Narsingdi_TL_1,Brahmanbaria_132kV,Narsingdi_132kV,55.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Brahmanbaria-Narsingdi
+Brahmanbaria_Narsingdi_TL_2,Brahmanbaria_132kV,Narsingdi_132kV,55.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Brahmanbaria-Narsingdi
+Saidpur_Jaldhaka_TL_1,Saidpur_132kV,Jaldhaka_132kV,30.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Saidpur-Jaldhaka
+Saidpur_Jaldhaka_TL_2,Saidpur_132kV,Jaldhaka_132kV,30.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Saidpur-Jaldhaka
+Rooppur_Ishwardi_TL_1,Rooppur_132kV,Ishwardi_132kV,7.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,RNPP-Ishurdi
+Rooppur_Ishwardi_TL_2,Rooppur_132kV,Ishwardi_132kV,7.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,RNPP-Ishurdi
+Bogura_Bogura_TL_1,Bogura_132kV,Bogura_132kV,8.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Confedence PP - Bogura 230kV
+Bogura_Bogura_TL_2,Bogura_132kV,Bogura_132kV,8.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Confedence PP - Bogura 230kV
+LILO_Sherpur_Jamalpur_TL_1,Sherpur_132kV,Jamalpur_132kV,3.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Jamalpur-Sherpur at United PP
+LILO_Sherpur_Jamalpur_TL_2,Sherpur_132kV,Jamalpur_132kV,3.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Jamalpur-Sherpur at United PP
+LILO_Sherpur_Jamalpur_TL_3,Sherpur_132kV,Jamalpur_132kV,3.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Jamalpur-Sherpur at United PP
+LILO_Sherpur_Jamalpur_TL_4,Sherpur_132kV,Jamalpur_132kV,3.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Jamalpur-Sherpur at United PP
+Goalpara_Bagerhat_TL_1,Goalpara_132kV,Bagerhat_132kV,6.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,LILO of Goalpara-Bagerhat single circuit atLabanchora PP
+Goalpara_Bagerhat_TL_2,Goalpara_132kV,Bagerhat_132kV,6.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,LILO of Goalpara-Bagerhat single circuit atLabanchora PP
+Mymensingh_Bhaluka_TL_1,Mymensingh_132kV,Bhaluka_132kV,43.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Mymensingh-Bhaluka
+Mymensingh_Bhaluka_TL_2,Mymensingh_132kV,Bhaluka_132kV,43.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Mymensingh-Bhaluka
+LILO_Mahasthangarh_Bogura_TL_1,Mahasthangarh_132kV,Bogura_132kV,0.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,True,LILO of Bogura-Palashbari at Mahasthangarh
+LILO_Mahasthangarh_Bogura_TL_2,Mahasthangarh_132kV,Bogura_132kV,0.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,True,LILO of Bogura-Palashbari at Mahasthangarh
+Gopalganj_Gopalganj_TL_1,Gopalganj_132kV,Gopalganj_132kV,15.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Modhumati PP - Gopalganj
+Jashore_Benapole_TL_1,Jashore_132kV,Benapole_132kV,30.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Jashore-Benapole
+Jashore_Benapole_TL_2,Jashore_132kV,Benapole_132kV,30.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Jashore-Benapole
+Madaripur_Shariatpur_TL_1,Madaripur_132kV,Shariatpur_132kV,22.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Madaripur-Shariatpur
+Madaripur_Shariatpur_TL_2,Madaripur_132kV,Shariatpur_132kV,22.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Madaripur-Shariatpur
+LILO_Shyampur_Shyampur_TL_1,Shyampur_132kV,Shyampur_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Shyampur-Haripur at Shyampur
+LILO_Shyampur_Shyampur_TL_2,Shyampur_132kV,Shyampur_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Shyampur-Haripur at Shyampur
+LILO_Shyampur_Shyampur_TL_3,Shyampur_132kV,Shyampur_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Shyampur-Haripur at Shyampur
+LILO_Shyampur_Shyampur_TL_4,Shyampur_132kV,Shyampur_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Shyampur-Haripur at Shyampur
+Rangpur_Kurigram_TL_1,Rangpur_132kV,Kurigram_132kV,41.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Rangpur-Kurigram
+Magura_Narail_TL_1,Magura_132kV,Narail_132kV,39.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Magura-Narail
+Magura_Narail_TL_2,Magura_132kV,Narail_132kV,39.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Magura-Narail
+LILO_Sherpur(Bogura)_Bogura_TL_1,Sherpur(Bogura)_132kV,Bogura_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Bogura-Sirajganj at Sherpur (Bogura)
+LILO_Sherpur(Bogura)_Bogura_TL_2,Sherpur(Bogura)_132kV,Bogura_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Bogura-Sirajganj at Sherpur (Bogura)
+LILO_Sherpur(Bogura)_Bogura_TL_3,Sherpur(Bogura)_132kV,Bogura_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Bogura-Sirajganj at Sherpur (Bogura)
+LILO_Sherpur(Bogura)_Bogura_TL_4,Sherpur(Bogura)_132kV,Bogura_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Bogura-Sirajganj at Sherpur (Bogura)
+Rajshahi_Amnura_TL_1,Rajshahi_132kV,Amnura_132kV,0.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,LILO of Rajshahi-Chapai-Nawabganj-Amnura atRajshahi)N)
+Rajshahi_Amnura_TL_2,Rajshahi_132kV,Amnura_132kV,0.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,LILO of Rajshahi-Chapai-Nawabganj-Amnura atRajshahi)N)
+Rajshahi_Amnura_TL_3,Rajshahi_132kV,Amnura_132kV,0.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,LILO of Rajshahi-Chapai-Nawabganj-Amnura atRajshahi)N)
+Rajshahi_Amnura_TL_4,Rajshahi_132kV,Amnura_132kV,0.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,LILO of Rajshahi-Chapai-Nawabganj-Amnura atRajshahi)N)
+Rampura_230kV_Aftabnagar_TL_1,Rampura_230kV,Aftabnagar_132kV,3.5,0.015,0.12,2e-05,132,2,XLPE,False,Rampura-Aftabnagar
+Rampura_230kV_Aftabnagar_TL_2,Rampura_230kV,Aftabnagar_132kV,3.5,0.015,0.12,2e-05,132,2,XLPE,False,Rampura-Aftabnagar
+LILO_Chauddagram_Feni_TL_1,Chauddagram_132kV,Feni_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni-Cumilla(N) at Chowddagram
+LILO_Chauddagram_Feni_TL_2,Chauddagram_132kV,Feni_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni-Cumilla(N) at Chowddagram
+LILO_Chauddagram_Feni_TL_3,Chauddagram_132kV,Feni_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni-Cumilla(N) at Chowddagram
+LILO_Chauddagram_Feni_TL_4,Chauddagram_132kV,Feni_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni-Cumilla(N) at Chowddagram
+LILO_Gopalganj (N)_230kV_Faridpur_TL_1,Gopalganj (N)_230kV,Faridpur_132kV,1.5,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Faridpur-Madaripur line at Gopalganj(N)
+LILO_Gopalganj (N)_230kV_Faridpur_TL_2,Gopalganj (N)_230kV,Faridpur_132kV,1.5,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Faridpur-Madaripur line at Gopalganj(N)
+LILO_Gopalganj (N)_230kV_Faridpur_TL_3,Gopalganj (N)_230kV,Faridpur_132kV,1.5,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Faridpur-Madaripur line at Gopalganj(N)
+LILO_Gopalganj (N)_230kV_Faridpur_TL_4,Gopalganj (N)_230kV,Faridpur_132kV,1.5,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Faridpur-Madaripur line at Gopalganj(N)
+LILO_Gopalganj (N)_230kV_Gopalganj_TL_1,Gopalganj (N)_230kV,Gopalganj_132kV,10.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Gopalanj-Madaripur line at Gopalganj(N)
+LILO_Gopalganj (N)_230kV_Gopalganj_TL_2,Gopalganj (N)_230kV,Gopalganj_132kV,10.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Gopalanj-Madaripur line at Gopalganj(N)
+LILO_Gopalganj (N)_230kV_Gopalganj_TL_3,Gopalganj (N)_230kV,Gopalganj_132kV,10.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Gopalanj-Madaripur line at Gopalganj(N)
+LILO_Gopalganj (N)_230kV_Gopalganj_TL_4,Gopalganj (N)_230kV,Gopalganj_132kV,10.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Gopalanj-Madaripur line at Gopalganj(N)
+Kodda_Rajendrapur_TL_1,Kodda_132kV,Rajendrapur_132kV,24.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Kodda - Rajendrapur
+Kodda_Rajendrapur_TL_2,Kodda_132kV,Rajendrapur_132kV,24.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Kodda - Rajendrapur
+LILO_Bogura_Rangpur_TL_1,Bogura_132kV,Rangpur_132kV,1.5,0.064,0.4,2.73e-06,132,4,AAAC,True,LILO of Rangpur-Palashbari at Confidence PP
+LILO_Bogura_Rangpur_TL_2,Bogura_132kV,Rangpur_132kV,1.5,0.064,0.4,2.73e-06,132,4,AAAC,True,LILO of Rangpur-Palashbari at Confidence PP
+LILO_Bogura_Rangpur_TL_3,Bogura_132kV,Rangpur_132kV,1.5,0.064,0.4,2.73e-06,132,4,AAAC,True,LILO of Rangpur-Palashbari at Confidence PP
+LILO_Bogura_Rangpur_TL_4,Bogura_132kV,Rangpur_132kV,1.5,0.064,0.4,2.73e-06,132,4,AAAC,True,LILO of Rangpur-Palashbari at Confidence PP
+LILO_Rampur_Khulshi_TL_1,Rampur_132kV,Khulshi_132kV,1.5,0.015,0.12,2e-05,132,4,XLPE,True,LILO of Khulshi - Halishahar at Rampur
+LILO_Rampur_Khulshi_TL_2,Rampur_132kV,Khulshi_132kV,1.5,0.015,0.12,2e-05,132,4,XLPE,True,LILO of Khulshi - Halishahar at Rampur
+LILO_Rampur_Khulshi_TL_3,Rampur_132kV,Khulshi_132kV,1.5,0.015,0.12,2e-05,132,4,XLPE,True,LILO of Khulshi - Halishahar at Rampur
+LILO_Rampur_Khulshi_TL_4,Rampur_132kV,Khulshi_132kV,1.5,0.015,0.12,2e-05,132,4,XLPE,True,LILO of Khulshi - Halishahar at Rampur
+Rampur_Agrabad_TL_1,Rampur_132kV,Agrabad_132kV,4.5,0.015,0.12,2e-05,132,2,XLPE,False,Rampur-Agrabad
+Rampur_Agrabad_TL_2,Rampur_132kV,Agrabad_132kV,4.5,0.015,0.12,2e-05,132,2,XLPE,False,Rampur-Agrabad
+Keraniganj_Sreenagar_TL_1,Keraniganj_132kV,Sreenagar_132kV,16.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Keraniganj-Sreenagar
+Keraniganj_Sreenagar_TL_2,Keraniganj_132kV,Sreenagar_132kV,16.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Keraniganj-Sreenagar
+Keraniganj_Nawabganj_TL_1,Keraniganj_132kV,Nawabganj_132kV,27.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Keraniganj-Nawabganj
+Keraniganj_Nawabganj_TL_2,Keraniganj_132kV,Nawabganj_132kV,27.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Keraniganj-Nawabganj
+LILO_Fatullah_Shyampur_TL_1,Fatullah_132kV,Shyampur_132kV,2.0,0.015,0.12,2e-05,132,2,XLPE,True,LILO of Shyampur-Haripur at Fatullah
+LILO_Fatullah_Shyampur_TL_2,Fatullah_132kV,Shyampur_132kV,2.0,0.015,0.12,2e-05,132,2,XLPE,True,LILO of Shyampur-Haripur at Fatullah
+Dhaka University (DU)_Dhanmondi_TL_1,Dhaka University (DU)_132kV,Dhanmondi_132kV,2.0,0.015,0.12,2e-05,132,2,XLPE,False,DU- Dhanmondi
+Dhaka University (DU)_Dhanmondi_TL_2,Dhaka University (DU)_132kV,Dhanmondi_132kV,2.0,0.015,0.12,2e-05,132,2,XLPE,False,DU- Dhanmondi
+Bagerhat_Mongla_TL_1,Bagerhat_132kV,Mongla_132kV,28.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Bagerhat-Mongla
+Bagerhat_Mongla_TL_2,Bagerhat_132kV,Mongla_132kV,28.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Bagerhat-Mongla
+Baghabari_Bhangura_TL_1,Baghabari_132kV,Bhangura_132kV,25.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Baghabari-Bangura
+Baghabari_Bhangura_TL_2,Baghabari_132kV,Bhangura_132kV,25.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Baghabari-Bangura
+Bakerganj_Barguna_TL_1,Bakerganj_132kV,Barguna_132kV,50.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Bakerganj-Barguna
+Gallamari_Gopalganj_TL_1,Gallamari_132kV,Gopalganj_132kV,52.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Gallamari- Gopalganj
+Gallamari_Gopalganj_TL_2,Gallamari_132kV,Gopalganj_132kV,52.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Gallamari- Gopalganj
+Gopalganj_Madaripur_TL_1,Gopalganj_132kV,Madaripur_132kV,45.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Gopalganj - Madaripur 2nd Ckt
+LILO_Mithapukur_Rangpur_TL_1,Mithapukur_132kV,Rangpur_132kV,0.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILI of Rangpur-Palashbari line at Mithapukur
+LILO_Mithapukur_Rangpur_TL_2,Mithapukur_132kV,Rangpur_132kV,0.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILI of Rangpur-Palashbari line at Mithapukur
+LILO_Mithapukur_Rangpur_TL_3,Mithapukur_132kV,Rangpur_132kV,0.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILI of Rangpur-Palashbari line at Mithapukur
+LILO_Mithapukur_Rangpur_TL_4,Mithapukur_132kV,Rangpur_132kV,0.5,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILI of Rangpur-Palashbari line at Mithapukur
+Maniknagar_Kazla_TL_1,Maniknagar_132kV,Kazla_132kV,2.5,0.015,0.12,2e-05,132,2,XLPE,False,Maniknagar-Kazla
+Maniknagar_Kazla_TL_2,Maniknagar_132kV,Kazla_132kV,2.5,0.015,0.12,2e-05,132,2,XLPE,False,Maniknagar-Kazla
+Hasnabad_Keraniganj_TL_1,Hasnabad_132kV,Keraniganj_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,Hasnabad-Keraniganj PP line re-routing atKeraniganj
+Hasnabad_Keraniganj_TL_2,Hasnabad_132kV,Keraniganj_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,Hasnabad-Keraniganj PP line re-routing atKeraniganj
+Hasnabad_Keraniganj_TL_3,Hasnabad_132kV,Keraniganj_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,Hasnabad-Keraniganj PP line re-routing atKeraniganj
+Hasnabad_Keraniganj_TL_4,Hasnabad_132kV,Keraniganj_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,Hasnabad-Keraniganj PP line re-routing atKeraniganj
+Purbachal_Bashundhara_TL_1,Purbachal_132kV,Bashundhara_132kV,4.5,0.015,0.12,2e-05,132,2,XLPE,False,Purbachal-Basundhara
+Purbachal_Bashundhara_TL_2,Purbachal_132kV,Bashundhara_132kV,4.5,0.015,0.12,2e-05,132,2,XLPE,False,Purbachal-Basundhara
+Banani_Bashundhara_TL_1,Banani_132kV,Bashundhara_132kV,13.5,0.015,0.12,2e-05,132,2,XLPE,False,Banani-Basundhara
+Banani_Bashundhara_TL_2,Banani_132kV,Bashundhara_132kV,13.5,0.015,0.12,2e-05,132,2,XLPE,False,Banani-Basundhara
+LILO_Rajbari_Bheramara_TL_1,Rajbari_132kV,Bheramara_132kV,1.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Bhermara-Fardipur at Rajbari
+LILO_Rajbari_Bheramara_TL_2,Rajbari_132kV,Bheramara_132kV,1.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Bhermara-Fardipur at Rajbari
+LILO_Rajbari_Bheramara_TL_3,Rajbari_132kV,Bheramara_132kV,1.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Bhermara-Fardipur at Rajbari
+LILO_Rajbari_Bheramara_TL_4,Rajbari_132kV,Bheramara_132kV,1.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Bhermara-Fardipur at Rajbari
+LILO_Jhenaidah_Jhenaidah_TL_1,Jhenaidah_132kV,Jhenaidah_132kV,3.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,True,S/c LILO of Jhenaidah- Chuadanga at Jhenaidah
+LILO_Jhenaidah_Jhenaidah_TL_2,Jhenaidah_132kV,Jhenaidah_132kV,3.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,True,S/c LILO of Jhenaidah- Chuadanga at Jhenaidah
+Keraniganj_Kamrangirchar_TL_1,Keraniganj_132kV,Kamrangirchar_132kV,3.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,Keraniganj-Lalbagh& Kamrangirchar four circuit
+Keraniganj_Kamrangirchar_TL_2,Keraniganj_132kV,Kamrangirchar_132kV,3.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,Keraniganj-Lalbagh& Kamrangirchar four circuit
+Keraniganj_Kamrangirchar_TL_3,Keraniganj_132kV,Kamrangirchar_132kV,3.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,Keraniganj-Lalbagh& Kamrangirchar four circuit
+Keraniganj_Kamrangirchar_TL_4,Keraniganj_132kV,Kamrangirchar_132kV,3.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,False,Keraniganj-Lalbagh& Kamrangirchar four circuit
+Tongi_Tongi-3 (Mill Gate)_TL_1,Tongi_132kV,Tongi-3 (Mill Gate)_132kV,2.5,0.015,0.12,2e-05,132,2,XLPE,False,Tongi-Tongi-3 (Mill Gate)
+Tongi_Tongi-3 (Mill Gate)_TL_2,Tongi_132kV,Tongi-3 (Mill Gate)_132kV,2.5,0.015,0.12,2e-05,132,2,XLPE,False,Tongi-Tongi-3 (Mill Gate)
+LILO_Jhenaidah_Jashore_TL_1,Jhenaidah_132kV,Jashore_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Jessore-Jhenaidah d/c line at Jhenaidah
+LILO_Jhenaidah_Jashore_TL_2,Jhenaidah_132kV,Jashore_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Jessore-Jhenaidah d/c line at Jhenaidah
+LILO_Jhenaidah_Jashore_TL_3,Jhenaidah_132kV,Jashore_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Jessore-Jhenaidah d/c line at Jhenaidah
+LILO_Jhenaidah_Jashore_TL_4,Jhenaidah_132kV,Jashore_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Jessore-Jhenaidah d/c line at Jhenaidah
+Maniknagar_Motijheel_TL_1,Maniknagar_132kV,Motijheel_132kV,2.0,0.015,0.12,2e-05,132,2,XLPE,False,Manaknagar-Motijheel
+Maniknagar_Motijheel_TL_2,Maniknagar_132kV,Motijheel_132kV,2.0,0.015,0.12,2e-05,132,2,XLPE,False,Manaknagar-Motijheel
+Motijheel_Bangabhaban_TL_1,Motijheel_132kV,Bangabhaban_132kV,0.5,0.015,0.12,2e-05,132,2,XLPE,False,Motijheel-Bangabhaban
+Motijheel_Bangabhaban_TL_2,Motijheel_132kV,Bangabhaban_132kV,0.5,0.015,0.12,2e-05,132,2,XLPE,False,Motijheel-Bangabhaban
+Madanganj_Char Saidpur_TL_1,Madanganj_132kV,Char Saidpur_132kV,3.0,0.0677,0.4016,2.84e-06,132,2,Mallard+XLPE,False,Madanganj-Char Saidpur
+Madanganj_Char Saidpur_TL_2,Madanganj_132kV,Char Saidpur_132kV,3.0,0.0677,0.4016,2.84e-06,132,2,Mallard+XLPE,False,Madanganj-Char Saidpur
+Kamrangirchar_Zigatola_TL_1,Kamrangirchar_132kV,Zigatola_132kV,7.0,0.015,0.12,2e-05,132,2,XLPE,False,Kamrangirchar-Zigatola
+Kamrangirchar_Zigatola_TL_2,Kamrangirchar_132kV,Zigatola_132kV,7.0,0.015,0.12,2e-05,132,2,XLPE,False,Kamrangirchar-Zigatola
+Energaon_Mongla_TL_1,Energaon_132kV,Mongla_132kV,9.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Energaon-Mongla
+Hasnabad_Postagola_TL_1,Hasnabad_132kV,Postagola_132kV,2.0,0.015,0.12,2e-05,132,2,XLPE,False,Hasnabad-Postogola
+Hasnabad_Postagola_TL_2,Hasnabad_132kV,Postagola_132kV,2.0,0.015,0.12,2e-05,132,2,XLPE,False,Hasnabad-Postogola
+Bashundhara_Purbachal_TL_1,Bashundhara_132kV,Purbachal_132kV,5.5,0.015,0.12,2e-05,132,2,XLPE,False,Bashundhara-Purbachal
+Bashundhara_Purbachal_TL_2,Bashundhara_132kV,Purbachal_132kV,5.5,0.015,0.12,2e-05,132,2,XLPE,False,Bashundhara-Purbachal
+Chapai Nawabganj_Rahanpur_400kV_TL_1,Chapai Nawabganj_132kV,Rahanpur_400kV,52.0,0.065,0.39,2.73e-06,132,1,ACCC Grosbeak,False,Chapai Nawabganj-Rahanpur
+LILO_Sholoshahar_Madunaghat_TL_1,Sholoshahar_132kV,Madunaghat_132kV,0.0,0.015,0.12,2e-05,132,1,XLPE,True,LILO of Madunaghat-Khulshi at Sholoshahar
+Madunaghat_Kalurghat_TL_1,Madunaghat_132kV,Kalurghat_132kV,7.0,0.015,0.12,2e-05,132,2,XLPE,False,Madunaghat-Kalurghat
+Madunaghat_Kalurghat_TL_2,Madunaghat_132kV,Kalurghat_132kV,7.0,0.015,0.12,2e-05,132,2,XLPE,False,Madunaghat-Kalurghat
+Khulshi_Rampur_TL_1,Khulshi_132kV,Rampur_132kV,5.0,0.015,0.12,2e-05,132,1,XLPE,False,Khulshi-Halishahar LILO at Rampur
+Rangpur_Rangpur_TL_1,Rangpur_132kV,Rangpur_132kV,35.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sudarganj Solar - Rangpur
+Rangpur_Rangpur_TL_2,Rangpur_132kV,Rangpur_132kV,35.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sudarganj Solar - Rangpur
+Rampura_230kV_Dhaka University (DU)_TL_1,Rampura_230kV,Dhaka University (DU)_132kV,7.5,0.015,0.12,2e-05,132,2,XLPE,False,Rampura-Dhaka University
+Rampura_230kV_Dhaka University (DU)_TL_2,Rampura_230kV,Dhaka University (DU)_132kV,7.5,0.015,0.12,2e-05,132,2,XLPE,False,Rampura-Dhaka University
+Aminbazar_230kV_Aminbazar_230kV_TL_1,Aminbazar_230kV,Aminbazar_230kV,0.0,0.026,0.321,3.4e-06,132,1,,False,Aminbazar 400/132kV transformer connecting132kV line
+Sripur_Bhaluka_TL_1,Sripur_132kV,Bhaluka_132kV,22.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sripur-Bhaluka
+Sripur_Bhaluka_TL_2,Sripur_132kV,Bhaluka_132kV,22.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sripur-Bhaluka
+LILO_Mirzapur_Kaliakoir_230kV_TL_1,Mirzapur_132kV,Kaliakoir_230kV,1.75,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Kaliakoir-Tangail at Mirzapur
+LILO_Mirzapur_Kaliakoir_230kV_TL_2,Mirzapur_132kV,Kaliakoir_230kV,1.75,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Kaliakoir-Tangail at Mirzapur
+LILO_Mirzapur_Kaliakoir_230kV_TL_3,Mirzapur_132kV,Kaliakoir_230kV,1.75,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Kaliakoir-Tangail at Mirzapur
+LILO_Mirzapur_Kaliakoir_230kV_TL_4,Mirzapur_132kV,Kaliakoir_230kV,1.75,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Kaliakoir-Tangail at Mirzapur
+LILO_Sylhet_Sylhet_TL_1,Sylhet_132kV,Sylhet_132kV,2.0,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Sylhet-Fenchuganj at Sylhet(S)
+LILO_Sylhet_Sylhet_TL_2,Sylhet_132kV,Sylhet_132kV,2.0,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Sylhet-Fenchuganj at Sylhet(S)
+LILO_Sylhet_Sylhet_TL_3,Sylhet_132kV,Sylhet_132kV,2.0,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Sylhet-Fenchuganj at Sylhet(S)
+LILO_Sylhet_Sylhet_TL_4,Sylhet_132kV,Sylhet_132kV,2.0,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Sylhet-Fenchuganj at Sylhet(S)
+LILO_Ullapara_Sirajganj_TL_1,Ullapara_132kV,Sirajganj_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Sirajganj-Shahjadpur-Baghabari at Ullapara
+LILO_Ullapara_Sirajganj_TL_2,Ullapara_132kV,Sirajganj_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Sirajganj-Shahjadpur-Baghabari at Ullapara
+LILO_Ullapara_Sirajganj_TL_3,Ullapara_132kV,Sirajganj_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Sirajganj-Shahjadpur-Baghabari at Ullapara
+LILO_Ullapara_Sirajganj_TL_4,Ullapara_132kV,Sirajganj_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Sirajganj-Shahjadpur-Baghabari at Ullapara
+Madunaghat_Khulshi_TL_1,Madunaghat_132kV,Khulshi_132kV,1.0,0.015,0.12,2e-05,132,2,XLPE,False,LILO of Madunaghat-Khulshi (Circuit-2) atSholoshahor substation
+Madunaghat_Khulshi_TL_2,Madunaghat_132kV,Khulshi_132kV,1.0,0.015,0.12,2e-05,132,2,XLPE,False,LILO of Madunaghat-Khulshi (Circuit-2) atSholoshahor substation
+LILO_Rahanpur_400kV_Niamatpur_TL_1,Rahanpur_400kV,Niamatpur_132kV,2.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Niamatpur-Chowdala at Rahanpur
+LILO_Rahanpur_400kV_Niamatpur_TL_2,Rahanpur_400kV,Niamatpur_132kV,2.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Niamatpur-Chowdala at Rahanpur
+LILO_Rahanpur_400kV_Niamatpur_TL_3,Rahanpur_400kV,Niamatpur_132kV,2.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Niamatpur-Chowdala at Rahanpur
+LILO_Rahanpur_400kV_Niamatpur_TL_4,Rahanpur_400kV,Niamatpur_132kV,2.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Niamatpur-Chowdala at Rahanpur
+Bhaluka_Barmi_TL_1,Bhaluka_132kV,Barmi_132kV,32.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Bhaluka- Barmi (BR Powergen)
+Bhaluka_Barmi_TL_2,Bhaluka_132kV,Barmi_132kV,32.5,0.065,0.39,2.73e-06,132,2,ACCC Grosbeak,False,Bhaluka- Barmi (BR Powergen)
+LILO_Ghatail_Tangail_TL_1,Ghatail_132kV,Tangail_132kV,1.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,True,LILO of Tangail-RPCL at Ghatail
+LILO_Ghatail_Tangail_TL_2,Ghatail_132kV,Tangail_132kV,1.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,True,LILO of Tangail-RPCL at Ghatail
+Niamatpur_Rahanpur_400kV_TL_1,Niamatpur_132kV,Rahanpur_400kV,28.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Niyamatpur-Rahanpur (LILO point)
+Niamatpur_Rahanpur_400kV_TL_2,Niamatpur_132kV,Rahanpur_400kV,28.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Niyamatpur-Rahanpur (LILO point)
+Naogaon_Joypurhat_TL_1,Naogaon_132kV,Joypurhat_132kV,47.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Naogaon-Joypurhat
+Panchagarh_Thakurgaon_TL_1,Panchagarh_132kV,Thakurgaon_132kV,45.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Panchagarh-Thakurgaon
+Cox's Bazar_Cox's Bazar_TL_1,Cox's Bazar_132kV,Cox's Bazar_132kV,11.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,US DK - Cox's Bazar
+Barishal(N)_Bhandaria_TL_1,Barishal(N)_132kV,Bhandaria_132kV,46.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Barishal (N)-Bhandaria
+Barishal(N)_Bhandaria_TL_2,Barishal(N)_132kV,Bhandaria_132kV,46.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Barishal (N)-Bhandaria
+LILO_Pubail_Ghorashal_TL_1,Pubail_132kV,Ghorashal_132kV,3.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Ghorashal-Joydevpur at Pubail
+LILO_Pubail_Ghorashal_TL_2,Pubail_132kV,Ghorashal_132kV,3.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Ghorashal-Joydevpur at Pubail
+LILO_Pubail_Ghorashal_TL_3,Pubail_132kV,Ghorashal_132kV,3.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Ghorashal-Joydevpur at Pubail
+LILO_Pubail_Ghorashal_TL_4,Pubail_132kV,Ghorashal_132kV,3.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Ghorashal-Joydevpur at Pubail
+Sirajganj_Sirajganj_TL_1,Sirajganj_132kV,Sirajganj_132kV,10.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sirangj 68MW Solar-Sirajganj
+Sirajganj_Sirajganj_TL_2,Sirajganj_132kV,Sirajganj_132kV,10.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sirangj 68MW Solar-Sirajganj
+LILO_Muradnagar_Cumilla (N)_TL_1,Muradnagar_132kV,Cumilla (N)_132kV,1.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Cumilla(N)-Daudkandi at Muradnagar
+LILO_Muradnagar_Cumilla (N)_TL_2,Muradnagar_132kV,Cumilla (N)_132kV,1.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Cumilla(N)-Daudkandi at Muradnagar
+LILO_Muradnagar_Cumilla (N)_TL_3,Muradnagar_132kV,Cumilla (N)_132kV,1.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Cumilla(N)-Daudkandi at Muradnagar
+LILO_Muradnagar_Cumilla (N)_TL_4,Muradnagar_132kV,Cumilla (N)_132kV,1.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Cumilla(N)-Daudkandi at Muradnagar
+LILO_Bajitpur_Ashuganj_TL_1,Bajitpur_132kV,Ashuganj_132kV,0.25,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Ashuganj-Kishoreganj at Bajitpur
+LILO_Bajitpur_Ashuganj_TL_2,Bajitpur_132kV,Ashuganj_132kV,0.25,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Ashuganj-Kishoreganj at Bajitpur
+LILO_Bajitpur_Ashuganj_TL_3,Bajitpur_132kV,Ashuganj_132kV,0.25,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Ashuganj-Kishoreganj at Bajitpur
+LILO_Bajitpur_Ashuganj_TL_4,Bajitpur_132kV,Ashuganj_132kV,0.25,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Ashuganj-Kishoreganj at Bajitpur
+Rahanpur_400kV_Chowdala_TL_1,Rahanpur_400kV,Chowdala_132kV,7.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rahanpur-Chowdala(Section onward)
+Rahanpur_400kV_Chowdala_TL_2,Rahanpur_400kV,Chowdala_132kV,7.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rahanpur-Chowdala(Section onward)
+LILO_Mukhtagacha_Ghatail_TL_1,Mukhtagacha_132kV,Ghatail_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Ghatial-RPCL at Muktagacha
+LILO_Mukhtagacha_Ghatail_TL_2,Mukhtagacha_132kV,Ghatail_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Ghatial-RPCL at Muktagacha
+LILO_Mukhtagacha_Ghatail_TL_3,Mukhtagacha_132kV,Ghatail_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Ghatial-RPCL at Muktagacha
+LILO_Mukhtagacha_Ghatail_TL_4,Mukhtagacha_132kV,Ghatail_132kV,0.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Ghatial-RPCL at Muktagacha
+Muradnagar_Kosba_TL_1,Muradnagar_132kV,Kosba_132kV,24.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Muradnagar-Kosba
+Muradnagar_Kosba_TL_2,Muradnagar_132kV,Kosba_132kV,24.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Muradnagar-Kosba
+Jhenaidah_Chuadanga_TL_1,Jhenaidah_132kV,Chuadanga_132kV,39.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Jhenaidah-Chuadanga
+Kurigram_Lalmonirhat_TL_1,Kurigram_132kV,Lalmonirhat_132kV,31.0,0.0852,0.4097,2.73e-06,132,1,Grosbeak,False,Kurigram-Lalmonirht 2nd circuit
+LILO_Bhulta_Haripur_230kV_TL_1,Bhulta_132kV,Haripur_230kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Hairpur-Narsinghdi at Bhulta (N)
+LILO_Bhulta_Haripur_230kV_TL_2,Bhulta_132kV,Haripur_230kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Hairpur-Narsinghdi at Bhulta (N)
+LILO_Bhulta_Haripur_230kV_TL_3,Bhulta_132kV,Haripur_230kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Hairpur-Narsinghdi at Bhulta (N)
+LILO_Bhulta_Haripur_230kV_TL_4,Bhulta_132kV,Haripur_230kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Hairpur-Narsinghdi at Bhulta (N)
+LILO_Patiya_Sikalbaha_TL_1,Patiya_132kV,Sikalbaha_132kV,0.5,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Sikalbaha-Dohazari at Patiya
+LILO_Patiya_Sikalbaha_TL_2,Patiya_132kV,Sikalbaha_132kV,0.5,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Sikalbaha-Dohazari at Patiya
+LILO_Patiya_Sikalbaha_TL_3,Patiya_132kV,Sikalbaha_132kV,0.5,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Sikalbaha-Dohazari at Patiya
+LILO_Patiya_Sikalbaha_TL_4,Patiya_132kV,Sikalbaha_132kV,0.5,0.065,0.39,2.73e-06,132,4,ACCC Grosbeak,True,LILO of Sikalbaha-Dohazari at Patiya
+LILO_Halishahar_Halishahar_TL_1,Halishahar_132kV,Halishahar_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Halishahar-Khulsi at Anandabazar
+LILO_Halishahar_Halishahar_TL_2,Halishahar_132kV,Halishahar_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Halishahar-Khulsi at Anandabazar
+LILO_Halishahar_Halishahar_TL_3,Halishahar_132kV,Halishahar_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Halishahar-Khulsi at Anandabazar
+LILO_Halishahar_Halishahar_TL_4,Halishahar_132kV,Halishahar_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Halishahar-Khulsi at Anandabazar
+Cumilla (N)_Chandina_TL_1,Cumilla (N)_132kV,Chandina_132kV,16.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Cumilla(N)-Chandina
+Cumilla (N)_Chandina_TL_2,Cumilla (N)_132kV,Chandina_132kV,16.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Cumilla(N)-Chandina
+Rajendrapur_Sripur_TL_1,Rajendrapur_132kV,Sripur_132kV,20.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rajendrapur-Sreepur
+Rajendrapur_Sripur_TL_2,Rajendrapur_132kV,Sripur_132kV,20.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rajendrapur-Sreepur
+Araihazar_Bhulta_TL_1,Araihazar_132kV,Bhulta_132kV,8.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Araihazar-Bhulta
+Araihazar_Bhulta_TL_2,Araihazar_132kV,Bhulta_132kV,8.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Araihazar-Bhulta
+Ishwardi_Ishwardi_TL_1,Ishwardi_132kV,Ishwardi_132kV,22.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Dynamics Solar Plant-Ishurdi
+Ishwardi_Ishwardi_TL_2,Ishwardi_132kV,Ishwardi_132kV,22.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Dynamics Solar Plant-Ishurdi
+Kachua_Laksam_TL_1,Kachua_132kV,Laksam_132kV,32.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kachua-Laksam
+Kachua_Laksam_TL_2,Kachua_132kV,Laksam_132kV,32.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kachua-Laksam
+Chowmuhani_Lakshmipur_TL_1,Chowmuhani_132kV,Lakshmipur_132kV,27.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Chowmuhani-Lakshmipur
+Chowmuhani_Lakshmipur_TL_2,Chowmuhani_132kV,Lakshmipur_132kV,27.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Chowmuhani-Lakshmipur
+LILO_Taraganj_Saidpur_TL_1,Taraganj_132kV,Saidpur_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Saidpur-Rangpur at Taraganj
+LILO_Taraganj_Saidpur_TL_2,Taraganj_132kV,Saidpur_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Saidpur-Rangpur at Taraganj
+LILO_Taraganj_Saidpur_TL_3,Taraganj_132kV,Saidpur_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Saidpur-Rangpur at Taraganj
+LILO_Taraganj_Saidpur_TL_4,Taraganj_132kV,Saidpur_132kV,0.25,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Saidpur-Rangpur at Taraganj
+LILO_Daganbhuiyan_Feni_TL_1,Daganbhuiyan_132kV,Feni_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni-Chowmuhani at Dagunbhuyan
+LILO_Daganbhuiyan_Feni_TL_2,Daganbhuiyan_132kV,Feni_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni-Chowmuhani at Dagunbhuyan
+LILO_Daganbhuiyan_Feni_TL_3,Daganbhuiyan_132kV,Feni_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni-Chowmuhani at Dagunbhuyan
+LILO_Daganbhuiyan_Feni_TL_4,Daganbhuiyan_132kV,Feni_132kV,2.75,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni-Chowmuhani at Dagunbhuyan
+Rampura_230kV_Bashundhara_TL_1,Rampura_230kV,Bashundhara_132kV,11.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rampura-Basundhara
+Rampura_230kV_Bashundhara_TL_2,Rampura_230kV,Bashundhara_132kV,11.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Rampura-Basundhara
+Sripur_Kodda_TL_1,Sripur_132kV,Kodda_132kV,9.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sripur-Kodda (Partial)
+Sripur_Kodda_TL_2,Sripur_132kV,Kodda_132kV,9.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sripur-Kodda (Partial)
+Sirajganj_Sirajganj_TL_1,Sirajganj_132kV,Sirajganj_132kV,10.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sirajganj Solar-Sirajganj Grid
+Sirajganj_Sirajganj_TL_2,Sirajganj_132kV,Sirajganj_132kV,10.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sirajganj Solar-Sirajganj Grid
+LILO_Sathia_Ishwardi_TL_1,Sathia_132kV,Ishwardi_132kV,0.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,True,LILO of Ishwardi-Baghabari line at Sathia
+LILO_Sathia_Ishwardi_TL_2,Sathia_132kV,Ishwardi_132kV,0.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,True,LILO of Ishwardi-Baghabari line at Sathia
+Kaliganj_Maheshpur_TL_1,Kaliganj_132kV,Maheshpur_132kV,26.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kaliganj- Maheshpur
+Kaliganj_Maheshpur_TL_2,Kaliganj_132kV,Maheshpur_132kV,26.0,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Kaliganj- Maheshpur
+LILO_Feni (N)_230kV_Chauddagram_TL_1,Feni (N)_230kV,Chauddagram_132kV,4.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni Chauddagram at Feni 230/132 kV
+LILO_Feni (N)_230kV_Chauddagram_TL_2,Feni (N)_230kV,Chauddagram_132kV,4.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni Chauddagram at Feni 230/132 kV
+LILO_Feni (N)_230kV_Chauddagram_TL_3,Feni (N)_230kV,Chauddagram_132kV,4.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni Chauddagram at Feni 230/132 kV
+LILO_Feni (N)_230kV_Chauddagram_TL_4,Feni (N)_230kV,Chauddagram_132kV,4.0,0.0852,0.4097,2.73e-06,132,4,Grosbeak,True,LILO of Feni Chauddagram at Feni 230/132 kV
+LILO_Bakerganj_Barishal_TL_1,Bakerganj_132kV,Barishal_132kV,2.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,True,LILO of Barishal-Patuakhali at Bakerganj
+LILO_Bakerganj_Barishal_TL_2,Bakerganj_132kV,Barishal_132kV,2.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,True,LILO of Barishal-Patuakhali at Bakerganj
+Sathia_Pabna_TL_1,Sathia_132kV,Pabna_132kV,34.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sathia-Pabna 64 MW Solar
+Sathia_Pabna_TL_2,Sathia_132kV,Pabna_132kV,34.5,0.0852,0.4097,2.73e-06,132,2,Grosbeak,False,Sathia-Pabna 64 MW Solar

@@ -1,0 +1,282 @@
+name,substation,v_nom,carrier,transformer_detail,total_capacity_mva,ownership,grid_circle,implicit
+BIPTC 1st Block_400kV,BIPTC 1st Block,400,AC,1x500 MW,500 MW,POWER GRID,HVDC,False
+BIPTC 2nd Block_400kV,BIPTC 2nd Block,400,AC,1x500 MW,500 MW,POWER GRID,HVDC,False
+Aminbazar_400kV,Aminbazar,400,AC,3x520,1560,POWER GRID,Dhaka(N),False
+Amtali Switching_400kV,Amtali Switching,400,AC,-,-,POWER GRID,Khulna,False
+Ashuganj (N)_400kV,Ashuganj (N),400,AC,2x244/325,650,APSCL,Cumilla,False
+Bhulta_400kV,Bhulta,400,AC,2x520,1040,POWER GRID,Dhaka(S),False
+Bibiyana_400kV,Bibiyana,400,AC,2x520,1040,POWER GRID,Cumilla,False
+Bogura (W)_400kV,Bogura (W),400,AC,3x750,2250,POWER GRID,Bogura,False
+Gopalganj (N)_400kV,Gopalganj (N),400,AC,2x750,1500,POWER GRID,Khulna,False
+Kaliakoir_400kV,Kaliakoir,400,AC,2x520,1040,POWER GRID,Dhaka(N),False
+Korerhat_400kV,Korerhat,400,AC,2x1000,2000,POWER GRID,Chattogram,False
+Meghnaghat_400kV,Meghnaghat,400,AC,3x750,2250,POWER GRID,Dhaka(S),False
+Madunaghat_400kV,Madunaghat,400,AC,3x750,2250,POWER GRID,Chattogram,False
+Rampal_400kV,Rampal,400,AC,2x520,1040,BIFPCL,Khulna,False
+RNPP_400kV,RNPP,400,AC,2x520,1040,RNPP,HVDC,False
+Gopalganj (N)_230kV,Gopalganj (N),230,AC,3x325,975,POWER GRID,Khulna,False
+Kaliakoir_230kV,Kaliakoir,230,AC,"3x325, 1x300",1275,POWER GRID,Dhaka(N),False
+Rahanpur_400kV,Rahanpur,400,AC,2x520,1040,POWER GRID,Bogura,False
+Payra_400kV,Payra,400,AC,2x325,650,POWER GRID,Khulna,False
+Agargaon_230kV,Agargaon,230,AC,2x300,600,POWER GRID,Dhaka(N),False
+Aminbazar_230kV,Aminbazar,230,AC,3x225,675,POWER GRID,Dhaka(N),False
+Ashuganj_230kV,Ashuganj,230,AC,2x300,600,APSCL,Cumilla,False
+Baghabari_230kV,Baghabari,230,AC,"1x225, 1x300",525,POWER GRID,HVDC,False
+Barapukuria_230kV,Barapukuria,230,AC,2x225 1x225/300,750,POWER GRID,Bogura,False
+Barishal (N)_230kV,Barishal (N),230,AC,2x300,600,POWER GRID,Khulna,False
+Bheramara_230kV,Bheramara,230,AC,2x225,450,POWER GRID,HVDC,False
+Bhulta_230kV,Bhulta,230,AC,2x300,600,POWER GRID,Dhaka(S),False
+Bogura (S)_230kV,Bogura (S),230,AC,"2x225(7x75), 2x225/300",1050,POWER GRID,Bogura,False
+Chowmuhani_230kV,Chowmuhani,230,AC,2x350,700,POWER GRID,Cumilla,False
+Cumilla (N)_230kV,Cumilla (N),230,AC,3x225,675,POWER GRID,Cumilla,False
+Faridpur_230kV,Faridpur,230,AC,2x350,700,POWER GRID,Khulna,False
+Fenchuganj_230kV,Fenchuganj,230,AC,2x300,600,POWER GRID,Cumilla,False
+Feni (N)_230kV,Feni (N),230,AC,2x300,600,POWER GRID,Cumilla,False
+Ghorashal_230kV,Ghorashal,230,AC,2x125,250,BPDB,Dhaka(S),False
+Haripur_230kV,Haripur,230,AC,3x225(10x75),675,POWER GRID,Dhaka(S),False
+Hasnabad_230kV,Hasnabad,230,AC,3x225(10x75),675,POWER GRID,Dhaka(S),False
+Hathazari_230kV,Hathazari,230,AC,4x150,600,POWER GRID,Chattogram,False
+Jhenaidah(S)_230kV,Jhenaidah(S),230,AC,2x300,600,POWER GRID,HVDC,False
+Ishwardi_230kV,Ishwardi,230,AC,3x225,675,POWER GRID,HVDC,False
+Kachua_230kV,Kachua,230,AC,2x350,700,POWER GRID,Cumilla,False
+Keraniganj_230kV,Keraniganj,230,AC,3x300,900,POWER GRID,Dhaka(S),False
+Khulna (S)_230kV,Khulna (S),230,AC,2x225(7x75) 1x300,750,POWER GRID,Khulna,False
+Madunaghat_230kV,Madunaghat,230,AC,3x300,900,POWER GRID,Chattogram,False
+Maniknagar_230kV,Maniknagar,230,AC,2x300,600,POWER GRID,Dhaka(S),False
+Meghnaghat Switching_230kV,Meghnaghat Switching,230,AC,-,-,POWER GRID,Dhaka(S),False
+Purbasadipur_230kV,Purbasadipur,230,AC,2x300,600,POWER GRID,Bogura,False
+Rajshahi(N)_230kV,Rajshahi(N),230,AC,2x300,600,POWER GRID,Bogura,False
+Rampura_230kV,Rampura,230,AC,3x450,1350,POWER GRID,Dhaka(S),False
+Rampur_230kV,Rampur,230,AC,2x300,600,POWER GRID,Chattogram,False
+Siddhirganj_230kV,Siddhirganj,230,AC,2x300,600,POWER GRID,Dhaka(S),False
+Sirajganj Switching_230kV,Sirajganj Switching,230,AC,- Pag,- e 1 of 6,POWER GRID,Bogura,False
+Shyampur_230kV,Shyampur,230,AC,2x225/300,600,POWER GRID,Dhaka(S),False
+Sripur_230kV,Sripur,230,AC,2x225/300,600,POWER GRID,Dhaka(N),False
+Tongi_230kV,Tongi,230,AC,3x225(10x75),675,POWER GRID,Dhaka(N),False
+Sikalbaha_230kV,Sikalbaha,230,AC,2x300,600,POWER GRID,Chattogram,False
+AKSPL_230kV,AKSPL,230,AC,"2x130/150, 1x80",380,Bulk,Chattogram,False
+BSRM_230kV,BSRM,230,AC,2x130/140,280,Bulk,Chattogram,False
+GPH_230kV,GPH,230,AC,2x100/125,250,Bulk,Chattogram,False
+Borhanuddin_230kV,Borhanuddin,230,AC,1x120/140 (230/33kV),140,BPDB,Khulna,False
+Mirsarai_230kV,Mirsarai,230,AC,2x125/140,280,POWER GRID,Chattogram,False
+Ghorasal SW_230kV,Ghorasal SW,230,AC,1x125/140,140,POWER GRID,Dhaka(S),False
+Aftabnagar_132kV,Aftabnagar,132,AC,2x80/120,240,DESCO,Dhaka(S),False
+Agargaon_132kV,Agargaon,132,AC,2x80/120,240,POWER GRID,Dhaka(N),False
+Agrabad_132kV,Agrabad,132,AC,2x80/120,240,POWER GRID,Chattogram,False
+AKSML_132kV,AKSML,132,AC,1x50/80,80,Bulk,Chattogram,False
+Amnura_132kV,Amnura,132,AC,3x35/50,150,POWER GRID,Bogura,False
+Ashuganj_132kV,Ashuganj,132,AC,1x25/41 1x50/75,116,APSCL,Cumilla,False
+Bagerhat_132kV,Bagerhat,132,AC,"2x25/41, 1x50/75",157,POWER GRID,Khulna,False
+Bajitpur_132kV,Bajitpur,132,AC,2x80/120,240,POWER GRID,Dhaka(N),False
+Bakulia_132kV,Bakulia,132,AC,2x48/64 2x50/75,278,POWER GRID,Chattogram,False
+Bangabhaban_132kV,Bangabhaban,132,AC,"1x28/35, 1x80/120",155,DPDC,Dhaka(S),False
+Bhangura_132kV,Bhangura,132,AC,2x50/75,150,POWER GRID,Bogura,False
+Barguna_132kV,Barguna,132,AC,2x50/75,150,POWER GRID,Khulna,False
+Barapukuria_132kV,Barapukuria,132,AC,"1x50/75, 2x25/41",157,POWER GRID,Bogura,False
+Barishal_132kV,Barishal,132,AC,"1x80/120, 1x50/75",195,POWER GRID,Khulna,False
+Barishal(N)_132kV,Barishal(N),132,AC,2x80/120,240,POWER GRID,Khulna,False
+Baroaulia_132kV,Baroaulia,132,AC,2x80/120,240,POWER GRID,Chattogram,False
+Bashundhara_132kV,Bashundhara,132,AC,3x80/120,360,DESCO,Dhaka(N),False
+Bashundhara Cement_132kV,Bashundhara Cement,132,AC,1x35,35,Bulk,Dhaka(S),False
+Banani_132kV,Banani,132,AC,2x80/120,240,DESCO,Dhaka(N),False
+Baroirhat_132kV,Baroirhat,132,AC,2x50/75,150,POWER GRID,Chattogram,False
+Beanibazar_132kV,Beanibazar,132,AC,2x50/75,150,POWER GRID,Cumilla,False
+Bhaluka_132kV,Bhaluka,132,AC,2x80/120,240,POWER GRID,Dhaka(N),False
+Benapole_132kV,Benapole,132,AC,2x50/75,150,POWER GRID,Khulna,False
+Bhandaria_132kV,Bhandaria,132,AC,"1x50/75, 1x25/41",116,POWER GRID,Khulna,False
+Bhasantek_132kV,Bhasantek,132,AC,2x80/120,240,POWER GRID,Dhaka(N),False
+Bheramara_132kV,Bheramara,132,AC,"3x25/41, 1x15/20",143,POWER GRID,HVDC,False
+Bhulta_132kV,Bhulta,132,AC,2x80/120,240,POWER GRID,Dhaka(S),False
+BMPIL_132kV,BMPIL,132,AC,1x50/75,75,Bulk,Dhaka(S),False
+Bogura_132kV,Bogura,132,AC,4x80/120,480,POWER GRID,Bogura,False
+Brahmanbaria_132kV,Brahmanbaria,132,AC,2x80/120 1x25/41,281,POWER GRID,Cumilla,False
+BSRM(Khulshi)_132kV,BSRM(Khulshi),132,AC,1x64/80,80,Bulk,Chattogram,False
+Chandpur_132kV,Chandpur,132,AC,3x50/75,225,POWER GRID,Cumilla,False
+Chandraghona_132kV,Chandraghona,132,AC,"1x50/75, 1x25/41",116,POWER GRID,Chattogram,False
+Chapai Nawabganj_132kV,Chapai Nawabganj,132,AC,"1x15/20, 2x50/75, 1x25/41 Pag",e 2 of 6 1,POWER GRID,Bogura,False
+Char Saidpur_132kV,Char Saidpur,132,AC,2x80/120,240,DPDC,Dhaka(S),False
+Chauddagram_132kV,Chauddagram,132,AC,2x50/75,150,POWER GRID,Cumilla,False
+Chhatak_132kV,Chhatak,132,AC,"2x15/20,1x25/41",81,POWER GRID,Cumilla,False
+Chandina_132kV,Chandina,132,AC,2x80/120,240,POWER GRID,Cumilla,False
+Chowdala_132kV,Chowdala,132,AC,2x50/75,150,POWER GRID,Bogura,False
+Chowmuhani_132kV,Chowmuhani,132,AC,3x80/120,360,POWER GRID,Cumilla,False
+Chuadanga_132kV,Chuadanga,132,AC,2x50/75 1x25/41,191,POWER GRID,HVDC,False
+Cumilla (N)_132kV,Cumilla (N),132,AC,3x50/75,225,POWER GRID,Cumilla,False
+Cumilla (S)_132kV,Cumilla (S),132,AC,4x50/75,300,POWER GRID,Cumilla,False
+Cox's Bazar_132kV,Cox's Bazar,132,AC,"2x80/120, 1x50/75",315,POWER GRID,Chattogram,False
+Daganbhuiyan_132kV,Daganbhuiyan,132,AC,1x80/120,120,POWER GRID,Cumilla,False
+Dhaka University (DU)_132kV,Dhaka University (DU),132,AC,2x80/120,240,DPDC,Dhaka(S),False
+Daudkandi_132kV,Daudkandi,132,AC,3x50/75,225,POWER GRID,Cumilla,False
+Dhamrai_132kV,Dhamrai,132,AC,2x50/75,150,POWER GRID,Dhaka(N),False
+Dhanmondi_132kV,Dhanmondi,132,AC,1x50/75 3x80/120,435,DPDC,Dhaka(N),False
+Dohazari_132kV,Dohazari,132,AC,2x80/120,240,POWER GRID,Chattogram,False
+Faridpur_132kV,Faridpur,132,AC,"2x80/120, 1x25/41",281,POWER GRID,Khulna,False
+Fatullah_132kV,Fatullah,132,AC,2x80/120,240,DPDC,Dhaka(S),False
+Fenchuganj_132kV,Fenchuganj,132,AC,"2x15/20,1x25/41",81,POWER GRID,Cumilla,False
+Feni_132kV,Feni,132,AC,2x80/120,240,POWER GRID,Cumilla,False
+Gallamari_132kV,Gallamari,132,AC,2x80/120,240,POWER GRID,Khulna,False
+Ghatail_132kV,Ghatail,132,AC,2x50/75,150,POWER GRID,Dhaka(N),False
+Ghorashal_132kV,Ghorashal,132,AC,2x41/63,126,BPDB,Dhaka(N),False
+Goalpara_132kV,Goalpara,132,AC,2x25/41,82,POWER GRID,Khulna,False
+Gopalganj_132kV,Gopalganj,132,AC,2x80/120,240,POWER GRID,Khulna,False
+Gulshan_132kV,Gulshan,132,AC,2x80/120,240,POWER GRID,Dhaka(S),False
+Halishahar_132kV,Halishahar,132,AC,"1x44.1/63, 2x80/120",303,POWER GRID,Chattogram,False
+Haripur SBU_132kV,Haripur SBU,132,AC,2x80/120,240,POWER GRID,Dhaka(S),False
+Hasnabad_132kV,Hasnabad,132,AC,3x66/100,300,POWER GRID,Dhaka(S),False
+Hathazari_132kV,Hathazari,132,AC,"1x50/75, 1x80/120",195,POWER GRID,Chattogram,False
+Ishwardi_132kV,Ishwardi,132,AC,"2x50/75, 1x80/120",270,POWER GRID,HVDC,False
+Jaldhaka_132kV,Jaldhaka,132,AC,2x50/75,150,POWER GRID,Bogura,False
+Jamalpur_132kV,Jamalpur,132,AC,"3x50/75, 1x25/41",266,POWER GRID,Dhaka(N),False
+Jashore_132kV,Jashore,132,AC,3x80/120,360,POWER GRID,HVDC,False
+Jhenaidah_132kV,Jhenaidah,132,AC,"2x80/120, 1x50/83.3",323.3,POWER GRID,HVDC,False
+Joydebpur_132kV,Joydebpur,132,AC,"1x35/50 1x50/75, 1x80/120",245,POWER GRID,Dhaka(N),False
+Joypurhat_132kV,Joypurhat,132,AC,4x25/41,164,POWER GRID,Bogura,False
+Juldah_132kV,Juldah,132,AC,2x50/75,150,POWER GRID,Chattogram,False
+Kabirpur_132kV,Kabirpur,132,AC,3x80/120,360,POWER GRID,Dhaka(N),False
+Kachua_132kV,Kachua,132,AC,2x50/75,150,POWER GRID,Cumilla,False
+Kallayanpur_132kV,Kallayanpur,132,AC,3x50/75,225,POWER GRID,Dhaka(N),False
+Kalurghat_132kV,Kalurghat,132,AC,2x80/120,240,POWER GRID,Chattogram,False
+Kamrangirchar_132kV,Kamrangirchar,132,AC,3x50/75,225,DPDC,Dhaka(N),False
+Kaptai_132kV,Kaptai,132,AC,1x15/20 Pag (132/11kV),e 3 of 60,BPDB,Chattogram,False
+Kazla_132kV,Kazla,132,AC,2x80/120,240,DPDC,Dhaka(S),False
+Keraniganj_132kV,Keraniganj,132,AC,2x50/75,150,POWER GRID,Dhaka(S),False
+Khagrachari_132kV,Khagrachari,132,AC,2x30/39 (2x3x10/13),78,POWER GRID,Chattogram,False
+Khulna (C)_132kV,Khulna (C),132,AC,3x48/64,192,POWER GRID,Khulna,False
+Khulshi_132kV,Khulshi,132,AC,2x80/120,240,POWER GRID,Chattogram,False
+Kishoreganj_132kV,Kishoreganj,132,AC,3x80/120,360,POWER GRID,Dhaka(N),False
+Kodda_132kV,Kodda,132,AC,5x50/75,375,POWER GRID,Dhaka(N),False
+Kosba_132kV,Kosba,132,AC,2x80/120,240,POWER GRID,Cumilla,False
+KSRM_132kV,KSRM,132,AC,2x35/50,100,Bulk,Chattogram,False
+Kulaura_132kV,Kulaura,132,AC,3x25/41,123,POWER GRID,Cumilla,False
+Kurigram_132kV,Kurigram,132,AC,2x50/75,150,POWER GRID,Bogura,False
+Kushtia_132kV,Kushtia,132,AC,2x80/120,240,POWER GRID,HVDC,False
+KYCR_132kV,KYCR,132,AC,1x20/25,20,Bulk,Chattogram,False
+Laksam_132kV,Laksam,132,AC,2x80/120,240,POWER GRID,Cumilla,False
+Lakshmipur_132kV,Lakshmipur,132,AC,2x80/120,240,POWER GRID,Cumilla,False
+Lalbagh_132kV,Lalbagh,132,AC,2x50/75,150,DPDC,Dhaka(N),False
+Lalmonirhat_132kV,Lalmonirhat,132,AC,2x50/75 2X15/20 1X25/33,223,POWER GRID,Bogura,False
+Mahasthangarh_132kV,Mahasthangarh,132,AC,2x80/120,240,POWER GRID,Bogura,False
+Madanganj_132kV,Madanganj,132,AC,2x35/50,100,POWER GRID,Dhaka(S),False
+Madaripur_132kV,Madaripur,132,AC,1x25/41 2x50/75,191,POWER GRID,Khulna,False
+Madartek_132kV,Madartek,132,AC,2x50/75,150,DPDC,Dhaka(S),False
+Madunaghat_132kV,Madunaghat,132,AC,2x80/120,240,POWER GRID,Chattogram,False
+Magura_132kV,Magura,132,AC,"2x25/41, 1x80/120",202,POWER GRID,HVDC,False
+Maijdee_132kV,Maijdee,132,AC,2x80/120,240,POWER GRID,Cumilla,False
+Manikganj_132kV,Manikganj,132,AC,2x50/75 1x35/50,200,POWER GRID,Dhaka(N),False
+Maniknagar_132kV,Maniknagar,132,AC,2x50/75,150,DPDC,Dhaka(S),False
+Matarbari_132kV,Matarbari,132,AC,2x25/41,82,POWER GRID,Chattogram,False
+Matuail_132kV,Matuail,132,AC,2x50/75,150,DPDC,Dhaka(S),False
+MI Cement_132kV,MI Cement,132,AC,1x28,28,Bulk,Dhaka(S),False
+Mirpur_132kV,Mirpur,132,AC,3x80/120,360,DESCO,Dhaka(N),False
+Mirzapur_132kV,Mirzapur,132,AC,2x50/75,150,POWER GRID,Dhaka(N),False
+Mithapukur_132kV,Mithapukur,132,AC,2x50/75,150,POWER GRID,Bogura,False
+MSML_132kV,MSML,132,AC,1x25/30,30,Bulk,Chattogram,False
+Moghbazar_132kV,Moghbazar,132,AC,3x50/75,225,DPDC,Dhaka(S),False
+Mongla_132kV,Mongla,132,AC,2x50/75,150,POWER GRID,Khulna,False
+Motijheel_132kV,Motijheel,132,AC,2x80/120,240,DPDC,Dhaka(S),False
+MRT Motijheel_132kV,MRT Motijheel,132,AC,2x40/50,100,DMTCL,Dhaka(S),False
+MRT Uttara_132kV,MRT Uttara,132,AC,2x40/50,100,DMTCL,Dhaka(N),False
+Mukhtagacha_132kV,Mukhtagacha,132,AC,3x50/75,225,POWER GRID,Dhaka(N),False
+Munshiganj_132kV,Munshiganj,132,AC,2x80/120,240,POWER GRID,Dhaka(S),False
+Muradnagar_132kV,Muradnagar,132,AC,2x80/120,240,POWER GRID,Cumilla,False
+Mymensingh_132kV,Mymensingh,132,AC,3x80/120,360,POWER GRID,Dhaka(N),False
+Naogaon_132kV,Naogaon,132,AC,"2x50/75, 1x80/120",270,POWER GRID,Bogura,False
+Narail_132kV,Narail,132,AC,2x50/75,150,POWER GRID,Khulna,False
+Narinda_132kV,Narinda,132,AC,2x50/75,150,DPDC,Dhaka(S),False
+Narsingdi_132kV,Narsingdi,132,AC,4x50/75,300,POWER GRID,Dhaka(S),False
+Natore_132kV,Natore,132,AC,"3x50/75, 1x35/50",275,POWER GRID,Bogura,False
+Nawabganj_132kV,Nawabganj,132,AC,2x50/75 Pag,e 4 of 60,POWER GRID,Dhaka(S),False
+Netrokona_132kV,Netrokona,132,AC,"2x25/41,1x50/75",157,POWER GRID,Dhaka(N),False
+New Tongi_132kV,New Tongi,132,AC,2x80/120,240,DESCO,Dhaka(N),False
+Niamatpur_132kV,Niamatpur,132,AC,"2x50/75, 1x35/50",200,POWER GRID,Bogura,False
+Noapara_132kV,Noapara,132,AC,2x50/75 1x44.1/63,213,POWER GRID,Khulna,False
+Pabna_132kV,Pabna,132,AC,"2x50/75, 2x25/41",232,POWER GRID,HVDC,False
+Palashbari_132kV,Palashbari,132,AC,2x50/75 2X25/41,232,POWER GRID,Bogura,False
+Panchagarh_132kV,Panchagarh,132,AC,4x25/41,164,POWER GRID,Bogura,False
+Patiya_132kV,Patiya,132,AC,2x80/120,240,POWER GRID,Chattogram,False
+Patuakhali_132kV,Patuakhali,132,AC,2x50/75 1x25/41,191,POWER GRID,Khulna,False
+Payra_132kV,Payra,132,AC,2x80/120,240,POWER GRID,Khulna,False
+PHP_132kV,PHP,132,AC,1x30/35,35,Bulk,Cumilla,False
+Postagola_132kV,Postagola,132,AC,2x80/120,240,DPDC,Dhaka(S),False
+Purbachal_132kV,Purbachal,132,AC,2x80/120,240,DESCO,Dhaka(N),False
+Purbasadipur_132kV,Purbasadipur,132,AC,"1x80/120, 1x25/41 2x50/75",311,POWER GRID,Bogura,False
+RSRM_132kV,RSRM,132,AC,1x20/25,25,Bulk,Dhaka(S),False
+Rajbari_132kV,Rajbari,132,AC,"2x50/75, 1x25/41",191,POWER GRID,Khulna,False
+Rajshahi_132kV,Rajshahi,132,AC,"1x80/120, 1x50/75,1x35/50",290,POWER GRID,Bogura,False
+Rajshahi(N)_132kV,Rajshahi(N),132,AC,2x80/120,240,POWER GRID,Bogura,False
+Rajendrapur_132kV,Rajendrapur,132,AC,3x80/120,360,POWER GRID,Dhaka(N),False
+Ramganj_132kV,Ramganj,132,AC,2x50/75,150,POWER GRID,Cumilla,False
+Rampur_132kV,Rampur,132,AC,2x80/120,240,POWER GRID,Chattogram,False
+Rangamati_132kV,Rangamati,132,AC,2x25/41,82,POWER GRID,Chattogram,False
+Rangpur_132kV,Rangpur,132,AC,"2x80/120, 1x25/41",281,POWER GRID,Bogura,False
+Rooppur_132kV,Rooppur,132,AC,2x25/41,82,MoST,HVDC,False
+Saidpur_132kV,Saidpur,132,AC,"1x35/50, 2x50/75",241,POWER GRID,Bogura,False
+Satkhira_132kV,Satkhira,132,AC,"2x25/41, 1x40 1x80/120",242,POWER GRID,Khulna,False
+Sathia_132kV,Sathia,132,AC,2x50/75,150,POWER GRID,HVDC,False
+Satmasjid_132kV,Satmasjid,132,AC,2x80/120,240,POWER GRID,Dhaka(N),False
+Savar_132kV,Savar,132,AC,4x50/75,300,POWER GRID,Dhaka(N),False
+Seven Circle_132kV,Seven Circle,132,AC,2x30,60,Bulk,Dhaka(S),False
+Shah Cement_132kV,Shah Cement,132,AC,1x80/120,120,Private,Dhaka(S),False
+Shahjadpur_132kV,Shahjadpur,132,AC,"2x50/75, 2x35/50",250,POWER GRID,HVDC,False
+Shahjibazar_132kV,Shahjibazar,132,AC,"1x25/41, 1x50/75, 1x80/120",236,POWER GRID,Cumilla,False
+Shahmirpur_132kV,Shahmirpur,132,AC,2x48/64,128,POWER GRID,Chattogram,False
+Shariatpur_132kV,Shariatpur,132,AC,2x80/120,240,POWER GRID,Khulna,False
+Sherpur_132kV,Sherpur,132,AC,3x50/75,225,POWER GRID,Dhaka(N),False
+Sherpur(Bogura)_132kV,Sherpur(Bogura),132,AC,3x50/75,225,POWER GRID,Bogura,False
+Sholoshahar_132kV,Sholoshahar,132,AC,2x80/120,240,POWER GRID,Chattogram,False
+Shyampur_132kV,Shyampur,132,AC,"2x50/75, 2x80/120",390,DPDC,Dhaka(S),False
+Siddhirganj_132kV,Siddhirganj,132,AC,3x80/120,360,POWER GRID,Dhaka(S),False
+Sikalbaha_132kV,Sikalbaha,132,AC,"1x25/41.6, 1x50/75 Pag",116.6 e 5 of 6,BPDB,Chattogram,False
+Sitakunda_132kV,Sitakunda,132,AC,2x50/75,150,POWER GRID,Chattogram,False
+Sirajganj_132kV,Sirajganj,132,AC,"2x50/75, 2x80/120",390,POWER GRID,Bogura,False
+Sitalakhya_132kV,Sitalakhya,132,AC,3x50/75,225,DPDC,Dhaka(S),False
+Sonargaon_132kV,Sonargaon,132,AC,2x80/120,240,POWER GRID,Dhaka(S),False
+Srimangal_132kV,Srimangal,132,AC,"1x15/20, 3x25/41",143,POWER GRID,Cumilla,False
+Sreenagar_132kV,Sreenagar,132,AC,2x50/75,150,POWER GRID,Dhaka(S),False
+SSML_132kV,SSML,132,AC,1x25/30,30,Bulk,Chattogram,False
+Sripur_132kV,Sripur,132,AC,2x50/75,150,POWER GRID,Dhaka(N),False
+Sunamganj_132kV,Sunamganj,132,AC,2x30/39 (2x3x10/13),78,POWER GRID,Cumilla,False
+Sylhet_132kV,Sylhet,132,AC,"1x80/120, 2x25/41,1x50/83",285,POWER GRID,Cumilla,False
+Sylhet (S)_132kV,Sylhet (S),132,AC,2x50/75,150,POWER GRID,Cumilla,False
+Tangail_132kV,Tangail,132,AC,"2x80/120, 1x50/75, 1x25/41",356,POWER GRID,Dhaka(N),False
+Taraganj_132kV,Taraganj,132,AC,2x25/41,82,POWER GRID,Bogura,False
+Tasnim Chemical_132kV,Tasnim Chemical,132,AC,1x80/120,120,Bulk,Dhaka(S),False
+Thakurgaon_132kV,Thakurgaon,132,AC,"2x50/75, 1x25/41",191,POWER GRID,Bogura,False
+TKCCL_132kV,TKCCL,132,AC,2x50/75,75,Bulk,Chattogram,False
+Tongi_132kV,Tongi,132,AC,"1x50/75, 2x80/120",315,POWER GRID,Dhaka(N),False
+Tongi-3 (Mill Gate)_132kV,Tongi-3 (Mill Gate),132,AC,2x80/120,240,DESCO,Dhaka(N),False
+Ullapara_132kV,Ullapara,132,AC,2x80/120,240,POWER GRID,HVDC,False
+Ullon_132kV,Ullon,132,AC,3x35/50,150,DPDC,Dhaka(S),False
+Uttara 3P_132kV,Uttara 3P,132,AC,2x80/120,240,DESCO,Dhaka(N),False
+Uttara_132kV,Uttara,132,AC,3x80/120,360,DESCO,Dhaka(N),False
+Zigatola_132kV,Zigatola,132,AC,2x80/120,240,DPDC,Dhaka(S),False
+Korerhat_230kV,Korerhat,230,AC,2x1000,,POWER GRID,Chattogram,True
+Bibiyana_230kV,Bibiyana,230,AC,2x520,,POWER GRID,Cumilla,True
+RNPP_230kV,RNPP,230,AC,2x520,,RNPP,HVDC,True
+Bheramara_400kV,Bheramara,400,AC,"3x25/41, 1x15/20",,POWER GRID,HVDC,True
+Baghabari_132kV,Baghabari,132,AC,"1x225, 1x300",,POWER GRID,HVDC,True
+Payra_230kV,Payra,230,AC,2x80/120,,POWER GRID,Khulna,True
+Patuakhali_230kV,Patuakhali,230,AC,2x50/75 1x25/41,,POWER GRID,Khulna,True
+Mongla_230kV,Mongla,230,AC,2x50/75,,POWER GRID,Khulna,True
+Cumilla (N)_400kV,Cumilla (N),400,AC,3x50/75,,POWER GRID,Cumilla,True
+Ashuganj (N)_230kV,Ashuganj (N),230,AC,2x244/325,,APSCL,Cumilla,True
+Bogura (W)_230kV,Bogura (W),230,AC,3x750,,POWER GRID,Bogura,True
+Banskhali_400kV,Banskhali,400,AC,,,,,True
+Monakosa_400kV,Monakosa,400,AC,,,,,True
+Raozan_230kV,Raozan,230,AC,,,,,True
+Bhola_230kV,Bhola,230,AC,,,,,True
+Anowara_230kV,Anowara,230,AC,,,,,True
+Gazaria_230kV,Gazaria,230,AC,,,,,True
+Sonagazi_230kV,Sonagazi,230,AC,,,,,True
+Bakerganj_132kV,Bakerganj,132,AC,,,,,True
+Barmi_132kV,Barmi,132,AC,,,,,True
+Pubail_132kV,Pubail,132,AC,,,,,True
+Araihazar_132kV,Araihazar,132,AC,,,,,True
+Kaliganj_132kV,Kaliganj,132,AC,,,,,True
+Maheshpur_132kV,Maheshpur,132,AC,,,,,True
+Cantonment_132kV,Cantonment,132,AC,,,,,True
+Madunaght_230kV,Madunaght,230,AC,,,,,True
+Kabir Steel_132kV,Kabir Steel,132,AC,,,,,True
+Bangladesh Border_400kV,Bangladesh Border,400,AC,,,,,True
+Khula 330MW_230kV,Khula 330MW,230,AC,,,,,True
+Energaon_132kV,Energaon,132,AC,,,,,True

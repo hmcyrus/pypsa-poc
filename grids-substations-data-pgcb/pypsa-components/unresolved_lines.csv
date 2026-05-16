@@ -1,0 +1,4 @@
+line_name,voltage,bus0_raw,bus1_raw,bus0_resolved,bus1_resolved,is_lilo
+Sonargaon S/S to Megnaghat Rental PP,132,Sonargaon,Megnaghat,Sonargaon_132kV,,False
+Tangail-RPCL,132,Tangail,RPCL,Tangail_132kV,,False
+Energaon-Mongla,132,Energaon,Mongla,,Mongla_132kV,False
