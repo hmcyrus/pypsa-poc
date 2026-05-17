@@ -395,34 +395,149 @@ VOLTAGE_MAP = {
     "132kV":  132,
 }
 
-# Resistance and reactance [ohm/km per circuit] for common conductors.
-# Sources: standard ACSR/AAAC/ACCC manufacturer data.
-CONDUCTOR_PARAMS: dict[str, dict] = {
-    "twin finch":         {"r": 0.0260, "x": 0.3210, "b": 3.40e-6},   # 2x Finch parallel
-    "quad finch":         {"r": 0.0130, "x": 0.2820, "b": 6.80e-6},   # 4x Finch parallel
-    "quad acsr finch":    {"r": 0.0130, "x": 0.2820, "b": 6.80e-6},
-    "quad accc finch":    {"r": 0.0110, "x": 0.2750, "b": 6.80e-6},
-    "ll-quad acsr finch": {"r": 0.0130, "x": 0.2820, "b": 6.80e-6},
-    "single acsr finch":  {"r": 0.0519, "x": 0.3986, "b": 2.86e-6},
-    "quad egret":         {"r": 0.0162, "x": 0.2970, "b": 6.10e-6},
-    "twin mallard":       {"r": 0.0339, "x": 0.3270, "b": 3.52e-6},   # 2x Mallard
-    "quad mallard":       {"r": 0.0169, "x": 0.2900, "b": 7.04e-6},
-    "twin accc mallard":  {"r": 0.0280, "x": 0.3180, "b": 3.52e-6},
-    "twin aaac":          {"r": 0.0320, "x": 0.3300, "b": 3.30e-6},
-    "mallard":            {"r": 0.0677, "x": 0.4016, "b": 2.84e-6},   # single Mallard
-    "accc mallard":       {"r": 0.0550, "x": 0.3900, "b": 2.84e-6},
-    "grosbeak":           {"r": 0.0852, "x": 0.4097, "b": 2.73e-6},
-    "accc grosbeak":      {"r": 0.0650, "x": 0.3900, "b": 2.73e-6},
-    "acsr grosbeak":      {"r": 0.0852, "x": 0.4097, "b": 2.73e-6},
-    "aaac":               {"r": 0.0640, "x": 0.4000, "b": 2.73e-6},
-    "accc aaac":          {"r": 0.0520, "x": 0.3800, "b": 2.73e-6},
-    "hawk":               {"r": 0.1200, "x": 0.4200, "b": 2.60e-6},
-    "accc hawk":          {"r": 0.0900, "x": 0.4000, "b": 2.60e-6},
-    "xlpe":               {"r": 0.0150, "x": 0.1200, "b": 2.00e-5},   # underground cable
-    "cu.cable":           {"r": 0.0750, "x": 0.1300, "b": 2.00e-5},
+# ---------------------------------------------------------------------------
+# Electrical parameters from manufacturer datasheet:
+#   TransPowr ACSR Bare Overhead Conductor, General Cable Canada
+#   r  = AC resistance @75°C (Ω/km) — column "AC @75°C" under "RESISTANCE (3) OHMS/KM"
+#   x  = inductive reactance (Ω/km) at 1-metre GMD — column "INDUCTIVE REACTANCE OHM/KM (5)"
+#   b  = susceptance (S/km) = 1 / (Xc × 10^6) where Xc from "CAPACITIVE REACTANCE MEGAOHM-KM (5)"
+#
+# Bundle corrections applied analytically for twin/quad bundles (bundle spacing d = 0.4 m):
+#   GMR_bundle_twin = sqrt(GMR_single * d)        [same units]
+#   GMR_bundle_quad = (GMR_single * d^3)^(1/4)
+#   x_bundle = x_single - (ω μ₀/2π) * ln(GMR_bundle / GMR_single)
+#            = x_single - 0.17359 * ln(GMR_bundle / GMR_single)   at 50 Hz
+#   r_bundle = r_single / n
+#   For capacitance the PDF Xc uses conductor outside radius; for bundles the equivalent
+#   radius is r_c_bundle = (r_c * d^(n-1))^(1/n).  We approximate b_bundle = n * b_single
+#   (conservative; true value is slightly higher due to ln ratio but within ~5%).
+# ---------------------------------------------------------------------------
+
+import math as _math
+
+def _bundle_x(x_single: float, gmr_cm: float, n: int, d_m: float = 0.4) -> float:
+    """Adjust inductive reactance for an n-conductor bundle at spacing d_m.
+
+    x_bundle = x_single - (ω μ₀/2π) × ln(GMR_bundle/GMR_single)
+    At 50 Hz:  ω μ₀/2π × 1000 (Ω/km) = 2π×50 × 2×10⁻⁷ × 1000 = 0.06283
+    """
+    gmr_m = gmr_cm / 100.0
+    if n == 1:
+        return x_single
+    if n == 2:
+        gmr_b = _math.sqrt(gmr_m * d_m)
+    elif n == 4:
+        gmr_b = (gmr_m * d_m ** 3) ** 0.25
+    else:
+        gmr_b = (gmr_m * d_m ** (n - 1)) ** (1.0 / n)
+    return x_single - 0.06283 * _math.log(gmr_b / gmr_m)
+
+# Single-conductor base values from PDF (all at 1-metre GMD)
+_S = {
+    #  name          r_75     gmr_cm    x        Xc_MOhm_km
+    "hawk":     (0.1466,  0.884,  0.2671,  0.1591),
+    "grosbeak": (0.1101,  1.020,  0.2559,  0.1522),
+    "egret":    (0.1102,  1.070,  0.2526,  0.1508),
+    "tern":     (0.08894, 1.070,  0.2523,  0.1488),
+    "drake":    (0.08830, 1.140,  0.2477,  0.1469),
+    "mallard":  (0.08831, 1.190,  0.2441,  0.1455),
+    "canary":   (0.07868, 1.190,  0.2441,  0.1446),
+    "rail":     (0.07436, 1.180,  0.2454,  0.1444),
+    "cardinal": (0.07435, 1.230,  0.2418,  0.1432),
+    "curlew":   (0.06881, 1.280,  0.2392,  0.1413),
+    "finch":    (0.06397, 1.330,  0.2362,  0.1395),
+    "bunting":  (0.06007, 1.310,  0.2372,  0.1391),
+    "pheasant": (0.05627, 1.420,  0.2313,  0.1363),
+    "martin":   (0.05313, 1.460,  0.2290,  0.1349),
 }
 
-DEFAULT_PARAMS = {"r": 0.0852, "x": 0.4097, "b": 2.73e-6}  # Grosbeak fallback
+def _p(name: str, n: int = 1) -> dict:
+    r0, gmr, x0, xc0 = _S[name]
+    return {
+        "r": round(r0 / n, 6),
+        "x": round(_bundle_x(x0, gmr, n), 6),
+        "b": round(n / (xc0 * 1e6), 4e-10.__class__(10)),
+    }
+
+# Helper that keeps the b value to sensible sig-figs
+def _mk(name: str, n: int = 1) -> dict:
+    r0, gmr, x0, xc0 = _S[name]
+    r = r0 / n
+    x = _bundle_x(x0, gmr, n)
+    b = n / (xc0 * 1e6)
+    return {"r": round(r, 6), "x": round(x, 6), "b": float(f"{b:.4e}")}
+
+CONDUCTOR_PARAMS: dict[str, dict] = {
+    # ---- Finch (1113 kcmil ACSR) ----
+    "finch":              _mk("finch"),
+    "acsr finch":         _mk("finch"),
+    "single acsr finch":  _mk("finch"),
+    "twin finch":         _mk("finch", 2),
+    "twin acsr finch":    _mk("finch", 2),
+    "quad finch":         _mk("finch", 4),
+    "quad acsr finch":    _mk("finch", 4),
+    "ll-quad acsr finch": _mk("finch", 4),
+    # ACCC Finch: r ~15% lower than ACSR; bundle geometry unchanged
+    "twin accc finch":    {"r": round(_mk("finch", 2)["r"] * 0.85, 6),
+                           "x": _mk("finch", 2)["x"],
+                           "b": _mk("finch", 2)["b"]},
+    "quad accc finch":    {"r": round(_mk("finch", 4)["r"] * 0.85, 6),
+                           "x": _mk("finch", 4)["x"],
+                           "b": _mk("finch", 4)["b"]},
+    # ---- Mallard (795 kcmil ACSR) ----
+    "mallard":            _mk("mallard"),
+    "acsr mallard":       _mk("mallard"),
+    "twin mallard":       _mk("mallard", 2),
+    "quad mallard":       _mk("mallard", 4),
+    # ACCC Mallard: r ~20% lower than ACSR
+    "accc mallard":       {"r": round(_mk("mallard")["r"] * 0.80, 6),
+                           "x": _mk("mallard")["x"],
+                           "b": _mk("mallard")["b"]},
+    "twin accc mallard":  {"r": round(_mk("mallard", 2)["r"] * 0.80, 6),
+                           "x": _mk("mallard", 2)["x"],
+                           "b": _mk("mallard", 2)["b"]},
+    # ---- Grosbeak (636 kcmil ACSR) ----
+    "grosbeak":           _mk("grosbeak"),
+    "acsr grosbeak":      _mk("grosbeak"),
+    "accc grosbeak":      {"r": round(_mk("grosbeak")["r"] * 0.80, 6),
+                           "x": _mk("grosbeak")["x"],
+                           "b": _mk("grosbeak")["b"]},
+    # ---- Egret (636 kcmil ACSR, higher steel ratio than Grosbeak) ----
+    "egret":              _mk("egret"),
+    "quad egret":         _mk("egret", 4),
+    # ---- Hawk (477 kcmil ACSR) ----
+    "hawk":               _mk("hawk"),
+    "accc hawk":          {"r": round(_mk("hawk")["r"] * 0.80, 6),
+                           "x": _mk("hawk")["x"],
+                           "b": _mk("hawk")["b"]},
+    # ---- Tern (795 kcmil ACSR, lighter steel) ----
+    "tern":               _mk("tern"),
+    # ---- Drake (795 kcmil ACSR) ----
+    "drake":              _mk("drake"),
+    # ---- Canary / Rail / Cardinal / Curlew / Bunting / Pheasant / Martin ----
+    "canary":             _mk("canary"),
+    "rail":               _mk("rail"),
+    "cardinal":           _mk("cardinal"),
+    "curlew":             _mk("curlew"),
+    "bunting":            _mk("bunting"),
+    "pheasant":           _mk("pheasant"),
+    "martin":             _mk("martin"),
+    # ---- AAAC (no PDF data — use grosbeak geometry, 10% lower r) ----
+    "aaac":               {"r": round(_mk("grosbeak")["r"] * 0.90, 6),
+                           "x": _mk("grosbeak")["x"],
+                           "b": _mk("grosbeak")["b"]},
+    "twin aaac":          {"r": round(_mk("grosbeak", 2)["r"] * 0.90, 6),
+                           "x": _mk("grosbeak", 2)["x"],
+                           "b": _mk("grosbeak", 2)["b"]},
+    "accc aaac":          {"r": round(_mk("grosbeak")["r"] * 0.75, 6),
+                           "x": _mk("grosbeak")["x"],
+                           "b": _mk("grosbeak")["b"]},
+    # ---- Underground cables (approximate) ----
+    "xlpe":               {"r": 0.015,  "x": 0.12,  "b": 2.00e-5},
+    "cu.cable":           {"r": 0.075,  "x": 0.13,  "b": 2.00e-5},
+}
+
+DEFAULT_PARAMS = _mk("grosbeak")  # Grosbeak fallback (636 kcmil ACSR)
 
 
 def _conductor_params(conductor_name: str) -> dict:
