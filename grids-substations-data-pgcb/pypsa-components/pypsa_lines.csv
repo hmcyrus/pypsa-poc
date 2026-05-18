@@ -1,0 +1,703 @@
+line_name,bus0,bus1,Length(km),Line Resistance (Ohm),Line Inductive Reactance (Ohm),Line Shunt Susceptance (Siemens),s_nom (MVA)
+Bheramara_400kVtoBangladesh Border_400kV_Line1,Bheramara_400kV,Bangladesh Border_400kV,27.35,0.031985,0.129273,1.4337e-05,400
+Bheramara_400kVtoBangladesh Border_400kV_Line2,Bheramara_400kV,Bangladesh Border_400kV,27.35,0.031985,0.129273,1.4337e-05,400
+Aminbazar_400kVtoMeghnaghat_400kV_Line1,Aminbazar_400kV,Meghnaghat_400kV,55.0,0.02755,0.081959,2.6525e-05,400
+Aminbazar_400kVtoMeghnaghat_400kV_Line2,Aminbazar_400kV,Meghnaghat_400kV,55.0,0.02755,0.081959,2.6525e-05,400
+Cumilla (N)_400kVtoBangladesh Border_400kV_Line1,Cumilla (N)_400kV,Bangladesh Border_400kV,28.0,0.031985,0.129273,1.4337e-05,400
+Cumilla (N)_400kVtoBangladesh Border_400kV_Line2,Cumilla (N)_400kV,Bangladesh Border_400kV,28.0,0.031985,0.129273,1.4337e-05,400
+Bibiyana_400kVtoKaliakoir_400kV_Line1,Bibiyana_400kV,Kaliakoir_400kV,169.5,0.031985,0.129273,1.4337e-05,400
+Bibiyana_400kVtoKaliakoir_400kV_Line2,Bibiyana_400kV,Kaliakoir_400kV,169.5,0.031985,0.129273,1.4337e-05,400
+Ashuganj (N)_400kVtoBhulta_400kV_Line1,Ashuganj (N)_400kV,Bhulta_400kV,69.0,0.031985,0.129273,1.4337e-05,400
+Ashuganj (N)_400kVtoBhulta_400kV_Line2,Ashuganj (N)_400kV,Bhulta_400kV,69.0,0.031985,0.129273,1.4337e-05,400
+Payra_400kVtoGopalganj (N)_400kV_Line1,Payra_400kV,Gopalganj (N)_400kV,163.55,0.013593,0.075809,2.8674e-05,400
+Payra_400kVtoGopalganj (N)_400kV_Line2,Payra_400kV,Gopalganj (N)_400kV,163.55,0.013593,0.075809,2.8674e-05,400
+BSRM_230kVtoMirsarai_230kV_Line1,BSRM_230kV,Mirsarai_230kV,16.5,0.027187,0.129273,1.4337e-05,400
+BSRM_230kVtoMirsarai_230kV_Line2,BSRM_230kV,Mirsarai_230kV,16.5,0.027187,0.129273,1.4337e-05,400
+Bheramara_400kVtoBangladesh Border_400kV_Line1,Bheramara_400kV,Bangladesh Border_400kV,28.0,0.031985,0.129273,1.4337e-05,400
+Bheramara_400kVtoBangladesh Border_400kV_Line2,Bheramara_400kV,Bangladesh Border_400kV,28.0,0.031985,0.129273,1.4337e-05,400
+Payra_400kVtoPayra_400kV_Line1,Payra_400kV,Payra_400kV,1.2,0.06397,0.2362,7.1685e-06,400
+Payra_400kVtoPayra_400kV_Line2,Payra_400kV,Payra_400kV,1.2,0.06397,0.2362,7.1685e-06,400
+Banskhali_400kVtoMadunaghat_400kV_Line1,Banskhali_400kV,Madunaghat_400kV,55.5,0.015992,0.075809,2.8674e-05,400
+Banskhali_400kVtoMadunaghat_400kV_Line2,Banskhali_400kV,Madunaghat_400kV,55.5,0.015992,0.075809,2.8674e-05,400
+Matarbari_132kVtoMadunaghat_400kV_Line1,Matarbari_132kV,Madunaghat_400kV,3.5,0.015992,0.075809,2.8674e-05,400
+Matarbari_132kVtoMadunaghat_400kV_Line2,Matarbari_132kV,Madunaghat_400kV,3.5,0.015992,0.075809,2.8674e-05,400
+Matarbari_132kVtoMadunaghat_400kV_Line3,Matarbari_132kV,Madunaghat_400kV,3.5,0.015992,0.075809,2.8674e-05,400
+Matarbari_132kVtoMadunaghat_400kV_Line4,Matarbari_132kV,Madunaghat_400kV,3.5,0.015992,0.075809,2.8674e-05,400
+Monakosa_400kVtoRahanpur_400kV_Line1,Monakosa_400kV,Rahanpur_400kV,30.0,0.015992,0.075809,2.8674e-05,400
+Monakosa_400kVtoRahanpur_400kV_Line2,Monakosa_400kV,Rahanpur_400kV,30.0,0.015992,0.075809,2.8674e-05,400
+Rampal_400kVtoGopalganj_132kV_Line1,Rampal_400kV,Gopalganj_132kV,96.7,0.013593,0.075809,2.8674e-05,400
+Rampal_400kVtoGopalganj_132kV_Line2,Rampal_400kV,Gopalganj_132kV,96.7,0.013593,0.075809,2.8674e-05,400
+Gopalganj_132kVtoAminbazar_400kV_Line1,Gopalganj_132kV,Aminbazar_400kV,75.3,0.013593,0.075809,2.8674e-05,400
+Gopalganj_132kVtoAminbazar_400kV_Line2,Gopalganj_132kV,Aminbazar_400kV,75.3,0.013593,0.075809,2.8674e-05,400
+Gopalganj_132kVtoAminbazar_400kV_Line1,Gopalganj_132kV,Aminbazar_400kV,7.5,0.013593,0.075809,2.8674e-05,400
+Gopalganj_132kVtoAminbazar_400kV_Line2,Gopalganj_132kV,Aminbazar_400kV,7.5,0.013593,0.075809,2.8674e-05,400
+Bogura (W)_400kVtoRahanpur_400kV_Line1,Bogura (W)_400kV,Rahanpur_400kV,105.0,0.027187,0.129273,1.4337e-05,400
+Bogura (W)_400kVtoRahanpur_400kV_Line2,Bogura (W)_400kV,Rahanpur_400kV,105.0,0.027187,0.129273,1.4337e-05,400
+Barguna_132kVtoPayra_400kV_Line1,Barguna_132kV,Payra_400kV,27.8,0.06397,0.2362,7.1685e-06,400
+Matarbari_132kVtoBanskhali_400kV_Line1,Matarbari_132kV,Banskhali_400kV,38.0,0.015992,0.075809,2.8674e-05,400
+Matarbari_132kVtoBanskhali_400kV_Line2,Matarbari_132kV,Banskhali_400kV,38.0,0.015992,0.075809,2.8674e-05,400
+Madunaghat_400kVtoMeghnaghat_400kV_Line1,Madunaghat_400kV,Meghnaghat_400kV,217.2,0.015992,0.075809,2.8674e-05,400
+Madunaghat_400kVtoMeghnaghat_400kV_Line2,Madunaghat_400kV,Meghnaghat_400kV,217.2,0.015992,0.075809,2.8674e-05,400
+RNPP_400kVtoBogura (W)_400kV_Line1,RNPP_400kV,Bogura (W)_400kV,90.0,0.013593,0.075809,2.8674e-05,400
+Bogura (W)_400kVtoBarapukuria_230kV_Line1,Bogura (W)_400kV,Barapukuria_230kV,112.0,0.013593,0.075809,2.8674e-05,400
+Bogura (W)_400kVtoBarapukuria_230kV_Line2,Bogura (W)_400kV,Barapukuria_230kV,112.0,0.013593,0.075809,2.8674e-05,400
+Amtali Switching_400kVtoPayra_400kV_Line1,Amtali Switching_400kV,Payra_400kV,9.45,0.013593,0.075809,2.8674e-05,400
+Amtali Switching_400kVtoPayra_400kV_Line2,Amtali Switching_400kV,Payra_400kV,9.45,0.013593,0.075809,2.8674e-05,400
+Amtali Switching_400kVtoRNPP_400kV_Line1,Amtali Switching_400kV,RNPP_400kV,9.9,0.015992,0.075809,2.8674e-05,400
+Amtali Switching_400kVtoRNPP_400kV_Line2,Amtali Switching_400kV,RNPP_400kV,9.9,0.015992,0.075809,2.8674e-05,400
+Bogura_132kVtoKaliakoir_400kV_Line1,Bogura_132kV,Kaliakoir_400kV,73.0,0.013593,0.075809,2.8674e-05,400
+Bogura_132kVtoKaliakoir_400kV_Line2,Bogura_132kV,Kaliakoir_400kV,73.0,0.013593,0.075809,2.8674e-05,400
+Aminbazar_400kVtoKaliakoir_400kV_Line1,Aminbazar_400kV,Kaliakoir_400kV,51.0,0.013593,0.075809,2.8674e-05,400
+RNPP_400kVtoGopalganj_132kV_Line1,RNPP_400kV,Gopalganj_132kV,156.0,0.013593,0.075809,2.8674e-05,400
+RNPP_400kVtoGopalganj_132kV_Line1,RNPP_400kV,Gopalganj_132kV,2.0,0.013593,0.075809,2.8674e-05,400
+Madunaghat_400kVtoKorerhat_400kV_Line1,Madunaghat_400kV,Korerhat_400kV,0.0,0.015992,0.075809,2.8674e-05,400
+Madunaghat_400kVtoKorerhat_400kV_Line2,Madunaghat_400kV,Korerhat_400kV,0.0,0.015992,0.075809,2.8674e-05,400
+Madunaghat_400kVtoKorerhat_400kV_Line3,Madunaghat_400kV,Korerhat_400kV,0.0,0.015992,0.075809,2.8674e-05,400
+Madunaghat_400kVtoKorerhat_400kV_Line4,Madunaghat_400kV,Korerhat_400kV,0.0,0.015992,0.075809,2.8674e-05,400
+Ghorashal_230kVtoIshwardi_230kV_Line1,Ghorashal_230kV,Ishwardi_230kV,175.0,0.08831,0.2441,6.8729e-06,230
+Ghorashal_230kVtoIshwardi_230kV_Line2,Ghorashal_230kV,Ishwardi_230kV,175.0,0.08831,0.2441,6.8729e-06,230
+Tongi_230kVtoGhorashal_230kV_Line1,Tongi_230kV,Ghorashal_230kV,27.0,0.070648,0.2441,6.8729e-06,230
+Tongi_230kVtoGhorashal_230kV_Line2,Tongi_230kV,Ghorashal_230kV,27.0,0.070648,0.2441,6.8729e-06,230
+Ghorashal_230kVtoAshuganj_230kV_Line1,Ghorashal_230kV,Ashuganj_230kV,44.0,0.08831,0.2441,6.8729e-06,230
+Ghorashal_230kVtoAshuganj_230kV_Line2,Ghorashal_230kV,Ashuganj_230kV,44.0,0.08831,0.2441,6.8729e-06,230
+Raozan_230kVtoHathazari_230kV_Line1,Raozan_230kV,Hathazari_230kV,22.5,0.1101,0.2559,6.5703e-06,230
+Raozan_230kVtoHathazari_230kV_Line2,Raozan_230kV,Hathazari_230kV,22.5,0.1101,0.2559,6.5703e-06,230
+Ashuganj_230kVtoCumilla (N)_230kV_Line1,Ashuganj_230kV,Cumilla (N)_230kV,79.0,0.06397,0.2362,7.1685e-06,230
+Ashuganj_230kVtoCumilla (N)_230kV_Line2,Ashuganj_230kV,Cumilla (N)_230kV,79.0,0.06397,0.2362,7.1685e-06,230
+Ghorashal_230kVtoRampura_230kV_Line1,Ghorashal_230kV,Rampura_230kV,50.0,0.044155,0.133679,1.3746e-05,230
+Ghorashal_230kVtoRampura_230kV_Line2,Ghorashal_230kV,Rampura_230kV,50.0,0.044155,0.133679,1.3746e-05,230
+Rampura_230kVtoHaripur_230kV_Line1,Rampura_230kV,Haripur_230kV,22.0,0.044155,0.133679,1.3746e-05,230
+Rampura_230kVtoHaripur_230kV_Line2,Rampura_230kV,Haripur_230kV,22.0,0.044155,0.133679,1.3746e-05,230
+Haripur_230kVtoMeghnaghat_400kV_Line1,Haripur_230kV,Meghnaghat_400kV,12.5,0.044155,0.133679,1.3746e-05,230
+Haripur_230kVtoMeghnaghat_400kV_Line2,Haripur_230kV,Meghnaghat_400kV,12.5,0.044155,0.133679,1.3746e-05,230
+Meghnaghat_400kVtoHasnabad_230kV_Line1,Meghnaghat_400kV,Hasnabad_230kV,24.5,0.044155,0.133679,1.3746e-05,230
+Meghnaghat_400kVtoHasnabad_230kV_Line2,Meghnaghat_400kV,Hasnabad_230kV,24.5,0.044155,0.133679,1.3746e-05,230
+Cumilla (N)_230kVtoHathazari_230kV_Line1,Cumilla (N)_230kV,Hathazari_230kV,151.0,0.06397,0.2362,7.1685e-06,230
+Cumilla (N)_230kVtoHathazari_230kV_Line2,Cumilla (N)_230kV,Hathazari_230kV,151.0,0.06397,0.2362,7.1685e-06,230
+Haripur_230kVtoHaripur_230kV_Line1,Haripur_230kV,Haripur_230kV,2.4,0.06397,0.2362,7.1685e-06,230
+Haripur_230kVtoHaripur_230kV_Line2,Haripur_230kV,Haripur_230kV,2.4,0.06397,0.2362,7.1685e-06,230
+Cumilla (N)_230kVtoMeghnaghat_400kV_Line1,Cumilla (N)_230kV,Meghnaghat_400kV,58.0,0.044155,0.133679,1.3746e-05,230
+Cumilla (N)_230kVtoMeghnaghat_400kV_Line2,Cumilla (N)_230kV,Meghnaghat_400kV,58.0,0.044155,0.133679,1.3746e-05,230
+Tongi_230kVtoAminbazar_230kV_Line1,Tongi_230kV,Aminbazar_230kV,25.2,0.049545,0.140636,1.3141e-05,230
+Tongi_230kVtoAminbazar_230kV_Line2,Tongi_230kV,Aminbazar_230kV,25.2,0.049545,0.140636,1.3141e-05,230
+Aminbazar_230kVtoHasnabad_230kV_Line1,Aminbazar_230kV,Hasnabad_230kV,21.5,0.049545,0.140636,1.3141e-05,230
+Aminbazar_230kVtoHasnabad_230kV_Line2,Aminbazar_230kV,Hasnabad_230kV,21.5,0.049545,0.140636,1.3141e-05,230
+Siddhirganj_230kVtoHaripur_230kV_Line1,Siddhirganj_230kV,Haripur_230kV,1.5,0.06397,0.2362,7.1685e-06,230
+Ashuganj_230kVtoSirajganj_132kV_Line1,Ashuganj_230kV,Sirajganj_132kV,144.0,0.049545,0.140636,1.3141e-05,230
+Ashuganj_230kVtoSirajganj_132kV_Line2,Ashuganj_230kV,Sirajganj_132kV,144.0,0.049545,0.140636,1.3141e-05,230
+Khulna (S)_230kVtoBheramara_230kV_Line1,Khulna (S)_230kV,Bheramara_230kV,176.5,0.049545,0.140636,1.3141e-05,230
+Khulna (S)_230kVtoBheramara_230kV_Line2,Khulna (S)_230kV,Bheramara_230kV,176.5,0.049545,0.140636,1.3141e-05,230
+Bheramara_230kVtoIshwardi_230kV_Line1,Bheramara_230kV,Ishwardi_230kV,10.1,0.049545,0.140636,1.3141e-05,230
+Bheramara_230kVtoIshwardi_230kV_Line2,Bheramara_230kV,Ishwardi_230kV,10.1,0.049545,0.140636,1.3141e-05,230
+Bogura (S)_230kVtoBarapukuria_230kV_Line1,Bogura (S)_230kV,Barapukuria_230kV,106.0,0.049545,0.140636,1.3141e-05,230
+Bogura (S)_230kVtoBarapukuria_230kV_Line2,Bogura (S)_230kV,Barapukuria_230kV,106.0,0.049545,0.140636,1.3141e-05,230
+Sirajganj_132kVtoBogura (S)_230kV_Line1,Sirajganj_132kV,Bogura (S)_230kV,72.5,0.049545,0.140636,1.3141e-05,230
+Sirajganj_132kVtoBogura (S)_230kV_Line2,Sirajganj_132kV,Bogura (S)_230kV,72.5,0.049545,0.140636,1.3141e-05,230
+Ishwardi_230kVtoBaghabari_230kV_Line1,Ishwardi_230kV,Baghabari_230kV,55.0,0.049545,0.140636,1.3141e-05,230
+Ishwardi_230kVtoBaghabari_230kV_Line2,Ishwardi_230kV,Baghabari_230kV,55.0,0.049545,0.140636,1.3141e-05,230
+Baghabari_230kVtoSirajganj_132kV_Line1,Baghabari_230kV,Sirajganj_132kV,38.0,0.049545,0.140636,1.3141e-05,230
+Baghabari_230kVtoSirajganj_132kV_Line2,Baghabari_230kV,Sirajganj_132kV,38.0,0.049545,0.140636,1.3141e-05,230
+Fenchuganj_230kVtoBibiyana_230kV_Line1,Fenchuganj_230kV,Bibiyana_230kV,33.5,0.044155,0.133679,1.3746e-05,230
+Fenchuganj_230kVtoBibiyana_230kV_Line2,Fenchuganj_230kV,Bibiyana_230kV,33.5,0.044155,0.133679,1.3746e-05,230
+Bibiyana_230kVtoCumilla (N)_230kV_Line1,Bibiyana_230kV,Cumilla (N)_230kV,153.5,0.044155,0.133679,1.3746e-05,230
+Bibiyana_230kVtoCumilla (N)_230kV_Line2,Bibiyana_230kV,Cumilla (N)_230kV,153.5,0.044155,0.133679,1.3746e-05,230
+Aminbazar_230kVtoAgargaon_230kV_Line1,Aminbazar_230kV,Agargaon_230kV,3.5,0.044155,0.133679,1.3746e-05,230
+Aminbazar_230kVtoAgargaon_230kV_Line2,Aminbazar_230kV,Agargaon_230kV,3.5,0.044155,0.133679,1.3746e-05,230
+Aminbazar_230kVtoAgargaon_230kV_Line1,Aminbazar_230kV,Agargaon_230kV,4.0,0.015,0.12,2e-05,230
+Aminbazar_230kVtoAgargaon_230kV_Line2,Aminbazar_230kV,Agargaon_230kV,4.0,0.015,0.12,2e-05,230
+Siddhirganj_230kVtoManiknagar_230kV_Line1,Siddhirganj_230kV,Maniknagar_230kV,11.0,0.044155,0.133679,1.3746e-05,230
+Siddhirganj_230kVtoManiknagar_230kV_Line2,Siddhirganj_230kV,Maniknagar_230kV,11.0,0.044155,0.133679,1.3746e-05,230
+Bhola_230kVtoBarishal (N)_230kV_Line1,Bhola_230kV,Barishal (N)_230kV,62.5,0.044155,0.133679,1.3746e-05,230
+Bhola_230kVtoBarishal (N)_230kV_Line2,Bhola_230kV,Barishal (N)_230kV,62.5,0.044155,0.133679,1.3746e-05,230
+BSRM_230kVtoCumilla (N)_230kV_Line1,BSRM_230kV,Cumilla (N)_230kV,0.5,0.06397,0.2362,7.1685e-06,230
+BSRM_230kVtoCumilla (N)_230kV_Line2,BSRM_230kV,Cumilla (N)_230kV,0.5,0.06397,0.2362,7.1685e-06,230
+AKSPL_230kVtoCumilla (N)_230kV_Line1,AKSPL_230kV,Cumilla (N)_230kV,6.5,0.06397,0.2362,7.1685e-06,230
+AKSPL_230kVtoCumilla (N)_230kV_Line2,AKSPL_230kV,Cumilla (N)_230kV,6.5,0.06397,0.2362,7.1685e-06,230
+Kaliakoir_230kVtoAminbazar_230kV_Line1,Kaliakoir_230kV,Aminbazar_230kV,32.0,0.049545,0.140636,1.3141e-05,230
+Kaliakoir_230kVtoAminbazar_230kV_Line2,Kaliakoir_230kV,Aminbazar_230kV,32.0,0.049545,0.140636,1.3141e-05,230
+Kaliakoir_230kVtoAminbazar_230kV_Line3,Kaliakoir_230kV,Aminbazar_230kV,32.0,0.049545,0.140636,1.3141e-05,230
+Kaliakoir_230kVtoAminbazar_230kV_Line4,Kaliakoir_230kV,Aminbazar_230kV,32.0,0.049545,0.140636,1.3141e-05,230
+Bheramara_230kVtoBheramara_230kV_Line1,Bheramara_230kV,Bheramara_230kV,6.0,0.049545,0.140636,1.3141e-05,230
+Bheramara_230kVtoBheramara_230kV_Line2,Bheramara_230kV,Bheramara_230kV,6.0,0.049545,0.140636,1.3141e-05,230
+Bhulta_230kVtoGhorashal_230kV_Line1,Bhulta_230kV,Ghorashal_230kV,2.0,0.044155,0.133679,1.3746e-05,230
+Bhulta_230kVtoGhorashal_230kV_Line2,Bhulta_230kV,Ghorashal_230kV,2.0,0.044155,0.133679,1.3746e-05,230
+Bhulta_230kVtoHaripur_230kV_Line1,Bhulta_230kV,Haripur_230kV,2.5,0.044155,0.133679,1.3746e-05,230
+Bhulta_230kVtoHaripur_230kV_Line2,Bhulta_230kV,Haripur_230kV,2.5,0.044155,0.133679,1.3746e-05,230
+Bhulta_230kVtoHaripur_230kV_Line3,Bhulta_230kV,Haripur_230kV,2.5,0.044155,0.133679,1.3746e-05,230
+Bhulta_230kVtoHaripur_230kV_Line4,Bhulta_230kV,Haripur_230kV,2.5,0.044155,0.133679,1.3746e-05,230
+Haripur_230kVtoSiddhirganj_230kV_Line1,Haripur_230kV,Siddhirganj_230kV,1.65,0.044155,0.133679,1.3746e-05,230
+Haripur_230kVtoSiddhirganj_230kV_Line2,Haripur_230kV,Siddhirganj_230kV,1.65,0.044155,0.133679,1.3746e-05,230
+Bheramara_230kVtoIshwardi_230kV_Line1,Bheramara_230kV,Ishwardi_230kV,12.8,0.022077,0.078468,2.7491e-05,230
+Bheramara_230kVtoIshwardi_230kV_Line2,Bheramara_230kV,Ishwardi_230kV,12.8,0.022077,0.078468,2.7491e-05,230
+Kodda_132kVtoTongi_230kV_Line1,Kodda_132kV,Tongi_230kV,1.0,0.044155,0.133679,1.3746e-05,230
+Kodda_132kVtoTongi_230kV_Line2,Kodda_132kV,Tongi_230kV,1.0,0.044155,0.133679,1.3746e-05,230
+Keraniganj_230kVtoHasnabad_230kV_Line1,Keraniganj_230kV,Hasnabad_230kV,0.5,0.044155,0.133679,1.3746e-05,230
+Keraniganj_230kVtoHasnabad_230kV_Line2,Keraniganj_230kV,Hasnabad_230kV,0.5,0.044155,0.133679,1.3746e-05,230
+Keraniganj_230kVtoHasnabad_230kV_Line3,Keraniganj_230kV,Hasnabad_230kV,0.5,0.044155,0.133679,1.3746e-05,230
+Keraniganj_230kVtoHasnabad_230kV_Line4,Keraniganj_230kV,Hasnabad_230kV,0.5,0.044155,0.133679,1.3746e-05,230
+Sikalbaha_230kVtoAnowara_230kV_Line1,Sikalbaha_230kV,Anowara_230kV,17.5,0.044155,0.133679,1.3746e-05,230
+Sikalbaha_230kVtoAnowara_230kV_Line2,Sikalbaha_230kV,Anowara_230kV,17.5,0.044155,0.133679,1.3746e-05,230
+Shyampur_230kVtoHasnabad_230kV_Line1,Shyampur_230kV,Hasnabad_230kV,0.0,0.044155,0.133679,1.3746e-05,230
+Shyampur_230kVtoHasnabad_230kV_Line2,Shyampur_230kV,Hasnabad_230kV,0.0,0.044155,0.133679,1.3746e-05,230
+Shyampur_230kVtoHasnabad_230kV_Line3,Shyampur_230kV,Hasnabad_230kV,0.0,0.044155,0.133679,1.3746e-05,230
+Shyampur_230kVtoHasnabad_230kV_Line4,Shyampur_230kV,Hasnabad_230kV,0.0,0.044155,0.133679,1.3746e-05,230
+Patuakhali_230kVtoPayra_230kV_Line1,Patuakhali_230kV,Payra_230kV,46.5,0.035324,0.133679,1.3746e-05,230
+Patuakhali_230kVtoPayra_230kV_Line2,Patuakhali_230kV,Payra_230kV,46.5,0.035324,0.133679,1.3746e-05,230
+Ishwardi_230kVtoRajshahi_132kV_Line1,Ishwardi_230kV,Rajshahi_132kV,79.0,0.044155,0.133679,1.3746e-05,230
+Ishwardi_230kVtoRajshahi_132kV_Line2,Ishwardi_230kV,Rajshahi_132kV,79.0,0.044155,0.133679,1.3746e-05,230
+Jhenaidah_132kVtoBheramara_230kV_Line1,Jhenaidah_132kV,Bheramara_230kV,2.0,0.044155,0.133679,1.3746e-05,230
+Jhenaidah_132kVtoBheramara_230kV_Line2,Jhenaidah_132kV,Bheramara_230kV,2.0,0.044155,0.133679,1.3746e-05,230
+Jhenaidah_132kVtoBheramara_230kV_Line3,Jhenaidah_132kV,Bheramara_230kV,2.0,0.044155,0.133679,1.3746e-05,230
+Jhenaidah_132kVtoBheramara_230kV_Line4,Jhenaidah_132kV,Bheramara_230kV,2.0,0.044155,0.133679,1.3746e-05,230
+Sikalbaha_230kVtoHathazari_230kV_Line1,Sikalbaha_230kV,Hathazari_230kV,28.35,0.022077,0.078468,2.7491e-05,230
+Sikalbaha_230kVtoHathazari_230kV_Line2,Sikalbaha_230kV,Hathazari_230kV,28.35,0.022077,0.078468,2.7491e-05,230
+Mongla_230kVtoKhulna (S)_230kV_Line1,Mongla_230kV,Khulna (S)_230kV,24.0,0.044155,0.133679,1.3746e-05,230
+Mongla_230kVtoKhulna (S)_230kV_Line2,Mongla_230kV,Khulna (S)_230kV,24.0,0.044155,0.133679,1.3746e-05,230
+Barishal (N)_230kVtoGopalganj_132kV_Line1,Barishal (N)_230kV,Gopalganj_132kV,75.0,0.035324,0.133679,1.3746e-05,230
+Barishal (N)_230kVtoGopalganj_132kV_Line2,Barishal (N)_230kV,Gopalganj_132kV,75.0,0.035324,0.133679,1.3746e-05,230
+Gopalganj_132kVtoFaridpur_230kV_Line1,Gopalganj_132kV,Faridpur_230kV,49.0,0.035324,0.133679,1.3746e-05,230
+Gopalganj_132kVtoFaridpur_230kV_Line2,Gopalganj_132kV,Faridpur_230kV,49.0,0.035324,0.133679,1.3746e-05,230
+Madunaght_230kVtoSikalbaha_230kV_Line1,Madunaght_230kV,Sikalbaha_230kV,11.7,0.022077,0.078468,2.7491e-05,230
+Madunaght_230kVtoSikalbaha_230kV_Line2,Madunaght_230kV,Sikalbaha_230kV,11.7,0.022077,0.078468,2.7491e-05,230
+RNPP_230kVtoBaghabari_230kV_Line1,RNPP_230kV,Baghabari_230kV,65.5,0.035324,0.133679,1.3746e-05,230
+RNPP_230kVtoBaghabari_230kV_Line2,RNPP_230kV,Baghabari_230kV,65.5,0.035324,0.133679,1.3746e-05,230
+Khula 330MW_230kVtoKhulna (S)_230kV_Line1,Khula 330MW_230kV,Khulna (S)_230kV,14.0,0.06397,0.2362,7.1685e-06,230
+Bogura (W)_230kVtoBogura (S)_230kV_Line1,Bogura (W)_230kV,Bogura (S)_230kV,22.0,0.044155,0.133679,1.3746e-05,230
+Bogura (W)_230kVtoBogura (S)_230kV_Line2,Bogura (W)_230kV,Bogura (S)_230kV,22.0,0.044155,0.133679,1.3746e-05,230
+Sripur_230kVtoAshuganj_230kV_Line1,Sripur_230kV,Ashuganj_230kV,1.4,0.044155,0.133679,1.3746e-05,230
+Sripur_230kVtoAshuganj_230kV_Line2,Sripur_230kV,Ashuganj_230kV,1.4,0.044155,0.133679,1.3746e-05,230
+Sripur_230kVtoAshuganj_230kV_Line3,Sripur_230kV,Ashuganj_230kV,1.4,0.044155,0.133679,1.3746e-05,230
+Sripur_230kVtoAshuganj_230kV_Line4,Sripur_230kV,Ashuganj_230kV,1.4,0.044155,0.133679,1.3746e-05,230
+Madunaght_230kVtoMadunaght_230kV_Line1,Madunaght_230kV,Madunaght_230kV,7.0,0.044155,0.133679,1.3746e-05,230
+Madunaght_230kVtoMadunaght_230kV_Line2,Madunaght_230kV,Madunaght_230kV,7.0,0.044155,0.133679,1.3746e-05,230
+Mirsarai_230kVtoMirsarai_230kV_Line1,Mirsarai_230kV,Mirsarai_230kV,13.3,0.044155,0.133679,1.3746e-05,230
+Bogura (S)_230kVtoNaogaon_132kV_Line1,Bogura (S)_230kV,Naogaon_132kV,11.5,0.044155,0.133679,1.3746e-05,230
+Bogura (S)_230kVtoNaogaon_132kV_Line2,Bogura (S)_230kV,Naogaon_132kV,11.5,0.044155,0.133679,1.3746e-05,230
+Bogura_132kVtoNaogaon_132kV_Line1,Bogura_132kV,Naogaon_132kV,1.5,0.044155,0.133679,1.3746e-05,230
+Bogura_132kVtoNaogaon_132kV_Line2,Bogura_132kV,Naogaon_132kV,1.5,0.044155,0.133679,1.3746e-05,230
+Bogura_132kVtoNaogaon_132kV_Line3,Bogura_132kV,Naogaon_132kV,1.5,0.044155,0.133679,1.3746e-05,230
+Bogura_132kVtoNaogaon_132kV_Line4,Bogura_132kV,Naogaon_132kV,1.5,0.044155,0.133679,1.3746e-05,230
+Korerhat_230kVtoChowmuhani_230kV_Line1,Korerhat_230kV,Chowmuhani_230kV,54.0,0.044155,0.133679,1.3746e-05,230
+Korerhat_230kVtoChowmuhani_230kV_Line2,Korerhat_230kV,Chowmuhani_230kV,54.0,0.044155,0.133679,1.3746e-05,230
+Korerhat_230kVtoChowmuhani_230kV_Line3,Korerhat_230kV,Chowmuhani_230kV,54.0,0.044155,0.133679,1.3746e-05,230
+Korerhat_230kVtoChowmuhani_230kV_Line4,Korerhat_230kV,Chowmuhani_230kV,54.0,0.044155,0.133679,1.3746e-05,230
+Chowmuhani_230kVtoKachua_230kV_Line1,Chowmuhani_230kV,Kachua_230kV,50.5,0.044155,0.133679,1.3746e-05,230
+Chowmuhani_230kVtoKachua_230kV_Line2,Chowmuhani_230kV,Kachua_230kV,50.5,0.044155,0.133679,1.3746e-05,230
+Chowmuhani_230kVtoKachua_230kV_Line3,Chowmuhani_230kV,Kachua_230kV,50.5,0.044155,0.133679,1.3746e-05,230
+Chowmuhani_230kVtoKachua_230kV_Line4,Chowmuhani_230kV,Kachua_230kV,50.5,0.044155,0.133679,1.3746e-05,230
+Chowmuhani_230kVtoMaijdee_132kV_Line1,Chowmuhani_230kV,Maijdee_132kV,20.5,0.044155,0.133679,1.3746e-05,230
+Chowmuhani_230kVtoMaijdee_132kV_Line2,Chowmuhani_230kV,Maijdee_132kV,20.5,0.044155,0.133679,1.3746e-05,230
+Barapukuria_230kVtoPurbasadipur_230kV_Line1,Barapukuria_230kV,Purbasadipur_230kV,38.7,0.044155,0.133679,1.3746e-05,230
+Barapukuria_230kVtoPurbasadipur_230kV_Line2,Barapukuria_230kV,Purbasadipur_230kV,38.7,0.044155,0.133679,1.3746e-05,230
+Kachua_230kVtoGazaria_230kV_Line1,Kachua_230kV,Gazaria_230kV,49.0,0.044155,0.133679,1.3746e-05,230
+Kachua_230kVtoGazaria_230kV_Line2,Kachua_230kV,Gazaria_230kV,49.0,0.044155,0.133679,1.3746e-05,230
+Kachua_230kVtoGazaria_230kV_Line3,Kachua_230kV,Gazaria_230kV,49.0,0.044155,0.133679,1.3746e-05,230
+Kachua_230kVtoGazaria_230kV_Line4,Kachua_230kV,Gazaria_230kV,49.0,0.044155,0.133679,1.3746e-05,230
+Ghorashal_230kVtoGhorashal_230kV_Line1,Ghorashal_230kV,Ghorashal_230kV,1.1,0.015,0.12,2e-05,230
+Ghorashal_230kVtoGhorashal_230kV_Line2,Ghorashal_230kV,Ghorashal_230kV,1.1,0.015,0.12,2e-05,230
+Ghorashal_230kVtoGhorashal_230kV_Line1,Ghorashal_230kV,Ghorashal_230kV,1.1,0.015,0.12,2e-05,230
+Shahjibazar_132kVtoBrahmanbaria_132kV_Line1,Shahjibazar_132kV,Brahmanbaria_132kV,57.0,0.1101,0.2559,6.5703e-06,132
+Shahjibazar_132kVtoBrahmanbaria_132kV_Line2,Shahjibazar_132kV,Brahmanbaria_132kV,57.0,0.1101,0.2559,6.5703e-06,132
+Brahmanbaria_132kVtoAshuganj_132kV_Line1,Brahmanbaria_132kV,Ashuganj_132kV,16.5,0.1101,0.2559,6.5703e-06,132
+Brahmanbaria_132kVtoAshuganj_132kV_Line2,Brahmanbaria_132kV,Ashuganj_132kV,16.5,0.1101,0.2559,6.5703e-06,132
+Ashuganj_132kVtoGhorashal_132kV_Line1,Ashuganj_132kV,Ghorashal_132kV,45.5,0.08808,0.2559,6.5703e-06,132
+Ashuganj_132kVtoGhorashal_132kV_Line2,Ashuganj_132kV,Ghorashal_132kV,45.5,0.08808,0.2559,6.5703e-06,132
+Ghorashal_132kVtoNarsingdi_132kV_Line1,Ghorashal_132kV,Narsingdi_132kV,13.5,0.1101,0.2559,6.5703e-06,132
+Ghorashal_132kVtoNarsingdi_132kV_Line2,Ghorashal_132kV,Narsingdi_132kV,13.5,0.1101,0.2559,6.5703e-06,132
+Narsingdi_132kVtoHaripur_230kV_Line1,Narsingdi_132kV,Haripur_230kV,34.0,0.1101,0.2559,6.5703e-06,132
+Narsingdi_132kVtoBhulta_132kV_Line1,Narsingdi_132kV,Bhulta_132kV,16.0,0.1101,0.2559,6.5703e-06,132
+Bhulta_132kVtoHaripur_230kV_Line1,Bhulta_132kV,Haripur_230kV,15.0,0.08808,0.2559,6.5703e-06,132
+Haripur_230kVtoSiddhirganj_132kV_Line1,Haripur_230kV,Siddhirganj_132kV,2.0,0.1101,0.2559,6.5703e-06,132
+Haripur_230kVtoSiddhirganj_132kV_Line2,Haripur_230kV,Siddhirganj_132kV,2.0,0.1101,0.2559,6.5703e-06,132
+Shahjibazar_132kVtoSrimangal_132kV_Line1,Shahjibazar_132kV,Srimangal_132kV,36.0,0.1101,0.2559,6.5703e-06,132
+Shahjibazar_132kVtoSrimangal_132kV_Line2,Shahjibazar_132kV,Srimangal_132kV,36.0,0.1101,0.2559,6.5703e-06,132
+Srimangal_132kVtoFenchuganj_132kV_Line1,Srimangal_132kV,Fenchuganj_132kV,49.0,0.1101,0.2559,6.5703e-06,132
+Srimangal_132kVtoFenchuganj_132kV_Line2,Srimangal_132kV,Fenchuganj_132kV,49.0,0.1101,0.2559,6.5703e-06,132
+Fenchuganj_132kVtoFenchuganj_132kV_Line1,Fenchuganj_132kV,Fenchuganj_132kV,3.75,0.08808,0.2559,6.5703e-06,132
+Fenchuganj_132kVtoFenchuganj_132kV_Line2,Fenchuganj_132kV,Fenchuganj_132kV,3.75,0.08808,0.2559,6.5703e-06,132
+Fenchuganj_132kVtoFenchuganj_132kV_Line3,Fenchuganj_132kV,Fenchuganj_132kV,3.75,0.08808,0.2559,6.5703e-06,132
+Fenchuganj_132kVtoFenchuganj_132kV_Line4,Fenchuganj_132kV,Fenchuganj_132kV,3.75,0.08808,0.2559,6.5703e-06,132
+Fenchuganj_132kVtoSylhet_132kV_Line1,Fenchuganj_132kV,Sylhet_132kV,31.5,0.08808,0.2559,6.5703e-06,132
+Fenchuganj_132kVtoSylhet_132kV_Line2,Fenchuganj_132kV,Sylhet_132kV,31.5,0.08808,0.2559,6.5703e-06,132
+Sylhet_132kVtoChhatak_132kV_Line1,Sylhet_132kV,Chhatak_132kV,33.0,0.1101,0.2559,6.5703e-06,132
+Sylhet_132kVtoChhatak_132kV_Line2,Sylhet_132kV,Chhatak_132kV,33.0,0.1101,0.2559,6.5703e-06,132
+Kaptai_132kVtoHathazari_132kV_Line1,Kaptai_132kV,Hathazari_132kV,45.0,0.1101,0.2559,6.5703e-06,132
+Kaptai_132kVtoHathazari_132kV_Line2,Kaptai_132kV,Hathazari_132kV,45.0,0.1101,0.2559,6.5703e-06,132
+Hathazari_132kVtoBaroirhat_132kV_Line1,Hathazari_132kV,Baroirhat_132kV,63.5,0.1101,0.2559,6.5703e-06,132
+Hathazari_132kVtoBaroirhat_132kV_Line2,Hathazari_132kV,Baroirhat_132kV,63.5,0.1101,0.2559,6.5703e-06,132
+Feni_132kVtoCumilla (N)_132kV_Line1,Feni_132kV,Cumilla (N)_132kV,66.0,0.1101,0.2559,6.5703e-06,132
+Feni_132kVtoCumilla (N)_132kV_Line2,Feni_132kV,Cumilla (N)_132kV,66.0,0.1101,0.2559,6.5703e-06,132
+Cumilla (N)_132kVtoDaudkandi_132kV_Line1,Cumilla (N)_132kV,Daudkandi_132kV,55.0,0.1101,0.2559,6.5703e-06,132
+Cumilla (N)_132kVtoDaudkandi_132kV_Line2,Cumilla (N)_132kV,Daudkandi_132kV,55.0,0.1101,0.2559,6.5703e-06,132
+Daudkandi_132kVtoSonargaon_132kV_Line1,Daudkandi_132kV,Sonargaon_132kV,61.5,0.1101,0.2559,6.5703e-06,132
+Daudkandi_132kVtoSonargaon_132kV_Line2,Daudkandi_132kV,Sonargaon_132kV,61.5,0.1101,0.2559,6.5703e-06,132
+Sonargaon_132kVtoHaripur_230kV_Line1,Sonargaon_132kV,Haripur_230kV,15.0,0.1101,0.2559,6.5703e-06,132
+Sonargaon_132kVtoHaripur_230kV_Line2,Sonargaon_132kV,Haripur_230kV,15.0,0.1101,0.2559,6.5703e-06,132
+Haripur_230kVtoSiddhirganj_132kV_Line1,Haripur_230kV,Siddhirganj_132kV,2.5,0.1101,0.2559,6.5703e-06,132
+Haripur_230kVtoSiddhirganj_132kV_Line2,Haripur_230kV,Siddhirganj_132kV,2.5,0.1101,0.2559,6.5703e-06,132
+Khulshi_132kVtoHalishahar_132kV_Line1,Khulshi_132kV,Halishahar_132kV,13.0,0.1101,0.2559,6.5703e-06,132
+Khulshi_132kVtoHalishahar_132kV_Line2,Khulshi_132kV,Halishahar_132kV,13.0,0.1101,0.2559,6.5703e-06,132
+Cumilla (N)_132kVtoChandpur_132kV_Line1,Cumilla (N)_132kV,Chandpur_132kV,78.0,0.1101,0.2559,6.5703e-06,132
+Cumilla (N)_132kVtoCumilla (S)_132kV_Line1,Cumilla (N)_132kV,Cumilla (S)_132kV,16.0,0.1101,0.2559,6.5703e-06,132
+Cumilla (S)_132kVtoChandpur_132kV_Line1,Cumilla (S)_132kV,Chandpur_132kV,62.0,0.1101,0.2559,6.5703e-06,132
+Ashuganj_132kVtoKishoreganj_132kV_Line1,Ashuganj_132kV,Kishoreganj_132kV,52.0,0.08808,0.2559,6.5703e-06,132
+Ashuganj_132kVtoKishoreganj_132kV_Line2,Ashuganj_132kV,Kishoreganj_132kV,52.0,0.08808,0.2559,6.5703e-06,132
+Kishoreganj_132kVtoMymensingh_132kV_Line1,Kishoreganj_132kV,Mymensingh_132kV,59.0,0.1101,0.2559,6.5703e-06,132
+Kishoreganj_132kVtoMymensingh_132kV_Line2,Kishoreganj_132kV,Mymensingh_132kV,59.0,0.1101,0.2559,6.5703e-06,132
+Mymensingh_132kVtoJamalpur_132kV_Line1,Mymensingh_132kV,Jamalpur_132kV,55.0,0.08808,0.2559,6.5703e-06,132
+Mymensingh_132kVtoJamalpur_132kV_Line2,Mymensingh_132kV,Jamalpur_132kV,55.0,0.08808,0.2559,6.5703e-06,132
+Madunaghat_132kVtoSikalbaha_132kV_Line1,Madunaghat_132kV,Sikalbaha_132kV,17.0,0.1101,0.2559,6.5703e-06,132
+Madunaghat_132kVtoTKCCL_132kV_Line1,Madunaghat_132kV,TKCCL_132kV,9.0,0.1101,0.2559,6.5703e-06,132
+TKCCL_132kVtoSikalbaha_132kV_Line1,TKCCL_132kV,Sikalbaha_132kV,9.0,0.1101,0.2559,6.5703e-06,132
+Sikalbaha_132kVtoDohazari_132kV_Line1,Sikalbaha_132kV,Dohazari_132kV,32.0,0.08808,0.2559,6.5703e-06,132
+Sikalbaha_132kVtoDohazari_132kV_Line2,Sikalbaha_132kV,Dohazari_132kV,32.0,0.08808,0.2559,6.5703e-06,132
+Sikalbaha_132kVtoJuldah_132kV_Line1,Sikalbaha_132kV,Juldah_132kV,8.0,0.09909,0.2559,6.5703e-06,132
+Juldah_132kVtoHalishahar_132kV_Line1,Juldah_132kV,Halishahar_132kV,8.0,0.09909,0.2559,6.5703e-06,132
+Khulshi_132kVtoBaroaulia_132kV_Line1,Khulshi_132kV,Baroaulia_132kV,15.0,0.1101,0.2559,6.5703e-06,132
+Khulshi_132kVtoAKSML_132kV_Line1,Khulshi_132kV,AKSML_132kV,11.0,0.1101,0.2559,6.5703e-06,132
+AKSML_132kVtoBaroaulia_132kV_Line1,AKSML_132kV,Baroaulia_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Madunaghat_132kVtoKhulshi_132kV_Line1,Madunaghat_132kV,Khulshi_132kV,13.0,0.1101,0.2559,6.5703e-06,132
+Madunaghat_132kVtoKhulshi_132kV_Line1,Madunaghat_132kV,Khulshi_132kV,13.0,0.1101,0.2559,6.5703e-06,132
+Kaptai_132kVtoChandraghona_132kV_Line1,Kaptai_132kV,Chandraghona_132kV,11.5,0.1101,0.2559,6.5703e-06,132
+Kaptai_132kVtoChandraghona_132kV_Line2,Kaptai_132kV,Chandraghona_132kV,11.5,0.1101,0.2559,6.5703e-06,132
+Chandraghona_132kVtoMadunaghat_132kV_Line1,Chandraghona_132kV,Madunaghat_132kV,27.0,0.1101,0.2559,6.5703e-06,132
+Chandraghona_132kVtoMadunaghat_132kV_Line2,Chandraghona_132kV,Madunaghat_132kV,27.0,0.1101,0.2559,6.5703e-06,132
+Madunaghat_132kVtoHathazari_132kV_Line1,Madunaghat_132kV,Hathazari_132kV,10.0,0.1101,0.2559,6.5703e-06,132
+Madunaghat_132kVtoHathazari_132kV_Line2,Madunaghat_132kV,Hathazari_132kV,10.0,0.1101,0.2559,6.5703e-06,132
+Hathazari_132kVtoBaroaulia_132kV_Line1,Hathazari_132kV,Baroaulia_132kV,11.0,0.1101,0.2559,6.5703e-06,132
+Hathazari_132kVtoBaroaulia_132kV_Line2,Hathazari_132kV,Baroaulia_132kV,11.0,0.1101,0.2559,6.5703e-06,132
+Dohazari_132kVtoCox's Bazar_132kV_Line1,Dohazari_132kV,Cox's Bazar_132kV,87.0,0.08808,0.2559,6.5703e-06,132
+Dohazari_132kVtoCox's Bazar_132kV_Line2,Dohazari_132kV,Cox's Bazar_132kV,87.0,0.08808,0.2559,6.5703e-06,132
+Feni_132kVtoChowmuhani_132kV_Line1,Feni_132kV,Chowmuhani_132kV,32.0,0.1101,0.2559,6.5703e-06,132
+Feni_132kVtoChowmuhani_132kV_Line2,Feni_132kV,Chowmuhani_132kV,32.0,0.1101,0.2559,6.5703e-06,132
+Baroaulia_132kVtoKabir Steel_132kV_Line1,Baroaulia_132kV,Kabir Steel_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Mymensingh_132kVtoNetrokona_132kV_Line1,Mymensingh_132kV,Netrokona_132kV,34.0,0.1101,0.2559,6.5703e-06,132
+Mymensingh_132kVtoNetrokona_132kV_Line2,Mymensingh_132kV,Netrokona_132kV,34.0,0.1101,0.2559,6.5703e-06,132
+Goalpara_132kVtoKhulna (C)_132kV_Line1,Goalpara_132kV,Khulna (C)_132kV,1.5,0.09909,0.2559,6.5703e-06,132
+Goalpara_132kVtoKhulna (C)_132kV_Line2,Goalpara_132kV,Khulna (C)_132kV,1.5,0.09909,0.2559,6.5703e-06,132
+Khulna (C)_132kVtoNoapara_132kV_Line1,Khulna (C)_132kV,Noapara_132kV,23.0,0.09909,0.2559,6.5703e-06,132
+Khulna (C)_132kVtoNoapara_132kV_Line2,Khulna (C)_132kV,Noapara_132kV,23.0,0.09909,0.2559,6.5703e-06,132
+Noapara_132kVtoJashore_132kV_Line1,Noapara_132kV,Jashore_132kV,28.0,0.09909,0.2559,6.5703e-06,132
+Noapara_132kVtoJashore_132kV_Line2,Noapara_132kV,Jashore_132kV,28.0,0.09909,0.2559,6.5703e-06,132
+Jashore_132kVtoJhenaidah_132kV_Line1,Jashore_132kV,Jhenaidah_132kV,47.5,0.09909,0.2559,6.5703e-06,132
+Jashore_132kVtoJhenaidah_132kV_Line2,Jashore_132kV,Jhenaidah_132kV,47.5,0.09909,0.2559,6.5703e-06,132
+Jhenaidah_132kVtoKushtia_132kV_Line1,Jhenaidah_132kV,Kushtia_132kV,43.0,0.082575,0.2559,6.5703e-06,132
+Jhenaidah_132kVtoKushtia_132kV_Line2,Jhenaidah_132kV,Kushtia_132kV,43.0,0.082575,0.2559,6.5703e-06,132
+Kushtia_132kVtoBheramara_132kV_Line1,Kushtia_132kV,Bheramara_132kV,23.0,0.08808,0.2559,6.5703e-06,132
+Kushtia_132kVtoBheramara_132kV_Line2,Kushtia_132kV,Bheramara_132kV,23.0,0.08808,0.2559,6.5703e-06,132
+Bheramara_132kVtoIshwardi_132kV_Line1,Bheramara_132kV,Ishwardi_132kV,10.0,0.09909,0.2559,6.5703e-06,132
+Bheramara_132kVtoIshwardi_132kV_Line2,Bheramara_132kV,Ishwardi_132kV,10.0,0.09909,0.2559,6.5703e-06,132
+Ishwardi_132kVtoNatore_132kV_Line1,Ishwardi_132kV,Natore_132kV,42.0,0.09909,0.2559,6.5703e-06,132
+Ishwardi_132kVtoNatore_132kV_Line2,Ishwardi_132kV,Natore_132kV,42.0,0.09909,0.2559,6.5703e-06,132
+Natore_132kVtoBogura_132kV_Line1,Natore_132kV,Bogura_132kV,61.0,0.09909,0.2559,6.5703e-06,132
+Natore_132kVtoBogura_132kV_Line2,Natore_132kV,Bogura_132kV,61.0,0.09909,0.2559,6.5703e-06,132
+Bogura_132kVtoPalashbari_132kV_Line1,Bogura_132kV,Palashbari_132kV,50.0,0.09909,0.2559,6.5703e-06,132
+Bogura_132kVtoPalashbari_132kV_Line2,Bogura_132kV,Palashbari_132kV,50.0,0.09909,0.2559,6.5703e-06,132
+Palashbari_132kVtoRangpur_132kV_Line1,Palashbari_132kV,Rangpur_132kV,52.0,0.09909,0.2559,6.5703e-06,132
+Palashbari_132kVtoRangpur_132kV_Line2,Palashbari_132kV,Rangpur_132kV,52.0,0.09909,0.2559,6.5703e-06,132
+Rangpur_132kVtoSaidpur_132kV_Line1,Rangpur_132kV,Saidpur_132kV,41.5,0.09909,0.2559,6.5703e-06,132
+Rangpur_132kVtoSaidpur_132kV_Line2,Rangpur_132kV,Saidpur_132kV,41.5,0.09909,0.2559,6.5703e-06,132
+Saidpur_132kVtoPurbasadipur_132kV_Line1,Saidpur_132kV,Purbasadipur_132kV,24.5,0.08808,0.2559,6.5703e-06,132
+Saidpur_132kVtoPurbasadipur_132kV_Line2,Saidpur_132kV,Purbasadipur_132kV,24.5,0.08808,0.2559,6.5703e-06,132
+Purbasadipur_132kVtoThakurgaon_132kV_Line1,Purbasadipur_132kV,Thakurgaon_132kV,45.0,0.09909,0.2559,6.5703e-06,132
+Purbasadipur_132kVtoThakurgaon_132kV_Line2,Purbasadipur_132kV,Thakurgaon_132kV,45.0,0.09909,0.2559,6.5703e-06,132
+Barishal(N)_132kVtoBhandaria_132kV_Line1,Barishal(N)_132kV,Bhandaria_132kV,49.0,0.1466,0.2671,6.2854e-06,132
+Bhandaria_132kVtoBagerhat_132kV_Line1,Bhandaria_132kV,Bagerhat_132kV,40.0,0.1466,0.2671,6.2854e-06,132
+Bagerhat_132kVtoMongla_132kV_Line1,Bagerhat_132kV,Mongla_132kV,28.0,0.1466,0.2671,6.2854e-06,132
+Barishal(N)_132kVtoPatuakhali_132kV_Line1,Barishal(N)_132kV,Patuakhali_132kV,38.0,0.1466,0.2671,6.2854e-06,132
+Bheramara_132kVtoFaridpur_132kV_Line1,Bheramara_132kV,Faridpur_132kV,105.0,0.11728,0.2671,6.2854e-06,132
+Bheramara_132kVtoFaridpur_132kV_Line2,Bheramara_132kV,Faridpur_132kV,105.0,0.11728,0.2671,6.2854e-06,132
+Faridpur_132kVtoMadaripur_132kV_Line1,Faridpur_132kV,Madaripur_132kV,65.5,0.1466,0.2671,6.2854e-06,132
+Faridpur_132kVtoMadaripur_132kV_Line2,Faridpur_132kV,Madaripur_132kV,65.5,0.1466,0.2671,6.2854e-06,132
+Madaripur_132kVtoBarishal(N)_132kV_Line1,Madaripur_132kV,Barishal(N)_132kV,48.5,0.1466,0.2671,6.2854e-06,132
+Madaripur_132kVtoBarishal(N)_132kV_Line2,Madaripur_132kV,Barishal(N)_132kV,48.5,0.1466,0.2671,6.2854e-06,132
+Barishal(N)_132kVtoBarishal_132kV_Line1,Barishal(N)_132kV,Barishal_132kV,10.0,0.11728,0.2671,6.2854e-06,132
+Barishal(N)_132kVtoBarishal_132kV_Line2,Barishal(N)_132kV,Barishal_132kV,10.0,0.11728,0.2671,6.2854e-06,132
+Rajshahi_132kVtoNatore_132kV_Line1,Rajshahi_132kV,Natore_132kV,37.0,0.1466,0.2671,6.2854e-06,132
+Ishwardi_132kVtoBaghabari_132kV_Line1,Ishwardi_132kV,Baghabari_132kV,63.0,0.1466,0.2671,6.2854e-06,132
+Baghabari_132kVtoShahjadpur_132kV_Line1,Baghabari_132kV,Shahjadpur_132kV,5.0,0.1466,0.2671,6.2854e-06,132
+Ishwardi_132kVtoPabna_132kV_Line1,Ishwardi_132kV,Pabna_132kV,18.0,0.1101,0.2559,6.5703e-06,132
+Pabna_132kVtoShahjadpur_132kV_Line1,Pabna_132kV,Shahjadpur_132kV,41.0,0.1101,0.2559,6.5703e-06,132
+Bogura_132kVtoSirajganj_132kV_Line1,Bogura_132kV,Sirajganj_132kV,66.0,0.1101,0.2559,6.5703e-06,132
+Bogura_132kVtoSirajganj_132kV_Line2,Bogura_132kV,Sirajganj_132kV,66.0,0.1101,0.2559,6.5703e-06,132
+Sirajganj_132kVtoShahjadpur_132kV_Line1,Sirajganj_132kV,Shahjadpur_132kV,34.0,0.1101,0.2559,6.5703e-06,132
+Sirajganj_132kVtoBaghabari_132kV_Line1,Sirajganj_132kV,Baghabari_132kV,40.0,0.1101,0.2559,6.5703e-06,132
+Rajshahi_132kVtoChapai Nawabganj_132kV_Line1,Rajshahi_132kV,Chapai Nawabganj_132kV,48.0,0.1101,0.2559,6.5703e-06,132
+Rajshahi_132kVtoChapai Nawabganj_132kV_Line2,Rajshahi_132kV,Chapai Nawabganj_132kV,48.0,0.1101,0.2559,6.5703e-06,132
+Rangpur_132kVtoLalmonirhat_132kV_Line1,Rangpur_132kV,Lalmonirhat_132kV,38.0,0.1101,0.2559,6.5703e-06,132
+Bogura_132kVtoNaogaon_132kV_Line1,Bogura_132kV,Naogaon_132kV,44.0,0.08808,0.2559,6.5703e-06,132
+Bogura_132kVtoNaogaon_132kV_Line2,Bogura_132kV,Naogaon_132kV,44.0,0.08808,0.2559,6.5703e-06,132
+Kabirpur_132kVtoTangail_132kV_Line1,Kabirpur_132kV,Tangail_132kV,51.0,0.1101,0.2559,6.5703e-06,132
+Kabirpur_132kVtoTangail_132kV_Line2,Kabirpur_132kV,Tangail_132kV,51.0,0.1101,0.2559,6.5703e-06,132
+Tongi_132kVtoMirpur_132kV_Line1,Tongi_132kV,Mirpur_132kV,17.0,0.08808,0.2559,6.5703e-06,132
+Tongi_132kVtoUttara_132kV_Line1,Tongi_132kV,Uttara_132kV,15.0,0.08808,0.2559,6.5703e-06,132
+Uttara_132kVtoMirpur_132kV_Line1,Uttara_132kV,Mirpur_132kV,9.0,0.08808,0.2559,6.5703e-06,132
+Mirpur_132kVtoAminbazar_230kV_Line1,Mirpur_132kV,Aminbazar_230kV,7.0,0.08808,0.2559,6.5703e-06,132
+Mirpur_132kVtoAminbazar_230kV_Line2,Mirpur_132kV,Aminbazar_230kV,7.0,0.08808,0.2559,6.5703e-06,132
+Aminbazar_230kVtoKallayanpur_132kV_Line1,Aminbazar_230kV,Kallayanpur_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Aminbazar_230kVtoKallayanpur_132kV_Line2,Aminbazar_230kV,Kallayanpur_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Hasnabad_132kVtoLalbagh_132kV_Line1,Hasnabad_132kV,Lalbagh_132kV,30.0,0.1101,0.2559,6.5703e-06,132
+Kamrangirchar_132kVtoLalbagh_132kV_Line1,Kamrangirchar_132kV,Lalbagh_132kV,3.0,0.1101,0.2559,6.5703e-06,132
+Kallayanpur_132kVtoKamrangirchar_132kV_Line1,Kallayanpur_132kV,Kamrangirchar_132kV,11.0,0.1101,0.2559,6.5703e-06,132
+Kallayanpur_132kVtoKeraniganj_132kV_Line1,Kallayanpur_132kV,Keraniganj_132kV,20.0,0.1101,0.2559,6.5703e-06,132
+Hasnabad_132kVtoKeraniganj_132kV_Line1,Hasnabad_132kV,Keraniganj_132kV,14.0,0.1101,0.2559,6.5703e-06,132
+Tongi_132kVtoNew Tongi_132kV_Line1,Tongi_132kV,New Tongi_132kV,0.5,0.015,0.12,2e-05,132
+Tongi_132kVtoNew Tongi_132kV_Line2,Tongi_132kV,New Tongi_132kV,0.5,0.015,0.12,2e-05,132
+Hasnabad_132kVtoSitalakhya_132kV_Line1,Hasnabad_132kV,Sitalakhya_132kV,13.0,0.1101,0.2559,6.5703e-06,132
+Madanganj_132kVtoSitalakhya_132kV_Line1,Madanganj_132kV,Sitalakhya_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Hasnabad_132kVtoShyampur_132kV_Line1,Hasnabad_132kV,Shyampur_132kV,21.0,0.1101,0.2559,6.5703e-06,132
+Shyampur_132kVtoHaripur_230kV_Line1,Shyampur_132kV,Haripur_230kV,30.0,0.1101,0.2559,6.5703e-06,132
+Madanganj_132kVtoHaripur_230kV_Line1,Madanganj_132kV,Haripur_230kV,12.0,0.1101,0.2559,6.5703e-06,132
+Siddhirganj_132kVtoUllon_132kV_Line1,Siddhirganj_132kV,Ullon_132kV,16.0,0.1101,0.2559,6.5703e-06,132
+Siddhirganj_132kVtoUllon_132kV_Line2,Siddhirganj_132kV,Ullon_132kV,16.0,0.1101,0.2559,6.5703e-06,132
+Haripur_230kVtoMatuail_132kV_Line1,Haripur_230kV,Matuail_132kV,6.0,0.1101,0.2559,6.5703e-06,132
+Maniknagar_132kVtoMatuail_132kV_Line1,Maniknagar_132kV,Matuail_132kV,16.0,0.1101,0.2559,6.5703e-06,132
+Siddhirganj_132kVtoManiknagar_132kV_Line1,Siddhirganj_132kV,Maniknagar_132kV,10.0,0.1101,0.2559,6.5703e-06,132
+Maniknagar_132kVtoNarinda_132kV_Line1,Maniknagar_132kV,Narinda_132kV,5.0,0.075,0.13,2e-05,132
+Maniknagar_132kVtoNarinda_132kV_Line2,Maniknagar_132kV,Narinda_132kV,5.0,0.075,0.13,2e-05,132
+Ullon_132kVtoDhanmondi_132kV_Line1,Ullon_132kV,Dhanmondi_132kV,5.5,0.075,0.13,2e-05,132
+Ullon_132kVtoDhanmondi_132kV_Line2,Ullon_132kV,Dhanmondi_132kV,5.5,0.075,0.13,2e-05,132
+Ullon_132kVtoDhanmondi_132kV_Line1,Ullon_132kV,Dhanmondi_132kV,5.5,0.015,0.12,2e-05,132
+Ullon_132kVtoDhanmondi_132kV_Line2,Ullon_132kV,Dhanmondi_132kV,5.5,0.015,0.12,2e-05,132
+Tongi_132kVtoKabirpur_132kV_Line1,Tongi_132kV,Kabirpur_132kV,22.5,0.1101,0.2559,6.5703e-06,132
+Tongi_132kVtoKabirpur_132kV_Line2,Tongi_132kV,Kabirpur_132kV,22.5,0.1101,0.2559,6.5703e-06,132
+Kabirpur_132kVtoManikganj_132kV_Line1,Kabirpur_132kV,Manikganj_132kV,32.0,0.1101,0.2559,6.5703e-06,132
+Kabirpur_132kVtoManikganj_132kV_Line2,Kabirpur_132kV,Manikganj_132kV,32.0,0.1101,0.2559,6.5703e-06,132
+Ullon_132kVtoRampura_230kV_Line1,Ullon_132kV,Rampura_230kV,4.0,0.015,0.12,2e-05,132
+Ullon_132kVtoRampura_230kV_Line2,Ullon_132kV,Rampura_230kV,4.0,0.015,0.12,2e-05,132
+Rampura_230kVtoBashundhara_132kV_Line1,Rampura_230kV,Bashundhara_132kV,8.0,0.1101,0.2559,6.5703e-06,132
+Rampura_230kVtoBashundhara_132kV_Line2,Rampura_230kV,Bashundhara_132kV,8.0,0.1101,0.2559,6.5703e-06,132
+Bashundhara_132kVtoTongi_132kV_Line1,Bashundhara_132kV,Tongi_132kV,11.0,0.1101,0.2559,6.5703e-06,132
+Bashundhara_132kVtoTongi_132kV_Line2,Bashundhara_132kV,Tongi_132kV,11.0,0.1101,0.2559,6.5703e-06,132
+Rampura_230kVtoMoghbazar_132kV_Line1,Rampura_230kV,Moghbazar_132kV,4.5,0.1101,0.2559,6.5703e-06,132
+Rampura_230kVtoMoghbazar_132kV_Line2,Rampura_230kV,Moghbazar_132kV,4.5,0.1101,0.2559,6.5703e-06,132
+Ghorashal_132kVtoJoydebpur_132kV_Line1,Ghorashal_132kV,Joydebpur_132kV,28.0,0.1101,0.2559,6.5703e-06,132
+Ghorashal_132kVtoJoydebpur_132kV_Line2,Ghorashal_132kV,Joydebpur_132kV,28.0,0.1101,0.2559,6.5703e-06,132
+Baghabari_132kVtoShahjadpur_132kV_Line1,Baghabari_132kV,Shahjadpur_132kV,6.0,0.1101,0.2559,6.5703e-06,132
+Chandpur_132kVtoChowmuhani_132kV_Line1,Chandpur_132kV,Chowmuhani_132kV,68.0,0.1101,0.2559,6.5703e-06,132
+Chandpur_132kVtoChowmuhani_132kV_Line2,Chandpur_132kV,Chowmuhani_132kV,68.0,0.1101,0.2559,6.5703e-06,132
+Barapukuria_132kVtoRangpur_132kV_Line1,Barapukuria_132kV,Rangpur_132kV,42.0,0.1101,0.2559,6.5703e-06,132
+Barapukuria_132kVtoRangpur_132kV_Line2,Barapukuria_132kV,Rangpur_132kV,42.0,0.1101,0.2559,6.5703e-06,132
+Barapukuria_132kVtoSaidpur_132kV_Line1,Barapukuria_132kV,Saidpur_132kV,36.0,0.082575,0.2559,6.5703e-06,132
+Barapukuria_132kVtoSaidpur_132kV_Line2,Barapukuria_132kV,Saidpur_132kV,36.0,0.082575,0.2559,6.5703e-06,132
+Madaripur_132kVtoGopalganj_132kV_Line1,Madaripur_132kV,Gopalganj_132kV,45.0,0.09909,0.2559,6.5703e-06,132
+Khulna (C)_132kVtoKhulna (S)_230kV_Line1,Khulna (C)_132kV,Khulna (S)_230kV,9.0,0.049545,0.140636,1.3141e-05,132
+Khulna (C)_132kVtoKhulna (S)_230kV_Line2,Khulna (C)_132kV,Khulna (S)_230kV,9.0,0.049545,0.140636,1.3141e-05,132
+Khulna (S)_230kVtoSatkhira_132kV_Line1,Khulna (S)_230kV,Satkhira_132kV,47.0,0.09909,0.2559,6.5703e-06,132
+Khulna (S)_230kVtoSatkhira_132kV_Line2,Khulna (S)_230kV,Satkhira_132kV,47.0,0.09909,0.2559,6.5703e-06,132
+Rajshahi_132kVtoNatore_132kV_Line1,Rajshahi_132kV,Natore_132kV,40.0,0.1101,0.2559,6.5703e-06,132
+Rampura_230kVtoGulshan_132kV_Line1,Rampura_230kV,Gulshan_132kV,3.5,0.015,0.12,2e-05,132
+Rampura_230kVtoGulshan_132kV_Line2,Rampura_230kV,Gulshan_132kV,3.5,0.015,0.12,2e-05,132
+Sikalbaha_132kVtoBakulia_132kV_Line1,Sikalbaha_132kV,Bakulia_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Sikalbaha_132kVtoBakulia_132kV_Line2,Sikalbaha_132kV,Bakulia_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Juldah_132kVtoShahmirpur_132kV_Line1,Juldah_132kV,Shahmirpur_132kV,6.0,0.1101,0.2559,6.5703e-06,132
+Juldah_132kVtoShahmirpur_132kV_Line2,Juldah_132kV,Shahmirpur_132kV,6.0,0.1101,0.2559,6.5703e-06,132
+Khulshi_132kVtoBakulia_132kV_Line1,Khulshi_132kV,Bakulia_132kV,15.0,0.1101,0.2559,6.5703e-06,132
+Khulshi_132kVtoBakulia_132kV_Line2,Khulshi_132kV,Bakulia_132kV,15.0,0.1101,0.2559,6.5703e-06,132
+Haripur_230kVtoManiknagar_132kV_Line1,Haripur_230kV,Maniknagar_132kV,13.0,0.1101,0.2559,6.5703e-06,132
+Joydebpur_132kVtoKodda_132kV_Line1,Joydebpur_132kV,Kodda_132kV,8.0,0.1101,0.2559,6.5703e-06,132
+Joydebpur_132kVtoKodda_132kV_Line2,Joydebpur_132kV,Kodda_132kV,8.0,0.1101,0.2559,6.5703e-06,132
+Kodda_132kVtoKabirpur_132kV_Line1,Kodda_132kV,Kabirpur_132kV,10.0,0.1101,0.2559,6.5703e-06,132
+Kodda_132kVtoKabirpur_132kV_Line2,Kodda_132kV,Kabirpur_132kV,10.0,0.1101,0.2559,6.5703e-06,132
+Sikalbaha_132kVtoShahmirpur_132kV_Line1,Sikalbaha_132kV,Shahmirpur_132kV,9.0,0.1101,0.2559,6.5703e-06,132
+Sikalbaha_132kVtoShahmirpur_132kV_Line2,Sikalbaha_132kV,Shahmirpur_132kV,9.0,0.1101,0.2559,6.5703e-06,132
+Khulshi_132kVtoHalishahar_132kV_Line1,Khulshi_132kV,Halishahar_132kV,13.0,0.1101,0.2559,6.5703e-06,132
+Bogura_132kVtoBogura_132kV_Line1,Bogura_132kV,Bogura_132kV,1.5,0.049545,0.140636,1.3141e-05,132
+Bogura_132kVtoBogura_132kV_Line2,Bogura_132kV,Bogura_132kV,1.5,0.049545,0.140636,1.3141e-05,132
+Ashuganj_132kVtoShahjibazar_132kV_Line1,Ashuganj_132kV,Shahjibazar_132kV,53.0,0.1101,0.2559,6.5703e-06,132
+Khulna (S)_230kVtoGallamari_132kV_Line1,Khulna (S)_230kV,Gallamari_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Khulna (S)_230kVtoGallamari_132kV_Line2,Khulna (S)_230kV,Gallamari_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Naogaon_132kVtoNiamatpur_132kV_Line1,Naogaon_132kV,Niamatpur_132kV,46.0,0.09909,0.2559,6.5703e-06,132
+Aminbazar_230kVtoSavar_132kV_Line1,Aminbazar_230kV,Savar_132kV,16.0,0.1101,0.2559,6.5703e-06,132
+Aminbazar_230kVtoSavar_132kV_Line2,Aminbazar_230kV,Savar_132kV,16.0,0.1101,0.2559,6.5703e-06,132
+Jhenaidah_132kVtoMagura_132kV_Line1,Jhenaidah_132kV,Magura_132kV,26.5,0.1101,0.2559,6.5703e-06,132
+Jhenaidah_132kVtoMagura_132kV_Line2,Jhenaidah_132kV,Magura_132kV,26.5,0.1101,0.2559,6.5703e-06,132
+Jhenaidah_132kVtoChuadanga_132kV_Line1,Jhenaidah_132kV,Chuadanga_132kV,39.0,0.1101,0.2559,6.5703e-06,132
+Naogaon_132kVtoJoypurhat_132kV_Line1,Naogaon_132kV,Joypurhat_132kV,46.0,0.1101,0.2559,6.5703e-06,132
+Thakurgaon_132kVtoPanchagarh_132kV_Line1,Thakurgaon_132kV,Panchagarh_132kV,45.0,0.09909,0.2559,6.5703e-06,132
+Sonargaon_132kVtoMeghnaghat_400kV_Line1,Sonargaon_132kV,Meghnaghat_400kV,5.0,0.1101,0.2559,6.5703e-06,132
+Sonargaon_132kVtoMeghnaghat_400kV_Line2,Sonargaon_132kV,Meghnaghat_400kV,5.0,0.1101,0.2559,6.5703e-06,132
+Siddhirganj_132kVtoSiddhirganj_132kV_Line1,Siddhirganj_132kV,Siddhirganj_132kV,2.0,0.1101,0.2559,6.5703e-06,132
+Goalpara_132kVtoKhulna (C)_132kV_Line1,Goalpara_132kV,Khulna (C)_132kV,2.0,0.015,0.12,2e-05,132
+Noapara_132kVtoNoapara_132kV_Line1,Noapara_132kV,Noapara_132kV,2.0,0.1101,0.2559,6.5703e-06,132
+Daudkandi_132kVtoDaudkandi_132kV_Line1,Daudkandi_132kV,Daudkandi_132kV,1.0,0.1101,0.2559,6.5703e-06,132
+Gopalganj_132kVtoGopalganj_132kV_Line1,Gopalganj_132kV,Gopalganj_132kV,1.0,0.1101,0.2559,6.5703e-06,132
+Siddhirganj_132kVtoSiddhirganj_132kV_Line1,Siddhirganj_132kV,Siddhirganj_132kV,3.0,0.1101,0.2559,6.5703e-06,132
+Faridpur_132kVtoBheramara_132kV_Line1,Faridpur_132kV,Bheramara_132kV,1.0,0.1101,0.2559,6.5703e-06,132
+Baghabari_132kVtoBaghabari_132kV_Line1,Baghabari_132kV,Baghabari_132kV,5.0,0.1101,0.2559,6.5703e-06,132
+Amnura_132kVtoRajshahi_132kV_Line1,Amnura_132kV,Rajshahi_132kV,13.0,0.1101,0.2559,6.5703e-06,132
+Madanganj_132kVtoMunshiganj_132kV_Line1,Madanganj_132kV,Munshiganj_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Madanganj_132kVtoMunshiganj_132kV_Line2,Madanganj_132kV,Munshiganj_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Agargaon_132kVtoCantonment_132kV_Line1,Agargaon_132kV,Cantonment_132kV,7.0,0.015,0.12,2e-05,132
+Agargaon_132kVtoCantonment_132kV_Line2,Agargaon_132kV,Cantonment_132kV,7.0,0.015,0.12,2e-05,132
+Fenchuganj_132kVtoKulaura_132kV_Line1,Fenchuganj_132kV,Kulaura_132kV,25.0,0.1101,0.2559,6.5703e-06,132
+Fenchuganj_132kVtoKulaura_132kV_Line2,Fenchuganj_132kV,Kulaura_132kV,25.0,0.1101,0.2559,6.5703e-06,132
+Jamalpur_132kVtoSherpur_132kV_Line1,Jamalpur_132kV,Sherpur_132kV,20.0,0.1101,0.2559,6.5703e-06,132
+Jamalpur_132kVtoSherpur_132kV_Line2,Jamalpur_132kV,Sherpur_132kV,20.0,0.1101,0.2559,6.5703e-06,132
+Agargaon_132kVtoSatmasjid_132kV_Line1,Agargaon_132kV,Satmasjid_132kV,8.5,0.015,0.12,2e-05,132
+Agargaon_132kVtoSatmasjid_132kV_Line2,Agargaon_132kV,Satmasjid_132kV,8.5,0.015,0.12,2e-05,132
+Rampura_230kVtoMadartek_132kV_Line1,Rampura_230kV,Madartek_132kV,4.5,0.015,0.12,2e-05,132
+Rampura_230kVtoMadartek_132kV_Line2,Rampura_230kV,Madartek_132kV,4.5,0.015,0.12,2e-05,132
+Cumilla (N)_132kVtoCumilla (S)_132kV_Line1,Cumilla (N)_132kV,Cumilla (S)_132kV,19.0,0.1101,0.2559,6.5703e-06,132
+Cumilla (N)_132kVtoCumilla (S)_132kV_Line2,Cumilla (N)_132kV,Cumilla (S)_132kV,19.0,0.1101,0.2559,6.5703e-06,132
+Goalpara_132kVtoBagerhat_132kV_Line1,Goalpara_132kV,Bagerhat_132kV,45.0,0.1101,0.2559,6.5703e-06,132
+Goalpara_132kVtoBagerhat_132kV_Line2,Goalpara_132kV,Bagerhat_132kV,45.0,0.1101,0.2559,6.5703e-06,132
+Kaliakoir_230kVtoKabirpur_132kV_Line1,Kaliakoir_230kV,Kabirpur_132kV,4.25,0.1101,0.2559,6.5703e-06,132
+Kaliakoir_230kVtoKabirpur_132kV_Line2,Kaliakoir_230kV,Kabirpur_132kV,4.25,0.1101,0.2559,6.5703e-06,132
+Kaliakoir_230kVtoKabirpur_132kV_Line3,Kaliakoir_230kV,Kabirpur_132kV,4.25,0.1101,0.2559,6.5703e-06,132
+Kaliakoir_230kVtoKabirpur_132kV_Line4,Kaliakoir_230kV,Kabirpur_132kV,4.25,0.1101,0.2559,6.5703e-06,132
+Tangail_132kVtoTangail_132kV_Line1,Tangail_132kV,Tangail_132kV,93.5,0.1101,0.2559,6.5703e-06,132
+Tangail_132kVtoTangail_132kV_Line2,Tangail_132kV,Tangail_132kV,93.5,0.1101,0.2559,6.5703e-06,132
+Amnura_132kVtoChapai Nawabganj_132kV_Line1,Amnura_132kV,Chapai Nawabganj_132kV,13.0,0.1101,0.2559,6.5703e-06,132
+Kaliakoir_230kVtoDhamrai_132kV_Line1,Kaliakoir_230kV,Dhamrai_132kV,22.5,0.1101,0.2559,6.5703e-06,132
+Kaliakoir_230kVtoDhamrai_132kV_Line2,Kaliakoir_230kV,Dhamrai_132kV,22.5,0.1101,0.2559,6.5703e-06,132
+Rangamati_132kVtoKhagrachari_132kV_Line1,Rangamati_132kV,Khagrachari_132kV,52.5,0.1101,0.2559,6.5703e-06,132
+Rangamati_132kVtoKhagrachari_132kV_Line2,Rangamati_132kV,Khagrachari_132kV,52.5,0.1101,0.2559,6.5703e-06,132
+Chandraghona_132kVtoRangamati_132kV_Line1,Chandraghona_132kV,Rangamati_132kV,27.5,0.1101,0.2559,6.5703e-06,132
+Chandraghona_132kVtoRangamati_132kV_Line2,Chandraghona_132kV,Rangamati_132kV,27.5,0.1101,0.2559,6.5703e-06,132
+Chhatak_132kVtoSunamganj_132kV_Line1,Chhatak_132kV,Sunamganj_132kV,32.0,0.1101,0.2559,6.5703e-06,132
+Chhatak_132kVtoSunamganj_132kV_Line2,Chhatak_132kV,Sunamganj_132kV,32.0,0.1101,0.2559,6.5703e-06,132
+Beanibazar_132kVtoSylhet_132kV_Line1,Beanibazar_132kV,Sylhet_132kV,30.0,0.1101,0.2559,6.5703e-06,132
+Beanibazar_132kVtoSylhet_132kV_Line2,Beanibazar_132kV,Sylhet_132kV,30.0,0.1101,0.2559,6.5703e-06,132
+Uttara 3P_132kVtoTongi_132kV_Line1,Uttara 3P_132kV,Tongi_132kV,2.0,0.015,0.12,2e-05,132
+Cox's Bazar_132kVtoMatarbari_132kV_Line1,Cox's Bazar_132kV,Matarbari_132kV,18.0,0.1101,0.2559,6.5703e-06,132
+Feni_132kVtoBaroirhat_132kV_Line1,Feni_132kV,Baroirhat_132kV,28.5,0.08808,0.2559,6.5703e-06,132
+Feni_132kVtoBaroirhat_132kV_Line2,Feni_132kV,Baroirhat_132kV,28.5,0.08808,0.2559,6.5703e-06,132
+Brahmanbaria_132kVtoNarsingdi_132kV_Line1,Brahmanbaria_132kV,Narsingdi_132kV,55.0,0.1101,0.2559,6.5703e-06,132
+Brahmanbaria_132kVtoNarsingdi_132kV_Line2,Brahmanbaria_132kV,Narsingdi_132kV,55.0,0.1101,0.2559,6.5703e-06,132
+Saidpur_132kVtoJaldhaka_132kV_Line1,Saidpur_132kV,Jaldhaka_132kV,30.0,0.1101,0.2559,6.5703e-06,132
+Saidpur_132kVtoJaldhaka_132kV_Line2,Saidpur_132kV,Jaldhaka_132kV,30.0,0.1101,0.2559,6.5703e-06,132
+Rooppur_132kVtoIshwardi_132kV_Line1,Rooppur_132kV,Ishwardi_132kV,7.0,0.1101,0.2559,6.5703e-06,132
+Rooppur_132kVtoIshwardi_132kV_Line2,Rooppur_132kV,Ishwardi_132kV,7.0,0.1101,0.2559,6.5703e-06,132
+Bogura_132kVtoBogura_132kV_Line1,Bogura_132kV,Bogura_132kV,8.0,0.1101,0.2559,6.5703e-06,132
+Bogura_132kVtoBogura_132kV_Line2,Bogura_132kV,Bogura_132kV,8.0,0.1101,0.2559,6.5703e-06,132
+Sherpur_132kVtoJamalpur_132kV_Line1,Sherpur_132kV,Jamalpur_132kV,3.25,0.1101,0.2559,6.5703e-06,132
+Sherpur_132kVtoJamalpur_132kV_Line2,Sherpur_132kV,Jamalpur_132kV,3.25,0.1101,0.2559,6.5703e-06,132
+Sherpur_132kVtoJamalpur_132kV_Line3,Sherpur_132kV,Jamalpur_132kV,3.25,0.1101,0.2559,6.5703e-06,132
+Sherpur_132kVtoJamalpur_132kV_Line4,Sherpur_132kV,Jamalpur_132kV,3.25,0.1101,0.2559,6.5703e-06,132
+Goalpara_132kVtoBagerhat_132kV_Line1,Goalpara_132kV,Bagerhat_132kV,6.0,0.1101,0.2559,6.5703e-06,132
+Goalpara_132kVtoBagerhat_132kV_Line2,Goalpara_132kV,Bagerhat_132kV,6.0,0.1101,0.2559,6.5703e-06,132
+Mymensingh_132kVtoBhaluka_132kV_Line1,Mymensingh_132kV,Bhaluka_132kV,43.0,0.1101,0.2559,6.5703e-06,132
+Mymensingh_132kVtoBhaluka_132kV_Line2,Mymensingh_132kV,Bhaluka_132kV,43.0,0.1101,0.2559,6.5703e-06,132
+Mahasthangarh_132kVtoBogura_132kV_Line1,Mahasthangarh_132kV,Bogura_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Mahasthangarh_132kVtoBogura_132kV_Line2,Mahasthangarh_132kV,Bogura_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Gopalganj_132kVtoGopalganj_132kV_Line1,Gopalganj_132kV,Gopalganj_132kV,15.0,0.1101,0.2559,6.5703e-06,132
+Jashore_132kVtoBenapole_132kV_Line1,Jashore_132kV,Benapole_132kV,30.5,0.1101,0.2559,6.5703e-06,132
+Jashore_132kVtoBenapole_132kV_Line2,Jashore_132kV,Benapole_132kV,30.5,0.1101,0.2559,6.5703e-06,132
+Madaripur_132kVtoShariatpur_132kV_Line1,Madaripur_132kV,Shariatpur_132kV,22.0,0.1101,0.2559,6.5703e-06,132
+Madaripur_132kVtoShariatpur_132kV_Line2,Madaripur_132kV,Shariatpur_132kV,22.0,0.1101,0.2559,6.5703e-06,132
+Shyampur_132kVtoShyampur_132kV_Line1,Shyampur_132kV,Shyampur_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Shyampur_132kVtoShyampur_132kV_Line2,Shyampur_132kV,Shyampur_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Shyampur_132kVtoShyampur_132kV_Line3,Shyampur_132kV,Shyampur_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Shyampur_132kVtoShyampur_132kV_Line4,Shyampur_132kV,Shyampur_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Rangpur_132kVtoKurigram_132kV_Line1,Rangpur_132kV,Kurigram_132kV,41.0,0.1101,0.2559,6.5703e-06,132
+Magura_132kVtoNarail_132kV_Line1,Magura_132kV,Narail_132kV,39.5,0.1101,0.2559,6.5703e-06,132
+Magura_132kVtoNarail_132kV_Line2,Magura_132kV,Narail_132kV,39.5,0.1101,0.2559,6.5703e-06,132
+Sherpur(Bogura)_132kVtoBogura_132kV_Line1,Sherpur(Bogura)_132kV,Bogura_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Sherpur(Bogura)_132kVtoBogura_132kV_Line2,Sherpur(Bogura)_132kV,Bogura_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Sherpur(Bogura)_132kVtoBogura_132kV_Line3,Sherpur(Bogura)_132kV,Bogura_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Sherpur(Bogura)_132kVtoBogura_132kV_Line4,Sherpur(Bogura)_132kV,Bogura_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Rajshahi_132kVtoAmnura_132kV_Line1,Rajshahi_132kV,Amnura_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Rajshahi_132kVtoAmnura_132kV_Line2,Rajshahi_132kV,Amnura_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Rajshahi_132kVtoAmnura_132kV_Line3,Rajshahi_132kV,Amnura_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Rajshahi_132kVtoAmnura_132kV_Line4,Rajshahi_132kV,Amnura_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Rampura_230kVtoAftabnagar_132kV_Line1,Rampura_230kV,Aftabnagar_132kV,3.5,0.015,0.12,2e-05,132
+Rampura_230kVtoAftabnagar_132kV_Line2,Rampura_230kV,Aftabnagar_132kV,3.5,0.015,0.12,2e-05,132
+Chauddagram_132kVtoFeni_132kV_Line1,Chauddagram_132kV,Feni_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Chauddagram_132kVtoFeni_132kV_Line2,Chauddagram_132kV,Feni_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Chauddagram_132kVtoFeni_132kV_Line3,Chauddagram_132kV,Feni_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Chauddagram_132kVtoFeni_132kV_Line4,Chauddagram_132kV,Feni_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Gopalganj (N)_230kVtoFaridpur_132kV_Line1,Gopalganj (N)_230kV,Faridpur_132kV,1.5,0.08808,0.2559,6.5703e-06,132
+Gopalganj (N)_230kVtoFaridpur_132kV_Line2,Gopalganj (N)_230kV,Faridpur_132kV,1.5,0.08808,0.2559,6.5703e-06,132
+Gopalganj (N)_230kVtoFaridpur_132kV_Line3,Gopalganj (N)_230kV,Faridpur_132kV,1.5,0.08808,0.2559,6.5703e-06,132
+Gopalganj (N)_230kVtoFaridpur_132kV_Line4,Gopalganj (N)_230kV,Faridpur_132kV,1.5,0.08808,0.2559,6.5703e-06,132
+Gopalganj (N)_230kVtoGopalganj_132kV_Line1,Gopalganj (N)_230kV,Gopalganj_132kV,10.5,0.1101,0.2559,6.5703e-06,132
+Gopalganj (N)_230kVtoGopalganj_132kV_Line2,Gopalganj (N)_230kV,Gopalganj_132kV,10.5,0.1101,0.2559,6.5703e-06,132
+Gopalganj (N)_230kVtoGopalganj_132kV_Line3,Gopalganj (N)_230kV,Gopalganj_132kV,10.5,0.1101,0.2559,6.5703e-06,132
+Gopalganj (N)_230kVtoGopalganj_132kV_Line4,Gopalganj (N)_230kV,Gopalganj_132kV,10.5,0.1101,0.2559,6.5703e-06,132
+Kodda_132kVtoRajendrapur_132kV_Line1,Kodda_132kV,Rajendrapur_132kV,24.5,0.08808,0.2559,6.5703e-06,132
+Kodda_132kVtoRajendrapur_132kV_Line2,Kodda_132kV,Rajendrapur_132kV,24.5,0.08808,0.2559,6.5703e-06,132
+Bogura_132kVtoRangpur_132kV_Line1,Bogura_132kV,Rangpur_132kV,1.5,0.09909,0.2559,6.5703e-06,132
+Bogura_132kVtoRangpur_132kV_Line2,Bogura_132kV,Rangpur_132kV,1.5,0.09909,0.2559,6.5703e-06,132
+Bogura_132kVtoRangpur_132kV_Line3,Bogura_132kV,Rangpur_132kV,1.5,0.09909,0.2559,6.5703e-06,132
+Bogura_132kVtoRangpur_132kV_Line4,Bogura_132kV,Rangpur_132kV,1.5,0.09909,0.2559,6.5703e-06,132
+Rampur_132kVtoKhulshi_132kV_Line1,Rampur_132kV,Khulshi_132kV,1.5,0.015,0.12,2e-05,132
+Rampur_132kVtoKhulshi_132kV_Line2,Rampur_132kV,Khulshi_132kV,1.5,0.015,0.12,2e-05,132
+Rampur_132kVtoKhulshi_132kV_Line3,Rampur_132kV,Khulshi_132kV,1.5,0.015,0.12,2e-05,132
+Rampur_132kVtoKhulshi_132kV_Line4,Rampur_132kV,Khulshi_132kV,1.5,0.015,0.12,2e-05,132
+Rampur_132kVtoAgrabad_132kV_Line1,Rampur_132kV,Agrabad_132kV,4.5,0.015,0.12,2e-05,132
+Rampur_132kVtoAgrabad_132kV_Line2,Rampur_132kV,Agrabad_132kV,4.5,0.015,0.12,2e-05,132
+Keraniganj_132kVtoSreenagar_132kV_Line1,Keraniganj_132kV,Sreenagar_132kV,16.0,0.1101,0.2559,6.5703e-06,132
+Keraniganj_132kVtoSreenagar_132kV_Line2,Keraniganj_132kV,Sreenagar_132kV,16.0,0.1101,0.2559,6.5703e-06,132
+Keraniganj_132kVtoNawabganj_132kV_Line1,Keraniganj_132kV,Nawabganj_132kV,27.0,0.1101,0.2559,6.5703e-06,132
+Keraniganj_132kVtoNawabganj_132kV_Line2,Keraniganj_132kV,Nawabganj_132kV,27.0,0.1101,0.2559,6.5703e-06,132
+Fatullah_132kVtoShyampur_132kV_Line1,Fatullah_132kV,Shyampur_132kV,2.0,0.015,0.12,2e-05,132
+Fatullah_132kVtoShyampur_132kV_Line2,Fatullah_132kV,Shyampur_132kV,2.0,0.015,0.12,2e-05,132
+Dhaka University (DU)_132kVtoDhanmondi_132kV_Line1,Dhaka University (DU)_132kV,Dhanmondi_132kV,2.0,0.015,0.12,2e-05,132
+Dhaka University (DU)_132kVtoDhanmondi_132kV_Line2,Dhaka University (DU)_132kV,Dhanmondi_132kV,2.0,0.015,0.12,2e-05,132
+Bagerhat_132kVtoMongla_132kV_Line1,Bagerhat_132kV,Mongla_132kV,28.5,0.1101,0.2559,6.5703e-06,132
+Bagerhat_132kVtoMongla_132kV_Line2,Bagerhat_132kV,Mongla_132kV,28.5,0.1101,0.2559,6.5703e-06,132
+Baghabari_132kVtoBhangura_132kV_Line1,Baghabari_132kV,Bhangura_132kV,25.0,0.1101,0.2559,6.5703e-06,132
+Baghabari_132kVtoBhangura_132kV_Line2,Baghabari_132kV,Bhangura_132kV,25.0,0.1101,0.2559,6.5703e-06,132
+Bakerganj_132kVtoBarguna_132kV_Line1,Bakerganj_132kV,Barguna_132kV,50.0,0.1101,0.2559,6.5703e-06,132
+Gallamari_132kVtoGopalganj_132kV_Line1,Gallamari_132kV,Gopalganj_132kV,52.0,0.1101,0.2559,6.5703e-06,132
+Gallamari_132kVtoGopalganj_132kV_Line2,Gallamari_132kV,Gopalganj_132kV,52.0,0.1101,0.2559,6.5703e-06,132
+Gopalganj_132kVtoMadaripur_132kV_Line1,Gopalganj_132kV,Madaripur_132kV,45.0,0.1101,0.2559,6.5703e-06,132
+Mithapukur_132kVtoRangpur_132kV_Line1,Mithapukur_132kV,Rangpur_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Mithapukur_132kVtoRangpur_132kV_Line2,Mithapukur_132kV,Rangpur_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Mithapukur_132kVtoRangpur_132kV_Line3,Mithapukur_132kV,Rangpur_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Mithapukur_132kVtoRangpur_132kV_Line4,Mithapukur_132kV,Rangpur_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Maniknagar_132kVtoKazla_132kV_Line1,Maniknagar_132kV,Kazla_132kV,2.5,0.015,0.12,2e-05,132
+Maniknagar_132kVtoKazla_132kV_Line2,Maniknagar_132kV,Kazla_132kV,2.5,0.015,0.12,2e-05,132
+Hasnabad_132kVtoKeraniganj_132kV_Line1,Hasnabad_132kV,Keraniganj_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Hasnabad_132kVtoKeraniganj_132kV_Line2,Hasnabad_132kV,Keraniganj_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Hasnabad_132kVtoKeraniganj_132kV_Line3,Hasnabad_132kV,Keraniganj_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Hasnabad_132kVtoKeraniganj_132kV_Line4,Hasnabad_132kV,Keraniganj_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Purbachal_132kVtoBashundhara_132kV_Line1,Purbachal_132kV,Bashundhara_132kV,4.5,0.015,0.12,2e-05,132
+Purbachal_132kVtoBashundhara_132kV_Line2,Purbachal_132kV,Bashundhara_132kV,4.5,0.015,0.12,2e-05,132
+Banani_132kVtoBashundhara_132kV_Line1,Banani_132kV,Bashundhara_132kV,13.5,0.015,0.12,2e-05,132
+Banani_132kVtoBashundhara_132kV_Line2,Banani_132kV,Bashundhara_132kV,13.5,0.015,0.12,2e-05,132
+Rajbari_132kVtoBheramara_132kV_Line1,Rajbari_132kV,Bheramara_132kV,1.25,0.1101,0.2559,6.5703e-06,132
+Rajbari_132kVtoBheramara_132kV_Line2,Rajbari_132kV,Bheramara_132kV,1.25,0.1101,0.2559,6.5703e-06,132
+Rajbari_132kVtoBheramara_132kV_Line3,Rajbari_132kV,Bheramara_132kV,1.25,0.1101,0.2559,6.5703e-06,132
+Rajbari_132kVtoBheramara_132kV_Line4,Rajbari_132kV,Bheramara_132kV,1.25,0.1101,0.2559,6.5703e-06,132
+Jhenaidah_132kVtoJhenaidah_132kV_Line1,Jhenaidah_132kV,Jhenaidah_132kV,3.0,0.1101,0.2559,6.5703e-06,132
+Jhenaidah_132kVtoJhenaidah_132kV_Line2,Jhenaidah_132kV,Jhenaidah_132kV,3.0,0.1101,0.2559,6.5703e-06,132
+Keraniganj_132kVtoKamrangirchar_132kV_Line1,Keraniganj_132kV,Kamrangirchar_132kV,3.0,0.1101,0.2559,6.5703e-06,132
+Keraniganj_132kVtoKamrangirchar_132kV_Line2,Keraniganj_132kV,Kamrangirchar_132kV,3.0,0.1101,0.2559,6.5703e-06,132
+Keraniganj_132kVtoKamrangirchar_132kV_Line3,Keraniganj_132kV,Kamrangirchar_132kV,3.0,0.1101,0.2559,6.5703e-06,132
+Keraniganj_132kVtoKamrangirchar_132kV_Line4,Keraniganj_132kV,Kamrangirchar_132kV,3.0,0.1101,0.2559,6.5703e-06,132
+Tongi_132kVtoTongi-3 (Mill Gate)_132kV_Line1,Tongi_132kV,Tongi-3 (Mill Gate)_132kV,2.5,0.015,0.12,2e-05,132
+Tongi_132kVtoTongi-3 (Mill Gate)_132kV_Line2,Tongi_132kV,Tongi-3 (Mill Gate)_132kV,2.5,0.015,0.12,2e-05,132
+Jhenaidah_132kVtoJashore_132kV_Line1,Jhenaidah_132kV,Jashore_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Jhenaidah_132kVtoJashore_132kV_Line2,Jhenaidah_132kV,Jashore_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Jhenaidah_132kVtoJashore_132kV_Line3,Jhenaidah_132kV,Jashore_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Jhenaidah_132kVtoJashore_132kV_Line4,Jhenaidah_132kV,Jashore_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Maniknagar_132kVtoMotijheel_132kV_Line1,Maniknagar_132kV,Motijheel_132kV,2.0,0.015,0.12,2e-05,132
+Maniknagar_132kVtoMotijheel_132kV_Line2,Maniknagar_132kV,Motijheel_132kV,2.0,0.015,0.12,2e-05,132
+Motijheel_132kVtoBangabhaban_132kV_Line1,Motijheel_132kV,Bangabhaban_132kV,0.5,0.015,0.12,2e-05,132
+Motijheel_132kVtoBangabhaban_132kV_Line2,Motijheel_132kV,Bangabhaban_132kV,0.5,0.015,0.12,2e-05,132
+Madanganj_132kVtoChar Saidpur_132kV_Line1,Madanganj_132kV,Char Saidpur_132kV,3.0,0.08831,0.2441,6.8729e-06,132
+Madanganj_132kVtoChar Saidpur_132kV_Line2,Madanganj_132kV,Char Saidpur_132kV,3.0,0.08831,0.2441,6.8729e-06,132
+Kamrangirchar_132kVtoZigatola_132kV_Line1,Kamrangirchar_132kV,Zigatola_132kV,7.0,0.015,0.12,2e-05,132
+Kamrangirchar_132kVtoZigatola_132kV_Line2,Kamrangirchar_132kV,Zigatola_132kV,7.0,0.015,0.12,2e-05,132
+Energaon_132kVtoMongla_132kV_Line1,Energaon_132kV,Mongla_132kV,9.0,0.1101,0.2559,6.5703e-06,132
+Hasnabad_132kVtoPostagola_132kV_Line1,Hasnabad_132kV,Postagola_132kV,2.0,0.015,0.12,2e-05,132
+Hasnabad_132kVtoPostagola_132kV_Line2,Hasnabad_132kV,Postagola_132kV,2.0,0.015,0.12,2e-05,132
+Bashundhara_132kVtoPurbachal_132kV_Line1,Bashundhara_132kV,Purbachal_132kV,5.5,0.015,0.12,2e-05,132
+Bashundhara_132kVtoPurbachal_132kV_Line2,Bashundhara_132kV,Purbachal_132kV,5.5,0.015,0.12,2e-05,132
+Chapai Nawabganj_132kVtoRahanpur_400kV_Line1,Chapai Nawabganj_132kV,Rahanpur_400kV,52.0,0.08808,0.2559,6.5703e-06,132
+Sholoshahar_132kVtoMadunaghat_132kV_Line1,Sholoshahar_132kV,Madunaghat_132kV,0.0,0.015,0.12,2e-05,132
+Madunaghat_132kVtoKalurghat_132kV_Line1,Madunaghat_132kV,Kalurghat_132kV,7.0,0.015,0.12,2e-05,132
+Madunaghat_132kVtoKalurghat_132kV_Line2,Madunaghat_132kV,Kalurghat_132kV,7.0,0.015,0.12,2e-05,132
+Khulshi_132kVtoRampur_132kV_Line1,Khulshi_132kV,Rampur_132kV,5.0,0.015,0.12,2e-05,132
+Rangpur_132kVtoRangpur_132kV_Line1,Rangpur_132kV,Rangpur_132kV,35.5,0.1101,0.2559,6.5703e-06,132
+Rangpur_132kVtoRangpur_132kV_Line2,Rangpur_132kV,Rangpur_132kV,35.5,0.1101,0.2559,6.5703e-06,132
+Rampura_230kVtoDhaka University (DU)_132kV_Line1,Rampura_230kV,Dhaka University (DU)_132kV,7.5,0.015,0.12,2e-05,132
+Rampura_230kVtoDhaka University (DU)_132kV_Line2,Rampura_230kV,Dhaka University (DU)_132kV,7.5,0.015,0.12,2e-05,132
+Aminbazar_230kVtoAminbazar_230kV_Line1,Aminbazar_230kV,Aminbazar_230kV,0.0,0.06397,0.2362,7.1685e-06,132
+Sripur_132kVtoBhaluka_132kV_Line1,Sripur_132kV,Bhaluka_132kV,22.5,0.1101,0.2559,6.5703e-06,132
+Sripur_132kVtoBhaluka_132kV_Line2,Sripur_132kV,Bhaluka_132kV,22.5,0.1101,0.2559,6.5703e-06,132
+Mirzapur_132kVtoKaliakoir_230kV_Line1,Mirzapur_132kV,Kaliakoir_230kV,1.75,0.08808,0.2559,6.5703e-06,132
+Mirzapur_132kVtoKaliakoir_230kV_Line2,Mirzapur_132kV,Kaliakoir_230kV,1.75,0.08808,0.2559,6.5703e-06,132
+Mirzapur_132kVtoKaliakoir_230kV_Line3,Mirzapur_132kV,Kaliakoir_230kV,1.75,0.08808,0.2559,6.5703e-06,132
+Mirzapur_132kVtoKaliakoir_230kV_Line4,Mirzapur_132kV,Kaliakoir_230kV,1.75,0.08808,0.2559,6.5703e-06,132
+Sylhet_132kVtoSylhet_132kV_Line1,Sylhet_132kV,Sylhet_132kV,2.0,0.08808,0.2559,6.5703e-06,132
+Sylhet_132kVtoSylhet_132kV_Line2,Sylhet_132kV,Sylhet_132kV,2.0,0.08808,0.2559,6.5703e-06,132
+Sylhet_132kVtoSylhet_132kV_Line3,Sylhet_132kV,Sylhet_132kV,2.0,0.08808,0.2559,6.5703e-06,132
+Sylhet_132kVtoSylhet_132kV_Line4,Sylhet_132kV,Sylhet_132kV,2.0,0.08808,0.2559,6.5703e-06,132
+Ullapara_132kVtoSirajganj_132kV_Line1,Ullapara_132kV,Sirajganj_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Ullapara_132kVtoSirajganj_132kV_Line2,Ullapara_132kV,Sirajganj_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Ullapara_132kVtoSirajganj_132kV_Line3,Ullapara_132kV,Sirajganj_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Ullapara_132kVtoSirajganj_132kV_Line4,Ullapara_132kV,Sirajganj_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Madunaghat_132kVtoKhulshi_132kV_Line1,Madunaghat_132kV,Khulshi_132kV,1.0,0.015,0.12,2e-05,132
+Madunaghat_132kVtoKhulshi_132kV_Line2,Madunaghat_132kV,Khulshi_132kV,1.0,0.015,0.12,2e-05,132
+Rahanpur_400kVtoNiamatpur_132kV_Line1,Rahanpur_400kV,Niamatpur_132kV,2.0,0.1101,0.2559,6.5703e-06,132
+Rahanpur_400kVtoNiamatpur_132kV_Line2,Rahanpur_400kV,Niamatpur_132kV,2.0,0.1101,0.2559,6.5703e-06,132
+Rahanpur_400kVtoNiamatpur_132kV_Line3,Rahanpur_400kV,Niamatpur_132kV,2.0,0.1101,0.2559,6.5703e-06,132
+Rahanpur_400kVtoNiamatpur_132kV_Line4,Rahanpur_400kV,Niamatpur_132kV,2.0,0.1101,0.2559,6.5703e-06,132
+Bhaluka_132kVtoBarmi_132kV_Line1,Bhaluka_132kV,Barmi_132kV,32.5,0.08808,0.2559,6.5703e-06,132
+Bhaluka_132kVtoBarmi_132kV_Line2,Bhaluka_132kV,Barmi_132kV,32.5,0.08808,0.2559,6.5703e-06,132
+Ghatail_132kVtoTangail_132kV_Line1,Ghatail_132kV,Tangail_132kV,1.5,0.1101,0.2559,6.5703e-06,132
+Ghatail_132kVtoTangail_132kV_Line2,Ghatail_132kV,Tangail_132kV,1.5,0.1101,0.2559,6.5703e-06,132
+Niamatpur_132kVtoRahanpur_400kV_Line1,Niamatpur_132kV,Rahanpur_400kV,28.0,0.1101,0.2559,6.5703e-06,132
+Niamatpur_132kVtoRahanpur_400kV_Line2,Niamatpur_132kV,Rahanpur_400kV,28.0,0.1101,0.2559,6.5703e-06,132
+Naogaon_132kVtoJoypurhat_132kV_Line1,Naogaon_132kV,Joypurhat_132kV,47.0,0.1101,0.2559,6.5703e-06,132
+Panchagarh_132kVtoThakurgaon_132kV_Line1,Panchagarh_132kV,Thakurgaon_132kV,45.0,0.1101,0.2559,6.5703e-06,132
+Cox's Bazar_132kVtoCox's Bazar_132kV_Line1,Cox's Bazar_132kV,Cox's Bazar_132kV,11.0,0.1101,0.2559,6.5703e-06,132
+Barishal(N)_132kVtoBhandaria_132kV_Line1,Barishal(N)_132kV,Bhandaria_132kV,46.5,0.1101,0.2559,6.5703e-06,132
+Barishal(N)_132kVtoBhandaria_132kV_Line2,Barishal(N)_132kV,Bhandaria_132kV,46.5,0.1101,0.2559,6.5703e-06,132
+Pubail_132kVtoGhorashal_132kV_Line1,Pubail_132kV,Ghorashal_132kV,3.25,0.1101,0.2559,6.5703e-06,132
+Pubail_132kVtoGhorashal_132kV_Line2,Pubail_132kV,Ghorashal_132kV,3.25,0.1101,0.2559,6.5703e-06,132
+Pubail_132kVtoGhorashal_132kV_Line3,Pubail_132kV,Ghorashal_132kV,3.25,0.1101,0.2559,6.5703e-06,132
+Pubail_132kVtoGhorashal_132kV_Line4,Pubail_132kV,Ghorashal_132kV,3.25,0.1101,0.2559,6.5703e-06,132
+Sirajganj_132kVtoSirajganj_132kV_Line1,Sirajganj_132kV,Sirajganj_132kV,10.0,0.1101,0.2559,6.5703e-06,132
+Sirajganj_132kVtoSirajganj_132kV_Line2,Sirajganj_132kV,Sirajganj_132kV,10.0,0.1101,0.2559,6.5703e-06,132
+Muradnagar_132kVtoCumilla (N)_132kV_Line1,Muradnagar_132kV,Cumilla (N)_132kV,1.75,0.1101,0.2559,6.5703e-06,132
+Muradnagar_132kVtoCumilla (N)_132kV_Line2,Muradnagar_132kV,Cumilla (N)_132kV,1.75,0.1101,0.2559,6.5703e-06,132
+Muradnagar_132kVtoCumilla (N)_132kV_Line3,Muradnagar_132kV,Cumilla (N)_132kV,1.75,0.1101,0.2559,6.5703e-06,132
+Muradnagar_132kVtoCumilla (N)_132kV_Line4,Muradnagar_132kV,Cumilla (N)_132kV,1.75,0.1101,0.2559,6.5703e-06,132
+Bajitpur_132kVtoAshuganj_132kV_Line1,Bajitpur_132kV,Ashuganj_132kV,0.25,0.08808,0.2559,6.5703e-06,132
+Bajitpur_132kVtoAshuganj_132kV_Line2,Bajitpur_132kV,Ashuganj_132kV,0.25,0.08808,0.2559,6.5703e-06,132
+Bajitpur_132kVtoAshuganj_132kV_Line3,Bajitpur_132kV,Ashuganj_132kV,0.25,0.08808,0.2559,6.5703e-06,132
+Bajitpur_132kVtoAshuganj_132kV_Line4,Bajitpur_132kV,Ashuganj_132kV,0.25,0.08808,0.2559,6.5703e-06,132
+Rahanpur_400kVtoChowdala_132kV_Line1,Rahanpur_400kV,Chowdala_132kV,7.0,0.1101,0.2559,6.5703e-06,132
+Rahanpur_400kVtoChowdala_132kV_Line2,Rahanpur_400kV,Chowdala_132kV,7.0,0.1101,0.2559,6.5703e-06,132
+Mukhtagacha_132kVtoGhatail_132kV_Line1,Mukhtagacha_132kV,Ghatail_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Mukhtagacha_132kVtoGhatail_132kV_Line2,Mukhtagacha_132kV,Ghatail_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Mukhtagacha_132kVtoGhatail_132kV_Line3,Mukhtagacha_132kV,Ghatail_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Mukhtagacha_132kVtoGhatail_132kV_Line4,Mukhtagacha_132kV,Ghatail_132kV,0.75,0.1101,0.2559,6.5703e-06,132
+Muradnagar_132kVtoKosba_132kV_Line1,Muradnagar_132kV,Kosba_132kV,24.0,0.1101,0.2559,6.5703e-06,132
+Muradnagar_132kVtoKosba_132kV_Line2,Muradnagar_132kV,Kosba_132kV,24.0,0.1101,0.2559,6.5703e-06,132
+Jhenaidah_132kVtoChuadanga_132kV_Line1,Jhenaidah_132kV,Chuadanga_132kV,39.0,0.1101,0.2559,6.5703e-06,132
+Kurigram_132kVtoLalmonirhat_132kV_Line1,Kurigram_132kV,Lalmonirhat_132kV,31.0,0.1101,0.2559,6.5703e-06,132
+Bhulta_132kVtoHaripur_230kV_Line1,Bhulta_132kV,Haripur_230kV,0.25,0.1101,0.2559,6.5703e-06,132
+Bhulta_132kVtoHaripur_230kV_Line2,Bhulta_132kV,Haripur_230kV,0.25,0.1101,0.2559,6.5703e-06,132
+Bhulta_132kVtoHaripur_230kV_Line3,Bhulta_132kV,Haripur_230kV,0.25,0.1101,0.2559,6.5703e-06,132
+Bhulta_132kVtoHaripur_230kV_Line4,Bhulta_132kV,Haripur_230kV,0.25,0.1101,0.2559,6.5703e-06,132
+Patiya_132kVtoSikalbaha_132kV_Line1,Patiya_132kV,Sikalbaha_132kV,0.5,0.08808,0.2559,6.5703e-06,132
+Patiya_132kVtoSikalbaha_132kV_Line2,Patiya_132kV,Sikalbaha_132kV,0.5,0.08808,0.2559,6.5703e-06,132
+Patiya_132kVtoSikalbaha_132kV_Line3,Patiya_132kV,Sikalbaha_132kV,0.5,0.08808,0.2559,6.5703e-06,132
+Patiya_132kVtoSikalbaha_132kV_Line4,Patiya_132kV,Sikalbaha_132kV,0.5,0.08808,0.2559,6.5703e-06,132
+Halishahar_132kVtoHalishahar_132kV_Line1,Halishahar_132kV,Halishahar_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Halishahar_132kVtoHalishahar_132kV_Line2,Halishahar_132kV,Halishahar_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Halishahar_132kVtoHalishahar_132kV_Line3,Halishahar_132kV,Halishahar_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Halishahar_132kVtoHalishahar_132kV_Line4,Halishahar_132kV,Halishahar_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Cumilla (N)_132kVtoChandina_132kV_Line1,Cumilla (N)_132kV,Chandina_132kV,16.0,0.1101,0.2559,6.5703e-06,132
+Cumilla (N)_132kVtoChandina_132kV_Line2,Cumilla (N)_132kV,Chandina_132kV,16.0,0.1101,0.2559,6.5703e-06,132
+Rajendrapur_132kVtoSripur_132kV_Line1,Rajendrapur_132kV,Sripur_132kV,20.5,0.1101,0.2559,6.5703e-06,132
+Rajendrapur_132kVtoSripur_132kV_Line2,Rajendrapur_132kV,Sripur_132kV,20.5,0.1101,0.2559,6.5703e-06,132
+Araihazar_132kVtoBhulta_132kV_Line1,Araihazar_132kV,Bhulta_132kV,8.0,0.1101,0.2559,6.5703e-06,132
+Araihazar_132kVtoBhulta_132kV_Line2,Araihazar_132kV,Bhulta_132kV,8.0,0.1101,0.2559,6.5703e-06,132
+Ishwardi_132kVtoIshwardi_132kV_Line1,Ishwardi_132kV,Ishwardi_132kV,22.0,0.1101,0.2559,6.5703e-06,132
+Ishwardi_132kVtoIshwardi_132kV_Line2,Ishwardi_132kV,Ishwardi_132kV,22.0,0.1101,0.2559,6.5703e-06,132
+Kachua_132kVtoLaksam_132kV_Line1,Kachua_132kV,Laksam_132kV,32.0,0.1101,0.2559,6.5703e-06,132
+Kachua_132kVtoLaksam_132kV_Line2,Kachua_132kV,Laksam_132kV,32.0,0.1101,0.2559,6.5703e-06,132
+Chowmuhani_132kVtoLakshmipur_132kV_Line1,Chowmuhani_132kV,Lakshmipur_132kV,27.0,0.1101,0.2559,6.5703e-06,132
+Chowmuhani_132kVtoLakshmipur_132kV_Line2,Chowmuhani_132kV,Lakshmipur_132kV,27.0,0.1101,0.2559,6.5703e-06,132
+Taraganj_132kVtoSaidpur_132kV_Line1,Taraganj_132kV,Saidpur_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Taraganj_132kVtoSaidpur_132kV_Line2,Taraganj_132kV,Saidpur_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Taraganj_132kVtoSaidpur_132kV_Line3,Taraganj_132kV,Saidpur_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Taraganj_132kVtoSaidpur_132kV_Line4,Taraganj_132kV,Saidpur_132kV,0.25,0.1101,0.2559,6.5703e-06,132
+Daganbhuiyan_132kVtoFeni_132kV_Line1,Daganbhuiyan_132kV,Feni_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Daganbhuiyan_132kVtoFeni_132kV_Line2,Daganbhuiyan_132kV,Feni_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Daganbhuiyan_132kVtoFeni_132kV_Line3,Daganbhuiyan_132kV,Feni_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Daganbhuiyan_132kVtoFeni_132kV_Line4,Daganbhuiyan_132kV,Feni_132kV,2.75,0.1101,0.2559,6.5703e-06,132
+Rampura_230kVtoBashundhara_132kV_Line1,Rampura_230kV,Bashundhara_132kV,11.5,0.1101,0.2559,6.5703e-06,132
+Rampura_230kVtoBashundhara_132kV_Line2,Rampura_230kV,Bashundhara_132kV,11.5,0.1101,0.2559,6.5703e-06,132
+Sripur_132kVtoKodda_132kV_Line1,Sripur_132kV,Kodda_132kV,9.0,0.1101,0.2559,6.5703e-06,132
+Sripur_132kVtoKodda_132kV_Line2,Sripur_132kV,Kodda_132kV,9.0,0.1101,0.2559,6.5703e-06,132
+Sirajganj_132kVtoSirajganj_132kV_Line1,Sirajganj_132kV,Sirajganj_132kV,10.0,0.1101,0.2559,6.5703e-06,132
+Sirajganj_132kVtoSirajganj_132kV_Line2,Sirajganj_132kV,Sirajganj_132kV,10.0,0.1101,0.2559,6.5703e-06,132
+Sathia_132kVtoIshwardi_132kV_Line1,Sathia_132kV,Ishwardi_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Sathia_132kVtoIshwardi_132kV_Line2,Sathia_132kV,Ishwardi_132kV,0.5,0.1101,0.2559,6.5703e-06,132
+Kaliganj_132kVtoMaheshpur_132kV_Line1,Kaliganj_132kV,Maheshpur_132kV,26.0,0.1101,0.2559,6.5703e-06,132
+Kaliganj_132kVtoMaheshpur_132kV_Line2,Kaliganj_132kV,Maheshpur_132kV,26.0,0.1101,0.2559,6.5703e-06,132
+Feni (N)_230kVtoChauddagram_132kV_Line1,Feni (N)_230kV,Chauddagram_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Feni (N)_230kVtoChauddagram_132kV_Line2,Feni (N)_230kV,Chauddagram_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Feni (N)_230kVtoChauddagram_132kV_Line3,Feni (N)_230kV,Chauddagram_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Feni (N)_230kVtoChauddagram_132kV_Line4,Feni (N)_230kV,Chauddagram_132kV,4.0,0.1101,0.2559,6.5703e-06,132
+Bakerganj_132kVtoBarishal_132kV_Line1,Bakerganj_132kV,Barishal_132kV,2.5,0.1101,0.2559,6.5703e-06,132
+Bakerganj_132kVtoBarishal_132kV_Line2,Bakerganj_132kV,Barishal_132kV,2.5,0.1101,0.2559,6.5703e-06,132
+Sathia_132kVtoPabna_132kV_Line1,Sathia_132kV,Pabna_132kV,34.5,0.1101,0.2559,6.5703e-06,132
+Sathia_132kVtoPabna_132kV_Line2,Sathia_132kV,Pabna_132kV,34.5,0.1101,0.2559,6.5703e-06,132
