@@ -1,1 +1,49 @@
-
+{
+  "manifest_version": 3,
+  "name": "MapGeoCapture — GeoTIFF from Google Maps",
+  "version": "1.0.0",
+  "description": "Captures Google Maps satellite tiles as a fully georeferenced GeoTIFF with EPSG:4326, pixel scale, tiepoint, and rich metadata. Academic use.",
+  "permissions": [
+    "storage",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://*.googleapis.com/*",
+    "https://khm.googleapis.com/*",
+    "https://khm0.googleapis.com/*",
+    "https://khm1.googleapis.com/*",
+    "https://khm2.googleapis.com/*",
+    "https://khm3.googleapis.com/*",
+    "https://mt.googleapis.com/*",
+    "https://mt0.googleapis.com/*",
+    "https://mt1.googleapis.com/*",
+    "https://mt2.googleapis.com/*",
+    "https://mt3.googleapis.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/maps/*"],
+      "js": ["tile-math.js", "geotiff-writer.js", "content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["tile-math.js", "geotiff-writer.js"],
+      "matches": ["https://www.google.com/maps/*"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "MapGeoCapture"
+  }
+}
