@@ -16,7 +16,8 @@ Where we stopped: You asked for the detailed step-by-step process of manually la
 
 The core constraint: No pre-annotated satellite imagery datasets exist for your use case. Google Maps/Earth is realistically your only free imagery source, and you can’t programmatically scrape it at scale due to terms of service.
 
-Why data matters most: The model architecture and pipeline are straightforward engineering problems you can solve. The quality and quantity of labeled training data is what determines whether the system actually works. This is your real bottleneck.
+
+>> Why data matters most: The model architecture and pipeline are straightforward engineering problems you can solve. The quality and quantity of labeled training data is what determines whether the system actually works. This is your real bottleneck.
 
 Five approaches we explored:
 
