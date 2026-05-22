@@ -4,7 +4,7 @@ We will use following algorithm to parse a geo map of a power transmission conne
 - read the scale of the map from the bottom left corner to get an approximate length of each power line in KM.
 - start from the north-west corner of the map located in the top left corner of the file - which is panchagarh for current file. then apply depth first search algo to explore different nodes in this graph of power transmission connectivity. while exploring the nodes of graph keep estimating the length of edge in parallel
 - number of parallel lines connecting the same nodes represent the number of circuit in that line 
-- provide the final output in csv with these columns- start node(location), end node(location), voltage level(from the color of the line), approx length(based on the scale in KM), Line name (following the below mentioned naming convention)
+- provide the final output in csv with these columns- `start node`(location), `end node`(location), `voltage level`(from the color of the line), `approx length` (based on the scale in KM), `Line name` (following the below mentioned naming convention)
 
 ### Line naming convention for the `Line name` column
 
