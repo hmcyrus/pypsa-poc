@@ -1,0 +1,289 @@
+#!/usr/bin/env python3
+"""
+network_builder.py
+
+Phase 1 — Process raw CSV → data/processed/buses.csv + lines.csv
+Phase 2 — Build PyPSA network from those CSVs
+Phase 3 — Print summary and export n.buses / n.lines
+"""
+
+import math
+import re
+from pathlib import Path
+
+import pandas as pd
+import pypsa
+
+# ── Paths ──────────────────────────────────────────────────────────────────
+ROOT     = Path(__file__).parent.parent
+RAW_CSV  = ROOT / "data" / "raw" / "powergridlinedata.csv"
+PROC_DIR = ROOT / "data" / "processed"
+OUT_DIR  = ROOT / "data" / "output"
+
+# ── Conductor lookup (per-km values from datasheet) ────────────────────────
+CONDUCTOR_PARAMS: dict[str, dict] = {
+    "Finch":                 {"r_km": 0.0588524,  "x_km": 0.1968333, "b_km": 5.97e-6,  "ampacity": 1000},
+    "Twin Finch":            {"r_km": 0.0294262,  "x_km": 0.1377833, "b_km": 1.19e-5,  "ampacity": 2000},
+    "Quad Finch":            {"r_km": 0.0147131,  "x_km": 0.1082583, "b_km": 2.72e-5,  "ampacity": 4000},
+    "Quad Egret":            {"r_km": 0.025346,   "x_km": 0.115775,  "b_km": 2.51e-5,  "ampacity": 2868},
+    "Mallard":               {"r_km": 0.0812452,  "x_km": 0.2034167, "b_km": 5.73e-6,  "ampacity":  824},
+    "Twin Mallard":          {"r_km": 0.0406226,  "x_km": 0.1423917, "b_km": 1.15e-5,  "ampacity": 1648},
+    "Quad Mallard":          {"r_km": 0.0203113,  "x_km": 0.1118792, "b_km": 2.60e-5,  "ampacity": 3296},
+    "Twin 300 sq mm":        {"r_km": 0.044528,   "x_km": 0.1527167, "b_km": 1.08e-5,  "ampacity": 1370},
+    "Twin AAAC 37/4.176 mm": {"r_km": 0.0342056,  "x_km": 0.14315,   "b_km": 1.15e-5,  "ampacity": 1806},
+    "ACSR 600 sq mm":        {"r_km": 0.0552,     "x_km": 0.1965833, "b_km": 6.01e-6,  "ampacity": 1037},
+    "XLPE 2000 sq mm":       {"r_km": 0.0184,     "x_km": 0.06552,   "b_km": 2.00e-6,  "ampacity": 3000},
+    "Grosbeak":              {"r_km": 0.101292,   "x_km": 0.21325,   "b_km": 5.48e-6,  "ampacity":  712},
+    "Linnet":                {"r_km": 0.190992,   "x_km": 0.23325,   "b_km": 4.98e-6,  "ampacity":  478},
+    "AAAC 804 sq mm":        {"r_km": 0.0419244,  "x_km": 0.1856667, "b_km": 6.36e-6,  "ampacity": 1241},
+    "Hawk":                  {"r_km": 0.134872,   "x_km": 0.2225833, "b_km": 5.24e-6,  "ampacity":  594},
+    "XLPE 500 sq mm":        {"r_km": 0.0736,     "x_km": 0.26208,   "b_km": 8.01e-6,  "ampacity":  750},
+    "Cu 240 sq mm":          {"r_km": 0.134872,   "x_km": 0.2225833, "b_km": 5.24e-6,  "ampacity":  594},
+    "XLPE 800 sq mm":        {"r_km": 0.0736,     "x_km": 0.26208,   "b_km": 8.01e-6,  "ampacity":  750},
+}
+
+# CSV conductor names that differ from the lookup keys above
+CONDUCTOR_NORMALIZE: dict[str, str] = {
+    "Twin 300 sqmm": "Twin 300 sq mm",
+    "Twin AAAC":     "Twin AAAC 37/4.176 mm",
+}
+
+
+# ── Helpers ────────────────────────────────────────────────────────────────
+
+def _normalize_conductor(raw: str) -> str:
+    raw = raw.strip()
+    return CONDUCTOR_NORMALIZE.get(raw, raw)
+
+
+def _parse_v_nom(bus_name: str) -> float | None:
+    """Extract voltage level (kV) from a bus name like Foo_400kV or Bar_230kV_DC."""
+    m = re.search(r'(\d+(?:\.\d+)?)kV', bus_name, re.IGNORECASE)
+    return float(m.group(1)) if m else None
+
+
+def _line_params(conductor: str, length_km: float, v_nom_kv: float) -> dict:
+    c = CONDUCTOR_PARAMS[conductor]
+    return {
+        "r":     round(c["r_km"] * length_km, 6),
+        "x":     round(c["x_km"] * length_km, 6),
+        "b":     round(c["b_km"] * length_km, 9),
+        "s_nom": round((math.sqrt(3) * v_nom_kv * c["ampacity"]) / 1000, 3),
+    }
+
+
+# ── Phase 1: process raw CSV ───────────────────────────────────────────────
+
+def process_raw_data(raw_csv: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
+    """
+    Returns (buses_df, lines_df, warnings).
+
+    CSV layout (1-indexed rows):
+      Row 1 — metadata note
+      Row 2 — human-readable column names
+      Row 3 — pypsa attribute names  (name, bus0, bus1, <blank>, <blank>)
+      Row 4+ — data
+    Columns: A=name, B=bus0, C=bus1, D=length_km, E=conductor
+    """
+    warnings: dict[str, list[str]] = {
+        "typo_buses":            [],
+        "skipped_cross_voltage": [],
+        "skipped_duplicates":    [],
+        "unknown_conductor":     [],
+    }
+
+    raw = pd.read_csv(raw_csv, header=None, dtype=str)
+    data = raw.iloc[3:].reset_index(drop=True)   # skip 3-row header block
+    data.columns = ["name", "bus0", "bus1", "length_km", "conductor"]
+
+    # ── Buses: collect unique names from bus0 + bus1 columns ──────────────
+    all_bus_names: set[str] = set()
+    for col in ("bus0", "bus1"):
+        for val in data[col].dropna():
+            v = str(val).strip()
+            if v:
+                all_bus_names.add(v)
+
+    bus_rows = []
+    for bus_name in sorted(all_bus_names):
+        v_nom = _parse_v_nom(bus_name)
+        if v_nom is None:
+            warnings["typo_buses"].append(bus_name)
+        bus_rows.append({"name": bus_name, "v_nom": v_nom})
+
+    buses_df = pd.DataFrame(bus_rows)
+
+    # ── Lines: iterate rows, apply all skip rules, compute params ──────────
+    seen_names: set[str] = set()
+    line_rows = []
+
+    for idx, row in data.iterrows():
+        name       = str(row["name"]).strip()       if pd.notna(row["name"])       else ""
+        bus0       = str(row["bus0"]).strip()       if pd.notna(row["bus0"])       else ""
+        bus1       = str(row["bus1"]).strip()       if pd.notna(row["bus1"])       else ""
+        length_str = str(row["length_km"]).strip()  if pd.notna(row["length_km"])  else ""
+        cond_raw   = str(row["conductor"]).strip()  if pd.notna(row["conductor"])  else ""
+
+        if not name or not bus0 or not bus1:
+            continue
+
+        csv_row_num = idx + 4   # 1-indexed row number in original CSV
+
+        # ── duplicate name → skip, keep first ─────────────────────────────
+        if name in seen_names:
+            warnings["skipped_duplicates"].append(
+                f"row {csv_row_num}: {name}"
+            )
+            continue
+
+        # ── cross-voltage check ────────────────────────────────────────────
+        v0 = _parse_v_nom(bus0)
+        v1 = _parse_v_nom(bus1)
+        if v0 is None or v1 is None or v0 != v1:
+            warnings["skipped_cross_voltage"].append(
+                f"row {csv_row_num}: {name}  [{bus0} → {bus1}]  "
+                f"({v0}kV vs {v1}kV)"
+            )
+            continue
+
+        # ── parse length ───────────────────────────────────────────────────
+        try:
+            length_km = float(length_str)
+        except ValueError:
+            continue
+
+        # ── conductor lookup ───────────────────────────────────────────────
+        conductor = _normalize_conductor(cond_raw)
+        if conductor not in CONDUCTOR_PARAMS:
+            warnings["unknown_conductor"].append(
+                f"row {csv_row_num}: '{cond_raw}'"
+            )
+            continue
+
+        params = _line_params(conductor, length_km, v0)
+
+        seen_names.add(name)
+        line_rows.append({
+            "name":   name,
+            "bus0":   bus0,
+            "bus1":   bus1,
+            "length": length_km,
+            **params,
+        })
+
+    lines_df = pd.DataFrame(line_rows)
+    return buses_df, lines_df, warnings
+
+
+# ── Phase 2: build PyPSA network ───────────────────────────────────────────
+
+def build_network(buses_df: pd.DataFrame, lines_df: pd.DataFrame) -> pypsa.Network:
+    n = pypsa.Network()
+
+    for _, row in buses_df.iterrows():
+        if pd.isna(row["v_nom"]):
+            continue
+        n.add("Bus", row["name"], v_nom=float(row["v_nom"]))
+
+    for _, row in lines_df.iterrows():
+        n.add(
+            "Line",
+            row["name"],
+            bus0=row["bus0"],
+            bus1=row["bus1"],
+            length=row["length"],
+            r=row["r"],
+            x=row["x"],
+            b=row["b"],
+            s_nom=row["s_nom"],
+        )
+
+    return n
+
+
+# ── Phase 3: summary + export ──────────────────────────────────────────────
+
+def _print_warnings(warnings: dict) -> None:
+    sections = [
+        ("typo_buses",            "buses with unparseable voltage (excluded from network)"),
+        ("skipped_cross_voltage", "lines skipped — mismatched bus voltages"),
+        ("skipped_duplicates",    "lines skipped — duplicate name (first kept)"),
+        ("unknown_conductor",     "lines skipped — conductor not in lookup table"),
+    ]
+    any_warnings = False
+    for key, label in sections:
+        items = warnings[key]
+        if not items:
+            continue
+        any_warnings = True
+        print(f"\n  ⚠  {len(items)} {label}:")
+        for item in items:
+            print(f"       {item}")
+    if not any_warnings:
+        print("\n  ✓  No warnings.")
+
+
+def main() -> None:
+    PROC_DIR.mkdir(parents=True, exist_ok=True)
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    # ── Phase 1 ────────────────────────────────────────────────────────────
+    print("=" * 60)
+    print("Phase 1 — Processing raw CSV")
+    print("=" * 60)
+
+    buses_df, lines_df, warnings = process_raw_data(RAW_CSV)
+
+    buses_path = PROC_DIR / "buses.csv"
+    lines_path = PROC_DIR / "lines.csv"
+    buses_df.to_csv(buses_path, index=False)
+    lines_df.to_csv(lines_path, index=False)
+
+    print(f"  Unique buses extracted : {len(buses_df)}")
+    print(f"  Lines extracted        : {len(lines_df)}")
+    print(f"  Written → {buses_path.relative_to(ROOT)}")
+    print(f"  Written → {lines_path.relative_to(ROOT)}")
+
+    # ── Phase 2 ────────────────────────────────────────────────────────────
+    print("\n" + "=" * 60)
+    print("Phase 2 — Building PyPSA network")
+    print("=" * 60)
+
+    n = build_network(buses_df, lines_df)
+
+    # ── Phase 3 ────────────────────────────────────────────────────────────
+    print("\n" + "=" * 60)
+    print("Phase 3 — Summary")
+    print("=" * 60)
+
+    print(f"\n  Buses in network : {len(n.buses)}")
+    print(f"  Lines in network : {len(n.lines)}")
+
+    print("\n  Buses by voltage level:")
+    if not n.buses.empty:
+        for v, grp in n.buses.groupby("v_nom"):
+            print(f"    {int(v):>4} kV — {len(grp):>3} buses")
+
+    print("\n  Lines by voltage level:")
+    if not n.lines.empty:
+        # infer voltage from bus0 name
+        n.lines["_v"] = n.lines["bus0"].apply(_parse_v_nom)
+        for v, grp in n.lines.groupby("_v"):
+            print(f"    {int(v):>4} kV — {len(grp):>3} lines")
+        n.lines.drop(columns=["_v"], inplace=True)
+
+    _print_warnings(warnings)
+
+    # Export
+    export_buses = OUT_DIR / "network_buses.csv"
+    export_lines = OUT_DIR / "network_lines.csv"
+    n.buses.to_csv(export_buses)
+    n.lines.to_csv(export_lines)
+
+    print(f"\n  Exported → {export_buses.relative_to(ROOT)}")
+    print(f"  Exported → {export_lines.relative_to(ROOT)}")
+    print("\nDone.")
+
+
+if __name__ == "__main__":
+    main()
