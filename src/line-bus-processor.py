@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-network_builder.py
+line-bus-processor.py
 
-Phase 1 — Process raw CSV → data/processed/buses.csv + lines.csv
-Phase 2 — Build PyPSA network from those CSVs
-Phase 3 — Print summary and export n.buses / n.lines
+Reads data/raw/powergridlinedata.csv and produces:
+  data/processed/buses.csv          — intermediate bus table
+  data/processed/lines.csv          — intermediate line table
+  data/pypsa-components/buses.csv   — PyPSA-ready (name as index)
+  data/pypsa-components/lines.csv   — PyPSA-ready (name as index)
 """
 
 import math
@@ -12,15 +14,14 @@ import re
 from pathlib import Path
 
 import pandas as pd
-import pypsa
 
 # ── Paths ──────────────────────────────────────────────────────────────────
-ROOT     = Path(__file__).parent.parent
-RAW_CSV  = ROOT / "data" / "raw" / "powergridlinedata.csv"
-PROC_DIR = ROOT / "data" / "processed"
-OUT_DIR  = ROOT / "data" / "output"
+ROOT      = Path(__file__).parent.parent
+RAW_CSV   = ROOT / "data" / "raw" / "powergridlinedata.csv"
+PROC_DIR  = ROOT / "data" / "processed"
+PYPSA_DIR = ROOT / "data" / "pypsa-components"
 
-# ── Conductor lookup (per-km values from datasheet) ────────────────────────
+# ── Conductor lookup (per-km values) ──────────────────────────────────────
 CONDUCTOR_PARAMS: dict[str, dict] = {
     "Finch":                 {"r_km": 0.0588524,  "x_km": 0.1968333, "b_km": 5.97e-6,  "ampacity": 1000},
     "Twin Finch":            {"r_km": 0.0294262,  "x_km": 0.1377833, "b_km": 1.19e-5,  "ampacity": 2000},
@@ -42,7 +43,6 @@ CONDUCTOR_PARAMS: dict[str, dict] = {
     "XLPE 800 sq mm":        {"r_km": 0.0736,     "x_km": 0.26208,   "b_km": 8.01e-6,  "ampacity":  750},
 }
 
-# CSV conductor names that differ from the lookup keys above
 CONDUCTOR_NORMALIZE: dict[str, str] = {
     "Twin 300 sqmm": "Twin 300 sq mm",
     "Twin AAAC":     "Twin AAAC 37/4.176 mm",
@@ -57,7 +57,6 @@ def _normalize_conductor(raw: str) -> str:
 
 
 def _parse_v_nom(bus_name: str) -> float | None:
-    """Extract voltage level (kV) from a bus name like Foo_400kV or Bar_230kV_DC."""
     m = re.search(r'(\d+(?:\.\d+)?)kV', bus_name, re.IGNORECASE)
     return float(m.group(1)) if m else None
 
@@ -72,7 +71,7 @@ def _line_params(conductor: str, length_km: float, v_nom_kv: float) -> dict:
     }
 
 
-# ── Phase 1: process raw CSV ───────────────────────────────────────────────
+# ── Processing pipeline ────────────────────────────────────────────────────
 
 def process_raw_data(raw_csv: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
     """
@@ -81,7 +80,7 @@ def process_raw_data(raw_csv: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
     CSV layout (1-indexed rows):
       Row 1 — metadata note
       Row 2 — human-readable column names
-      Row 3 — pypsa attribute names  (name, bus0, bus1, <blank>, <blank>)
+      Row 3 — pypsa attribute names
       Row 4+ — data
     Columns: A=name, B=bus0, C=bus1, D=length_km, E=conductor
     """
@@ -93,10 +92,10 @@ def process_raw_data(raw_csv: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
     }
 
     raw = pd.read_csv(raw_csv, header=None, dtype=str)
-    data = raw.iloc[3:].reset_index(drop=True)   # skip 3-row header block
+    data = raw.iloc[3:].reset_index(drop=True)
     data.columns = ["name", "bus0", "bus1", "length_km", "conductor"]
 
-    # ── Buses: collect unique names from bus0 + bus1 columns ──────────────
+    # Buses
     all_bus_names: set[str] = set()
     for col in ("bus0", "bus1"):
         for val in data[col].dropna():
@@ -113,7 +112,7 @@ def process_raw_data(raw_csv: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
 
     buses_df = pd.DataFrame(bus_rows)
 
-    # ── Lines: iterate rows, apply all skip rules, compute params ──────────
+    # Lines
     seen_names: set[str] = set()
     line_rows = []
 
@@ -127,81 +126,39 @@ def process_raw_data(raw_csv: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
         if not name or not bus0 or not bus1:
             continue
 
-        csv_row_num = idx + 4   # 1-indexed row number in original CSV
+        csv_row_num = idx + 4
 
-        # ── duplicate name → skip, keep first ─────────────────────────────
         if name in seen_names:
-            warnings["skipped_duplicates"].append(
-                f"row {csv_row_num}: {name}"
-            )
+            warnings["skipped_duplicates"].append(f"row {csv_row_num}: {name}")
             continue
 
-        # ── cross-voltage check ────────────────────────────────────────────
         v0 = _parse_v_nom(bus0)
         v1 = _parse_v_nom(bus1)
         if v0 is None or v1 is None or v0 != v1:
             warnings["skipped_cross_voltage"].append(
-                f"row {csv_row_num}: {name}  [{bus0} → {bus1}]  "
-                f"({v0}kV vs {v1}kV)"
+                f"row {csv_row_num}: {name}  [{bus0} → {bus1}]  ({v0}kV vs {v1}kV)"
             )
             continue
 
-        # ── parse length ───────────────────────────────────────────────────
         try:
             length_km = float(length_str)
         except ValueError:
             continue
 
-        # ── conductor lookup ───────────────────────────────────────────────
         conductor = _normalize_conductor(cond_raw)
         if conductor not in CONDUCTOR_PARAMS:
-            warnings["unknown_conductor"].append(
-                f"row {csv_row_num}: '{cond_raw}'"
-            )
+            warnings["unknown_conductor"].append(f"row {csv_row_num}: '{cond_raw}'")
             continue
 
         params = _line_params(conductor, length_km, v0)
-
         seen_names.add(name)
-        line_rows.append({
-            "name":   name,
-            "bus0":   bus0,
-            "bus1":   bus1,
-            "length": length_km,
-            **params,
-        })
+        line_rows.append({"name": name, "bus0": bus0, "bus1": bus1, "length": length_km, **params})
 
     lines_df = pd.DataFrame(line_rows)
     return buses_df, lines_df, warnings
 
 
-# ── Phase 2: build PyPSA network ───────────────────────────────────────────
-
-def build_network(buses_df: pd.DataFrame, lines_df: pd.DataFrame) -> pypsa.Network:
-    n = pypsa.Network()
-
-    for _, row in buses_df.iterrows():
-        if pd.isna(row["v_nom"]):
-            continue
-        n.add("Bus", row["name"], v_nom=float(row["v_nom"]))
-
-    for _, row in lines_df.iterrows():
-        n.add(
-            "Line",
-            row["name"],
-            bus0=row["bus0"],
-            bus1=row["bus1"],
-            length=row["length"],
-            r=row["r"],
-            x=row["x"],
-            b=row["b"],
-            s_nom=row["s_nom"],
-        )
-
-    return n
-
-
-# ── Phase 3: summary + export ──────────────────────────────────────────────
+# ── Output ─────────────────────────────────────────────────────────────────
 
 def _print_warnings(warnings: dict) -> None:
     sections = [
@@ -225,63 +182,49 @@ def _print_warnings(warnings: dict) -> None:
 
 def main() -> None:
     PROC_DIR.mkdir(parents=True, exist_ok=True)
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    # ── Phase 1 ────────────────────────────────────────────────────────────
-    print("=" * 60)
-    print("Phase 1 — Processing raw CSV")
-    print("=" * 60)
+    PYPSA_DIR.mkdir(parents=True, exist_ok=True)
 
     buses_df, lines_df, warnings = process_raw_data(RAW_CSV)
 
-    buses_path = PROC_DIR / "buses.csv"
-    lines_path = PROC_DIR / "lines.csv"
-    buses_df.to_csv(buses_path, index=False)
-    lines_df.to_csv(lines_path, index=False)
+    # ── Write intermediate CSVs to data/processed/ ────────────────────────
+    buses_df.to_csv(PROC_DIR / "buses.csv", index=False)
+    lines_df.to_csv(PROC_DIR / "lines.csv", index=False)
 
-    print(f"  Unique buses extracted : {len(buses_df)}")
-    print(f"  Lines extracted        : {len(lines_df)}")
-    print(f"  Written → {buses_path.relative_to(ROOT)}")
-    print(f"  Written → {lines_path.relative_to(ROOT)}")
+    # ── Write PyPSA-ready CSVs to data/pypsa-components/ ──────────────────
+    # Filter out buses with no parseable voltage before writing
+    pypsa_buses = buses_df.dropna(subset=["v_nom"]).set_index("name")
+    pypsa_lines = lines_df.set_index("name")
 
-    # ── Phase 2 ────────────────────────────────────────────────────────────
-    print("\n" + "=" * 60)
-    print("Phase 2 — Building PyPSA network")
+    pypsa_buses.to_csv(PYPSA_DIR / "buses.csv")
+    pypsa_lines.to_csv(PYPSA_DIR / "lines.csv")
+
+    # ── Summary ───────────────────────────────────────────────────────────
     print("=" * 60)
-
-    n = build_network(buses_df, lines_df)
-
-    # ── Phase 3 ────────────────────────────────────────────────────────────
-    print("\n" + "=" * 60)
-    print("Phase 3 — Summary")
+    print("Processing summary")
     print("=" * 60)
-
-    print(f"\n  Buses in network : {len(n.buses)}")
-    print(f"  Lines in network : {len(n.lines)}")
+    print(f"\n  Unique buses : {len(buses_df)}")
+    print(f"  Lines        : {len(lines_df)}")
 
     print("\n  Buses by voltage level:")
-    if not n.buses.empty:
-        for v, grp in n.buses.groupby("v_nom"):
-            print(f"    {int(v):>4} kV — {len(grp):>3} buses")
+    for v, grp in buses_df.dropna(subset=["v_nom"]).groupby("v_nom"):
+        print(f"    {int(v):>4} kV — {len(grp):>3} buses")
+
+    def _v(name):
+        m = re.search(r'(\d+(?:\.\d+)?)kV', name, re.IGNORECASE)
+        return float(m.group(1)) if m else None
 
     print("\n  Lines by voltage level:")
-    if not n.lines.empty:
-        # infer voltage from bus0 name
-        n.lines["_v"] = n.lines["bus0"].apply(_parse_v_nom)
-        for v, grp in n.lines.groupby("_v"):
-            print(f"    {int(v):>4} kV — {len(grp):>3} lines")
-        n.lines.drop(columns=["_v"], inplace=True)
+    lines_df["_v"] = lines_df["bus0"].apply(_v)
+    for v, grp in lines_df.groupby("_v"):
+        print(f"    {int(v):>4} kV — {len(grp):>3} lines")
+    lines_df.drop(columns=["_v"], inplace=True)
 
     _print_warnings(warnings)
 
-    # Export
-    export_buses = OUT_DIR / "network_buses.csv"
-    export_lines = OUT_DIR / "network_lines.csv"
-    n.buses.to_csv(export_buses)
-    n.lines.to_csv(export_lines)
-
-    print(f"\n  Exported → {export_buses.relative_to(ROOT)}")
-    print(f"  Exported → {export_lines.relative_to(ROOT)}")
+    print(f"\n  Written → data/processed/buses.csv")
+    print(f"  Written → data/processed/lines.csv")
+    print(f"  Written → data/pypsa-components/buses.csv")
+    print(f"  Written → data/pypsa-components/lines.csv")
     print("\nDone.")
 
 
