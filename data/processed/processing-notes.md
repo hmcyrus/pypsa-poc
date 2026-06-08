@@ -126,7 +126,7 @@ before lookup:
 ### 2.4 Electrical parameter calculation
 
 Per-km resistance (`r_km`), reactance (`x_km`), susceptance (`b_km`),
-and ampacity are looked up from an 18-entry conductor table. Line
+and ampacity are looked up from the conductor reference table below. Line
 parameters are then computed as:
 
 | Attribute | Formula |
@@ -135,6 +135,29 @@ parameters are then computed as:
 | `x` (Ω) | `x_km × length` |
 | `b` (S) | `b_km × length` |
 | `s_nom` (MVA) | `√3 × v_nom (kV) × ampacity (A) / 1000` |
+
+#### Conductor reference table
+
+| Conductor Name | r (Ω/km) | x (Ω/km) | b (S/km) | Ampacity (A) |
+|----------------|----------:|----------:|----------:|-------------:|
+| Finch | 0.0588524 | 0.1968333 | 5.97 × 10⁻⁶ | 1000 |
+| Twin Finch | 0.0294262 | 0.1377833 | 1.19 × 10⁻⁵ | 2000 |
+| Quad Finch | 0.0147131 | 0.1082583 | 2.72 × 10⁻⁵ | 4000 |
+| Quad Egret | 0.025346 | 0.115775 | 2.51 × 10⁻⁵ | 2868 |
+| Mallard | 0.0812452 | 0.2034167 | 5.73 × 10⁻⁶ | 824 |
+| Twin Mallard | 0.0406226 | 0.1423917 | 1.15 × 10⁻⁵ | 1648 |
+| Quad Mallard | 0.0203113 | 0.1118792 | 2.60 × 10⁻⁵ | 3296 |
+| Twin 300 sq mm | 0.044528 | 0.1527167 | 1.08 × 10⁻⁵ | 1370 |
+| Twin AAAC 37/4.176 mm | 0.0342056 | 0.14315 | 1.15 × 10⁻⁵ | 1806 |
+| ACSR 600 sq mm | 0.0552 | 0.1965833 | 6.01 × 10⁻⁶ | 1037 |
+| XLPE 2000 sq mm | 0.0184 | 0.06552 | 2.00 × 10⁻⁶ | 3000 |
+| Grosbeak | 0.101292 | 0.21325 | 5.48 × 10⁻⁶ | 712 |
+| Linnet | 0.190992 | 0.23325 | 4.98 × 10⁻⁶ | 478 |
+| AAAC 804 sq mm | 0.0419244 | 0.1856667 | 6.36 × 10⁻⁶ | 1241 |
+| Hawk | 0.134872 | 0.2225833 | 5.24 × 10⁻⁶ | 594 |
+| XLPE 500 sq mm | 0.0736 | 0.26208 | 8.01 × 10⁻⁶ | 750 |
+| Cu 240 sq mm | 0.134872 | 0.2225833 | 5.24 × 10⁻⁶ | 594 |
+| XLPE 800 sq mm | 0.0736 | 0.26208 | 8.01 × 10⁻⁶ | 750 |
 
 ### 2.5 Output to this directory
 
