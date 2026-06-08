@@ -33,6 +33,31 @@ Data rows start at row 4.
 | D | *(length_km)* | Line length in kilometres |
 | E | *(conductor)* | Conductor type string |
 
+### Sample rows (20 random data rows)
+
+```
+BSRM_230kVtoMirsarai_230kV_Line1,BSRM_230kV,Mirsarai_230kV,16.5,Twin Finch
+Baghabari_132kVtoShahjadpur_132kV_Line2,Baghabari_132kV,Shahjadpur_132kV,6,Grosbeak
+Bakerganj_132kVtoPatuakhali_132kV_Line1,Bakerganj_132kV,Patuakhali_132kV,20,Hawk
+BoguraSouth_132kVtoSherpur(B)_132kV_Line1,BoguraSouth_132kV,Sherpur(B)_132kV,24,Grosbeak
+BoguraSouth_230kVtoBoguraWest_230kV_Line2,BoguraSouth_230kV,BoguraWest_230kV,11,Twin AAAC
+Chandraghona_132kVtoRangamati_132kV_Line1,Chandraghona_132kV,Rangamati_132kV,27.5,Grosbeak
+Daudkandi_132kVtoDaudkandiPP_132kV_Line1,Daudkandi_132kV,DaudkandiPP_132kV,1,Grosbeak
+Feni_132kVtoDaganbhuiyan_132kV_Line1,Feni_132kV,Daganbhuiyan_132kV,16,Grosbeak
+GopalganjNorth_400kVtoAminbazar_400kV_Line1,GopalganjNorth_400kV,Aminbazar_400kV,75.3,Quad Finch
+Hasnabad_132kVtoKeraniganj_132kV_Line1,Hasnabad_132kV,Keraniganj_132kV,14,Grosbeak
+Hasnabad_230kVtoKeraniganj_230kV_Line2,Hasnabad_230kV,Keraniganj_230kV,10.75,Twin AAAC
+Khulshi_132kVtoBakulia_132kV_Line1,Khulshi_132kV,Bakulia_132kV,15,Grosbeak
+Maniknagar_132kVtoMatuail_132kV_Line1,Maniknagar_132kV,Matuail_132kV,16,Grosbeak
+Patiya_132kVtoDohazari_132kV_Line1,Patiya_132kV,Dohazari_132kV,21,Grosbeak
+PayraPP_400kVtoAmtali_400kV_Line1,PayraPP_400kV,Amtali_400kV,17,Quad Finch
+Rampal_230kVtoKhulnaSouth_230kV_Line2,Rampal_230kV,KhulnaSouth_230kV,24,Twin Mallard
+Rampur_132kVtoAgrabad_132kV_Line1,Rampur_132kV,Agrabad_132kV,4.5,XLPE 800 sq mm
+Sherpur(B)_132kVtoSirajganj_132kV_Line1,Sherpur(B)_132kV,Sirajganj_132kV,33,Grosbeak
+Sripur_132kVtoBhaluka_132kV_Line1,Sripur_132kV,Bhaluka_132kV,22.5,Grosbeak
+Sripur_132kVtoBhaluka_132kV_Line2,Sripur_132kV,Bhaluka_132kV,22.5,Grosbeak
+```
+
 ### Bus name convention
 
 Bus names encode their voltage level, e.g. `Aminbazar_400kV`,
