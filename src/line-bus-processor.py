@@ -2,11 +2,11 @@
 """
 line-bus-processor.py
 
-Reads data/raw/powergridlinedata.csv and produces:
-  data/processed/buses.csv          — intermediate bus table
-  data/processed/lines.csv          — intermediate line table
-  data/pypsa-components/buses.csv   — PyPSA-ready (name as index)
-  data/pypsa-components/lines.csv   — PyPSA-ready (name as index)
+Reads data/pipeline/raw/powergridlinedata.csv and produces:
+  data/pipeline/processed/buses.csv          — intermediate bus table
+  data/pipeline/processed/lines.csv          — intermediate line table
+  data/pipeline/pypsa-components/buses.csv   — PyPSA-ready (name as index)
+  data/pipeline/pypsa-components/lines.csv   — PyPSA-ready (name as index)
 """
 
 import math
@@ -17,9 +17,9 @@ import pandas as pd
 
 # ── Paths ──────────────────────────────────────────────────────────────────
 ROOT      = Path(__file__).parent.parent
-RAW_CSV   = ROOT / "data" / "raw" / "powergridlinedata.csv"
-PROC_DIR  = ROOT / "data" / "processed"
-PYPSA_DIR = ROOT / "data" / "pypsa-components"
+RAW_CSV   = ROOT / "data" / "pipeline" / "raw" / "powergridlinedata.csv"
+PROC_DIR  = ROOT / "data" / "pipeline" / "processed"
+PYPSA_DIR = ROOT / "data" / "pipeline" / "pypsa-components"
 
 # ── Conductor lookup (per-km values) ──────────────────────────────────────
 CONDUCTOR_PARAMS: dict[str, dict] = {
@@ -221,10 +221,10 @@ def main() -> None:
 
     _print_warnings(warnings)
 
-    print(f"\n  Written → data/processed/buses.csv")
-    print(f"  Written → data/processed/lines.csv")
-    print(f"  Written → data/pypsa-components/buses.csv")
-    print(f"  Written → data/pypsa-components/lines.csv")
+    print(f"\n  Written → data/pipeline/processed/buses.csv")
+    print(f"  Written → data/pipeline/processed/lines.csv")
+    print(f"  Written → data/pipeline/pypsa-components/buses.csv")
+    print(f"  Written → data/pipeline/pypsa-components/lines.csv")
     print("\nDone.")
 
 
