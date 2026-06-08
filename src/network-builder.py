@@ -2,7 +2,7 @@
 """
 network-builder.py
 
-Reads data/pypsa-components/buses.csv and lines.csv (produced by
+Reads data/pipeline/pypsa-components/buses.csv and lines.csv (produced by
 line-bus-processor.py) and builds a PyPSA network.
 """
 
@@ -13,7 +13,7 @@ import pypsa
 
 # ── Paths ──────────────────────────────────────────────────────────────────
 ROOT      = Path(__file__).parent.parent
-PYPSA_DIR = ROOT / "data" / "pypsa-components"
+PYPSA_DIR = ROOT / "data" / "pipeline" / "pypsa-components"
 
 
 def build_network() -> pypsa.Network:
