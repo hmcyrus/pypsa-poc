@@ -69,6 +69,25 @@ warnings and are written to `processed/buses.csv` with a blank `v_nom`.
 | Cross-voltage connection (`v_nom` of bus0 ≠ bus1) | Skip | 15 rows |
 | Conductor type not in lookup table | Skip | 0 rows |
 
+#### Simplifications applied
+
+Two rules above are deliberate simplifications chosen during planning:
+
+**Cross-voltage connections (15 rows):**
+The fuller approach considered was to include these lines using `bus0`'s
+voltage level for `s_nom` and log a warning, since they likely represent
+transformers modelled as lines in the raw data. This was simplified to a
+hard skip to keep the pipeline focused on pure transmission lines only.
+Transformer modelling is left for a future step.
+
+**Duplicate line names (17 rows):**
+The fuller approach considered was to keep all copies and auto-rename
+duplicates by appending `_v2`, `_v3`, etc., since many share a name but
+differ in conductor type or bus endpoints (i.e. they are distinct physical
+circuits). This was simplified to dropping all but the first occurrence to
+avoid ambiguity in the current pipeline. The dropped rows are printed to
+console for review.
+
 ### 2.3 Conductor normalisation
 
 Two variant spellings in the raw file are mapped to canonical names
