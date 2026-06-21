@@ -3,10 +3,14 @@
 line-bus-processor.py
 
 Reads data/pipeline/raw/powergridlinedata.csv and produces:
-  data/pipeline/processed/buses.csv          — intermediate bus table
-  data/pipeline/processed/lines.csv          — intermediate line table
-  data/pipeline/pypsa-components/buses.csv   — PyPSA-ready (name as index)
-  data/pipeline/pypsa-components/lines.csv   — PyPSA-ready (name as index)
+  data/canonical/buses.csv                   — canonical bus table
+  data/canonical/lines.csv                   — canonical line table
+  data/pypsa/buses.csv                       — PyPSA-ready (name as index)
+  data/pypsa/lines.csv                       — PyPSA-ready (name as index)
+  data/pipeline/processed/buses.csv          — legacy intermediate bus table
+  data/pipeline/processed/lines.csv          — legacy intermediate line table
+  data/pipeline/pypsa-components/buses.csv   — legacy PyPSA-ready (name as index)
+  data/pipeline/pypsa-components/lines.csv   — legacy PyPSA-ready (name as index)
 """
 
 import math
@@ -16,10 +20,12 @@ from pathlib import Path
 import pandas as pd
 
 # ── Paths ──────────────────────────────────────────────────────────────────
-ROOT      = Path(__file__).parent.parent
-RAW_CSV   = ROOT / "data" / "pipeline" / "raw" / "powergridlinedata.csv"
-PROC_DIR  = ROOT / "data" / "pipeline" / "processed"
-PYPSA_DIR = ROOT / "data" / "pipeline" / "pypsa-components"
+ROOT          = Path(__file__).parent.parent
+RAW_CSV       = ROOT / "data" / "pipeline" / "raw" / "powergridlinedata.csv"
+CANONICAL_DIR = ROOT / "data" / "canonical"
+PYPSA_OUT_DIR = ROOT / "data" / "pypsa"
+PROC_DIR      = ROOT / "data" / "pipeline" / "processed"
+PYPSA_DIR     = ROOT / "data" / "pipeline" / "pypsa-components"
 
 # ── Conductor lookup (per-km values) ──────────────────────────────────────
 CONDUCTOR_PARAMS: dict[str, dict] = {
@@ -93,7 +99,8 @@ def process_raw_data(raw_csv: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
 
     raw = pd.read_csv(raw_csv, header=None, dtype=str)
     data = raw.iloc[3:].reset_index(drop=True)
-    data.columns = ["name", "bus0", "bus1", "length_km", "conductor"]
+    data.columns = ["name", "bus0", "bus1", "length_km", "conductor",
+                    "r_src", "x_src", "b_src", "s_nom_src"]
 
     # Buses
     all_bus_names: set[str] = set()
@@ -181,20 +188,27 @@ def _print_warnings(warnings: dict) -> None:
 
 
 def main() -> None:
+    CANONICAL_DIR.mkdir(parents=True, exist_ok=True)
+    PYPSA_OUT_DIR.mkdir(parents=True, exist_ok=True)
     PROC_DIR.mkdir(parents=True, exist_ok=True)
     PYPSA_DIR.mkdir(parents=True, exist_ok=True)
 
     buses_df, lines_df, warnings = process_raw_data(RAW_CSV)
 
-    # ── Write intermediate CSVs to data/processed/ ────────────────────────
-    buses_df.to_csv(PROC_DIR / "buses.csv", index=False)
-    lines_df.to_csv(PROC_DIR / "lines.csv", index=False)
-
-    # ── Write PyPSA-ready CSVs to data/pypsa-components/ ──────────────────
-    # Filter out buses with no parseable voltage before writing
     pypsa_buses = buses_df.dropna(subset=["v_nom"]).set_index("name")
     pypsa_lines = lines_df.set_index("name")
 
+    # ── Canonical output ──────────────────────────────────────────────────
+    buses_df.to_csv(CANONICAL_DIR / "buses.csv", index=False)
+    lines_df.to_csv(CANONICAL_DIR / "lines.csv", index=False)
+
+    # ── PyPSA-ready output ────────────────────────────────────────────────
+    pypsa_buses.to_csv(PYPSA_OUT_DIR / "buses.csv")
+    pypsa_lines.to_csv(PYPSA_OUT_DIR / "lines.csv")
+
+    # ── Legacy pipeline outputs ───────────────────────────────────────────
+    buses_df.to_csv(PROC_DIR / "buses.csv", index=False)
+    lines_df.to_csv(PROC_DIR / "lines.csv", index=False)
     pypsa_buses.to_csv(PYPSA_DIR / "buses.csv")
     pypsa_lines.to_csv(PYPSA_DIR / "lines.csv")
 
@@ -221,10 +235,14 @@ def main() -> None:
 
     _print_warnings(warnings)
 
-    print(f"\n  Written → data/pipeline/processed/buses.csv")
-    print(f"  Written → data/pipeline/processed/lines.csv")
-    print(f"  Written → data/pipeline/pypsa-components/buses.csv")
-    print(f"  Written → data/pipeline/pypsa-components/lines.csv")
+    print(f"\n  Written → data/canonical/buses.csv")
+    print(f"  Written → data/canonical/lines.csv")
+    print(f"  Written → data/pypsa/buses.csv")
+    print(f"  Written → data/pypsa/lines.csv")
+    print(f"  Written → data/pipeline/processed/buses.csv  (legacy)")
+    print(f"  Written → data/pipeline/processed/lines.csv  (legacy)")
+    print(f"  Written → data/pipeline/pypsa-components/buses.csv  (legacy)")
+    print(f"  Written → data/pipeline/pypsa-components/lines.csv  (legacy)")
     print("\nDone.")
 
 
