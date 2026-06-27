@@ -11,6 +11,7 @@ Reads data/pipeline/raw/linedata.xlsx and produces:
 
 import math
 import re
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -81,9 +82,9 @@ def process_raw_data(raw_xlsx: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
     XLSX layout (1-indexed rows, sheet 'lines'):
       Row 1 — metadata note
       Row 2 — human-readable column names
-      Row 3 — pypsa attribute names
+      Row 3 — pypsa attribute names (used as column headers)
       Row 4+ — data
-    Columns: A=name, B=bus0, C=bus1, D=length_km, E=conductor, F=r, G=x, H=b, I=s_nom
+    Expected column names: name, bus0, bus1, length_km, conductor, r, x, b, s_nom
     """
     warnings: dict[str, list[str]] = {
         "typo_buses":            [],
@@ -92,10 +93,10 @@ def process_raw_data(raw_xlsx: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
         "unknown_conductor":     [],
     }
 
-    raw = pd.read_excel(raw_xlsx, sheet_name="lines", header=None, dtype=str)
-    data = raw.iloc[3:].reset_index(drop=True)
-    data.columns = ["name", "bus0", "bus1", "length_km", "conductor",
-                    "r_src", "x_src", "b_src", "s_nom_src"]
+    data = pd.read_excel(raw_xlsx, sheet_name="lines", header=2, dtype=str)
+    # Columns D & E lack PyPSA attribute names in row 3 (they are inputs,
+    # not PyPSA attributes); assign their canonical names explicitly.
+    data.rename(columns={data.columns[3]: "length_km", data.columns[4]: "conductor"}, inplace=True)
 
     # Buses
     all_bus_names: set[str] = set()
@@ -183,6 +184,7 @@ def _print_warnings(warnings: dict) -> None:
 
 
 def main() -> None:
+    sys.stdout.reconfigure(encoding="utf-8")
     CANONICAL_DIR.mkdir(parents=True, exist_ok=True)
     PYPSA_DIR.mkdir(parents=True, exist_ok=True)
 
