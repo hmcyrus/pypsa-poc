@@ -2,24 +2,26 @@
 """
 line-bus-processor.py
 
-Reads data/pipeline/raw/powergridlinedata.csv and produces:
-  data/pipeline/processed/buses.csv          — intermediate bus table
-  data/pipeline/processed/lines.csv          — intermediate line table
-  data/pipeline/pypsa-components/buses.csv   — PyPSA-ready (name as index)
-  data/pipeline/pypsa-components/lines.csv   — PyPSA-ready (name as index)
+Reads data/pipeline/raw/linedata.xlsx and produces:
+  data/pipeline/canonical/buses.csv        — canonical bus table
+  data/pipeline/canonical/lines.csv        — canonical line table
+  data/pipeline/pypsa-components/buses.csv — PyPSA-ready (name as index)
+  data/pipeline/pypsa-components/lines.csv — PyPSA-ready (name as index)
 """
 
 import math
 import re
+import sys
 from pathlib import Path
 
 import pandas as pd
 
 # ── Paths ──────────────────────────────────────────────────────────────────
-ROOT      = Path(__file__).parent.parent
-RAW_CSV   = ROOT / "data" / "pipeline" / "raw" / "powergridlinedata.csv"
-PROC_DIR  = ROOT / "data" / "pipeline" / "processed"
-PYPSA_DIR = ROOT / "data" / "pipeline" / "pypsa-components"
+ROOT          = Path(__file__).parent.parent
+PIPELINE_DIR  = ROOT / "data" / "pipeline"
+RAW_XLSX      = PIPELINE_DIR / "raw" / "linedata.xlsx"
+CANONICAL_DIR = PIPELINE_DIR / "canonical"
+PYPSA_DIR     = PIPELINE_DIR / "pypsa-components"
 
 # ── Conductor lookup (per-km values) ──────────────────────────────────────
 CONDUCTOR_PARAMS: dict[str, dict] = {
@@ -73,16 +75,16 @@ def _line_params(conductor: str, length_km: float, v_nom_kv: float) -> dict:
 
 # ── Processing pipeline ────────────────────────────────────────────────────
 
-def process_raw_data(raw_csv: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
+def process_raw_data(raw_xlsx: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
     """
     Returns (buses_df, lines_df, warnings).
 
-    CSV layout (1-indexed rows):
+    XLSX layout (1-indexed rows, sheet 'lines'):
       Row 1 — metadata note
       Row 2 — human-readable column names
-      Row 3 — pypsa attribute names
+      Row 3 — pypsa attribute names (used as column headers)
       Row 4+ — data
-    Columns: A=name, B=bus0, C=bus1, D=length_km, E=conductor
+    Expected column names: name, bus0, bus1, length_km, conductor, r, x, b, s_nom
     """
     warnings: dict[str, list[str]] = {
         "typo_buses":            [],
@@ -91,9 +93,10 @@ def process_raw_data(raw_csv: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
         "unknown_conductor":     [],
     }
 
-    raw = pd.read_csv(raw_csv, header=None, dtype=str)
-    data = raw.iloc[3:].reset_index(drop=True)
-    data.columns = ["name", "bus0", "bus1", "length_km", "conductor"]
+    data = pd.read_excel(raw_xlsx, sheet_name="lines", header=2, dtype=str)
+    # Columns D & E lack PyPSA attribute names in row 3 (they are inputs,
+    # not PyPSA attributes); assign their canonical names explicitly.
+    data.rename(columns={data.columns[3]: "length_km", data.columns[4]: "conductor"}, inplace=True)
 
     # Buses
     all_bus_names: set[str] = set()
@@ -181,20 +184,20 @@ def _print_warnings(warnings: dict) -> None:
 
 
 def main() -> None:
-    PROC_DIR.mkdir(parents=True, exist_ok=True)
+    sys.stdout.reconfigure(encoding="utf-8")
+    CANONICAL_DIR.mkdir(parents=True, exist_ok=True)
     PYPSA_DIR.mkdir(parents=True, exist_ok=True)
 
-    buses_df, lines_df, warnings = process_raw_data(RAW_CSV)
+    buses_df, lines_df, warnings = process_raw_data(RAW_XLSX)
 
-    # ── Write intermediate CSVs to data/processed/ ────────────────────────
-    buses_df.to_csv(PROC_DIR / "buses.csv", index=False)
-    lines_df.to_csv(PROC_DIR / "lines.csv", index=False)
-
-    # ── Write PyPSA-ready CSVs to data/pypsa-components/ ──────────────────
-    # Filter out buses with no parseable voltage before writing
     pypsa_buses = buses_df.dropna(subset=["v_nom"]).set_index("name")
     pypsa_lines = lines_df.set_index("name")
 
+    # ── Canonical output ──────────────────────────────────────────────────
+    buses_df.to_csv(CANONICAL_DIR / "buses.csv", index=False)
+    lines_df.to_csv(CANONICAL_DIR / "lines.csv", index=False)
+
+    # ── PyPSA-ready output ────────────────────────────────────────────────
     pypsa_buses.to_csv(PYPSA_DIR / "buses.csv")
     pypsa_lines.to_csv(PYPSA_DIR / "lines.csv")
 
@@ -221,8 +224,8 @@ def main() -> None:
 
     _print_warnings(warnings)
 
-    print(f"\n  Written → data/pipeline/processed/buses.csv")
-    print(f"  Written → data/pipeline/processed/lines.csv")
+    print(f"\n  Written → data/pipeline/canonical/buses.csv")
+    print(f"  Written → data/pipeline/canonical/lines.csv")
     print(f"  Written → data/pipeline/pypsa-components/buses.csv")
     print(f"  Written → data/pipeline/pypsa-components/lines.csv")
     print("\nDone.")
