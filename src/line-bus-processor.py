@@ -2,7 +2,7 @@
 """
 line-bus-processor.py
 
-Reads data/pipeline/raw/powergridlinedata.csv and produces:
+Reads data/pipeline/raw/linedata.xlsx and produces:
   data/pipeline/canonical/buses.csv        — canonical bus table
   data/pipeline/canonical/lines.csv        — canonical line table
   data/pipeline/pypsa-components/buses.csv — PyPSA-ready (name as index)
@@ -18,7 +18,7 @@ import pandas as pd
 # ── Paths ──────────────────────────────────────────────────────────────────
 ROOT          = Path(__file__).parent.parent
 PIPELINE_DIR  = ROOT / "data" / "pipeline"
-RAW_CSV       = PIPELINE_DIR / "raw" / "powergridlinedata.csv"
+RAW_XLSX      = PIPELINE_DIR / "raw" / "linedata.xlsx"
 CANONICAL_DIR = PIPELINE_DIR / "canonical"
 PYPSA_DIR     = PIPELINE_DIR / "pypsa-components"
 
@@ -74,16 +74,16 @@ def _line_params(conductor: str, length_km: float, v_nom_kv: float) -> dict:
 
 # ── Processing pipeline ────────────────────────────────────────────────────
 
-def process_raw_data(raw_csv: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
+def process_raw_data(raw_xlsx: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
     """
     Returns (buses_df, lines_df, warnings).
 
-    CSV layout (1-indexed rows):
+    XLSX layout (1-indexed rows, sheet 'lines'):
       Row 1 — metadata note
       Row 2 — human-readable column names
       Row 3 — pypsa attribute names
       Row 4+ — data
-    Columns: A=name, B=bus0, C=bus1, D=length_km, E=conductor
+    Columns: A=name, B=bus0, C=bus1, D=length_km, E=conductor, F=r, G=x, H=b, I=s_nom
     """
     warnings: dict[str, list[str]] = {
         "typo_buses":            [],
@@ -92,7 +92,7 @@ def process_raw_data(raw_csv: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
         "unknown_conductor":     [],
     }
 
-    raw = pd.read_csv(raw_csv, header=None, dtype=str)
+    raw = pd.read_excel(raw_xlsx, sheet_name="lines", header=None, dtype=str)
     data = raw.iloc[3:].reset_index(drop=True)
     data.columns = ["name", "bus0", "bus1", "length_km", "conductor",
                     "r_src", "x_src", "b_src", "s_nom_src"]
@@ -186,7 +186,7 @@ def main() -> None:
     CANONICAL_DIR.mkdir(parents=True, exist_ok=True)
     PYPSA_DIR.mkdir(parents=True, exist_ok=True)
 
-    buses_df, lines_df, warnings = process_raw_data(RAW_CSV)
+    buses_df, lines_df, warnings = process_raw_data(RAW_XLSX)
 
     pypsa_buses = buses_df.dropna(subset=["v_nom"]).set_index("name")
     pypsa_lines = lines_df.set_index("name")
