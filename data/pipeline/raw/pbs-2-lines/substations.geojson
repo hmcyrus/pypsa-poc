@@ -1,0 +1,334 @@
+{
+  "type": "FeatureCollection",
+  "name": "reb_pbs_substations_auto",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 0,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.34027434797046,
+          23.707069136516946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.21995688315265,
+          23.696938396631804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.10875539338508,
+          23.694220393247985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.06290740122053,
+          23.683163061300178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.28108753937207,
+          23.67068495485628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.2800821009474,
+          23.670561409247927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.2813556562853,
+          23.667843405864108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.28209297779672,
+          23.667596314647398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.28115456860037,
+          23.667287450626507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.28055130554557,
+          23.667040359409796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.150581631851,
+          23.65894812206252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.14166674448568,
+          23.656662528307944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.19327925028496,
+          23.654438707357546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.19428468870962,
+          23.654438707357546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.34758053385633,
+          23.65085588471524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.14139862757243,
+          23.63986032557161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.14113051065918,
+          23.638871960704765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.14099645220256,
+          23.638377778271344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.08274805280051,
+          23.628432356798736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.21828115244487,
+          23.622316849185143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.1550055609195,
+          23.612618518929246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.14528632281446,
+          23.551154578772437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "kind": "33/11 KV S/S (auto-detected)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.29724158339495,
+          23.535587832119656
+        ]
+      }
+    }
+  ]
+}

@@ -2,13 +2,19 @@
 """
 network-builder.py
 
-Reads data/pipeline/pypsa-components/buses.csv and lines.csv (produced by
-line-bus-processor.py) and builds a PyPSA network.
+Builds a PyPSA network from the per-component CSVs in
+data/pipeline/pypsa-components/ (produced by line-bus-processor.py,
+generator_builder.py, load_builder.py, transformer_builder.py,
+link_builder.py, finalised by bus_supplement.py).
+
+Uses pypsa.Network.import_from_csv_folder, which requires the directory
+to contain files named exactly buses.csv, generators.csv, lines.csv,
+loads.csv, transformers.csv, links.csv — schema matches our outputs.
+Reference: https://docs.pypsa.org/latest/user-guide/import-export/
 """
 
 from pathlib import Path
 
-import pandas as pd
 import pypsa
 
 # ── Paths ──────────────────────────────────────────────────────────────────
@@ -17,27 +23,8 @@ PYPSA_DIR = ROOT / "data" / "pipeline" / "pypsa-components"
 
 
 def build_network() -> pypsa.Network:
-    buses_df = pd.read_csv(PYPSA_DIR / "buses.csv", index_col="name")
-    lines_df = pd.read_csv(PYPSA_DIR / "lines.csv", index_col="name")
-
     n = pypsa.Network()
-
-    for name, row in buses_df.iterrows():
-        n.add("Bus", name, v_nom=float(row["v_nom"]))
-
-    for name, row in lines_df.iterrows():
-        n.add(
-            "Line",
-            name,
-            bus0=row["bus0"],
-            bus1=row["bus1"],
-            length=row["length"],
-            r=row["r"],
-            x=row["x"],
-            b=row["b"],
-            s_nom=row["s_nom"],
-        )
-
+    n.import_from_csv_folder(str(PYPSA_DIR))
     return n
 
 
@@ -116,10 +103,11 @@ def check_network_correctness(n: pypsa.Network) -> bool:
     return passed
 
 
-def _parse_v_nom(bus_name: str) -> float | None:
-    import re
-    m = re.search(r'(\d+(?:\.\d+)?)kV', bus_name, re.IGNORECASE)
-    return float(m.group(1)) if m else None
+def _bus_v_nom(n: pypsa.Network, bus_name: str) -> float | None:
+    """Look up v_nom for a bus by name; None if not present."""
+    if bus_name not in n.buses.index:
+        return None
+    return float(n.buses.at[bus_name, "v_nom"])
 
 
 def main() -> None:
@@ -128,21 +116,45 @@ def main() -> None:
     print("=" * 60)
     print("PyPSA Network Summary")
     print("=" * 60)
-    print(f"\n  Buses : {len(n.buses)}")
-    print(f"  Lines : {len(n.lines)}")
+    print(f"\n  Buses        : {len(n.buses)}")
+    print(f"  Lines        : {len(n.lines)}")
+    print(f"  Transformers : {len(n.transformers)}")
+    print(f"  Links        : {len(n.links)}")
+    print(f"  Generators   : {len(n.generators)}")
+    print(f"  Loads        : {len(n.loads)}")
 
     print("\n  Buses by voltage level:")
     for v, grp in n.buses.groupby("v_nom"):
         print(f"    {int(v):>4} kV — {len(grp):>3} buses")
 
-    print("\n  Lines by voltage level:")
-    n.lines["_v"] = n.lines["bus0"].apply(_parse_v_nom)
-    for v, grp in n.lines.groupby("_v"):
-        print(f"    {int(v):>4} kV — {len(grp):>3} lines")
-    n.lines.drop(columns=["_v"], inplace=True)
+    if not n.lines.empty:
+        print("\n  Lines by voltage level:")
+        lv = n.lines["bus0"].map(lambda b: _bus_v_nom(n, b))
+        for v, count in lv.value_counts().sort_index().items():
+            print(f"    {int(v):>4} kV — {count:>3} lines")
+
+    if not n.transformers.empty:
+        print("\n  Transformers by voltage pair:")
+        hv = n.transformers["bus0"].map(lambda b: _bus_v_nom(n, b))
+        lv = n.transformers["bus1"].map(lambda b: _bus_v_nom(n, b))
+        pairs = list(zip(hv, lv))
+        for pair, count in sorted({p: pairs.count(p) for p in set(pairs)}.items()):
+            print(f"    {int(pair[0]):>3}/{int(pair[1]):<3} kV — {count:>3}")
+
+    if not n.links.empty:
+        print("\n  Links by carrier:")
+        for carrier, grp in n.links.groupby("carrier"):
+            print(f"    {carrier:<3} — {len(grp):>2}   ({grp['p_nom'].sum():.0f} MW)")
+
+    if not n.generators.empty:
+        print("\n  Generators by carrier:")
+        for carrier, grp in n.generators.groupby("carrier"):
+            print(f"    {carrier:<10} {len(grp):>3}   ({grp['p_nom'].sum():.0f} MW)")
+
+    if not n.loads.empty:
+        print(f"\n  Total load p_set : {n.loads['p_set'].sum():.0f} MW")
 
     print()
-
     check_network_correctness(n)
 
 

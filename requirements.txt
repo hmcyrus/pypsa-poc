@@ -1,6 +1,11 @@
 pypsa>=1.1.2
+highspy>=1.7
 pandas>=3.0.2
 numpy>=2.4.4
 openpyxl>=3.1
 xarray>=2025.12.0,<2026.1.0
 matplotlib>=3.9
+opencv-contrib-python>=4.10
+PyMuPDF>=1.24
+shapely>=2.0
+folium>=0.17

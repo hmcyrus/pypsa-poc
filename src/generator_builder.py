@@ -596,7 +596,7 @@ def main() -> None:
     pypsa["marginal_cost"] = pypsa.apply(_primary_mc, axis=1)
     pypsa["p_max_pu"]      = 1.0
 
-    pypsa_cols = ["bus", "p_nom", "carrier", "marginal_cost", "p_max_pu"]
+    pypsa_cols = ["bus", "p_nom", "marginal_cost", "p_max_pu"]
     pypsa_out  = pypsa.set_index("name")[pypsa_cols]
     pypsa_out.to_csv(PYPSA_DIR / "generators.csv")
 

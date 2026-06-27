@@ -1,0 +1,6 @@
+1. python src/line-bus-processor.py        # buses + lines
+2. python src/generator_builder.py         # generators (any order)
+   python src/load_builder.py              # loads
+   python src/transformer_builder.py       # transformers
+   python src/link_builder.py              # links
+3. python src/bus_supplement.py            # augment buses.csv ← must be last
