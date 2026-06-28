@@ -1,29 +1,16 @@
 {
-    "name": "pypsa-poc",
+    "name": "Python 3.11 Dev Container",
     "image": "mcr.microsoft.com/devcontainers/python:3.11",
-    "postCreateCommand": "poetry config virtualenvs.in-project true && poetry install",
+  
+    "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+  
     "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-python.python",
-                "ms-python.pylance",
-                "ms-python.black-formatter",
-                "ms-toolsai.jupyter"
-            ],
-            "settings": {
-                "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python",
-                "editor.formatOnSave": true,
-                "[python]": {
-                    "editor.defaultFormatter": "ms-python.black-formatter"
-                }
-            }
-        }
-    },
-    "remoteUser": "vscode",
-    "features": {
-        "ghcr.io/devcontainers/features/common-utils:2": {
-            "installZsh": true
-        },
-        "ghcr.io/devcontainers-contrib/features/poetry:2": {}
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "ms-python.vscode-pylance"
+        ]
+      }
     }
-}
+  }
+  
