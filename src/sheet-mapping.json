@@ -1,0 +1,13 @@
+{
+  "_comment": "Source Google Sheet + sheet-name -> output-file mapping. The spreadsheet must be shared 'anyone with the link' so it can be exported without credentials. spreadsheet may be the full URL or just the document ID.",
+  "spreadsheet": "https://docs.google.com/spreadsheets/d/1tSSFwyaEKE0TWTfTyL2nRmqhfoqSlKAiMCq-ltdXWXc/edit?usp=sharing",
+  "output_dir": "data/pipeline/raw",
+  "workbook": "pypsa_dataset.xlsx",
+  "sheets": {
+    "lines": "linedata.xlsx",
+    "generators": "generatordatabaseline.xlsx",
+    "loads": "load-data.xlsx",
+    "gridsubs": "trafo-data.xlsx",
+    "links": "link-data.xlsx"
+  }
+}

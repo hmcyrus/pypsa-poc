@@ -79,7 +79,7 @@ def process_raw_data(raw_xlsx: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
     """
     Returns (buses_df, lines_df, warnings).
 
-    XLSX layout (1-indexed rows, sheet 'lines'):
+    XLSX layout (1-indexed rows, first/only sheet):
       Row 1 — metadata note
       Row 2 — human-readable column names
       Row 3 — pypsa attribute names (used as column headers)
@@ -93,7 +93,7 @@ def process_raw_data(raw_xlsx: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
         "unknown_conductor":     [],
     }
 
-    data = pd.read_excel(raw_xlsx, sheet_name="lines", header=2, dtype=str)
+    data = pd.read_excel(raw_xlsx, sheet_name=0, header=2, dtype=str)
     # Columns D & E lack PyPSA attribute names in row 3 (they are inputs,
     # not PyPSA attributes); assign their canonical names explicitly.
     data.rename(columns={data.columns[3]: "length_km", data.columns[4]: "conductor"}, inplace=True)
