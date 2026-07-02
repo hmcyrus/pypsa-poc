@@ -21,13 +21,12 @@ Run:
 
 from pathlib import Path
 
+import matplotlib.pyplot as plt
 import pandas as pd
 import pypsa
 
 ROOT      = Path(__file__).parent.parent
 PYPSA_DIR = ROOT / "data" / "pipeline" / "pypsa-components"
-
-TARGET_SUB_NETWORK = "0"
 
 # Penalty (USD/MWh) on slack injection/absorption in the relaxed diagnostic
 # solve. Must dominate any real marginal cost so slack is used only when the
@@ -55,36 +54,38 @@ def print_sub_network_sizes(n: pypsa.Network) -> None:
     sizes = n.buses.groupby("sub_network").size().sort_values(ascending=False)
     print("\n  Sub-network sizes (buses):")
     for sub_id, size in sizes.items():
-        marker = "  <-- target" if sub_id == TARGET_SUB_NETWORK else ""
-        print(f"    {sub_id:>4} : {size:>3}{marker}")
+        print(f"    {sub_id:>4} : {size:>3}")
 
+    smaller = list(sizes.index[1:])
+    if not smaller:
+        return
 
-def restrict_to_sub_network(n: pypsa.Network, sub_id: str) -> None:
-    """
-    Drop every component not anchored to a bus in sub_network `sub_id`.
+    print("\n  Smaller sub-networks:")
+    for sub_id in smaller:
+        bus_set = set(n.buses.index[n.buses["sub_network"] == sub_id])
+        gens  = n.generators[n.generators["bus"].isin(bus_set)] if not n.generators.empty else pd.DataFrame()
+        loads = n.loads[n.loads["bus"].isin(bus_set)]           if not n.loads.empty    else pd.DataFrame()
+        lines = n.lines[n.lines["bus0"].isin(bus_set) & n.lines["bus1"].isin(bus_set)] \
+                if not n.lines.empty else pd.DataFrame()
+        trafos = n.transformers[n.transformers["bus0"].isin(bus_set) & n.transformers["bus1"].isin(bus_set)] \
+                 if not n.transformers.empty else pd.DataFrame()
 
-    Order matters: drop dependents (generators, loads, branches) before
-    dropping the buses they reference, so we never leave dangling refs.
-    """
-    keep_buses = set(n.buses.index[n.buses["sub_network"] == sub_id])
+        print(f"\n    Sub-network {sub_id}  ({len(bus_set)} bus{'es' if len(bus_set) != 1 else ''},"
+              f"  {len(lines)} line{'s' if len(lines) != 1 else ''},"
+              f"  {len(trafos)} trafo{'s' if len(trafos) != 1 else ''})")
+        print(f"      Buses      : {', '.join(sorted(bus_set))}")
+        if gens.empty:
+            print(f"      Generators : none")
+        else:
+            for name, row in gens.iterrows():
+                mc = float(row.get("marginal_cost", 0.0))
+                print(f"      Gen  {name[:50]:<50}  bus={row['bus']}  p_nom={row['p_nom']:,.1f} MW  mc={mc:.2f}")
+        if loads.empty:
+            print(f"      Loads      : none")
+        else:
+            for name, row in loads.iterrows():
+                print(f"      Load {name[:50]:<50}  bus={row['bus']}  p_set={row['p_set']:,.1f} MW")
 
-    for comp in ["Generator", "Load"]:
-        df = getattr(n, COMPONENT_ATTR[comp])
-        drop = df.index[~df["bus"].isin(keep_buses)].tolist()
-        if drop:
-            n.remove(comp, drop)
-
-    for comp in ["Line", "Transformer", "Link"]:
-        df = getattr(n, COMPONENT_ATTR[comp])
-        if df.empty:
-            continue
-        drop = df.index[~(df["bus0"].isin(keep_buses) & df["bus1"].isin(keep_buses))].tolist()
-        if drop:
-            n.remove(comp, drop)
-
-    drop_buses = [b for b in n.buses.index if b not in keep_buses]
-    if drop_buses:
-        n.remove("Bus", drop_buses)
 
 
 def print_summary(n: pypsa.Network) -> None:
@@ -234,7 +235,6 @@ def diagnose_infeasibility() -> None:
     print("=" * 60)
 
     n = load_network()
-    restrict_to_sub_network(n, TARGET_SUB_NETWORK)
 
     buses = list(n.buses.index)
     big = max(float(n.loads["p_set"].sum()) * 2.0, 1.0e4)
@@ -287,6 +287,8 @@ def diagnose_infeasibility() -> None:
     print("      indicate forced flow with nowhere to go (set p_min_pu=0 to")
     print("      make those flows dispatchable).")
 
+    plot_dispatch(n)
+
 
 def _print_bus_diag(n: pypsa.Network, series: pd.Series) -> None:
     """Print per-bus slack with local load/gen context."""
@@ -298,6 +300,42 @@ def _print_bus_diag(n: pypsa.Network, series: pd.Series) -> None:
         ld = float(loads_on.get(b, 0.0))
         gn = float(gens_on.get(b, 0.0))
         print(f"    {b[:40]:<40} {val:>10,.1f} {ld:>8.1f} {gn:>8.1f}")
+
+
+# --------------------------------------------------------------------------- #
+# Chart                                                                       #
+# --------------------------------------------------------------------------- #
+
+def plot_dispatch(n: pypsa.Network) -> None:
+    dispatch = n.generators_t.p.iloc[0]
+    dispatch = dispatch[~dispatch.index.str.startswith("_slack_")].sort_values(ascending=False)
+    mc    = n.generators["marginal_cost"].reindex(dispatch.index)
+    p_nom = n.generators["p_nom"].reindex(dispatch.index)
+
+    x = list(range(len(dispatch)))
+    norm = plt.Normalize(vmin=mc.min(), vmax=max(mc.max(), 1.0))
+    cmap = plt.colormaps["plasma"]
+    colors = [cmap(norm(c)) for c in mc]
+
+    fig, ax = plt.subplots(figsize=(max(14, len(dispatch) * 0.18), 6))
+    ax.bar(x, dispatch.values,                                color=colors,                            label="Dispatch (MW)")
+    ax.bar(x, (p_nom - dispatch).values, bottom=dispatch.values, color="lightsteelblue", alpha=0.6, label="Unused capacity")
+    ax.set_xticks(x)
+    ax.set_xticklabels(dispatch.index, rotation=45, ha="right", fontsize=7)
+    ax.set_ylabel("MW")
+    ax.set_xlabel("Generator")
+    ax.set_title("Economic Dispatch — Installed Capacity vs Output")
+    ax.legend(loc="upper right")
+
+    sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
+    sm.set_array([])
+    fig.colorbar(sm, ax=ax, label="Marginal cost (USD/MWh)")
+
+    plt.tight_layout()
+    out = ROOT / "dispatch_chart.png"
+    fig.savefig(out, dpi=150)
+    plt.close(fig)
+    print(f"\n  Chart saved to {out}")
 
 
 # --------------------------------------------------------------------------- #
@@ -342,6 +380,8 @@ def report(n: pypsa.Network) -> None:
         else:
             print(f"\n  Highest line loading : {loading.iloc[0] * 100:.1f}%")
 
+    plot_dispatch(n)
+
 
 def main() -> None:
     print("=" * 60)
@@ -349,11 +389,6 @@ def main() -> None:
     print("=" * 60)
     n = load_network()
     print_sub_network_sizes(n)
-
-    print("\n" + "=" * 60)
-    print(f"Restricting to sub-network '{TARGET_SUB_NETWORK}'")
-    print("=" * 60)
-    restrict_to_sub_network(n, TARGET_SUB_NETWORK)
     print_summary(n)
 
     hard_ok = structural_checks(n)
