@@ -1,4 +1,5 @@
 Next tasks 
+0. Extract the kmz files and populate the coordinates in our line file
 1. visualizing the substations and generators in the map. (Task #1 of https://docs.google.com/document/d/1JjOG0TPYpIirkuqj6SusIKnEBjAh3CEXE69tCLIEJ-U/edit?tab=t.0)
 Following approach can be used for collecting geo-coordinates
 
