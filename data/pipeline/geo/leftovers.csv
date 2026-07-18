@@ -1,0 +1,84 @@
+place,class,voltages,bus_names,lat,lon,matched_name,osm_id,feature_power,score,confidence,status,source,note
+AKSML,industrial,132,AKSML_132kV,22.4457268,91.7424898,AKSPL 132,way/211045451,substation,80.0,medium,provisional,osm,
+AdaniPPRecvBus,cross_border,400,AdaniPPRecvBus_400kV,,,,,,,none,unresolved,osm,
+Agargaon,town,132|230,Agargaon_132kV|Agargaon_230kV,23.6413848,90.5905103,Sonargaon,way/210993454,substation,70.6,low,unresolved,osm,
+Araihazar,town,132,Araihazar_132kV,23.786202,90.3151984,Aminbazar,way/147998689,substation,66.7,low,unresolved,osm,
+Bagerhat,town,132,Bagerhat_132kV,22.647146,89.7974668,Bagerhat Power Grid Company of Bangladesh Limited,way/274387941,substation,81.3,medium,provisional,osm,
+Bakerganj,town,132,Bakerganj_132kV,23.7055229,90.343129,Keraniganj,way/957155219,substation,73.7,low,unresolved,osm,
+Bakulia,town,132,Bakulia_132kV,22.3529845,91.8506934,Bakalia,way/1429610300,substation,85.7,medium,provisional,osm,
+Banani,town,132,Banani_132kV,22.4806094,90.0696767,Bhandaria,way/274387964,substation,66.7,low,unresolved,osm,
+Bangabhaban,town,132,Bangabhaban_132kV,24.133477,89.5928894,Baghabari Power Plant,way/210993446,plant,70.0,low,unresolved,osm,
+Barishal,plant,132,Barishal_132kV,22.6584137,90.3361274,Summit Barisal Power Limited,way/529869716,plant,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Bashundhara,town,132,Bashundhara_132kV,22.4806094,90.0696767,Bhandaria,way/274387964,substation,70.0,low,unresolved,osm,
+Berhampore,cross_border,400,Berhampore_400kV,24.0827286,88.2726332,Baharampur,way/148270927,substation,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Borhanuddin,plant,230,Borhanuddin_230kV,22.4787216,90.7106785,Bhola BPDB Power Plant,way/369546489,plant,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Cantonment,town,132,Cantonment_132kV,,,,,,,none,unresolved,osm,
+Chowdala,town,132,Chowdala_132kV,22.7116225,88.145088,Chanditala New,way/475959658,substation,66.7,low,unresolved,osm,
+Daganbhuiyan,town,132,Daganbhuiyan_132kV,,,,,,,none,unresolved,osm,
+DhakaUniversity,town,132,DhakaUniversity_132kV,24.9127698,91.8328716,33,node/13714151756,substation,82.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Dhanmondi,town,132,Dhanmondi_132kV,,,,,,,none,unresolved,osm,
+DynamicSunSolarPP,plant,132,DynamicSunSolarPP_132kV,24.0242682,89.2343121,Pabna,way/148142829,substation,85.0,medium,provisional,osm,
+Energon,town,132,Energon_132kV,,,,,,,none,unresolved,osm,
+FeniNorth,town,132|230,FeniNorth_132kV|FeniNorth_230kV,23.0114574,91.3845468,ফেনী,way/211045458,substation,82.9,medium,provisional,osm,
+Gazaria,town,230,Gazaria_230kV,22.8674949,89.5378573,Goalpara,way/148142798,substation,66.7,low,unresolved,osm,
+Gopalganj,plant,132,Gopalganj_132kV,23.0299337,89.8197497,Gopalganj Peaking Power Plant,way/354528962,plant,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+GopalganjNorth,town,132|230|400,GopalganjNorth_132kV|GopalganjNorth_230kV|GopalganjNorth_400kV,23.0300078,89.8268809,Gopalganj,way/354528965,substation,90.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+GopalganjPP,plant,132,GopalganjPP_132kV,23.0300078,89.8268809,Gopalganj,way/354528965,substation,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Gulshan,town,132,Gulshan_132kV,23.7799032,90.417605,"DESCO Sales & Distribution Division, Gulshan",way/369339774,substation,73.3,low,unresolved,osm,
+Hatirjheel,town,132,Hatirjheel_132kV,,,,,,,none,unresolved,osm,
+Jamalpur,plant,132,Jamalpur_132kV,24.9200701,89.9602007,Jamalpur Sub Station,way/210993427,substation,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+KSRM,industrial,132,KSRM_132kV,22.8571564,91.5476265,BSRM,way/1041851975,substation,75.0,medium,provisional,osm,
+Kalurghat,town,132,Kalurghat_132kV,24.1466352,92.0207986,Kumarghat,way/374547915,substation,77.8,medium,provisional,osm,
+Kamrangirchar,town,132,Kamrangirchar_132kV,23.7234374,90.3719171,Kamrangirchar KV Greed Center,way/323229566,substation,86.7,medium,provisional,osm,
+Kazla,town,132,Kazla_132kV,22.9773388,88.4717639,Kalyani,way/147938652,substation,66.7,low,unresolved,osm,
+Khulna330MW,plant,230,Khulna330MW_230kV,22.7954622,89.5067142,Khulna South,way/147998784,substation,86.7,medium,provisional,osm,ambiguous: near-tied candidates far apart
+KhulnaCentral,plant,132,KhulnaCentral_132kV,22.7954622,89.5067142,Khulna South,way/147998784,substation,86.7,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Kishoreganj,plant,132,Kishoreganj_132kV,24.0608855,91.0080452,Bhairab Power Plant,way/1043477792,plant,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Korerhat,town,230|400,Korerhat_230kV|Korerhat_400kV,,,,,,,none,unresolved,osm,
+Kushtia,town,132,Kushtia_132kV,24.6891432,91.9178196,Kushiara Power Plant,way/929337988,plant,80.0,medium,provisional,osm,
+Lakshmipur,town,132,Lakshmipur_132kV,23.6763892,90.4459319,"Shympur_Substation,_DPDC",node/12850984782,substation,70.6,low,unresolved,osm,
+Lalbagh,town,132,Lalbagh_132kV,,,,,,,none,unresolved,osm,
+Lalmonirhat,plant,132,Lalmonirhat_132kV,25.9176294,89.4544293,Lalmonirhat,way/274341720,substation,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+MSML,industrial,132,MSML_132kV,,,,,,,none,unresolved,osm,
+Madaripur,town,132,Madaripur_132kV,24.8696839,92.5838485,Badarpur,way/373836926,substation,82.4,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Madartek,town,132,Madartek_132kV,,,,,,,none,unresolved,osm,
+Maheshpur,town,132,Maheshpur_132kV,,,,,,,none,unresolved,osm,
+Maijdee,town,132,Maijdee_132kV,,,,,,,none,unresolved,osm,
+Manikganj,plant,132,Manikganj_132kV,23.8724157,90.0126238,Manikganj,way/210993432,substation,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+MatarbariTConnection,town,132,MatarbariTConnection_132kV,21.7120903,91.9094426,Matarbari,way/802058919,substation,83.2,medium,provisional,osm,
+Moghbazar,town,132,Moghbazar_132kV,22.1530614,92.0715342,Dohazari,way/210993421,substation,70.6,low,unresolved,osm,
+Motijheel,town,132,Motijheel_132kV,,,,,,,none,unresolved,osm,
+Muradnagar,town,132,Muradnagar_132kV,26.5378454,88.6461382,Raninagar 33,way/829264888,substation,73.7,low,unresolved,osm,
+Nabinagar,town,132,Nabinagar_132kV,26.5378454,88.6461382,Raninagar 33,way/829264888,substation,77.8,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Narinda,town,132,Narinda_132kV,23.9137935,90.7040716,Narsingdi,way/390935839,substation,75.0,medium,provisional,osm,
+Niamatpur,town,132,Niamatpur_132kV,24.8339795,88.5841206,Niamotpur,way/413308915,substation,88.9,medium,provisional,osm,ambiguous: near-tied candidates far apart
+PHP,industrial,132,PHP_132kV,22.5379099,91.7034373,GPH,way/1382553143,substation,66.7,low,unresolved,osm,
+Pabna64MWSolarPP,plant,132,Pabna64MWSolarPP_132kV,24.0242682,89.2343121,Pabna,way/148142829,substation,85.0,medium,provisional,osm,
+Panchagarh,plant,132,Panchagarh_132kV,26.3537823,88.5567057,Panchagarh,way/354100536,substation,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Patiya,town,132,Patiya_132kV,21.9981058,90.3010833,Payra,way/1040883474,substation,72.7,low,unresolved,osm,
+Postogola,town,132,Postogola_132kV,,,,,,,none,unresolved,osm,
+RNPL,plant,400,RNPL_400kV,22.0242358,90.3092683,Patuakhali power station (RPCL,way/1502693819,plant,93.3,medium,provisional,osm,ambiguous: near-tied candidates far apart
+RNPP,plant,230|400,RNPP_230kV|RNPP_400kV,,,,,,,none,unresolved,osm,
+Rahanpur,town,132|400,Rahanpur_132kV|Rahanpur_400kV,25.7288886,89.2517325,Rangpur,way/274341702,substation,80.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+RajshahiNorth,town,132|230,RajshahiNorth_132kV|RajshahiNorth_230kV,24.4119447,88.5722286,Rajshahi(N),way/957137779,substation,86.7,medium,provisional,osm,
+Rampal,plant,230|400,Rampal_230kV|Rampal_400kV,22.5925643,89.5575336,রামপাল তাপ বিদ্যুৎ কেন্দ্র,way/354100539,plant,84.0,medium,provisional,osm,
+Rooppur,town,132,Rooppur_132kV,,,,,,,none,unresolved,osm,
+Sathia,town,132,Sathia_132kV,22.7436805,89.0927097,Satkhira,way/232044291,substation,85.7,medium,provisional,osm,
+Satmasjid,town,132,Satmasjid_132kV,25.2917025,88.0132212,Samsi,way/148521310,substation,71.4,low,unresolved,osm,
+Sherpur,town,132,Sherpur_132kV,25.0487167,90.0831539,Sherpur,way/585464101,substation,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Sherpur(B),town,132,Sherpur(B)_132kV,24.6369801,89.4269581,Sherpur (B),way/1043456932,substation,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Sholoshahar,town,132,Sholoshahar_132kV,22.3960111,91.8211757,Solashohar Sub Station,way/1429610301,substation,76.2,medium,provisional,osm,
+SiddhirganjDeshEnergyPP,plant,132,SiddhirganjDeshEnergyPP_132kV,23.6849847,90.5177955,Siddhirganj,way/147998706,substation,85.9,medium,provisional,osm,
+Sitalakhya,plant,132,Sitalakhya_132kV,23.6014022,90.4944893,"Shitalakkha Substation, DPDC",way/1042509091,substation,85.7,medium,provisional,osm,
+Sonagazi,plant,230,Sonagazi_230kV,23.6413848,90.5905103,Sonargaon,way/210993454,substation,70.6,low,unresolved,osm,
+Srinagar,town,132,Srinagar_132kV,26.5378454,88.6461382,Raninagar 33,way/829264888,substation,82.4,medium,provisional,osm,ambiguous: near-tied candidates far apart
+SuryamaninagarRecvBus,cross_border,132,SuryamaninagarRecvBus_132kV,,,,,,,none,unresolved,osm,
+SylhetSouth,town,132,SylhetSouth_132kV,24.9096416,91.8298501,Sylhet,way/369543982,substation,86.7,medium,provisional,osm,
+TKCCL,industrial,132,TKCCL_132kV,22.3840233,91.8911046,TKC,way/211045478,substation,75.0,medium,provisional,osm,
+Taraganj,town,132,Taraganj_132kV,25.6363601,88.1246058,Raiganj,way/148521309,substation,80.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Tongi-3(Mill Gate),town,132,Tongi-3(Mill Gate)_132kV,23.8974932,90.413387,Tongi Power Plant,way/147998586,plant,80.0,medium,provisional,osm,
+UnitedPP,plant,132,UnitedPP_132kV,24.9003972,89.9898942,Mymensingh and Jamalpur United Power Plant,way/950005959,plant,100.0,medium,provisional,osm,ambiguous: near-tied candidates far apart
+Uttara,town,132,Uttara_132kV,22.3435675,88.5134742,Uttarbhag 33,way/1414133249,substation,80.0,medium,provisional,osm,
+Uttara 3P,town,132,Uttara 3P_132kV,22.3435675,88.5134742,Uttarbhag 33,way/1414133249,substation,70.6,low,unresolved,osm,
+Uttara3P,town,132,Uttara3P_132kV,22.3435675,88.5134742,Uttarbhag 33,way/1414133249,substation,70.6,low,unresolved,osm,
+Zigatola,town,132,Zigatola_132kV,,,,,,,none,unresolved,osm,

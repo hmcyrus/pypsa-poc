@@ -1,0 +1,252 @@
+place,class,voltages,bus_names,lat,lon,matched_name,osm_id,feature_power,score,confidence,status,source,note
+AESHaripur,industrial,230,AESHaripur_230kV,23.6782063,90.5329568,Haripur Power Limited,way/147998623,plant,91.1,high,accepted,osm,
+AKSML,industrial,132,AKSML_132kV,22.4457268,91.7424898,AKSPL 132,way/211045451,substation,80.0,high,accepted,osm,constrained re-match (1 discs)
+AKSPL,industrial,230,AKSPL_230kV,22.4457268,91.7424898,AKSPL 132,way/211045451,substation,100.0,high,accepted,osm,
+AdaniPPRecvBus,cross_border,400,AdaniPPRecvBus_400kV,,,,,,,none,unresolved,osm,
+Aftabnagar,town,132,Aftabnagar_132kV,23.7699518,90.4565872,Aftabnagar 132,way/1060033809,substation,100.0,high,accepted,osm,
+Agargaon,town,132|230,Agargaon_132kV|Agargaon_230kV,23.6413848,90.5905103,Sonargaon,way/210993454,substation,70.6,low,unresolved,osm,
+Agrabad,town,132,Agrabad_132kV,22.3215634,91.8039048,Agrabad,way/1043456906,substation,100.0,high,accepted,osm,
+Aminbazar,town,132|230|400,Aminbazar_132kV|Aminbazar_230kV|Aminbazar_400kV,23.786202,90.3151984,Aminbazar,way/147998689,substation,100.0,high,reopened,osm,constrained re-match (5 discs)
+Amnura,plant,132,Amnura_132kV,24.630249,88.4010871,Amnura,way/354584213,substation,100.0,high,accepted,osm,
+Amtali,town,400,Amtali_400kV,22.0831343,90.2371657,Amtali,way/1301701557,substation,100.0,high,accepted,osm,
+Anwara,plant,230,Anwara_230kV,22.2324734,91.8270787,UPGD (UANPL) Anwara Power Plant,way/967677417,plant,100.0,high,accepted,osm,
+Araihazar,town,132,Araihazar_132kV,23.786202,90.3151984,Aminbazar,way/147998689,substation,66.7,low,unresolved,osm,
+Ashuganj,plant,132|230,Ashuganj_132kV|Ashuganj_230kV,24.0431237,91.0163132,Ashuganj East Power Station,way/333355788,plant,100.0,high,accepted,osm,constrained re-match (3 discs)
+AshuganjNorth,plant,400,AshuganjNorth_400kV,24.0431237,91.0163132,Ashuganj East Power Station,way/333355788,plant,89.1,high,accepted,osm,
+BSRM,industrial,230,BSRM_230kV,22.8571564,91.5476265,BSRM,way/1041851975,substation,100.0,high,accepted,osm,
+Bagerhat,town,132,Bagerhat_132kV,22.647146,89.7974668,Bagerhat Power Grid Company of Bangladesh Limited,way/274387941,substation,81.3,high,accepted,osm,constrained re-match (2 discs)
+Baghabari,plant,132|230,Baghabari_132kV|Baghabari_230kV,24.133477,89.5928894,Baghabari Power Plant,way/210993446,plant,100.0,high,accepted,osm,constrained re-match (5 discs)
+Bajitpur,town,132,Bajitpur_132kV,24.2294401,90.8863656,Bajitpur,way/1382336191,substation,100.0,high,reopened,osm,constrained re-match (2 discs)
+Bakerganj,town,132,Bakerganj_132kV,23.7055229,90.343129,Keraniganj,way/957155219,substation,73.7,low,unresolved,osm,
+Bakulia,town,132,Bakulia_132kV,22.3529845,91.8506934,Bakalia,way/1429610300,substation,85.7,high,accepted,osm,constrained re-match (2 discs)
+Banani,town,132,Banani_132kV,22.4806094,90.0696767,Bhandaria,way/274387964,substation,66.7,low,unresolved,osm,
+Bangabhaban,town,132,Bangabhaban_132kV,24.133477,89.5928894,Baghabari Power Plant,way/210993446,plant,70.0,low,unresolved,osm,
+Banskhali,plant,400,Banskhali_400kV,21.9787698,91.8904323,Banskhali,way/1098932512,substation,100.0,high,accepted,osm,
+Barapukuria,plant,132|230,Barapukuria_132kV|Barapukuria_230kV,25.5500829,88.9529917,Barapukuria,way/354100531,substation,100.0,high,accepted,osm,
+BarapukuriaNorth,town,400,BarapukuriaNorth_400kV,25.5500829,88.9529917,Barapukuria,way/354100531,substation,91.4,high,accepted,osm,
+Barguna,town,132,Barguna_132kV,22.1749486,90.1124842,Barguna,way/1301701553,substation,100.0,high,accepted,osm,
+Barishal,plant,132,Barishal_132kV,22.6584137,90.3361274,Summit Barisal Power Limited,way/529869716,plant,100.0,high,reopened,osm,constrained re-match (2 discs)
+Barishal307MWPP,plant,400,Barishal307MWPP_400kV,21.9624315,90.0643209,Barishal 307,way/1301701558,substation,100.0,high,accepted,osm,
+BarishalNorth,town,132|230,BarishalNorth_132kV|BarishalNorth_230kV,22.7541357,90.3080533,Barisal North,way/369546485,substation,100.0,high,accepted,osm,constrained re-match (1 discs)
+BarmiPP,plant,132,BarmiPP_132kV,24.2219637,90.3903969,Sripur,way/1382322214,substation,88.2,high,accepted,osm,
+Baroaulia,town,132,Baroaulia_132kV,22.4745445,91.7229879,Baraulia,way/211045452,substation,94.1,high,accepted,osm,constrained re-match (2 discs)
+Baroirhat,town,132,Baroirhat_132kV,22.8937051,91.5371894,Baroirhat,way/1098932515,substation,100.0,high,accepted,osm,
+Bashundhara,town,132,Bashundhara_132kV,22.4806094,90.0696767,Bhandaria,way/274387964,substation,70.0,low,unresolved,osm,
+Beanibazar,town,132,Beanibazar_132kV,24.9023485,92.1522782,Beanibazar,way/1043456888,substation,100.0,high,accepted,osm,
+Benapole,town,132,Benapole_132kV,23.0574679,88.9770551,Benapole,way/690247581,substation,100.0,high,accepted,osm,
+BeraPP,plant,132,BeraPP_132kV,24.0900878,89.6178777,Bera 70 MW Peaking Power Plant,way/798377655,plant,100.0,high,reopened,osm,constrained re-match (1 discs)
+Berhampore,cross_border,400,Berhampore_400kV,24.0827286,88.2726332,Baharampur,way/148270927,substation,100.0,high,accepted,osm,constrained re-match (2 discs)
+Bhaluka,town,132,Bhaluka_132kV,24.3818862,90.3786082,Bhaluka,way/1382322215,substation,100.0,high,accepted,osm,
+Bhandaria,town,132,Bhandaria_132kV,22.4806094,90.0696767,Bhandaria,way/274387964,substation,100.0,high,accepted,osm,
+Bhangura,town,132,Bhangura_132kV,24.2116945,89.3747752,Bhangura,way/1382266268,substation,100.0,high,accepted,osm,
+Bheramara,plant,132|230,Bheramara_132kV|Bheramara_230kV,24.0487752,89.0171563,ভেড়ামারা,way/282278632,substation,100.0,high,accepted,osm,constrained re-match (2 discs)
+BheramaraHVDC,cross_border,230,BheramaraHVDC_230kV,24.0677224,89.0010927,বাংলাদেশ-ভারত বিদ্যুৎ সঞ্চালন কেন্দ্র,way/305864384,substation,100.0,high,accepted,osm,
+BheramaraHVDC1,cross_border,400,BheramaraHVDC1_400kV,24.0677224,89.0010927,বাংলাদেশ-ভারত বিদ্যুৎ সঞ্চালন কেন্দ্র,way/305864384,substation,100.0,high,accepted,osm,
+BheramaraHVDC2,cross_border,400,BheramaraHVDC2_400kV,24.0677224,89.0010927,বাংলাদেশ-ভারত বিদ্যুৎ সঞ্চালন কেন্দ্র,way/305864384,substation,100.0,high,accepted,osm,
+Bhulta,town,132|230|400,Bhulta_132kV|Bhulta_230kV|Bhulta_400kV,23.7635835,90.5726811,Bhulta 400,way/585464109,substation,100.0,high,reopened,osm,constrained re-match (5 discs)
+Bibiyana,plant,230|400,Bibiyana_230kV|Bibiyana_400kV,24.6355531,91.6578085,Bibiyana,way/507043939,substation,100.0,high,accepted,osm,
+Bogura,town,132|400,Bogura_132kV|Bogura_400kV,24.8407953,89.3504103,Bogura 132,way/166377818,substation,100.0,high,reopened,osm,constrained re-match (4 discs)
+BoguraSouth,plant,132|230,BoguraSouth_132kV|BoguraSouth_230kV,24.8290011,89.3509581,Bogra South,way/166377816,substation,100.0,high,accepted,osm,
+BoguraWest,town,230|400,BoguraWest_230kV|BoguraWest_400kV,24.8407953,89.3504103,Bogura 132,way/166377818,substation,88.2,high,accepted,osm,
+Borhanuddin,plant,230,Borhanuddin_230kV,22.4787216,90.7106785,Bhola BPDB Power Plant,way/369546489,plant,100.0,high,accepted,osm,constrained re-match (1 discs)
+Brahmanbaria,town,132,Brahmanbaria_132kV,23.9591378,91.1070984,B Baria,way/316539665,substation,100.0,high,accepted,osm,
+Cantonment,town,132,Cantonment_132kV,,,,,,,none,unresolved,osm,
+Chandina,town,132,Chandina_132kV,23.488923,90.9939389,Chandina-1,way/425841223,substation,100.0,high,accepted,osm,
+Chandpur,plant,132,Chandpur_132kV,23.2206231,90.6676932,Chandpur,way/369548435,substation,100.0,high,accepted,osm,
+Chandraghona,town,132,Chandraghona_132kV,22.4818946,92.1223854,Chandraghona,way/211045453,substation,100.0,high,accepted,osm,
+Chapainawabganj,town,132,Chapainawabganj_132kV,24.5797143,88.2898833,Chapainawabganj 132,way/354584218,substation,100.0,high,accepted,osm,constrained re-match (1 discs)
+CharSaidpur,town,132,CharSaidpur_132kV,25.8122138,88.8854129,Saidpur Power Plant,way/274341704,plant,89.5,high,reopened,osm,
+Chauddagram,town,132,Chauddagram_132kV,23.229393,91.2909213,Chouddagram,way/1043456897,substation,90.9,high,accepted,osm,
+Chhatak,town,132,Chhatak_132kV,25.0313538,91.6642006,Chhatak,way/354114036,substation,100.0,high,accepted,osm,
+Chowdala,town,132,Chowdala_132kV,22.7116225,88.145088,Chanditala New,way/475959658,substation,66.7,low,unresolved,osm,
+Chowmuhani,plant,132|230,Chowmuhani_132kV|Chowmuhani_230kV,22.9465654,91.103147,চৌমুহনী,way/211045454,substation,100.0,high,accepted,osm,
+Chuadanga,town,132,Chuadanga_132kV,23.6221334,88.8575323,Chuadanga,way/274387982,substation,100.0,high,accepted,osm,
+ConfidencePP,plant,132,ConfidencePP_132kV,25.6584847,89.27127,Confidence Power Rangpur,way/976797642,plant,100.0,high,accepted,osm,
+Cox'sBazar,plant,132,Cox'sBazar_132kV,21.4210335,91.9909587,Cox's Bazar Substation,node/3872416761,substation,100.0,high,accepted,osm,
+CumillaNorth,plant,132|230,CumillaNorth_132kV|CumillaNorth_230kV,23.5087565,91.1018294,Comilla North,way/316539667,substation,100.0,high,reopened,osm,constrained re-match (7 discs)
+CumillaSouth,plant,132,CumillaSouth_132kV,23.4287924,91.1696911,Comilla South,way/211045545,substation,100.0,high,accepted,osm,
+Daganbhuiyan,town,132,Daganbhuiyan_132kV,,,,,,,none,unresolved,osm,
+Daudkandi,town,132,Daudkandi_132kV,23.5461381,90.7771994,Daudkandi PP,way/369680737,substation,100.0,high,accepted,osm,
+DaudkandiPP,plant,132,DaudkandiPP_132kV,23.5461381,90.7771994,Daudkandi PP,way/369680737,substation,100.0,high,accepted,osm,
+DeshPP,plant,132,DeshPP_132kV,23.2245637,90.6731139,দেশ এনার্জি চাঁদপুর বিদ্যুৎ কেন্দ্র,way/965457643,plant,100.0,high,accepted,osm,
+DhakaUniversity,town,132,DhakaUniversity_132kV,23.7799032,90.417605,"DESCO Sales & Distribution Division, Gulshan",way/369339774,substation,79.0,high,accepted,osm,constrained re-match (1 discs)
+Dhamrai,town,132,Dhamrai_132kV,23.9123418,90.1305525,Dhamrai,way/550515095,substation,100.0,high,reopened,osm,
+Dhanmondi,town,132,Dhanmondi_132kV,,,,,,,none,unresolved,osm,
+Dohazari,plant,132,Dohazari_132kV,22.1530614,92.0715342,Dohazari,way/210993421,substation,100.0,high,accepted,osm,
+DynamicSunSolarPP,plant,132,DynamicSunSolarPP_132kV,24.0242682,89.2343121,Pabna,way/148142829,substation,85.0,high,accepted,osm,constrained re-match (1 discs)
+Energon,town,132,Energon_132kV,,,,,,,none,unresolved,osm,
+Faridpur,plant,132|230,Faridpur_132kV|Faridpur_230kV,23.591025,89.800032,Faridpur,way/274418294,substation,100.0,high,reopened,osm,constrained re-match (2 discs)
+FaridpurPP,plant,132,FaridpurPP_132kV,23.591025,89.800032,Faridpur,way/274418294,substation,100.0,high,accepted,osm,
+Fatullah,town,132,Fatullah_132kV,23.6337252,90.4765503,ফতুল্লা বৈদ্যুতিক উপকেন্দ্র,way/1422101066,substation,93.3,high,reopened,osm,constrained re-match (1 discs)
+Fenchuganj,plant,132|230,Fenchuganj_132kV|Fenchuganj_230kV,24.6588821,91.9331538,Fenchuganj,way/369543965,substation,100.0,high,reopened,osm,constrained re-match (4 discs)
+FenchuganjPS,town,132,FenchuganjPS_132kV,24.6866105,91.9197986,Fenchuganj P,way/369543961,substation,96.0,high,accepted,osm,
+Feni,plant,132,Feni_132kV,23.0114574,91.3845468,ফেনী,way/211045458,substation,100.0,high,accepted,osm,
+FeniNorth,town,132|230,FeniNorth_132kV|FeniNorth_230kV,23.0114574,91.3845468,ফেনী,way/211045458,substation,82.9,high,accepted,osm,constrained re-match (3 discs)
+GPH,industrial,230,GPH_230kV,22.5379099,91.7034373,GPH,way/1382553143,substation,100.0,high,accepted,osm,
+Gallamari,town,132,Gallamari_132kV,22.7882233,89.5362802,Gallamari,way/147998690,substation,100.0,high,accepted,osm,
+Gazaria,town,230,Gazaria_230kV,22.8674949,89.5378573,Goalpara,way/148142798,substation,66.7,low,unresolved,osm,
+Ghatail,town,132,Ghatail_132kV,24.5417859,89.9869949,Ghatail,way/1382288591,substation,100.0,high,accepted,osm,
+Ghorashal,town,132|230,Ghorashal_132kV|Ghorashal_230kV,23.9786729,90.6370646,ঘোড়াশাল,way/147998669,plant,100.0,high,accepted,osm,
+GhorashalSouthWest,plant,230,GhorashalSouthWest_230kV,23.9787709,90.6371689,Ghorasal,way/147998606,substation,100.0,high,accepted,osm,
+Goalpara,plant,132,Goalpara_132kV,22.8674949,89.5378573,Goalpara,way/148142798,substation,100.0,high,accepted,osm,
+Gopalganj,plant,132,Gopalganj_132kV,23.0299337,89.8197497,Gopalganj Peaking Power Plant,way/354528962,plant,100.0,high,accepted,osm,constrained re-match (2 discs)
+GopalganjNorth,town,132|230|400,GopalganjNorth_132kV|GopalganjNorth_230kV|GopalganjNorth_400kV,23.0300078,89.8268809,Gopalganj,way/354528965,substation,90.0,high,reopened,osm,constrained re-match (5 discs)
+GopalganjPP,plant,132,GopalganjPP_132kV,23.0300078,89.8268809,Gopalganj,way/354528965,substation,100.0,high,accepted,osm,constrained re-match (1 discs)
+Gulshan,town,132,Gulshan_132kV,23.7799032,90.417605,"DESCO Sales & Distribution Division, Gulshan",way/369339774,substation,73.3,high,accepted,osm,constrained re-match (1 discs)
+Halishahar,plant,132,Halishahar_132kV,22.3350084,91.8771297,Baraka Shikalbaha and Karnaphuli power plant,way/757725737,plant,100.0,high,accepted,osm,
+Haripur,plant,132|230,Haripur_132kV|Haripur_230kV,23.6782063,90.5329568,Haripur Power Limited,way/147998623,plant,100.0,high,accepted,osm,constrained re-match (3 discs)
+Hasnabad,plant,132|230,Hasnabad_132kV|Hasnabad_230kV,23.6810929,90.4278918,Hasnabad,way/147998642,substation,100.0,high,accepted,osm,
+Hathazari,plant,132|230,Hathazari_132kV|Hathazari_230kV,22.491431,91.8062747,Hathazari Power Station,way/211045459,plant,100.0,high,accepted,osm,
+Hatirjheel,town,132,Hatirjheel_132kV,,,,,,,none,unresolved,osm,
+Ishwardi,town,132|230,Ishwardi_132kV|Ishwardi_230kV,24.0972663,89.0844742,Ishurdi,way/148155161,substation,100.0,high,accepted,osm,
+Jaldhaka,town,132,Jaldhaka_132kV,26.0424257,88.9937637,Jaldhaka,way/1000496962,substation,100.0,high,accepted,osm,
+Jamalpur,plant,132,Jamalpur_132kV,24.9200701,89.9602007,Jamalpur Sub Station,way/210993427,substation,100.0,high,accepted,osm,constrained re-match (1 discs)
+Jashore,town,132,Jashore_132kV,23.1471821,89.2077452,Jessore,way/232044279,substation,100.0,high,accepted,osm,
+Jhenaidah,town,132,Jhenaidah_132kV,23.5310785,89.1769719,132,way/232044286,substation,100.0,high,accepted,osm,constrained re-match (3 discs)
+JhenaidahSouth,town,132|230,JhenaidahSouth_132kV|JhenaidahSouth_230kV,23.5310785,89.1769719,132,way/232044286,substation,90.0,high,accepted,osm,
+Joydebpur,town,132,Joydebpur_132kV,23.992089,90.3827767,Joydebpur,way/148114235,substation,100.0,high,accepted,osm,
+Joypurhat,town,132,Joypurhat_132kV,25.1066963,89.0098655,জয়পুরহাট,way/392457244,substation,100.0,high,accepted,osm,
+Juldah,plant,132,Juldah_132kV,22.2970038,91.8064758,Acorn Jhulda power plant,way/361199961,plant,91.7,high,accepted,osm,
+KSRM,industrial,132,KSRM_132kV,22.8571564,91.5476265,BSRM,way/1041851975,substation,75.0,medium,reopened,osm,
+Kabirpur,town,132,Kabirpur_132kV,24.0016242,90.2535684,Kabirpur,way/148114236,substation,100.0,high,accepted,osm,
+Kachua,town,132|230,Kachua_132kV|Kachua_230kV,23.2665784,90.864816,Kachua,way/1043456898,substation,100.0,high,accepted,osm,
+Kaliakoir,town,132|230|400,Kaliakoir_132kV|Kaliakoir_230kV|Kaliakoir_400kV,24.0938077,90.1973593,Kaliakoir,way/413308914,substation,100.0,high,reopened,osm,constrained re-match (3 discs)
+Kaliganj,town,132,Kaliganj_132kV,23.398797,89.1311357,ডাবলিউজেডপিডিসিএল 33,way/1493332305,substation,92.0,high,accepted,osm,
+Kallyanpur,town,132,Kallyanpur_132kV,23.7819808,90.3475948,Kallyanpur 132,way/147998704,substation,100.0,high,accepted,osm,
+Kalurghat,town,132,Kalurghat_132kV,22.4318897,91.8698558,Madunaghat,way/211045466,substation,63.2,medium,provisional,osm,constrained re-match (1 discs)
+Kamrangirchar,town,132,Kamrangirchar_132kV,23.7234374,90.3719171,Kamrangirchar KV Greed Center,way/323229566,substation,86.7,high,reopened,osm,constrained re-match (1 discs)
+Kaptai,plant,132,Kaptai_132kV,22.4989076,92.2154359,Kaptai,way/369672637,substation,100.0,high,accepted,osm,
+Kasba,town,132,Kasba_132kV,22.529975,88.3932942,Kasba 220 KV Sub Station,node/13611046362,substation,100.0,high,accepted,osm,
+Kazla,town,132,Kazla_132kV,22.9773388,88.4717639,Kalyani,way/147938652,substation,66.7,low,unresolved,osm,
+Keraniganj,town,132|230,Keraniganj_132kV|Keraniganj_230kV,23.7055229,90.343129,Keraniganj,way/957155219,substation,100.0,high,accepted,osm,constrained re-match (2 discs)
+Khagrachari,town,132,Khagrachari_132kV,23.0797962,91.9746199,Khagrachari,way/1043456901,substation,100.0,high,accepted,osm,
+Khulna330MW,plant,230,Khulna330MW_230kV,22.7954622,89.5067142,Khulna South,way/147998784,substation,86.7,high,accepted,osm,constrained re-match (1 discs)
+KhulnaCentral,plant,132,KhulnaCentral_132kV,22.8682836,89.536309,KPCL-2 (Khulna-II) Power Plant,way/1043525206,plant,84.0,high,accepted,osm,constrained re-match (3 discs)
+KhulnaSouth,town,132|230,KhulnaSouth_132kV|KhulnaSouth_230kV,22.7954622,89.5067142,Khulna South,way/147998784,substation,100.0,high,accepted,osm,
+Khulshi,town,132,Khulshi_132kV,22.3616868,91.7953746,Khulshi,way/369672616,substation,100.0,high,accepted,osm,
+Kishoreganj,plant,132,Kishoreganj_132kV,24.4186745,90.7899779,Kishorganj,way/210993429,substation,95.2,high,accepted,osm,constrained re-match (1 discs)
+Kodda,plant,132,Kodda_132kV,23.9904965,90.3377759,Kodda,way/1041851991,substation,100.0,high,reopened,osm,constrained re-match (3 discs)
+Korerhat,town,230|400,Korerhat_230kV|Korerhat_400kV,22.8937051,91.5371894,Baroirhat,way/1098932515,substation,58.8,medium,provisional,osm,constrained re-match (3 discs)
+Kulaura,town,132,Kulaura_132kV,24.5121289,92.0180096,Kulaura,way/369543970,substation,100.0,high,accepted,osm,
+Kurigram,town,132,Kurigram_132kV,25.8092417,89.5942026,Kurigram,way/1043456939,substation,100.0,high,accepted,osm,
+Kushtia,town,132,Kushtia_132kV,24.6891432,91.9178196,Kushiara Power Plant,way/929337988,plant,80.0,medium,reopened,osm,
+LabancharaPP,plant,132,LabancharaPP_132kV,22.7659661,89.5846572,Orion Power Rupsha Ltd,way/690245883,plant,91.0,high,reopened,osm,constrained re-match (2 discs)
+Laksam,town,132,Laksam_132kV,23.2016659,91.1333561,Laksam,way/1429610303,substation,100.0,high,accepted,osm,
+Lakshmipur,town,132,Lakshmipur_132kV,23.2016659,91.1333561,Laksam,way/1429610303,substation,62.5,medium,provisional,osm,constrained re-match (1 discs)
+Lalbagh,town,132,Lalbagh_132kV,,,,,,,none,unresolved,osm,
+Lalmonirhat,plant,132,Lalmonirhat_132kV,25.9176294,89.4544293,Lalmonirhat,way/274341720,substation,100.0,high,accepted,osm,constrained re-match (1 discs)
+MSML,industrial,132,MSML_132kV,,,,,,,none,unresolved,osm,
+Madanganj,plant,132,Madanganj_132kV,23.5900544,90.5148545,Summit Madanganj Power Plant,way/943631555,plant,100.0,high,accepted,osm,constrained re-match (1 discs)
+Madaripur,town,132,Madaripur_132kV,23.1477946,90.1424258,Marairpur,way/274418291,substation,77.8,high,reopened,osm,constrained re-match (2 discs)
+Madartek,town,132,Madartek_132kV,,,,,,,none,unresolved,osm,
+MadhumatiPP,plant,132,MadhumatiPP_132kV,22.9339035,89.8108614,Madhumati Power Plant,way/989277938,plant,100.0,high,accepted,osm,
+Madunaghat,town,132|230,Madunaghat_132kV|Madunaghat_230kV,22.4318897,91.8698558,Madunaghat,way/211045466,substation,100.0,high,accepted,osm,constrained re-match (4 discs)
+MadunaghatNew,town,230|400,MadunaghatNew_230kV|MadunaghatNew_400kV,22.4318897,91.8698558,Madunaghat,way/211045466,substation,100.0,high,accepted,osm,
+Magura,town,132,Magura_132kV,23.4724619,89.3990786,Magura,way/274387965,substation,100.0,high,accepted,osm,
+Mahasthangarh,town,132,Mahasthangarh_132kV,24.9597048,89.3567996,Mahasthangarh Substation,way/1043456936,substation,100.0,high,reopened,osm,constrained re-match (1 discs)
+Maheshpur,town,132,Maheshpur_132kV,,,,,,,none,unresolved,osm,
+Maijdee,town,132,Maijdee_132kV,,,,,,,none,unresolved,osm,
+Manikganj,plant,132,Manikganj_132kV,23.8724157,90.0126238,Manikganj,way/210993432,substation,100.0,high,accepted,osm,constrained re-match (1 discs)
+Maniknagar,town,132|230,Maniknagar_132kV|Maniknagar_230kV,23.7217885,90.4356511,Maniknagar 230,way/222334017,substation,100.0,high,accepted,osm,constrained re-match (2 discs)
+Matarbari,plant,132|400,Matarbari_132kV|Matarbari_400kV,21.7120903,91.9094426,Matarbari,way/802058919,substation,100.0,high,accepted,osm,
+MatarbariTConnection,town,132,MatarbariTConnection_132kV,21.7120903,91.9094426,Matarbari,way/802058919,substation,83.2,high,accepted,osm,constrained re-match (3 discs)
+Matuail,town,132,Matuail_132kV,23.6598921,90.4867913,"Matuail Substation, DPDC মাতুয়াইল সাবস্টেশন, ডিপিডিসি",way/148114253,substation,100.0,high,accepted,osm,
+Meghnaghat,plant,230|400,Meghnaghat_230kV|Meghnaghat_400kV,23.611268,90.6006013,Meghnaghat,way/210729643,substation,100.0,high,accepted,osm,
+MeghnaghatRentalPP,plant,132,MeghnaghatRentalPP_132kV,23.611268,90.6006013,Meghnaghat,way/210729643,substation,89.6,high,accepted,osm,
+Mirpur,town,132,Mirpur_132kV,23.8303074,90.359787,Mirpur 132,way/147998681,substation,100.0,high,accepted,osm,
+Mirsarai,plant,230,Mirsarai_230kV,22.755501,91.4549279,Mirsarai,way/1041851969,substation,100.0,high,accepted,osm,
+Mirzapur,town,132,Mirzapur_132kV,24.1103371,90.0820194,Mirzapur,way/1382285763,substation,100.0,high,accepted,osm,
+Mithapukur,town,132,Mithapukur_132kV,25.5250907,89.2869265,Mithapukur,way/1382233807,substation,100.0,high,accepted,osm,
+Moghbazar,town,132,Moghbazar_132kV,22.1530614,92.0715342,Dohazari,way/210993421,substation,70.6,low,unresolved,osm,
+Mongla,plant,132,Mongla_132kV,22.5059495,89.5949424,Mangla,way/274387968,substation,100.0,high,accepted,osm,
+Motijheel,town,132,Motijheel_132kV,,,,,,,none,unresolved,osm,
+Muktagacha,town,132,Muktagacha_132kV,24.7695735,90.3025321,Muktagacha,way/1382333731,substation,100.0,high,accepted,osm,
+Munshiganj,plant,132,Munshiganj_132kV,23.5733846,90.4903118,Banco Energy Kamalaghat Power Plant,way/1046915375,plant,100.0,high,accepted,osm,
+Muradnagar,town,132,Muradnagar_132kV,26.5378454,88.6461382,Raninagar 33,way/829264888,substation,73.7,low,unresolved,osm,
+Mymensingh,plant,132,Mymensingh_132kV,24.7342645,90.4213959,Mymensingh,way/340562386,substation,100.0,high,accepted,osm,constrained re-match (3 discs)
+Nabinagar,town,132,Nabinagar_132kV,26.5378454,88.6461382,Raninagar 33,way/829264888,substation,77.8,medium,reopened,osm,ambiguous: near-tied candidates far apart
+Naogaon,plant,132,Naogaon_132kV,24.7973333,88.9838542,Santahar Peaking Power Plant,way/413308918,plant,100.0,high,accepted,osm,
+Narail,town,132,Narail_132kV,23.1786283,89.5546434,Narail,way/1043456926,substation,100.0,high,accepted,osm,
+Narinda,town,132,Narinda_132kV,23.9137935,90.7040716,Narsingdi,way/390935839,substation,75.0,medium,reopened,osm,
+Narsingdi,plant,132,Narsingdi_132kV,23.9137935,90.7040716,Narsingdi,way/390935839,substation,100.0,high,reopened,osm,constrained re-match (2 discs)
+Natore,plant,132,Natore_132kV,24.4114328,89.0087356,Natore 132,way/354584219,substation,100.0,high,accepted,osm,constrained re-match (1 discs)
+Nawabganj,town,132,Nawabganj_132kV,23.6478522,90.1187601,Nawabganj 132,way/957155220,substation,100.0,high,accepted,osm,
+Netrokona,town,132,Netrokona_132kV,24.8669335,90.6988092,Netrokona,way/210993434,substation,100.0,high,accepted,osm,
+NewTongi,town,132,NewTongi_132kV,23.8974932,90.413387,Tongi Power Plant,way/147998586,plant,100.0,high,accepted,osm,
+Niamatpur,town,132,Niamatpur_132kV,24.8339795,88.5841206,Niamotpur,way/413308915,substation,88.9,high,accepted,osm,constrained re-match (1 discs)
+Noapara,town,132,Noapara_132kV,23.0237878,89.4056992,Noapara,way/534840823,substation,100.0,high,accepted,osm,constrained re-match (2 discs)
+NoaparaPP,plant,132,NoaparaPP_132kV,23.0237878,89.4056992,Noapara,way/534840823,substation,100.0,high,accepted,osm,
+PHP,industrial,132,PHP_132kV,22.5379099,91.7034373,GPH,way/1382553143,substation,66.7,low,unresolved,osm,
+Pabna,town,132,Pabna_132kV,24.0242682,89.2343121,Pabna,way/148142829,substation,100.0,high,accepted,osm,
+Pabna64MWSolarPP,plant,132,Pabna64MWSolarPP_132kV,24.0242682,89.2343121,Pabna,way/148142829,substation,85.0,medium,reopened,osm,
+Palashbari,town,132,Palashbari_132kV,25.2771301,89.3500602,Palashbari,way/354100535,substation,100.0,high,accepted,osm,
+Panchagarh,plant,132,Panchagarh_132kV,26.3537823,88.5567057,Panchagarh,way/354100536,substation,100.0,high,accepted,osm,constrained re-match (1 discs)
+Patiya,town,132,Patiya_132kV,21.9981058,90.3010833,Payra,way/1040883474,substation,72.7,low,unresolved,osm,
+Patuakhali,plant,132,Patuakhali_132kV,22.358935,90.3178568,Patuakhali,way/274387974,substation,100.0,high,accepted,osm,
+Payra,town,132|400,Payra_132kV|Payra_400kV,21.9981058,90.3010833,Payra,way/1040883474,substation,100.0,high,accepted,osm,
+PayraPP,plant,400,PayraPP_400kV,21.9981058,90.3010833,Payra,way/1040883474,substation,100.0,high,accepted,osm,
+Postogola,town,132,Postogola_132kV,,,,,,,none,unresolved,osm,
+Pubail,town,132,Pubail_132kV,23.9350222,90.4969448,Pubail,way/1382322202,substation,100.0,high,accepted,osm,
+Purbachal,plant,132,Purbachal_132kV,23.8201078,90.5480531,Kanchan Purbachal Power Generation,way/1046915372,plant,100.0,high,accepted,osm,
+Purbasadipur,town,132|230,Purbasadipur_132kV|Purbasadipur_230kV,25.7545051,88.6789115,Purbasadipur,way/354100538,substation,100.0,high,accepted,osm,
+RNPL,plant,400,RNPL_400kV,22.0242358,90.3092683,Patuakhali power station (RPCL,way/1502693819,plant,93.3,high,accepted,osm,constrained re-match (1 discs)
+RNPP,plant,230|400,RNPP_230kV|RNPP_400kV,,,,,,,none,unresolved,osm,
+RPCLPP,plant,132,RPCLPP_132kV,24.7611033,90.4195174,RPCL,way/210993457,substation,100.0,high,accepted,osm,
+Rahanpur,town,132|400,Rahanpur_132kV|Rahanpur_400kV,24.630249,88.4010871,Amnura,way/354584213,substation,57.1,medium,provisional,osm,constrained re-match (3 discs)
+Rajbari,town,132,Rajbari_132kV,23.7549188,89.6207356,Rajbari,way/1382525579,substation,100.0,high,reopened,osm,
+Rajendrapur,town,132,Rajendrapur_132kV,24.1034682,90.4923886,Rajendrapur,way/1043456883,substation,100.0,high,accepted,osm,
+Rajshahi,plant,132,Rajshahi_132kV,24.4119447,88.5722286,Rajshahi(N),way/957137779,substation,95.6,high,reopened,osm,constrained re-match (2 discs)
+RajshahiNorth,town,132|230,RajshahiNorth_132kV|RajshahiNorth_230kV,24.4119447,88.5722286,Rajshahi(N),way/957137779,substation,86.7,high,accepted,osm,constrained re-match (2 discs)
+Ramganj,town,132,Ramganj_132kV,23.1190901,90.8621001,Ramganj,way/1043456900,substation,100.0,high,accepted,osm,
+Rampal,plant,230|400,Rampal_230kV|Rampal_400kV,22.5925643,89.5575336,রামপাল তাপ বিদ্যুৎ কেন্দ্র,way/354100539,plant,84.0,high,accepted,osm,constrained re-match (1 discs)
+Rampur,town,132,Rampur_132kV,22.3356952,91.7903098,Rampur,way/1043456905,substation,100.0,high,accepted,osm,
+Rampura,town,132|230,Rampura_132kV|Rampura_230kV,23.7675615,90.4324156,রামপুরা ২৩০ কেভি গ্রিড সাব স্টেশন,way/148002191,substation,100.0,high,accepted,osm,constrained re-match (2 discs)
+Rangamati,town,132,Rangamati_132kV,22.6806574,92.1217849,Rangamati,way/1043456904,substation,100.0,high,accepted,osm,
+Rangpur,plant,132,Rangpur_132kV,25.7288886,89.2517325,Rangpur,way/274341702,substation,100.0,high,accepted,osm,constrained re-match (4 discs)
+Raozan,plant,230,Raozan_230kV,22.45664,91.9794125,Raozan,way/211045539,substation,100.0,high,accepted,osm,
+Rooppur,town,132,Rooppur_132kV,,,,,,,none,unresolved,osm,
+Saidpur,plant,132,Saidpur_132kV,25.8122138,88.8854129,Saidpur Power Plant,way/274341704,plant,100.0,high,accepted,osm,constrained re-match (3 discs)
+Sathia,town,132,Sathia_132kV,22.7436805,89.0927097,Satkhira,way/232044291,substation,85.7,medium,reopened,osm,
+Satkhira,town,132,Satkhira_132kV,22.7436805,89.0927097,Satkhira,way/232044291,substation,100.0,high,accepted,osm,
+Satmasjid,town,132,Satmasjid_132kV,25.2917025,88.0132212,Samsi,way/148521310,substation,71.4,low,unresolved,osm,
+Savar,plant,132,Savar_132kV,23.9242754,90.2650553,Savar-1,node/3968959731,substation,100.0,high,accepted,osm,
+Shahjadpur,town,132,Shahjadpur_132kV,24.1730929,89.5847397,Shahajadpur,way/210993463,substation,95.2,high,accepted,osm,
+Shahjibazar,plant,132|230,Shahjibazar_132kV|Shahjibazar_230kV,24.2533082,91.3795611,Shahjibazar,way/369543973,substation,100.0,high,reopened,osm,constrained re-match (4 discs)
+Shahmirpur,town,132,Shahmirpur_132kV,22.2676074,91.8481187,Shahmirpur,way/211045474,substation,100.0,high,accepted,osm,
+Shariatpur,town,132,Shariatpur_132kV,23.1792312,90.3430211,Shariatpur,way/1301701543,substation,100.0,high,accepted,osm,
+Sherpur,town,132,Sherpur_132kV,25.0487167,90.0831539,Sherpur,way/585464101,substation,100.0,medium,reopened,osm,ambiguous: near-tied candidates far apart
+Sherpur(B),town,132,Sherpur(B)_132kV,24.6369801,89.4269581,Sherpur (B),way/1043456932,substation,100.0,high,accepted,osm,constrained re-match (2 discs)
+Sholoshahar,town,132,Sholoshahar_132kV,22.3960111,91.8211757,Solashohar Sub Station,way/1429610301,substation,76.2,high,accepted,osm,constrained re-match (1 discs)
+Shyampur,town,132|230,Shyampur_132kV|Shyampur_230kV,23.6782063,90.5329568,Haripur Power Limited,way/147998623,plant,66.7,medium,provisional,osm,constrained re-match (2 discs)
+Siddhirganj,plant,132|230,Siddhirganj_132kV|Siddhirganj_230kV,23.6849847,90.5177955,Siddhirganj,way/147998706,substation,100.0,high,accepted,osm,
+SiddhirganjDeshEnergyPP,plant,132,SiddhirganjDeshEnergyPP_132kV,23.6849847,90.5177955,Siddhirganj,way/147998706,substation,85.9,high,accepted,osm,constrained re-match (1 discs)
+SiddhirganjDutchBanglaPP,plant,132,SiddhirganjDutchBanglaPP_132kV,23.6695775,90.5251873,Dutch Bangla Siddhirganj Power Plant,way/928996332,plant,100.0,high,accepted,osm,
+Sikalbaha,plant,132|230,Sikalbaha_132kV|Sikalbaha_230kV,22.3296754,91.8728953,Anlima Energy Chattogram power plant,way/862825576,plant,100.0,high,accepted,osm,
+Sirajganj,plant,132,Sirajganj_132kV,24.4476625,89.6699273,Sirajganj,way/210993438,substation,100.0,high,accepted,osm,
+Sirajganj68MWSolar,plant,132,Sirajganj68MWSolar_132kV,24.4027259,89.7370875,Sirajganj 68 MW Solar Park,way/1351775245,plant,94.3,high,accepted,osm,
+SirajganjSouthWest,plant,230,SirajganjSouthWest_230kV,24.4476625,89.6699273,Sirajganj,way/210993438,substation,100.0,high,reopened,osm,constrained re-match (2 discs)
+Sitalakhya,plant,132,Sitalakhya_132kV,23.6014022,90.4944893,"Shitalakkha Substation, DPDC",way/1042509091,substation,85.7,high,accepted,osm,constrained re-match (1 discs)
+Sonagazi,plant,230,Sonagazi_230kV,23.6413848,90.5905103,Sonargaon,way/210993454,substation,70.6,low,unresolved,osm,
+Sonargaon,plant,132,Sonargaon_132kV,23.6413848,90.5905103,Sonargaon,way/210993454,substation,100.0,high,accepted,osm,
+Srimangal,plant,132,Srimangal_132kV,24.3079233,91.7030131,Srimangal,way/369543975,substation,100.0,high,accepted,osm,
+Srinagar,town,132,Srinagar_132kV,23.7217885,90.4356511,Maniknagar 230,way/222334017,substation,66.7,medium,provisional,osm,constrained re-match (1 discs)
+Sripur,town,132|230,Sripur_132kV|Sripur_230kV,24.2219637,90.3903969,Sripur,way/1382322214,substation,100.0,high,reopened,osm,constrained re-match (3 discs)
+Sunamganj,town,132,Sunamganj_132kV,25.0328374,91.3882878,Sunamganj,way/1043456884,substation,100.0,high,accepted,osm,
+SuryamaninagarRecvBus,cross_border,132,SuryamaninagarRecvBus_132kV,,,,,,,none,unresolved,osm,
+Sylhet,plant,132,Sylhet_132kV,24.9096416,91.8298501,Sylhet,way/369543982,substation,100.0,high,accepted,osm,
+SylhetSouth,town,132,SylhetSouth_132kV,24.9096416,91.8298501,Sylhet,way/369543982,substation,86.7,high,reopened,osm,constrained re-match (2 discs)
+TKCCL,industrial,132,TKCCL_132kV,22.3840233,91.8911046,TKC,way/211045478,substation,75.0,high,accepted,osm,constrained re-match (1 discs)
+Tangail,plant,132,Tangail_132kV,24.2777226,89.9213821,Tangail,way/369543985,substation,100.0,high,accepted,osm,
+Taraganj,town,132,Taraganj_132kV,25.6363601,88.1246058,Raiganj,way/148521309,substation,80.0,medium,reopened,osm,ambiguous: near-tied candidates far apart
+TeestaSolar,plant,132,TeestaSolar_132kV,25.6270403,89.5394993,200MW Teesta Solar Ltd,way/1180394334,plant,100.0,high,accepted,osm,
+Thakurgaon,plant,132,Thakurgaon_132kV,26.0383682,88.4254305,Thakurgaon,way/354100540,substation,100.0,high,accepted,osm,
+Tongi,plant,132|230,Tongi_132kV|Tongi_230kV,23.8974932,90.413387,Tongi Power Plant,way/147998586,plant,100.0,high,reopened,osm,constrained re-match (4 discs)
+Tongi-3(Mill Gate),town,132,Tongi-3(Mill Gate)_132kV,23.8974932,90.413387,Tongi Power Plant,way/147998586,plant,80.0,medium,provisional,osm,
+USDKWindFarm,plant,132,USDKWindFarm_132kV,21.5085262,92.0047317,Cox's Bazar 60 MW Wind Power Plant,node/12190213959,generator,100.0,high,accepted,osm,
+Ullapara,town,132,Ullapara_132kV,24.2879737,89.575293,Ullapara,way/1382266267,substation,100.0,high,accepted,osm,
+Ullon,town,132,Ullon_132kV,23.762776,90.4149299,Ullon 132,way/316539660,substation,100.0,high,accepted,osm,
+UnitedPP,plant,132,UnitedPP_132kV,24.9003972,89.9898942,Mymensingh and Jamalpur United Power Plant,way/950005959,plant,100.0,high,reopened,osm,constrained re-match (1 discs)
+Uttara,town,132,Uttara_132kV,22.3435675,88.5134742,Uttarbhag 33,way/1414133249,substation,80.0,medium,reopened,osm,
+Uttara 3P,town,132,Uttara 3P_132kV,22.3435675,88.5134742,Uttarbhag 33,way/1414133249,substation,70.6,low,unresolved,osm,
+Uttara3P,town,132,Uttara3P_132kV,22.3435675,88.5134742,Uttarbhag 33,way/1414133249,substation,70.6,low,unresolved,osm,
+Zigatola,town,132,Zigatola_132kV,,,,,,,none,unresolved,osm,
