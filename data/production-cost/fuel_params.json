@@ -1,0 +1,46 @@
+{
+  "_note": "ALL values are working assumptions for the production-cost estimator; refine against BERC tariff orders, BPC fuel prices and BPDB annual reports before quoting results. Prices in BDT (Tk).",
+
+  "fx_bdt_per_usd": 120,
+  "_fx_source": "assumption; interbank BDT/USD ~117-123 during 2025",
+
+  "heat_rate_mj_per_kwh": {
+    "CCGT": 7.0,
+    "OCGT": 10.6,
+    "Steam Turbine_gas": 10.0,
+    "Steam Turbine_coal": 9.8,
+    "Steam Turbine_liquid": 11.0,
+    "ICE": 8.4
+  },
+  "_heat_rate_source": "typical net plant heat rates: CCGT ~51% eff, OCGT ~34%, subcritical steam ~36-37%, ultra-supercritical coal (Payra/Rampal/Matarbari) closer to 8.8 but blended with Barapukuria subcritical, HFO engines ~43%",
+
+  "fuel_price_tk_per_mj": {
+    "Gas": 0.402,
+    "HFO": 1.763,
+    "HSD": 2.842,
+    "Coal": 0.55
+  },
+  "_fuel_price_source": {
+    "Gas": "power-sector gas ~Tk 15/m3 (BERC; Tk 14/m3 set Jan-2023, assumed adjusted) / 37.3 MJ per m3",
+    "HFO": "furnace oil ~Tk 70/L / 39.7 MJ per L (LHV 40.5 MJ/kg x 0.98 kg/L)",
+    "HSD": "diesel ~Tk 104/L / 36.6 MJ per L (LHV 43 MJ/kg x 0.85 kg/L)",
+    "Coal": "imported bituminous ~USD 110/t landed x Tk 120 / 24000 MJ per t; domestic Barapukuria costs more"
+  },
+
+  "import_tariff_tk_per_kwh": {
+    "adani": 12.0,
+    "hvdc_india": 8.8,
+    "nepal": 8.2,
+    "tripura": 9.0
+  },
+  "_import_tariff_source": "assumptions from press coverage of PPAs: Adani Godda blended ~Tk 12-14.9/kWh, Bheramara HVDC long-term (NVVN/PTC) ~Tk 8.5-9, Nepal NEA 40 MW ~USc 6.4/kWh, Tripura ~Tk 9",
+
+  "gas_lhv_mj_per_m3": 37.3,
+
+  "vom_tk_per_kwh": {
+    "default": 0.2,
+    "Solar": 0.0,
+    "Wind": 0.0,
+    "Hydro": 0.1
+  }
+}

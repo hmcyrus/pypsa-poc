@@ -1,6 +1,13 @@
 # Plan: Daily Electricity Production Cost Estimation from PGCB Daily Report
 
-**Status: not started — this document is the execution plan for a future session.**
+**Status: EXECUTED for 2026-07-01 data.** `src/daily_report_parser.py` and
+`src/production_cost_estimator.py` implement §4; canonical CSVs are under
+`data/pipeline/canonical/daily-reports/2026-07-01/` and results under
+`data/production-cost/`. Tier A landed at 6.157 Tk/kWh vs the P1 actual
+6.331 Tk/kWh (−2.8 %) with 0 % unmatched energy; Tier B (MC_REF) gave
+4.05 Tk/kWh (−36 %), showing MC_REF's liquid-fuel/import anchors understate
+Bangladesh costs. Re-run for a new report: parser (xlsx path arg) → estimator
+(date arg). Remaining: source-verify `fuel_params.json` values (§3) and Phase 2 (§7).
 
 Goal: estimate the total daily electricity production cost of the Bangladesh grid from a
 PGCB/NLDC daily report workbook, using per-plant hourly generation (GenLog sheet), fuel
