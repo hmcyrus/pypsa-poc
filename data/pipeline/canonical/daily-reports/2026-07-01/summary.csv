@@ -1,0 +1,13 @@
+metric,value
+day_peak_demand_mw,15025.25
+day_peak_generation_mw,14658.25
+energy_demand_mkwh,371.97774707
+energy_generated_mkwh,363.27774707
+energy_unserved_mkwh,8.7
+evening_peak_demand_mw,16835.7
+evening_peak_generation_mw,16323.7
+gas_supplied_mmcfd,970.83
+max_generation_mw,16323.7
+max_temperature_c,33.0
+min_generation_mw,13837.3
+production_cost_tk_per_kwh,6.331365618555227

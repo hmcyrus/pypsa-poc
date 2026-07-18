@@ -1,0 +1,151 @@
+name,fuel,producer,unit_config,installed_mw,present_mw,actual_day_peak_mw,actual_evening_peak_mw,forecast_day_peak_mw,forecast_evening_peak_mw,remarks,p2_evening_peak_mw,p2_energy_kwh,p2_remarks
+Adani Power Jharkhanda Ltd,Import,Import,2*673,1496.0,1469.13,1295.65,1474.84,1469.13,1469.13,AGC,1474.84,33521369.0,-
+Anlima Energy Ltd.,HFO,IPP,6*21.2,116.0,116.0,1.0,13.0,116.0,116.0,FGMO,13.0,446731.0,FGMO
+Anwara 300 MW PP (United),HFO,IPP,17*17+24,300.0,300.0,5.0,16.0,300.0,300.0,Liquid fuel shortage,16.0,244385.0,Liquid fuel shortage
+Ashuganj 150MW PP (Midland),HFO,IPP,23X7.015,150.0,150.0,26.0,70.0,150.0,150.0,-,70.0,677454.0,-
+Ashuganj 195 MW PP (APSCL-United),Gas,IPP,20X9.73+1X16,195.0,195.0,0.0,0.0,195.0,195.0,Gas shortage,0.0,0.0,Gas shortage
+Ashuganj 420 MW CCPP(East),Gas,APSCL,284*1+116*1,400.0,393.0,230.0,230.0,393.0,393.0,Gas shortage,230.0,5718500.0,Gas shortage
+Ashuganj 450 MW CCPP(North),Gas,APSCL,1*360,360.0,350.01,290.0,290.0,350.01,350.01,Gas shortage,290.0,7361600.0,Machine Problem
+Ashuganj 450 MW CCPP(South),Gas,APSCL,1*360,360.0,342.01,240.0,240.0,342.01,342.01,Gas shortage,240.0,6158000.0,Machine Problem
+Ashuganj 51 MW PP (Midland),Gas,IPP,6X9.34,51.0,51.0,51.0,51.0,51.0,51.0,-,51.0,1164864.0,-
+Ashuganj 55 MW PP (Precision),Gas,QRPP,15*4,55.0,52.824,25.0,25.0,52.82,52.82,Gas shortage,25.0,713280.0,Gas shortage
+Ashuganj CCPP 225 MW,Gas,APSCL,1X142+1X75,221.0,221.25,215.0,198.0,221.25,221.25,Gas shortage,198.0,4934000.0,FGMO
+Ashuganj TSK 50 MW PP,Gas,APSCL,14*3.96,53.0,46.701,37.0,37.0,41.65,41.65,Gas shortage,37.0,922464.0,Machine Problem
+Baghabari 100 MW GTPP,Gas,PDB,1*100,100.0,100.0,0.0,0.0,0.0,0.0,Machine Under Maintenance,0.0,0.0,Machine Under Maintenance
+Baghabari 50 MW Peaking PP,HFO,PDB,6*8.9,52.0,52.0,0.0,40.0,40.0,40.0,Engine Problem,40.0,393654.0,Engine Problem
+Baghabari 71 MW GTPP,Gas,PDB,1X71,71.0,70.0,0.0,0.0,0.0,0.0,Gas shortage,0.0,0.0,Gas shortage
+Bagura 113 MW PP (Confidence)-1,HFO,IPP,6*18.55,113.0,113.0,0.0,35.0,113.0,113.0,Liquid fuel shortage,35.0,313344.0,Liquid fuel shortage
+Bagura 113 MW PP (Confidence)-2,HFO,IPP,6*18.55+7.2,113.0,113.0,0.0,35.0,113.0,113.0,Liquid fuel shortage,35.0,318048.0,Liquid fuel shortage
+Barapukuria 275 MW TPP Unit-3,Coal,PDB,1*275,274.0,274.0,200.0,180.0,200.0,200.0,Machine Problem,180.0,4633000.0,Machine Problem
+Barapukuria TPP Unit-1 & 2,Coal,PDB,1*125+1*125,250.0,170.0,38.0,37.0,38.0,38.0,U-2 Under maint.,37.0,883200.0,U-2 Under maint.
+Barisal 1 MW Solar Plant,Solar,IPP,,1.0,1.0,0.32,0.0,1.0,0.0,-,0.0,2817.0,-
+Barisal 110 MW PP (Summit ),HFO,IPP,7X17.076,110.0,110.0,0.0,32.0,110.0,110.0,Liquid fuel shortage,32.0,184320.0,Liquid fuel shortage
+Barisal 307 MW,Coal,BCPCL,307X1,307.0,307.0,263.0,276.0,307.0,307.0,AGC,276.0,5760000.0,FGMO
+Bera 70 MW Peaking PP,HFO,PDB,9*8.29,71.0,71.0,0.0,0.0,32.0,32.0,Engine Problem,0.0,27939.0,Engine Problem
+Bhairob 54.5 MW,HFO,IPP,3*18.2,54.0,54.5,0.0,17.0,54.5,54.5,Liquid fuel shortage,17.0,90720.0,Liquid fuel shortage
+Bheramara (HVDC ),Import,Import,2X500,1000.0,1000.0,519.0,904.0,1000.0,1000.0,-,904.0,19010909.0,-
+Bheramara 410 MW CCPP,Gas,NWPGCL,1X278+1X132,410.0,410.0,0.0,0.0,410.0,410.0,Gas shortage,0.0,0.0,Gas shortage
+Bheramara GTPP Unit-3,HSD,PDB,1X20,20.0,16.0,0.0,0.0,0.0,0.0,Contract Expired,0.0,0.0,Contract Expired
+Bhola 225 MW CCPP,Gas,PDB,2X63+1X68,194.0,194.0,64.0,65.0,65.0,65.0,GT-1 & ST under maint,65.0,1548000.0,GT-1 & ST under maint
+Bhola 33 MW PP (Venture),Gas,NENP,1X34.50,40.0,11.04,0.0,0.0,0.0,0.0,Contract Expired,0.0,0.0,Contract Expired
+Bhola Nutan Biddut BD LTD,Gas/HSD,IPP,2*75+1*75,220.0,220.0,220.0,220.0,220.0,220.0,,220.0,5363810.0,MVAR Subjected to Grid Voltage
+Bibiana-II 341 MW CCPP (Summit),Gas,IPP,1*222+1*119,341.0,341.0,310.0,315.0,341.0,341.0,Machine Problem,315.0,7510000.0,FGMO
+Bibiyana South 400 MW,Gas,PDB,1*400,383.0,383.0,0.0,0.0,0.0,0.0,Under Maintenance,0.0,0.0,Under Maintenance
+Bibiyana-III 400 MW CCPP,Gas,PDB,285*1+134*1,400.0,400.0,307.0,245.0,300.0,300.0,Machine Problem,245.0,6858000.0,Machine Problem
+Chandpur 115(Doreen),HFO,IPP,4*18.5+2*22.5,115.0,115.0,0.0,50.0,115.0,115.0,Liquid fuel shortage,50.0,581760.0,Liquid fuel shortage
+Chandpur 150 MW CCPP,Gas,PDB,1*106+1*57,163.0,163.0,138.0,136.0,163.0,163.0,Low gas pressure,136.0,3422747.0,Low gas pressure
+Chandpur 200MW (Desh energy),HFO,IPP,12*18.4,200.0,200.0,22.0,17.0,200.0,200.0,-,17.0,867360.0,Liquid fuel shortage
+Chapainawabganj 100 MW Peaking PP,HFO,PDB,12*8.924,104.0,104.0,0.0,42.0,92.0,92.0,Liquid fuel shortage,42.0,426848.0,Liquid fuel shortage
+Chattogram 108 MW PP (ECPV),HFO,IPP,16*7,108.0,108.0,5.0,64.0,108.0,108.0,Liquid fuel shortage,64.0,779064.0,Liquid fuel shortage
+Chattogram TPP,Gas,PDB,1*210+1*210,420.0,360.0,0.0,0.0,0.0,0.0,"Unit #1 Under Maintenance, Unit#2 Gas Shortage",0.0,0.0,"Unit #1 Under Maintenance, Unit#2 Gas Shortage"
+Chowmuhani 113 MW,HFO,IPP,12*9.78+2*3.1,113.0,113.0,0.0,8.0,113.0,113.0,Liquid fuel shortage,8.0,55440.0,Liquid fuel shortage
+Cox's Bazar Wind,Wind,PDB,22*3,60.0,60.0,53.0,37.0,8.0,0.0,-,37.0,403200.0,-
+Cumilla 25 MW PP (Summit),Gas,"SIPP,REB",3*3.67+2*6.97,25.0,25.0,17.0,17.0,24.5,24.5,-,17.0,385080.0,-
+Dohazari -Kalaish 100 MW Peaking,HFO,PDB,6*17,102.0,102.0,0.0,50.0,0.0,51.0,Liquid fuel shortage,50.0,345280.0,Liquid fuel shortage
+Energypac Power Venture Thakurgaon Ltd.,HFO,IPP,,115.0,115.0,0.0,95.0,115.0,115.0,Liquid fuel shortage,95.0,819546.0,Liquid fuel shortage
+Faridpur 50 MW Peaking PP,HFO,PDB,8*6.89,54.0,54.0,0.0,0.0,0.0,0.0,Engine Problem,0.0,0.0,Liquid fuel shortage
+Fenchugonj CCPP Phase-1,Gas,PDB,2*32+1*33,97.0,90.0,29.0,29.0,28.0,28.0,machine problem,29.0,692000.0,Plant availability less
+Fenchugonj CCPP Phase-2,Gas,PDB,2*35+1*35,104.0,90.0,0.0,0.0,30.0,30.0,,0.0,0.0,Gas shortage
+Feni Lanka Power,HFO,IPP,7*18.415+1*9.78,114.0,114.0,66.0,16.0,114.0,114.0,-,16.0,949620.0,Liquid fuel shortage
+Gagnagar 102 MW PP (Digital Power),HFO,IPP,12*8.924,102.0,102.0,0.0,0.0,102.0,102.0,Liquid fuel shortage,0.0,0.0,Liquid fuel shortage
+Gazipur 100 MW PP,HFO,RPCL,6*17.5,105.0,105.0,34.0,70.0,105.0,105.0,Liquid fuel shortage,70.0,1331098.0,Liquid fuel shortage
+Gazipur 52 MW PP,HFO,RPCL,6*8.9,52.0,52.194,16.0,8.0,52.19,52.19,Liquid fuel shortage,8.0,531274.0,Liquid fuel shortage
+Ghorasal 365 MW CCPP Unit-7,Gas,PDB,1*243+1*122,365.0,365.0,0.0,0.0,260.0,260.0,Gas shortage,0.0,0.0,Gas shortage
+Ghorasal Repowered CCPP Unit-3,Gas,PDB,1*260,260.0,260.0,0.0,0.0,0.0,0.0,GT is under maintenance,0.0,0.0,GT is under maintenance
+Ghorasal Repowered CCPP Unit-4,Gas,PDB,1*210,210.0,240.0,0.0,0.0,230.0,230.0,Gas shortage,0.0,0.0,Gas shortage
+Ghorasal TPP Unit-5,Gas,PDB,1*210,210.0,190.0,0.0,0.0,190.0,190.0,Gas shortage,0.0,0.0,Gas shortage
+Ghorashal 108 MW PP (Regent),Gas,IPP,34*3.35,108.0,97.7,0.0,0.0,97.7,97.7,Gas (RMS) problem,0.0,0.0,Gas (RMS) problem
+Gopalganj 100 MW Peaking PP,HFO,PDB,16*6.98,109.0,109.0,0.0,0.0,0.0,0.0,Liquid fuel shortage,0.0,0.0,Liquid fuel shortage
+HVDC(Nepal),Import,Import,1*40,0.0,40.0,38.0,38.0,40.0,40.0,-,38.0,912000.0,-
+Haripur 360 MW CCPP (HPL),Gas,IPP,1*235+1*125,0.0,0.0,0.0,0.0,0.0,0.0,Contract Expired,0.0,0.0,Contract Expired
+Haripur 412 MW CCPP,Gas,EGCB,1*273+1*139,412.0,412.0,370.0,410.0,412.0,412.0,AGC,410.0,8823600.0,AGC
+Haripur GTPP,Gas,"SBU,PDB",32*2,32.0,20.0,0.0,0.0,0.0,0.0,-,0.0,0.0,-
+Hathazari 100 MW peaking PP,HFO,PDB,11*8.9,98.0,98.0,0.0,0.0,8.0,8.0,Liquid fuel shortage,0.0,0.0,Liquid fuel shortage
+Import (Tripura),Import,Import,,160.0,160.0,156.0,162.0,84.0,78.0,-,162.0,3628800.0,-
+Intraco Solar 30 MW,Solar,IPP,1*30,30.0,30.0,9.0,0.0,30.0,0.0,-,0.0,147261.0,-
+JERA Meghnaghat Power Limited,Gas,IPP,250*2+268,0.0,718.0,0.0,0.0,718.0,718.0,Gas shortage,0.0,0.0,Gas shortage
+Jamalpur 115 MW PP (United),HFO,IPP,9.78*12,115.0,115.0,58.0,88.0,60.0,80.0,Liquid fuel shortage,88.0,1212000.0,Liquid fuel shortage
+Jangalia 52 MW PP (Lakdanavi),HFO,IPP,6*8.92,52.2,52.2,0.0,8.0,52.2,52.2,-,8.0,400282.0,Liquid fuel shortage
+Jodiac Power,HFO,IPP,3*18.55+1*3.6,54.0,54.363,0.0,54.36,54.36,54.36,-,54.36,395805.0,-
+Juldah 100 MW PP Unit-3 (Acorn),HFO,IPP,8*13.5,100.0,100.0,12.0,12.0,100.0,100.0,Liquid fuel shortage,12.0,297600.0,Liquid fuel shortage
+Juldah unit-2 (Acorn),HFO,IPP,8*13.6,100.0,100.0,12.0,12.0,100.0,100.0,Liquid fuel shortage,12.0,288960.0,Liquid fuel shortage
+Kamalaghat 54 MW PP(Banco Energy),HFO,IPP,3*18,54.0,53.97,0.0,35.0,53.97,53.97,Liquid fuel shortage,35.0,200448.0,Liquid fuel shortage
+Kanchan Purbachal Power Generation Ltd.,HFO,IPP,18.4*3,55.0,55.0,0.0,17.0,55.0,55.0,Liquid fuel shortage,17.0,133920.0,Liquid fuel shortage
+Kaptai 7 MW Solar PP,Solar,PDB,,7.0,6.0,3.33,0.0,3.54,0.0,-,0.0,22441.0,-
+"Karnaphuli Hydro PP Unit-1,2,3,4, 5",Hydro,PDB,2*40+3*50,230.0,230.0,99.0,98.0,99.0,99.0,-,98.0,2313940.0,-
+Karnaphuli Power Ltd.,HFO,IPP,18.415*6+6.5,110.0,110.0,31.0,105.0,110.0,110.0,FGMO,105.0,1732944.0,-
+Katakhali 50 MW Peaking PP,HFO,PDB,6*8.7,50.0,50.0,0.0,20.0,32.0,32.0,Partial Shutdown due to maintenance,20.0,152284.0,Partial Shutdown due to maintenance
+Khulna 225 MW CCPP,HSD/Gas,NWPGCL,1X150+1X75,230.0,230.0,0.0,0.0,230.0,230.0,-,0.0,0.0,-
+Khulna 330 MW CCPP,HSD/Gas,PDB,1*220+1*110,336.0,336.0,0.0,0.0,330.0,330.0,Liquid fuel shortage,0.0,226320.0,-
+Kodda 149 MW PP Unit-1 (Summit),HFO,IPP,8*18.45+8.97,149.0,149.0,52.0,115.0,149.0,149.0,Liquid fuel shortage,115.0,1739520.0,Liquid fuel shortage
+Kodda 150 MW PP BRPL,HFO,PDB-RPCL,9*17.06,149.0,149.36,144.0,130.0,149.36,149.36,,130.0,2940960.0,Liquid fuel shortage
+Kodda 300 MW PP Unit-2 (Summit),HFO,IPP,18*17.06,300.0,300.0,146.0,45.0,300.0,300.0,Liquid fuel shortage,45.0,1814575.0,Liquid fuel shortage
+Kushiara 163 MW CCPP (KP),Gas,IPP,1*109+1*54,163.0,163.0,149.0,133.0,163.0,163.0,AGC,133.0,3264954.55,AGC+FGMO
+Madanganj-55 MW PP(Summit),HFO,IPP,3*17+1*11.3,55.0,55.0,15.0,15.0,55.0,55.0,Liquid fuel shortage,15.0,380969.0,Liquid fuel shortage
+Madhumati 100 MW PP,HFO,NWPGCL,6*18,105.0,105.0,0.0,15.0,105.0,105.0,Liquid fuel shortage,15.0,42912.0,Liquid fuel shortage
+"Malancha, Ctg. EPZ (United)",Gas,IPP,5*8.73+3*9.34,42.0,42.0,2.0,28.0,5.0,24.0,-,28.0,329280.0,-
+Manikganj 55 MW PP (Northern),HFO,IPP,19.3*3,55.0,55.0,0.0,35.0,55.0,55.0,Liquid fuel shortage,35.0,418474.0,Liquid fuel shortage
+Manikgonj 162MW PP(MPGL),HFO,IPP,9*18,162.0,162.0,17.0,72.0,162.0,162.0,Liquid fuel shortage,72.0,660960.0,Liquid fuel shortage
+Matarbari 2*600 MW (CPGCBL),Coal,CPGCL,2*600,1150.0,1150.0,1135.0,1135.0,1150.0,1150.0,machine problem,1135.0,25447272.73,Machine Problem
+Meghnaghat 104 MW PP (OPCL),HFO,IPP,6*18.5,104.0,104.0,0.0,0.0,104.0,104.0,Liquid fuel shortage,0.0,0.0,Liquid fuel shortage
+Meghnaghat 450 MW CCPP (MPL),Gas,IPP,2*150+1*150,450.0,450.0,0.0,0.0,225.0,225.0,Gas shortage,0.0,0.0,Gas shortage
+Meghnaghat CCPP(Summit),Gas,IPP,2*110+1*110,335.0,335.0,269.0,300.0,335.0,335.0,Gas shortage,300.0,4897745.0,Gas shortage
+Meghnaghat CCPP(Summit)-2,Gas/HSD,IPP,1*409+1*202,583.0,583.0,535.0,440.0,583.0,583.0,AGC+Gas shortage,440.0,11658399.0,FGMO
+Mirsharai 150 MW BRPL,HFO/Gas,IPP,18.5*9,163.0,163.0,0.0,0.0,0.0,0.0,Under Maintenance,0.0,3345.0,Under Maintenance
+Mongla Orion 100 MW Solar PP,Solar,IPP,100,100.0,100.0,30.0,0.0,55.0,0.0,-,0.0,410969.0,-
+Moulvibazar 10 MW Solar Power Plant,Solar,IPP,1*10,0.0,0.0,6.0,0.0,0.0,0.0,-,0.0,60260.0,-
+Muktagacha Solartech Energy Ltd,Solar,IPP,1*20,20.0,20.0,13.75,0.0,10.0,0.0,-,0.0,67194.0,-
+Mymensingh 200 MW PP (United),HFO,IPP,9.78*21,200.0,200.0,66.0,117.0,70.0,110.0,Liquid fuel shortage,117.0,1639200.0,Liquid fuel shortage
+Nababganj 55 MW PP (Southern power ),HFO,IPP,19.3*3,55.0,55.0,0.0,35.0,55.0,55.0,Liquid fuel shortage,35.0,184185.0,Liquid fuel shortage
+Name of the Power Station,Fuel,Producer,Installed Capacity,,,,,,,Remarks,,,
+Natore 52 MW PP (Rajlanka),HFO,IPP,6*8.92,52.0,52.2,0.0,0.0,52.2,52.2,Liquid fuel shortage,0.0,0.0,Liquid fuel shortage
+Pabna 64 MW Solar Plant,Solar,PDB,11*6.6,64.0,64.55,6.22,0.0,40.0,0.0,Contract Expired,0.0,150688.0,Contract Expired
+Pabna Solar 100 MW,Solar,IPP,,0.0,100.0,16.0,0.0,100.0,0.0,-,0.0,281790.0,-
+Patenga 50MW PP (Baraka),HFO,IPP,8*6.98,50.0,50.0,6.0,50.0,50.0,50.0,-,50.0,500160.0,Liquid fuel shortage
+Patuakhali 1320 MW (RNPL),Coal,RNPL,660*2,1320.0,1244.0,976.0,892.0,1050.0,1050.0,AGC,892.0,21949090.0,-
+Payra 1320 MW,Coal,BCPCL,2*622,1244.0,1244.0,970.0,1195.0,1244.0,1244.0,AGC,1195.0,27454545.45,FGMO
+RPCL 210MW CCPP,Gas,RPCL,4*35+1*70,210.0,210.0,0.0,0.0,210.0,210.0,Low gas pressure,0.0,0.0,Low gas pressure
+Rampal 1320 MW (BIFPCL),Coal,PDB,660*2,1234.0,1234.2,768.0,1033.0,1200.0,1200.0,-,1033.0,21810910.0,Machine Problem
+Rangpur 113 MW PP (Confidence),HFO,IPP,9*6.984+7*7.015+3.15*2,113.0,113.0,0.0,106.0,113.0,113.0,-,106.0,978316.0,Liquid fuel shortage
+Rangpur 20 MW GTPP,HSD,PDB,1*20,20.0,20.0,0.0,0.0,20.0,20.0,-,0.0,0.0,-
+Raozan 25 MW PP,HFO,IPP,3*8.9,25.0,25.5,1.0,8.0,25.5,25.5,Liquid fuel shortage,8.0,101988.0,Liquid fuel shortage
+Rupsha 105 MW PP (Orion rupsha),HFO,IPP,6*18.445,105.0,105.0,0.0,0.0,105.0,105.0,Liquid fuel shortage,0.0,0.0,Liquid fuel shortage
+SS Power,Coal,IPP,2*660,1224.0,1224.0,1160.0,1160.0,1224.0,1224.0,FGMO,1160.0,27234543.0,Coal Shortage Due to BPDB Payment Default
+Saidpur 150 MW Simple Cycle Power Plant,HSD,PDB,1*150,150.0,162.443,0.0,0.0,0.0,0.0,-,0.0,0.0,-
+Saidpur 20 MW GTPP,HSD,PDB,1*20,20.0,20.0,0.0,0.0,14.0,14.0,-,0.0,0.0,-
+Santahar 50 MW Peaking PP,HFO,PDB,6*8.7,50.0,50.0,0.0,21.0,24.0,24.0,Engine Problem,21.0,117211.0,Engine Problem
+Sarishabari 3 MW Solar Plant,Solar,IPP,,3.0,2.71,2.3,0.0,2.1,0.0,-,0.0,7050.0,-
+Shahjahanulla 25 MW PP,Gas,"SIPP,REB",3*9.34,25.0,25.0,16.0,16.0,25.0,25.0,-,16.0,364320.0,-
+Shahjibazar 100 MW GTPP,Gas,PDB,1*100,100.0,100.0,0.0,0.0,0.0,0.0,machine problem,0.0,0.0,machine problem
+Shahjibazar 86MW PP (Shahjibazar),Gas,RPP,32*2.90,86.0,86.0,52.0,83.0,86.0,86.0,Gas shortage,83.0,1604160.0,Gas shortage
+Shahjibazar GTPP Unit- 8 & 9,Gas,PDB,2*35,70.0,66.0,30.0,25.0,30.0,30.0,GT-9 Under Maintenance,25.0,639456.0,GT-9 Under Maintenance
+Shajibazar 330 MW CCPP,Gas,PDB,3*110,330.0,330.0,141.0,142.0,145.0,145.0,-,142.0,3255300.0,-
+Siddhirganj 335 MW CCPP,Gas,EGCB,1*217+118,335.0,335.0,297.0,328.0,335.0,335.0,Gas shortage,328.0,7444058.0,Gas shortage
+Siddhirgonj 2*120 MW GTPP,Gas,EGCB,2*105,210.0,210.0,0.0,0.0,210.0,210.0,Gas shortage,0.0,0.0,Gas shortage
+Siddhirgonj 210 MW TPP,Gas,PDB,1*210,210.0,115.0,0.0,0.0,0.0,0.0,Under Major Overhauling,0.0,0.0,Under Major Overhauling
+Sikalbaha 105 MW PP (Baraka Sikalbaha),HFO,IPP,6*17.5,105.0,105.0,9.0,90.0,105.0,105.0,Liquid fuel shortage,90.0,993599.0,Liquid fuel shortage
+Sikalbaha 225MW CCPP,Gas/HSD,PDB,1*150+1*75,225.0,225.0,214.0,217.0,215.0,220.0,-,217.0,5143206.0,-
+Sikalbaha Peaking GT,Gas/HSD,PDB,1*150,150.0,150.0,0.0,0.0,0.0,0.0,-,0.0,0.0,-
+Sirajganj 2 MW Wind Power Plant,Wind,PDB,0.25*8,2.0,2.0,0.0,0.0,0.0,0.0,Contract Expired,0.0,0.0,Contract Expired
+Sirajganj 68 MW Solar Park,Solar,IPP,,68.0,68.0,37.09,0.0,61.0,0.0,-,0.0,293824.0,-
+Sirajgonj 225MW CCPP Unit-1,Gas/HSD,NWPGCL,1*150+1*75,210.0,214.0,154.0,150.0,214.0,214.0,Gas shortage,150.0,3767818.0,Gas shortage
+Sirajgonj 225MW CCPP Unit-2,Gas/HSD,NWPGCL,1*150+1*75,220.0,220.0,159.0,146.0,220.0,220.0,Gas shortage,146.0,3919609.0,Gas shortage
+Sirajgonj 225MW CCPP Unit-3,Gas/HSD,NWPGCL,1*141,220.0,220.0,153.0,145.0,220.0,220.0,Gas shortage,145.0,3948582.0,Standby as per instruction of NLDC
+Sirajgonj 400 MW CCPP Unit-4,Gas/HSD,NWPGCL,1*282+1*132,414.0,413.792,414.0,414.0,413.79,413.79,AGC,414.0,9149818.0,AGC+FGMO
+Sirajgonj 6.55 MW Solar,Solar,NWPGCL,,6.0,6.12,0.0,0.0,5.6,0.0,-,0.0,8280.0,-
+Sonagazi 75 MW (AC) Solar Power Plant,Solar,EGCB,,75.0,75.0,44.0,0.0,55.0,0.0,-,0.0,415673.0,-
+Spectra Solar Plant Ltd.,Solar,IPP,,35.0,35.0,9.0,0.0,20.0,0.0,-,0.0,90171.0,-
+Sreepur 150 MW PP BRPL,HFO,PDB-RPCL,9*18,0.0,160.0,34.0,108.0,143.0,143.0,Liquid fuel shortage,108.0,2298000.0,Liquid fuel shortage
+Summit Power Ashulia,Gas,IPP,,80.0,33.75,16.5,15.5,33.0,33.0,Low gas pressure,15.5,394800.0,Low gas pressure
+Summit Power Madhabdi,Gas,IPP,3*3.67+4*8.73,80.0,23.0,21.0,21.0,22.0,22.0,-,21.0,492120.0,-
+Sutiakhali 50 MW Solar PP,Solar,IPP,,50.0,50.0,43.49,0.0,48.0,0.0,-,0.0,142470.0,-
+Sylhet 20 MW GTPP,Gas,PDB,1*20,20.0,20.0,0.0,0.0,20.0,20.0,-,0.0,0.0,-
+Sylhet 225 MW CCPP,Gas,PDB,1*142+1*89,231.0,231.0,101.0,101.0,102.0,102.0,ST Under Maintenance,101.0,2414770.0,ST Under Maintenance
+Sympa Solar Power 8 MW,Solar,IPP,,8.0,8.0,2.6,0.0,6.0,0.0,-,0.0,39833.16,-
+Tangail Palli Power Gen 22 MW,HFO,IPP,4*6.7,22.0,22.0,0.0,0.0,22.0,22.0,Liquid fuel shortage,0.0,42240.0,Liquid fuel shortage
+Teesta Solar Limited,Solar,BCPCL,,200.0,200.0,171.0,0.0,181.39,0.0,-,0.0,1159920.0,-
+Teknaf 20MW PP (Solartech),Solar,IPP,,20.0,20.0,5.0,0.0,16.0,0.0,-,0.0,51570.0,-
+Titas 50 MW Peaking PP,HFO,PDB,6*8.92,52.0,52.0,24.0,23.0,32.0,32.0,Engine Problem,23.0,460336.0,Engine Problem
+Tongi 80 MW GTPP,Gas,PDB,1* 105,105.0,105.0,0.0,0.0,0.0,0.0,Under Maintenance of Exciter,0.0,0.0,Under Maintenance of Exciter
+Unique Meghnaghat Power Limited (UMPL),Gas,IPP,,584.0,584.0,520.0,440.0,584.0,584.0,AGC+Gas shortage,440.0,10751818.18,AGC+Gas shortage
+United Payra Power Ltd.,HFO,IPP,8*18.5+1*9.5,150.0,150.0,0.0,35.0,150.0,150.0,Liquid fuel shortage,35.0,205200.0,Liquid fuel shortage
