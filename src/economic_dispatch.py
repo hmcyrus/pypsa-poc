@@ -5,10 +5,10 @@ economic_dispatch.py
 Single-snapshot linear economic dispatch on one connected sub-network of
 the PyPSA network produced by network-builder.py.
 
-The full network currently has 22 disconnected islands. This script:
+The full network contains multiple passive AC sub-networks. This script:
   1. Loads the network from data/pipeline/pypsa-components/
   2. Calls determine_network_topology() to label each bus with sub_network
-  3. Restricts the network in-place to TARGET_SUB_NETWORK
+  3. Optionally restricts the network to a selected sub-network
   4. Runs structural pre-checks that flag common infeasibility causes
   5. Solves with HiGHS via n.optimize()
   6. On success: prints dispatch, total cost, idle generators, binding lines
@@ -17,8 +17,10 @@ The full network currently has 22 disconnected islands. This script:
 
 Run:
     python src/economic_dispatch.py
+    python src/economic_dispatch.py --subnet 0
 """
 
+import argparse
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -41,6 +43,55 @@ COMPONENT_ATTR = {
     "Generator":   "generators",
     "Load":        "loads",
 }
+
+
+def select_sub_network(n: pypsa.Network, subnet_index: int) -> pypsa.Network:
+    """Restrict ``n`` to the positional passive AC sub-network.
+
+    The index is positional in ``n.sub_networks`` and starts at zero. Any
+    component crossing the selected boundary, including a Link, is removed
+    so the result is a self-contained dispatch problem.
+    """
+    subnet_names = list(n.sub_networks.index)
+    if subnet_index < 0 or subnet_index >= len(subnet_names):
+        raise ValueError(
+            f"Invalid subnet index {subnet_index}; choose an index from "
+            f"0 to {len(subnet_names) - 1}."
+        )
+
+    subnet_name = subnet_names[subnet_index]
+    buses = set(n.buses.index[n.buses["sub_network"] == subnet_name])
+
+    for component in ["Line", "Transformer", "Link"]:
+        df = getattr(n, COMPONENT_ATTR[component])
+        if df.empty:
+            continue
+        keep = df["bus0"].isin(buses) & df["bus1"].isin(buses)
+        remove = df.index[~keep].tolist()
+        if component == "Link":
+            crossing = [name for name in remove
+                        if df.at[name, "bus0"] in buses or df.at[name, "bus1"] in buses]
+            if crossing:
+                print(f"\n  [INFO] Dropping {len(crossing)} link(s) crossing "
+                      "the selected subnet boundary.")
+        if remove:
+            n.remove(component, remove)
+
+    for component in ["Generator", "Load"]:
+        df = getattr(n, COMPONENT_ATTR[component])
+        if not df.empty:
+            remove = df.index[~df["bus"].isin(buses)].tolist()
+            if remove:
+                n.remove(component, remove)
+
+    outside_buses = [bus for bus in n.buses.index if bus not in buses]
+    if outside_buses:
+        n.remove("Bus", outside_buses)
+    n.determine_network_topology()
+
+    print(f"\n  Selected subnet {subnet_index} (name {subnet_name}) "
+          f"with {len(n.buses)} buses.")
+    return n
 
 
 def load_network() -> pypsa.Network:
@@ -218,7 +269,7 @@ def structural_checks(n: pypsa.Network) -> bool:
 # Slack-relaxed diagnostic solve                                              #
 # --------------------------------------------------------------------------- #
 
-def diagnose_infeasibility() -> None:
+def diagnose_infeasibility(subnet_index: int | None = None) -> None:
     """
     Rebuild the restricted sub-network, attach a slack generator (can inject
     *and* absorb) at every bus, and re-solve. The relaxed problem is always
@@ -235,6 +286,8 @@ def diagnose_infeasibility() -> None:
     print("=" * 60)
 
     n = load_network()
+    if subnet_index is not None:
+        select_sub_network(n, subnet_index)
 
     buses = list(n.buses.index)
     big = max(float(n.loads["p_set"].sum()) * 2.0, 1.0e4)
@@ -383,12 +436,14 @@ def report(n: pypsa.Network) -> None:
     plot_dispatch(n)
 
 
-def main() -> None:
+def main(subnet_index: int | None = None) -> None:
     print("=" * 60)
     print("Loading network")
     print("=" * 60)
     n = load_network()
     print_sub_network_sizes(n)
+    if subnet_index is not None:
+        select_sub_network(n, subnet_index)
     print_summary(n)
 
     hard_ok = structural_checks(n)
@@ -401,8 +456,17 @@ def main() -> None:
         report(n)
     else:
         # Infeasible / failed — localise the cause.
-        diagnose_infeasibility()
+        diagnose_infeasibility(subnet_index)
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Run PyPSA economic dispatch.")
+    parser.add_argument(
+        "--subnet",
+        type=int,
+        default=None,
+        metavar="INDEX",
+        help="optional positional index of the passive AC sub-network (starts at 0)",
+    )
+    args = parser.parse_args()
+    main(args.subnet)
