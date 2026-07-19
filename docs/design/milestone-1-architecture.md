@@ -242,3 +242,96 @@ src/powersim/
 4. **Solver choice is configuration.** No phase may import a solver directly.
 5. **The existing builder pipeline stays as-is** and feeds the Project Store;
    data cleaning improvements and simulation development stay decoupled.
+
+## 6. Engine choice: is PyPSA sufficient for the MILP backbone?
+
+The mathematical backbone of PLEXOS-style planning is MILP. The question is
+whether PyPSA suffices for M1 and the overall vision, or whether a different
+engine is needed. Short answer: **yes for M1 without qualification, yes for
+~80% of the overall vision, and we should not swap PyPSA out.**
+
+The deciding fact: PyPSA is not itself the MILP engine — it is a power-system
+data model plus a formulation layer that *builds* an LP/MILP in
+[linopy](https://github.com/PyPSA/linopy) and hands it to any solver. We are
+pinned to `pypsa>=1.1.2` (the modern 1.x line), which everything below
+assumes.
+
+### 6.1 Milestone 1
+
+M1 is chronological linear dispatch — a pure LP, no integer variables. PyPSA
+does this natively and it is the workload PyPSA is most used for. Even M2's
+unit commitment (the first genuinely MILP feature) is native:
+`committable=True` gives min up/down times, start-up/shut-down costs, and
+ramp limits including start/stop ramps — the standard UC formulation.
+
+### 6.2 Overall vision, feature by feature
+
+Mapping the tutorial's pp. 2–6 feature list against PyPSA 1.x:
+
+**Native — no extra library needed:**
+- DC-OPF co-optimized with dispatch; LMPs from LP duals
+- Unit commitment MILP; committable *and* extendable together
+- Multi-investment-period LT expansion with discounting (the LT Plan core)
+- Discrete builds via modular capacity (`p_nom_mod` — integer unit counts,
+  PLEXOS's "integer builds")
+- Security-constrained (contingency) optimization
+- Rolling-horizon solving (`optimize_with_rolling_horizon` — how PLEXOS's ST
+  Schedule chops a year into daily MIP steps)
+- Storage and pumped hydro; emissions caps and prices via global constraints
+- Stochastic/scenario optimization (added in the 1.x line — covers LT Plan's
+  "deterministic or stochastic" bullet)
+
+**Buildable on PyPSA's escape hatch:** `n.optimize.create_model()` returns
+the raw linopy model *before* solving; arbitrary variables and constraints
+can be added to it. This is how the PLEXOS features PyPSA does not ship get
+implemented — ancillary-service/reserve co-optimization (reserve variables +
+requirement constraints), PLEXOS "generic constraints" and interface limits
+(linear expressions over any variables; near one-to-one with linopy),
+water-value curves (piecewise-linear terms on storage state of charge), and
+heat-rate curves (piecewise-linear cost segments). None require leaving
+PyPSA; they are constraints written in a phase's `prepare`/`solve` step —
+exactly where the architecture puts them (design rule 1).
+
+**Not realistically any engine's job off the shelf:**
+- Monte Carlo outage draws (PASA) — sampling logic *around* the
+  optimization; we write it in the PASA phase regardless of engine
+- LMP decomposition into congestion + marginal-loss parts — linear DC has no
+  losses; research-grade feature, deferred
+- Game-theoretic bidding (Nash-Cournot/Bertrand) — an equilibrium/MPEC
+  problem, a different mathematical class from MILP; no candidate engine
+  provides it. Explicitly out of scope.
+
+### 6.3 Alternatives assessed
+
+| Alternative | Verdict |
+|---|---|
+| **Pyomo** | Maximum flexibility, but we would hand-write the network model, DC power flow, UC, and expansion formulations PyPSA already ships and has battle-tested; slower model construction at scale than linopy. Right tool for building a modeling language, not a planning tool. |
+| **linopy directly** | Already underneath PyPSA; using it standalone means rewriting PyPSA's formulation layer for zero gain. Use it *through* the escape hatch. |
+| **Sienna / PowerSimulations.jl** (NREL, Julia) | The only alternative to take seriously — architecturally the closest open-source thing to PLEXOS, with simulation sequencing and feed-forwards (our `PhaseChain`/`HandoffState`) built in. But it means moving the project to Julia and abandoning a working pandas/PyPSA-shaped pipeline. Cost is a rewrite; benefit is something §3 designs in ~200 lines. |
+| **GridPath, Calliope, oemof, Antares** | Each covers a slice (production cost, expansion, adequacy); none is stronger than PyPSA across our whole phase list, and all inherit the same custom-constraint work for AS/hydro anyway. |
+
+### 6.4 Where the real risk lives: the solver, not the library
+
+National-scale 8760-hour UC MILPs are hard for *any* formulation layer; the
+difference between tractable and not is HiGHS vs. Gurobi/CPLEX plus horizon
+decomposition. The tutorial itself makes this point: PLEXOS emits the MIP
+and ships it to MOSEK/CPLEX (p. 7). Both mitigations are already in this
+design — the solver adapter (§3.3) makes commercial solvers a config change,
+and rolling-horizon in the ST phase bounds MIP size the same way PLEXOS does.
+
+### 6.5 Decision
+
+Keep PyPSA as the engine core; add no new modeling library for M1 (linopy
+and highspy are already in the stack). Two guardrails make this a low-regret
+bet:
+
+1. All custom-constraint work goes through the linopy escape hatch inside
+   phase code — we never fork or fight PyPSA.
+2. PyPSA is quarantined inside the Model & Solve layer (§3): the Project
+   Store, PhaseChain, Results Store, and CLI do not depend on it
+   conceptually. If a genuine wall is hit (e.g. AS co-optimization proves
+   unmaintainable as custom constraints), swapping the bottom layer for
+   Sienna or raw linopy is bounded surgery, not a restart.
+
+That optionality is worth more than picking the theoretically maximal engine
+today.
