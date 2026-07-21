@@ -1,0 +1,1212 @@
+{
+ "Aminbazar": {
+  "center_lat": 23.79183,
+  "center_lon": 90.34895,
+  "max_radius_km": 4.8,
+  "discs": [
+   {
+    "neighbor": "Kallyanpur",
+    "lat": 23.7819808,
+    "lon": 90.3475948,
+    "radius_km": 4.8
+   },
+   {
+    "neighbor": "Keraniganj",
+    "lat": 23.7055229,
+    "lon": 90.343129,
+    "radius_km": 12.9
+   },
+   {
+    "neighbor": "Meghnaghat",
+    "lat": 23.611268,
+    "lon": 90.6006013,
+    "radius_km": 66.0
+   },
+   {
+    "neighbor": "Savar",
+    "lat": 23.9242754,
+    "lon": 90.2650553,
+    "radius_km": 19.2
+   },
+   {
+    "neighbor": "Mirpur",
+    "lat": 23.8303074,
+    "lon": 90.359787,
+    "radius_km": 8.4
+   }
+  ]
+ },
+ "Bajitpur": {
+  "center_lat": 24.19479,
+  "center_lon": 90.92491,
+  "max_radius_km": 25.2,
+  "discs": [
+   {
+    "neighbor": "Ashuganj",
+    "lat": 24.0431237,
+    "lon": 91.0163132,
+    "radius_km": 25.2
+   },
+   {
+    "neighbor": "Kishoreganj",
+    "lat": 24.4186745,
+    "lon": 90.7899779,
+    "radius_km": 37.2
+   }
+  ]
+ },
+ "Bakerganj": {
+  "center_lat": 22.30637,
+  "center_lon": 90.25918,
+  "max_radius_km": 24.0,
+  "discs": [
+   {
+    "neighbor": "Barguna",
+    "lat": 22.1749486,
+    "lon": 90.1124842,
+    "radius_km": 60.0
+   },
+   {
+    "neighbor": "Patuakhali",
+    "lat": 22.358935,
+    "lon": 90.3178568,
+    "radius_km": 24.0
+   }
+  ]
+ },
+ "Banani": {
+  "center_lat": 23.82011,
+  "center_lon": 90.54805,
+  "max_radius_km": 6.6,
+  "discs": [
+   {
+    "neighbor": "Purbachal",
+    "lat": 23.8201078,
+    "lon": 90.5480531,
+    "radius_km": 6.6
+   }
+  ]
+ },
+ "Barishal": {
+  "center_lat": 22.70778,
+  "center_lon": 90.26765,
+  "max_radius_km": 12.0,
+  "discs": [
+   {
+    "neighbor": "Bhandaria",
+    "lat": 22.4806094,
+    "lon": 90.0696767,
+    "radius_km": 58.8
+   },
+   {
+    "neighbor": "BarishalNorth",
+    "lat": 22.7541357,
+    "lon": 90.3080533,
+    "radius_km": 12.0
+   }
+  ]
+ },
+ "Bashundhara": {
+  "center_lat": 23.80119,
+  "center_lon": 90.50642,
+  "max_radius_km": 5.4,
+  "discs": [
+   {
+    "neighbor": "Purbachal",
+    "lat": 23.8201078,
+    "lon": 90.5480531,
+    "radius_km": 5.4
+   },
+   {
+    "neighbor": "Rampura",
+    "lat": 23.7675615,
+    "lon": 90.4324156,
+    "radius_km": 9.6
+   }
+  ]
+ },
+ "BeraPP": {
+  "center_lat": 24.09727,
+  "center_lon": 89.08447,
+  "max_radius_km": 80.4,
+  "discs": [
+   {
+    "neighbor": "Ishwardi",
+    "lat": 24.0972663,
+    "lon": 89.0844742,
+    "radius_km": 80.4
+   }
+  ]
+ },
+ "Bhulta": {
+  "center_lat": 23.75839,
+  "center_lon": 90.55361,
+  "max_radius_km": 18.0,
+  "discs": [
+   {
+    "neighbor": "AshuganjNorth",
+    "lat": 24.0431237,
+    "lon": 91.0163132,
+    "radius_km": 82.8
+   },
+   {
+    "neighbor": "Haripur",
+    "lat": 23.6782063,
+    "lon": 90.5329568,
+    "radius_km": 18.0
+   },
+   {
+    "neighbor": "Rampura",
+    "lat": 23.7675615,
+    "lon": 90.4324156,
+    "radius_km": 24.0
+   },
+   {
+    "neighbor": "Ghorashal",
+    "lat": 23.9786729,
+    "lon": 90.6370646,
+    "radius_km": 60.0
+   },
+   {
+    "neighbor": "Haripur",
+    "lat": 23.6782063,
+    "lon": 90.5329568,
+    "radius_km": 26.4
+   }
+  ]
+ },
+ "Bogura": {
+  "center_lat": 24.81049,
+  "center_lon": 89.33831,
+  "max_radius_km": 1.8,
+  "discs": [
+   {
+    "neighbor": "Naogaon",
+    "lat": 24.7973333,
+    "lon": 88.9838542,
+    "radius_km": 52.8
+   },
+   {
+    "neighbor": "Sirajganj",
+    "lat": 24.4476625,
+    "lon": 89.6699273,
+    "radius_km": 79.2
+   },
+   {
+    "neighbor": "BoguraSouth",
+    "lat": 24.8290011,
+    "lon": 89.3509581,
+    "radius_km": 1.8
+   },
+   {
+    "neighbor": "Natore",
+    "lat": 24.4114328,
+    "lon": 89.0087356,
+    "radius_km": 73.2
+   }
+  ]
+ },
+ "CharSaidpur": {
+  "center_lat": 23.59005,
+  "center_lon": 90.51485,
+  "max_radius_km": 3.6,
+  "discs": [
+   {
+    "neighbor": "Madanganj",
+    "lat": 23.5900544,
+    "lon": 90.5148545,
+    "radius_km": 3.6
+   }
+  ]
+ },
+ "CumillaNorth": {
+  "center_lat": 23.42619,
+  "center_lon": 91.05604,
+  "max_radius_km": 19.2,
+  "discs": [
+   {
+    "neighbor": "Ashuganj",
+    "lat": 24.0431237,
+    "lon": 91.0163132,
+    "radius_km": 94.8
+   },
+   {
+    "neighbor": "Chandina",
+    "lat": 23.488923,
+    "lon": 90.9939389,
+    "radius_km": 19.2
+   },
+   {
+    "neighbor": "CumillaSouth",
+    "lat": 23.4287924,
+    "lon": 91.1696911,
+    "radius_km": 22.8
+   },
+   {
+    "neighbor": "FeniNorth",
+    "lat": 23.0114574,
+    "lon": 91.3845468,
+    "radius_km": 84.0
+   },
+   {
+    "neighbor": "Kachua",
+    "lat": 23.2665784,
+    "lon": 90.864816,
+    "radius_km": 67.2
+   },
+   {
+    "neighbor": "Meghnaghat",
+    "lat": 23.611268,
+    "lon": 90.6006013,
+    "radius_km": 69.6
+   },
+   {
+    "neighbor": "Feni",
+    "lat": 23.0114574,
+    "lon": 91.3845468,
+    "radius_km": 79.2
+   }
+  ]
+ },
+ "Daganbhuiyan": {
+  "center_lat": 22.97901,
+  "center_lon": 91.24385,
+  "max_radius_km": 19.2,
+  "discs": [
+   {
+    "neighbor": "Chowmuhani",
+    "lat": 22.9465654,
+    "lon": 91.103147,
+    "radius_km": 19.2
+   },
+   {
+    "neighbor": "Feni",
+    "lat": 23.0114574,
+    "lon": 91.3845468,
+    "radius_km": 19.2
+   }
+  ]
+ },
+ "Dhanmondi": {
+  "center_lat": 23.77534,
+  "center_lon": 90.41689,
+  "max_radius_km": 2.4,
+  "discs": [
+   {
+    "neighbor": "DhakaUniversity",
+    "lat": 23.7799032,
+    "lon": 90.417605,
+    "radius_km": 2.4
+   },
+   {
+    "neighbor": "Ullon",
+    "lat": 23.762776,
+    "lon": 90.4149299,
+    "radius_km": 6.6
+   }
+  ]
+ },
+ "Energon": {
+  "center_lat": 22.50595,
+  "center_lon": 89.59494,
+  "max_radius_km": 10.8,
+  "discs": [
+   {
+    "neighbor": "Mongla",
+    "lat": 22.5059495,
+    "lon": 89.5949424,
+    "radius_km": 10.8
+   }
+  ]
+ },
+ "Faridpur": {
+  "center_lat": 23.59534,
+  "center_lon": 89.79265,
+  "max_radius_km": 1.2,
+  "discs": [
+   {
+    "neighbor": "Bheramara",
+    "lat": 24.0487752,
+    "lon": 89.0171563,
+    "radius_km": 126.0
+   },
+   {
+    "neighbor": "FaridpurPP",
+    "lat": 23.591025,
+    "lon": 89.800032,
+    "radius_km": 1.2
+   }
+  ]
+ },
+ "Fatullah": {
+  "center_lat": 23.67876,
+  "center_lon": 90.51275,
+  "max_radius_km": 6.0,
+  "discs": [
+   {
+    "neighbor": "Haripur",
+    "lat": 23.6782063,
+    "lon": 90.5329568,
+    "radius_km": 6.0
+   },
+   {
+    "neighbor": "Hasnabad",
+    "lat": 23.6810929,
+    "lon": 90.4278918,
+    "radius_km": 25.2
+   }
+  ]
+ },
+ "Fenchuganj": {
+  "center_lat": 24.64113,
+  "center_lon": 91.8965,
+  "max_radius_km": 4.5,
+  "discs": [
+   {
+    "neighbor": "Bibiyana",
+    "lat": 24.6355531,
+    "lon": 91.6578085,
+    "radius_km": 40.2
+   },
+   {
+    "neighbor": "Kulaura",
+    "lat": 24.5121289,
+    "lon": 92.0180096,
+    "radius_km": 30.0
+   },
+   {
+    "neighbor": "FenchuganjPS",
+    "lat": 24.6866105,
+    "lon": 91.9197986,
+    "radius_km": 4.5
+   },
+   {
+    "neighbor": "Srimangal",
+    "lat": 24.3079233,
+    "lon": 91.7030131,
+    "radius_km": 58.8
+   }
+  ]
+ },
+ "Gazaria": {
+  "center_lat": 23.26658,
+  "center_lon": 90.86482,
+  "max_radius_km": 58.8,
+  "discs": [
+   {
+    "neighbor": "Kachua",
+    "lat": 23.2665784,
+    "lon": 90.864816,
+    "radius_km": 58.8
+   }
+  ]
+ },
+ "GopalganjNorth": {
+  "center_lat": 22.70844,
+  "center_lon": 89.96676,
+  "max_radius_km": 42.0,
+  "discs": [
+   {
+    "neighbor": "BarishalNorth",
+    "lat": 22.7541357,
+    "lon": 90.3080533,
+    "radius_km": 90.0
+   },
+   {
+    "neighbor": "Amtali",
+    "lat": 22.0831343,
+    "lon": 90.2371657,
+    "radius_km": 176.4
+   },
+   {
+    "neighbor": "Gopalganj",
+    "lat": 23.0299337,
+    "lon": 89.8197497,
+    "radius_km": 42.0
+   },
+   {
+    "neighbor": "Payra",
+    "lat": 21.9981058,
+    "lon": 90.3010833,
+    "radius_km": 196.3
+   },
+   {
+    "neighbor": "Rampal",
+    "lat": 22.5925643,
+    "lon": 89.5575336,
+    "radius_km": 116.0
+   }
+  ]
+ },
+ "Hatirjheel": {
+  "center_lat": 23.76756,
+  "center_lon": 90.43242,
+  "max_radius_km": 4.2,
+  "discs": [
+   {
+    "neighbor": "Rampura",
+    "lat": 23.7675615,
+    "lon": 90.4324156,
+    "radius_km": 4.2
+   }
+  ]
+ },
+ "KSRM": {
+  "center_lat": 22.47454,
+  "center_lon": 91.72299,
+  "max_radius_km": 4.8,
+  "discs": [
+   {
+    "neighbor": "Baroaulia",
+    "lat": 22.4745445,
+    "lon": 91.7229879,
+    "radius_km": 4.8
+   }
+  ]
+ },
+ "Kaliakoir": {
+  "center_lat": 24.07446,
+  "center_lon": 90.22401,
+  "max_radius_km": 14.4,
+  "discs": [
+   {
+    "neighbor": "Bibiyana",
+    "lat": 24.6355531,
+    "lon": 91.6578085,
+    "radius_km": 203.4
+   },
+   {
+    "neighbor": "Kabirpur",
+    "lat": 24.0016242,
+    "lon": 90.2535684,
+    "radius_km": 14.4
+   },
+   {
+    "neighbor": "Mirzapur",
+    "lat": 24.1103371,
+    "lon": 90.0820194,
+    "radius_km": 15.6
+   }
+  ]
+ },
+ "Kalurghat": {
+  "center_lat": 22.43189,
+  "center_lon": 91.86986,
+  "max_radius_km": 8.4,
+  "discs": [
+   {
+    "neighbor": "Madunaghat",
+    "lat": 22.4318897,
+    "lon": 91.8698558,
+    "radius_km": 8.4
+   }
+  ]
+ },
+ "Kamrangirchar": {
+  "center_lat": 23.70552,
+  "center_lon": 90.34313,
+  "max_radius_km": 3.6,
+  "discs": [
+   {
+    "neighbor": "Keraniganj",
+    "lat": 23.7055229,
+    "lon": 90.343129,
+    "radius_km": 3.6
+   }
+  ]
+ },
+ "Kazla": {
+  "center_lat": 23.72179,
+  "center_lon": 90.43565,
+  "max_radius_km": 3.0,
+  "discs": [
+   {
+    "neighbor": "Maniknagar",
+    "lat": 23.7217885,
+    "lon": 90.4356511,
+    "radius_km": 3.0
+   }
+  ]
+ },
+ "Kodda": {
+  "center_lat": 24.01278,
+  "center_lon": 90.351,
+  "max_radius_km": 9.6,
+  "discs": [
+   {
+    "neighbor": "Joydebpur",
+    "lat": 23.992089,
+    "lon": 90.3827767,
+    "radius_km": 9.6
+   },
+   {
+    "neighbor": "Kabirpur",
+    "lat": 24.0016242,
+    "lon": 90.2535684,
+    "radius_km": 12.0
+   },
+   {
+    "neighbor": "Rajendrapur",
+    "lat": 24.1034682,
+    "lon": 90.4923886,
+    "radius_km": 29.4
+   }
+  ]
+ },
+ "Korerhat": {
+  "center_lat": 22.86228,
+  "center_lon": 91.30886,
+  "max_radius_km": 64.8,
+  "discs": [
+   {
+    "neighbor": "Chowmuhani",
+    "lat": 22.9465654,
+    "lon": 91.103147,
+    "radius_km": 64.8
+   },
+   {
+    "neighbor": "MadunaghatNew",
+    "lat": 22.4318897,
+    "lon": 91.8698558,
+    "radius_km": 79.2
+   },
+   {
+    "neighbor": "Meghnaghat",
+    "lat": 23.611268,
+    "lon": 90.6006013,
+    "radius_km": 181.2
+   }
+  ]
+ },
+ "Kushtia": {
+  "center_lat": 23.86837,
+  "center_lon": 89.07285,
+  "max_radius_km": 27.6,
+  "discs": [
+   {
+    "neighbor": "Jhenaidah",
+    "lat": 23.5310785,
+    "lon": 89.1769719,
+    "radius_km": 51.6
+   },
+   {
+    "neighbor": "Bheramara",
+    "lat": 24.0487752,
+    "lon": 89.0171563,
+    "radius_km": 27.6
+   }
+  ]
+ },
+ "LabancharaPP": {
+  "center_lat": 22.75732,
+  "center_lon": 89.66766,
+  "max_radius_km": 27.0,
+  "discs": [
+   {
+    "neighbor": "Goalpara",
+    "lat": 22.8674949,
+    "lon": 89.5378573,
+    "radius_km": 27.0
+   },
+   {
+    "neighbor": "Bagerhat",
+    "lat": 22.647146,
+    "lon": 89.7974668,
+    "radius_km": 27.0
+   }
+  ]
+ },
+ "Lakshmipur": {
+  "center_lat": 22.94657,
+  "center_lon": 91.10315,
+  "max_radius_km": 32.4,
+  "discs": [
+   {
+    "neighbor": "Chowmuhani",
+    "lat": 22.9465654,
+    "lon": 91.103147,
+    "radius_km": 32.4
+   }
+  ]
+ },
+ "Lalbagh": {
+  "center_lat": 23.7514,
+  "center_lon": 90.34581,
+  "max_radius_km": 9.6,
+  "discs": [
+   {
+    "neighbor": "Kallyanpur",
+    "lat": 23.7819808,
+    "lon": 90.3475948,
+    "radius_km": 9.6
+   },
+   {
+    "neighbor": "Keraniganj",
+    "lat": 23.7055229,
+    "lon": 90.343129,
+    "radius_km": 14.4
+   }
+  ]
+ },
+ "MSML": {
+  "center_lat": 22.35734,
+  "center_lon": 91.82303,
+  "max_radius_km": 9.0,
+  "discs": [
+   {
+    "neighbor": "Khulshi",
+    "lat": 22.3616868,
+    "lon": 91.7953746,
+    "radius_km": 9.0
+   },
+   {
+    "neighbor": "Bakulia",
+    "lat": 22.3529845,
+    "lon": 91.8506934,
+    "radius_km": 9.0
+   }
+  ]
+ },
+ "Madaripur": {
+  "center_lat": 23.04658,
+  "center_lon": 90.33211,
+  "max_radius_km": 26.4,
+  "discs": [
+   {
+    "neighbor": "BarishalNorth",
+    "lat": 22.7541357,
+    "lon": 90.3080533,
+    "radius_km": 58.2
+   },
+   {
+    "neighbor": "Shariatpur",
+    "lat": 23.1792312,
+    "lon": 90.3430211,
+    "radius_km": 26.4
+   }
+  ]
+ },
+ "Madartek": {
+  "center_lat": 23.76756,
+  "center_lon": 90.43242,
+  "max_radius_km": 5.4,
+  "discs": [
+   {
+    "neighbor": "Rampura",
+    "lat": 23.7675615,
+    "lon": 90.4324156,
+    "radius_km": 5.4
+   }
+  ]
+ },
+ "Mahasthangarh": {
+  "center_lat": 25.27713,
+  "center_lon": 89.35006,
+  "max_radius_km": 48.0,
+  "discs": [
+   {
+    "neighbor": "Palashbari",
+    "lat": 25.2771301,
+    "lon": 89.3500602,
+    "radius_km": 48.0
+   }
+  ]
+ },
+ "Maheshpur": {
+  "center_lat": 23.3988,
+  "center_lon": 89.13114,
+  "max_radius_km": 31.2,
+  "discs": [
+   {
+    "neighbor": "Kaliganj",
+    "lat": 23.398797,
+    "lon": 89.1311357,
+    "radius_km": 31.2
+   }
+  ]
+ },
+ "Maijdee": {
+  "center_lat": 22.94657,
+  "center_lon": 91.10315,
+  "max_radius_km": 24.6,
+  "discs": [
+   {
+    "neighbor": "Chowmuhani",
+    "lat": 22.9465654,
+    "lon": 91.103147,
+    "radius_km": 24.6
+   }
+  ]
+ },
+ "Moghbazar": {
+  "center_lat": 23.76756,
+  "center_lon": 90.43242,
+  "max_radius_km": 5.4,
+  "discs": [
+   {
+    "neighbor": "Rampura",
+    "lat": 23.7675615,
+    "lon": 90.4324156,
+    "radius_km": 5.4
+   }
+  ]
+ },
+ "Motijheel": {
+  "center_lat": 23.72179,
+  "center_lon": 90.43565,
+  "max_radius_km": 2.4,
+  "discs": [
+   {
+    "neighbor": "Maniknagar",
+    "lat": 23.7217885,
+    "lon": 90.4356511,
+    "radius_km": 2.4
+   }
+  ]
+ },
+ "Muradnagar": {
+  "center_lat": 23.01773,
+  "center_lon": 89.53757,
+  "max_radius_km": 28.8,
+  "discs": [
+   {
+    "neighbor": "Daudkandi",
+    "lat": 23.5461381,
+    "lon": 90.7771994,
+    "radius_km": 31.2
+   },
+   {
+    "neighbor": "Kasba",
+    "lat": 22.529975,
+    "lon": 88.3932942,
+    "radius_km": 28.8
+   }
+  ]
+ },
+ "Narinda": {
+  "center_lat": 23.72179,
+  "center_lon": 90.43565,
+  "max_radius_km": 6.0,
+  "discs": [
+   {
+    "neighbor": "Maniknagar",
+    "lat": 23.7217885,
+    "lon": 90.4356511,
+    "radius_km": 6.0
+   }
+  ]
+ },
+ "Narsingdi": {
+  "center_lat": 23.97482,
+  "center_lon": 90.7297,
+  "max_radius_km": 16.2,
+  "discs": [
+   {
+    "neighbor": "Brahmanbaria",
+    "lat": 23.9591378,
+    "lon": 91.1070984,
+    "radius_km": 66.0
+   },
+   {
+    "neighbor": "Ghorashal",
+    "lat": 23.9786729,
+    "lon": 90.6370646,
+    "radius_km": 16.2
+   }
+  ]
+ },
+ "PHP": {
+  "center_lat": 22.94122,
+  "center_lon": 91.4756,
+  "max_radius_km": 13.8,
+  "discs": [
+   {
+    "neighbor": "Feni",
+    "lat": 23.0114574,
+    "lon": 91.3845468,
+    "radius_km": 20.4
+   },
+   {
+    "neighbor": "Baroirhat",
+    "lat": 22.8937051,
+    "lon": 91.5371894,
+    "radius_km": 13.8
+   }
+  ]
+ },
+ "Patiya": {
+  "center_lat": 22.26896,
+  "center_lon": 91.94118,
+  "max_radius_km": 13.2,
+  "discs": [
+   {
+    "neighbor": "Dohazari",
+    "lat": 22.1530614,
+    "lon": 92.0715342,
+    "radius_km": 25.2
+   },
+   {
+    "neighbor": "Sikalbaha",
+    "lat": 22.3296754,
+    "lon": 91.8728953,
+    "radius_km": 13.2
+   }
+  ]
+ },
+ "Postogola": {
+  "center_lat": 23.68109,
+  "center_lon": 90.42789,
+  "max_radius_km": 2.4,
+  "discs": [
+   {
+    "neighbor": "Hasnabad",
+    "lat": 23.6810929,
+    "lon": 90.4278918,
+    "radius_km": 2.4
+   }
+  ]
+ },
+ "RNPP": {
+  "center_lat": 24.43141,
+  "center_lon": 89.49075,
+  "max_radius_km": 78.6,
+  "discs": [
+   {
+    "neighbor": "Baghabari",
+    "lat": 24.133477,
+    "lon": 89.5928894,
+    "radius_km": 78.6
+   },
+   {
+    "neighbor": "BoguraWest",
+    "lat": 24.8407953,
+    "lon": 89.3504103,
+    "radius_km": 108.0
+   }
+  ]
+ },
+ "Rahanpur": {
+  "center_lat": 24.71431,
+  "center_lon": 88.53433,
+  "max_radius_km": 31.1,
+  "discs": [
+   {
+    "neighbor": "BoguraWest",
+    "lat": 24.8407953,
+    "lon": 89.3504103,
+    "radius_km": 126.0
+   },
+   {
+    "neighbor": "Chapainawabganj",
+    "lat": 24.5797143,
+    "lon": 88.2898833,
+    "radius_km": 31.1
+   },
+   {
+    "neighbor": "Niamatpur",
+    "lat": 24.8339795,
+    "lon": 88.5841206,
+    "radius_km": 36.0
+   }
+  ]
+ },
+ "Rajbari": {
+  "center_lat": 24.04878,
+  "center_lon": 89.01716,
+  "max_radius_km": 1.5,
+  "discs": [
+   {
+    "neighbor": "Bheramara",
+    "lat": 24.0487752,
+    "lon": 89.0171563,
+    "radius_km": 1.5
+   }
+  ]
+ },
+ "Rajshahi": {
+  "center_lat": 24.41166,
+  "center_lon": 88.81873,
+  "max_radius_km": 44.4,
+  "discs": [
+   {
+    "neighbor": "Natore",
+    "lat": 24.4114328,
+    "lon": 89.0087356,
+    "radius_km": 44.4
+   },
+   {
+    "neighbor": "RajshahiNorth",
+    "lat": 24.4119447,
+    "lon": 88.5722286,
+    "radius_km": 57.6
+   }
+  ]
+ },
+ "Rooppur": {
+  "center_lat": 24.09727,
+  "center_lon": 89.08447,
+  "max_radius_km": 8.4,
+  "discs": [
+   {
+    "neighbor": "Ishwardi",
+    "lat": 24.0972663,
+    "lon": 89.0844742,
+    "radius_km": 8.4
+   }
+  ]
+ },
+ "Sathia": {
+  "center_lat": 24.13348,
+  "center_lon": 89.59289,
+  "max_radius_km": 13.2,
+  "discs": [
+   {
+    "neighbor": "Baghabari",
+    "lat": 24.133477,
+    "lon": 89.5928894,
+    "radius_km": 13.2
+   }
+  ]
+ },
+ "Shahjibazar": {
+  "center_lat": 24.20531,
+  "center_lon": 91.38331,
+  "max_radius_km": 43.2,
+  "discs": [
+   {
+    "neighbor": "Ashuganj",
+    "lat": 24.0431237,
+    "lon": 91.0163132,
+    "radius_km": 63.6
+   },
+   {
+    "neighbor": "Bibiyana",
+    "lat": 24.6355531,
+    "lon": 91.6578085,
+    "radius_km": 114.0
+   },
+   {
+    "neighbor": "Brahmanbaria",
+    "lat": 23.9591378,
+    "lon": 91.1070984,
+    "radius_km": 68.4
+   },
+   {
+    "neighbor": "Srimangal",
+    "lat": 24.3079233,
+    "lon": 91.7030131,
+    "radius_km": 43.2
+   }
+  ]
+ },
+ "Shyampur": {
+  "center_lat": 23.64618,
+  "center_lon": 90.51425,
+  "max_radius_km": 14.7,
+  "discs": [
+   {
+    "neighbor": "Meghnaghat",
+    "lat": 23.611268,
+    "lon": 90.6006013,
+    "radius_km": 14.7
+   },
+   {
+    "neighbor": "Hasnabad",
+    "lat": 23.6810929,
+    "lon": 90.4278918,
+    "radius_km": 14.7
+   }
+  ]
+ },
+ "SirajganjSouthWest": {
+  "center_lat": 24.37266,
+  "center_lon": 89.50969,
+  "max_radius_km": 45.6,
+  "discs": [
+   {
+    "neighbor": "Baghabari",
+    "lat": 24.133477,
+    "lon": 89.5928894,
+    "radius_km": 45.6
+   },
+   {
+    "neighbor": "BoguraSouth",
+    "lat": 24.8290011,
+    "lon": 89.3509581,
+    "radius_km": 87.0
+   }
+  ]
+ },
+ "Sonagazi": {
+  "center_lat": 22.7555,
+  "center_lon": 91.45493,
+  "max_radius_km": 16.0,
+  "discs": [
+   {
+    "neighbor": "Mirsarai",
+    "lat": 22.755501,
+    "lon": 91.4549279,
+    "radius_km": 16.0
+   }
+  ]
+ },
+ "Srinagar": {
+  "center_lat": 23.70552,
+  "center_lon": 90.34313,
+  "max_radius_km": 19.2,
+  "discs": [
+   {
+    "neighbor": "Keraniganj",
+    "lat": 23.7055229,
+    "lon": 90.343129,
+    "radius_km": 19.2
+   }
+  ]
+ },
+ "Sripur": {
+  "center_lat": 24.21204,
+  "center_lon": 90.51049,
+  "max_radius_km": 24.6,
+  "discs": [
+   {
+    "neighbor": "Ashuganj",
+    "lat": 24.0431237,
+    "lon": 91.0163132,
+    "radius_km": 90.0
+   },
+   {
+    "neighbor": "Rajendrapur",
+    "lat": 24.1034682,
+    "lon": 90.4923886,
+    "radius_km": 24.6
+   },
+   {
+    "neighbor": "Bhaluka",
+    "lat": 24.3818862,
+    "lon": 90.3786082,
+    "radius_km": 27.0
+   }
+  ]
+ },
+ "SuryamaninagarRecvBus": {
+  "center_lat": 23.42879,
+  "center_lon": 91.16969,
+  "max_radius_km": 56.4,
+  "discs": [
+   {
+    "neighbor": "CumillaSouth",
+    "lat": 23.4287924,
+    "lon": 91.1696911,
+    "radius_km": 56.4
+   }
+  ]
+ },
+ "SylhetSouth": {
+  "center_lat": 24.9086,
+  "center_lon": 91.87591,
+  "max_radius_km": 6.0,
+  "discs": [
+   {
+    "neighbor": "Beanibazar",
+    "lat": 24.9023485,
+    "lon": 92.1522782,
+    "radius_km": 36.0
+   },
+   {
+    "neighbor": "Sylhet",
+    "lat": 24.9096416,
+    "lon": 91.8298501,
+    "radius_km": 6.0
+   }
+  ]
+ },
+ "Taraganj": {
+  "center_lat": 25.76798,
+  "center_lon": 89.07988,
+  "max_radius_km": 22.8,
+  "discs": [
+   {
+    "neighbor": "Rangpur",
+    "lat": 25.7288886,
+    "lon": 89.2517325,
+    "radius_km": 22.8
+   },
+   {
+    "neighbor": "Saidpur",
+    "lat": 25.8122138,
+    "lon": 88.8854129,
+    "radius_km": 25.8
+   }
+  ]
+ },
+ "Tongi": {
+  "center_lat": 23.89921,
+  "center_lon": 90.41247,
+  "max_radius_km": 0.6,
+  "discs": [
+   {
+    "neighbor": "Ghorashal",
+    "lat": 23.9786729,
+    "lon": 90.6370646,
+    "radius_km": 32.4
+   },
+   {
+    "neighbor": "Kabirpur",
+    "lat": 24.0016242,
+    "lon": 90.2535684,
+    "radius_km": 27.0
+   },
+   {
+    "neighbor": "Mirpur",
+    "lat": 23.8303074,
+    "lon": 90.359787,
+    "radius_km": 20.4
+   },
+   {
+    "neighbor": "NewTongi",
+    "lat": 23.8974932,
+    "lon": 90.413387,
+    "radius_km": 0.6
+   }
+  ]
+ },
+ "UnitedPP": {
+  "center_lat": 24.92007,
+  "center_lon": 89.9602,
+  "max_radius_km": 6.0,
+  "discs": [
+   {
+    "neighbor": "Jamalpur",
+    "lat": 24.9200701,
+    "lon": 89.9602007,
+    "radius_km": 6.0
+   }
+  ]
+ },
+ "Uttara": {
+  "center_lat": 23.83031,
+  "center_lon": 90.35979,
+  "max_radius_km": 10.8,
+  "discs": [
+   {
+    "neighbor": "Mirpur",
+    "lat": 23.8303074,
+    "lon": 90.359787,
+    "radius_km": 10.8
+   }
+  ]
+ },
+ "Uttara3P": {
+  "center_lat": 23.83031,
+  "center_lon": 90.35979,
+  "max_radius_km": 6.0,
+  "discs": [
+   {
+    "neighbor": "Mirpur",
+    "lat": 23.8303074,
+    "lon": 90.359787,
+    "radius_km": 6.0
+   }
+  ]
+ }
+}
