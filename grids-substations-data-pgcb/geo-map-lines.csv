@@ -1,0 +1,865 @@
+start_node,end_node,voltage_level,approx_length_km,status,line_name
+Bheramara,Bangladesh Border(Baharampur),400 kV,27.0,Existing,Bheramara_400kVtoBangladesh Border(Baharampur)_400kV_Line1
+Bheramara,Bangladesh Border(Baharampur),400 kV,27.0,Existing,Bheramara_400kVtoBangladesh Border(Baharampur)_400kV_Line2
+Aminbazar,Meghnaghat,400 kV,55.0,Existing,Aminbazar_400kVtoMeghnaghat_400kV_Line1
+Aminbazar,Meghnaghat,400 kV,55.0,Existing,Aminbazar_400kVtoMeghnaghat_400kV_Line2
+Comilla(N),Bangladesh Border,400 kV,28.0,Existing,Comilla(N)_400kVtoBangladesh Border_400kV_Line1
+Comilla(N),Bangladesh Border,400 kV,28.0,Existing,Comilla(N)_400kVtoBangladesh Border_400kV_Line2
+Bibiyana,Kaliakoir,400 kV,170.0,Existing,Bibiyana_400kVtoKaliakoir_400kV_Line1
+Bibiyana,Kaliakoir,400 kV,170.0,Existing,Bibiyana_400kVtoKaliakoir_400kV_Line2
+Ashuganj(N),Bhulta,400 kV,69.0,Existing,Ashuganj(N)_400kVtoBhulta_400kV_Line1
+Ashuganj(N),Bhulta,400 kV,69.0,Existing,Ashuganj(N)_400kVtoBhulta_400kV_Line2
+Payra,Gopalganj(N),400 kV,164.0,Existing,Payra_400kVtoGopalganj(N)_400kV_Line1
+Payra,Gopalganj(N),400 kV,164.0,Existing,Payra_400kVtoGopalganj(N)_400kV_Line2
+BSRM,Mirsarai,400 kV,16.5,Existing,BSRM_400kVtoMirsarai_400kV_Line1
+BSRM,Mirsarai,400 kV,16.5,Existing,BSRM_400kVtoMirsarai_400kV_Line2
+Bheramara,Bangladesh Border(Baharampur) 2nd,400 kV,28.0,Existing,Bheramara_400kVtoBangladesh Border(Baharampur) 2nd_400kV_Line1
+Bheramara,Bangladesh Border(Baharampur) 2nd,400 kV,28.0,Existing,Bheramara_400kVtoBangladesh Border(Baharampur) 2nd_400kV_Line2
+Payra PP,Payra SS,400 kV,1.2,Existing,Payra PP_400kVtoPayra SS_400kV_Line1
+Payra PP,Payra SS,400 kV,1.2,Existing,Payra PP_400kVtoPayra SS_400kV_Line2
+Banskhali,Madunaghat,400 kV,55.0,Existing,Banskhali_400kVtoMadunaghat_400kV_Line1
+Banskhali,Madunaghat,400 kV,55.0,Existing,Banskhali_400kVtoMadunaghat_400kV_Line2
+Matarbari,Madunaghat,400 kV,3.0,Existing,Matarbari_400kVtoMadunaghat_400kV_Line1
+Matarbari,Madunaghat,400 kV,3.0,Existing,Matarbari_400kVtoMadunaghat_400kV_Line2
+Matarbari,Madunaghat,400 kV,3.0,Existing,Matarbari_400kVtoMadunaghat_400kV_Line3
+Matarbari,Madunaghat,400 kV,3.0,Existing,Matarbari_400kVtoMadunaghat_400kV_Line4
+Monakosa,Rahanpur,400 kV,30.0,Ongoing,Monakosa_400kVtoRahanpur_400kV_Line1
+Monakosa,Rahanpur,400 kV,30.0,Ongoing,Monakosa_400kVtoRahanpur_400kV_Line2
+Rampal,Gopalganj,400 kV,96.7,Existing,Rampal_400kVtoGopalganj_400kV_Line1
+Rampal,Gopalganj,400 kV,96.7,Existing,Rampal_400kVtoGopalganj_400kV_Line2
+Gopalganj,Aminbazar(With River),400 kV,75.3,Existing,Gopalganj_400kVtoAminbazar(With River)_400kV_Line1
+Gopalganj,Aminbazar(With River),400 kV,75.3,Existing,Gopalganj_400kVtoAminbazar(With River)_400kV_Line2
+Gopalganj,Aminbazar River Crossing,400 kV,7.5,Existing,Gopalganj_400kVtoAminbazar River Crossing_400kV_Line1
+Gopalganj,Aminbazar River Crossing,400 kV,7.5,Existing,Gopalganj_400kVtoAminbazar River Crossing_400kV_Line2
+Bogura(West),Rahanpur,400 kV,105.0,Existing,Bogura(West)_400kVtoRahanpur_400kV_Line1
+Bogura(West),Rahanpur,400 kV,105.0,Existing,Bogura(West)_400kVtoRahanpur_400kV_Line2
+Barguna PP,Payra PP,400 kV,27.8,Ongoing,Barguna PP_400kVtoPayra PP_400kV_Line1
+Matarbari,Banskhali,400 kV,38.0,Existing,Matarbari_400kVtoBanskhali_400kV_Line1
+Matarbari,Banskhali,400 kV,38.0,Existing,Matarbari_400kVtoBanskhali_400kV_Line2
+Madunaghat,Meghnaghat,400 kV,217.2,Existing,Madunaghat_400kVtoMeghnaghat_400kV_Line1
+Madunaghat,Meghnaghat,400 kV,217.2,Existing,Madunaghat_400kVtoMeghnaghat_400kV_Line2
+Rooppur,Bogura(West),400 kV,90.0,Existing,Rooppur_400kVtoBogura(West)_400kV_Line1
+Bogura(West),Barapukuria,400 kV,112.2,Existing,Bogura(West)_400kVtoBarapukuria_400kV_Line1
+Bogura(West),Barapukuria,400 kV,112.2,Existing,Bogura(West)_400kVtoBarapukuria_400kV_Line2
+Amtali,Payra,400 kV,5.0,Existing,Amtali_400kVtoPayra_400kV_Line1
+Amtali,Payra,400 kV,5.0,Existing,Amtali_400kVtoPayra_400kV_Line2
+Amtali,Gopalganj,400 kV,5.0,Existing,Amtali_400kVtoGopalganj_400kV_Line1
+Amtali,Gopalganj,400 kV,5.0,Existing,Amtali_400kVtoGopalganj_400kV_Line2
+Amtali,RNPL,400 kV,9.9,Existing,Amtali_400kVtoRNPL_400kV_Line1
+Amtali,RNPL,400 kV,9.9,Existing,Amtali_400kVtoRNPL_400kV_Line2
+Bogura,Kaliakoir (Upto river crossing),400 kV,73.0,Existing,Bogura_400kVtoKaliakoir (Upto river crossing)_400kV_Line1
+Bogura,Kaliakoir (Upto river crossing),400 kV,73.0,Existing,Bogura_400kVtoKaliakoir (Upto river crossing)_400kV_Line2
+Aminbazar,Kaliakoir,400 kV,51.0,Existing,Aminbazar_400kVtoKaliakoir_400kV_Line1
+Roopur,Gopalganj (overhead),400 kV,156.0,Ongoing,Roopur_400kVtoGopalganj (overhead)_400kV_Line1
+Roopur,Gopalganj (UG),400 kV,2.0,Ongoing,Roopur_400kVtoGopalganj (UG)_400kV_Line1
+Korerhat,Madunaghat,400 kV,0.0,Existing,Korerhat_400kVtoMadunaghat_400kV_Line1
+Korerhat,Madunaghat,400 kV,0.0,Existing,Korerhat_400kVtoMadunaghat_400kV_Line2
+Korerhat,Madunaghat,400 kV,0.0,Existing,Korerhat_400kVtoMadunaghat_400kV_Line3
+Korerhat,Madunaghat,400 kV,0.0,Existing,Korerhat_400kVtoMadunaghat_400kV_Line4
+Korerhat,Meghnaghat,400 kV,0.0,Existing,Korerhat_400kVtoMeghnaghat_400kV_Line1
+Korerhat,Meghnaghat,400 kV,0.0,Existing,Korerhat_400kVtoMeghnaghat_400kV_Line2
+Korerhat,Meghnaghat,400 kV,0.0,Existing,Korerhat_400kVtoMeghnaghat_400kV_Line3
+Korerhat,Meghnaghat,400 kV,0.0,Existing,Korerhat_400kVtoMeghnaghat_400kV_Line4
+Ghorasal,Ishurdi,230 kV,175.0,Existing,Ghorasal_230kVtoIshurdi_230kV_Line1
+Ghorasal,Ishurdi,230 kV,175.0,Existing,Ghorasal_230kVtoIshurdi_230kV_Line2
+Tongi,Ghorasal,230 kV,27.0,Existing,Tongi_230kVtoGhorasal_230kV_Line1
+Tongi,Ghorasal,230 kV,27.0,Existing,Tongi_230kVtoGhorasal_230kV_Line2
+Ghorasal,Ashuganj,230 kV,44.0,Existing,Ghorasal_230kVtoAshuganj_230kV_Line1
+Ghorasal,Ashuganj,230 kV,44.0,Existing,Ghorasal_230kVtoAshuganj_230kV_Line2
+Raojan,Hathazari,230 kV,22.5,Existing,Raojan_230kVtoHathazari_230kV_Line1
+Raojan,Hathazari,230 kV,22.5,Existing,Raojan_230kVtoHathazari_230kV_Line2
+Ashuganj,Comilla North,230 kV,79.0,Existing,Ashuganj_230kVtoComilla North_230kV_Line1
+Ashuganj,Comilla North,230 kV,79.0,Existing,Ashuganj_230kVtoComilla North_230kV_Line2
+Ghorasal,Rampura,230 kV,50.0,Existing,Ghorasal_230kVtoRampura_230kV_Line1
+Ghorasal,Rampura,230 kV,50.0,Existing,Ghorasal_230kVtoRampura_230kV_Line2
+Rampura,Haripur,230 kV,22.0,Existing,Rampura_230kVtoHaripur_230kV_Line1
+Rampura,Haripur,230 kV,22.0,Existing,Rampura_230kVtoHaripur_230kV_Line2
+Haripur,Meghnaghat,230 kV,12.5,Existing,Haripur_230kVtoMeghnaghat_230kV_Line1
+Haripur,Meghnaghat,230 kV,12.5,Existing,Haripur_230kVtoMeghnaghat_230kV_Line2
+Meghnaghat,Hasnabad,230 kV,24.5,Existing,Meghnaghat_230kVtoHasnabad_230kV_Line1
+Meghnaghat,Hasnabad,230 kV,24.5,Existing,Meghnaghat_230kVtoHasnabad_230kV_Line2
+Comilla North,Hathazari,230 kV,151.0,Existing,Comilla North_230kVtoHathazari_230kV_Line1
+Comilla North,Hathazari,230 kV,151.0,Existing,Comilla North_230kVtoHathazari_230kV_Line2
+"AES, Haripur",Haripur,230 kV,2.4,Existing,"AES, Haripur_230kVtoHaripur_230kV_Line1"
+"AES, Haripur",Haripur,230 kV,2.4,Existing,"AES, Haripur_230kVtoHaripur_230kV_Line2"
+Comilla North,Meghnaghat,230 kV,58.0,Existing,Comilla North_230kVtoMeghnaghat_230kV_Line1
+Comilla North,Meghnaghat,230 kV,58.0,Existing,Comilla North_230kVtoMeghnaghat_230kV_Line2
+Tongi,Aminbazar,230 kV,25.2,Existing,Tongi_230kVtoAminbazar_230kV_Line1
+Tongi,Aminbazar,230 kV,25.2,Existing,Tongi_230kVtoAminbazar_230kV_Line2
+Aminbazar,Hasnabad,230 kV,21.5,Existing,Aminbazar_230kVtoHasnabad_230kV_Line1
+Aminbazar,Hasnabad,230 kV,21.5,Existing,Aminbazar_230kVtoHasnabad_230kV_Line2
+Siddhirganj 210 MW P/S,Haripur,230 kV,1.5,Existing,Siddhirganj 210 MW P/S_230kVtoHaripur_230kV_Line1
+Ashuganj,Sirajganj,230 kV,144.0,Existing,Ashuganj_230kVtoSirajganj_230kV_Line1
+Ashuganj,Sirajganj,230 kV,144.0,Existing,Ashuganj_230kVtoSirajganj_230kV_Line2
+Khulna,Bheramara HVDC,230 kV,176.5,Existing,Khulna_230kVtoBheramara HVDC_230kV_Line1
+Khulna,Bheramara HVDC,230 kV,176.5,Existing,Khulna_230kVtoBheramara HVDC_230kV_Line2
+Bheramara HVDC,Ishurdi,230 kV,10.1,Existing,Bheramara HVDC_230kVtoIshurdi_230kV_Line1
+Bheramara HVDC,Ishurdi,230 kV,10.1,Existing,Bheramara HVDC_230kVtoIshurdi_230kV_Line2
+Bogra,Barapukuria,230 kV,106.0,Existing,Bogra_230kVtoBarapukuria_230kV_Line1
+Bogra,Barapukuria,230 kV,106.0,Existing,Bogra_230kVtoBarapukuria_230kV_Line2
+Sirajganj,Bogra,230 kV,72.5,Existing,Sirajganj_230kVtoBogra_230kV_Line1
+Sirajganj,Bogra,230 kV,72.5,Existing,Sirajganj_230kVtoBogra_230kV_Line2
+Ishurdi,Baghabari,230 kV,55.0,Existing,Ishurdi_230kVtoBaghabari_230kV_Line1
+Ishurdi,Baghabari,230 kV,55.0,Existing,Ishurdi_230kVtoBaghabari_230kV_Line2
+Baghabari,Sirajganj,230 kV,38.0,Existing,Baghabari_230kVtoSirajganj_230kV_Line1
+Baghabari,Sirajganj,230 kV,38.0,Existing,Baghabari_230kVtoSirajganj_230kV_Line2
+Fenchuganj,Bibiyana,230 kV,33.0,Existing,Fenchuganj_230kVtoBibiyana_230kV_Line1
+Fenchuganj,Bibiyana,230 kV,33.0,Existing,Fenchuganj_230kVtoBibiyana_230kV_Line2
+Bibiyana,Comilla(N),230 kV,154.0,Existing,Bibiyana_230kVtoComilla(N)_230kV_Line1
+Bibiyana,Comilla(N),230 kV,154.0,Existing,Bibiyana_230kVtoComilla(N)_230kV_Line2
+Aminbazar,Old Airport (O/H),230 kV,4.0,Existing,Aminbazar_230kVtoOld Airport (O/H)_230kV_Line1
+Aminbazar,Old Airport (O/H),230 kV,4.0,Existing,Aminbazar_230kVtoOld Airport (O/H)_230kV_Line2
+Aminbazar,Old Airport (U/G),230 kV,4.0,Existing,Aminbazar_230kVtoOld Airport (U/G)_230kV_Line1
+Aminbazar,Old Airport (U/G),230 kV,4.0,Existing,Aminbazar_230kVtoOld Airport (U/G)_230kV_Line2
+Siddhirganj,Maniknagar,230 kV,11.0,Existing,Siddhirganj_230kVtoManiknagar_230kV_Line1
+Siddhirganj,Maniknagar,230 kV,11.0,Existing,Siddhirganj_230kVtoManiknagar_230kV_Line2
+Bhola,Barisal,230 kV,62.5,Existing,Bhola_230kVtoBarisal_230kV_Line1
+Bhola,Barisal,230 kV,62.5,Existing,Bhola_230kVtoBarisal_230kV_Line2
+BSRM,Comilla(N),230 kV,0.0,Existing,BSRM_230kVtoComilla(N)_230kV_Line1
+BSRM,Comilla(N),230 kV,0.0,Existing,BSRM_230kVtoComilla(N)_230kV_Line2
+BSRM,Hathazari,230 kV,0.0,Existing,BSRM_230kVtoHathazari_230kV_Line1
+BSRM,Hathazari,230 kV,0.0,Existing,BSRM_230kVtoHathazari_230kV_Line2
+AKSPL,Comilla(N),230 kV,6.5,Existing,AKSPL_230kVtoComilla(N)_230kV_Line1
+AKSPL,Comilla(N),230 kV,6.5,Existing,AKSPL_230kVtoComilla(N)_230kV_Line2
+AKSPL,Hathazari,230 kV,6.5,Existing,AKSPL_230kVtoHathazari_230kV_Line1
+AKSPL,Hathazari,230 kV,6.5,Existing,AKSPL_230kVtoHathazari_230kV_Line2
+Kaliakoir,Aminbazar,230 kV,32.0,Existing,Kaliakoir_230kVtoAminbazar_230kV_Line1
+Kaliakoir,Aminbazar,230 kV,32.0,Existing,Kaliakoir_230kVtoAminbazar_230kV_Line2
+Kaliakoir,Aminbazar,230 kV,32.0,Existing,Kaliakoir_230kVtoAminbazar_230kV_Line3
+Kaliakoir,Aminbazar,230 kV,32.0,Existing,Kaliakoir_230kVtoAminbazar_230kV_Line4
+Kaliakoir,Tongi,230 kV,32.0,Existing,Kaliakoir_230kVtoTongi_230kV_Line1
+Kaliakoir,Tongi,230 kV,32.0,Existing,Kaliakoir_230kVtoTongi_230kV_Line2
+Kaliakoir,Tongi,230 kV,32.0,Existing,Kaliakoir_230kVtoTongi_230kV_Line3
+Kaliakoir,Tongi,230 kV,32.0,Existing,Kaliakoir_230kVtoTongi_230kV_Line4
+Bheramara HVDC,Bheramara 230,230 kV,3.0,Existing,Bheramara HVDC_230kVtoBheramara 230_230kV_Line1
+Bheramara HVDC,Bheramara 230,230 kV,3.0,Existing,Bheramara HVDC_230kVtoBheramara 230_230kV_Line2
+Bhulta,Ghorashal,230 kV,2.0,Existing,Bhulta_230kVtoGhorashal_230kV_Line1
+Bhulta,Ghorashal,230 kV,2.0,Existing,Bhulta_230kVtoGhorashal_230kV_Line2
+Bhulta,Rampura,230 kV,2.0,Existing,Bhulta_230kVtoRampura_230kV_Line1
+Bhulta,Rampura,230 kV,2.0,Existing,Bhulta_230kVtoRampura_230kV_Line2
+Bhulta,Haripur,230 kV,3.0,Existing,Bhulta_230kVtoHaripur_230kV_Line1
+Bhulta,Haripur,230 kV,3.0,Existing,Bhulta_230kVtoHaripur_230kV_Line2
+Bhulta,Haripur,230 kV,3.0,Existing,Bhulta_230kVtoHaripur_230kV_Line3
+Bhulta,Haripur,230 kV,3.0,Existing,Bhulta_230kVtoHaripur_230kV_Line4
+Bhulta,Rampura,230 kV,3.0,Existing,Bhulta_230kVtoRampura_230kV_Line1
+Bhulta,Rampura,230 kV,3.0,Existing,Bhulta_230kVtoRampura_230kV_Line2
+Bhulta,Rampura,230 kV,3.0,Existing,Bhulta_230kVtoRampura_230kV_Line3
+Bhulta,Rampura,230 kV,3.0,Existing,Bhulta_230kVtoRampura_230kV_Line4
+Haripur,Siddhirganj,230 kV,2.0,Existing,Haripur_230kVtoSiddhirganj_230kV_Line1
+Haripur,Siddhirganj,230 kV,2.0,Existing,Haripur_230kVtoSiddhirganj_230kV_Line2
+Bheramara HVDC,Ishwardi,230 kV,12.8,Existing,Bheramara HVDC_230kVtoIshwardi_230kV_Line1
+Bheramara HVDC,Ishwardi,230 kV,12.8,Existing,Bheramara HVDC_230kVtoIshwardi_230kV_Line2
+Kodda PP,Tongi,230 kV,1.0,Existing,Kodda PP_230kVtoTongi_230kV_Line1
+Kodda PP,Tongi,230 kV,1.0,Existing,Kodda PP_230kVtoTongi_230kV_Line2
+Kodda PP,Kaliakoir,230 kV,1.0,Existing,Kodda PP_230kVtoKaliakoir_230kV_Line1
+Kodda PP,Kaliakoir,230 kV,1.0,Existing,Kodda PP_230kVtoKaliakoir_230kV_Line2
+Keraniganj,Hasnabad,230 kV,0.0,Existing,Keraniganj_230kVtoHasnabad_230kV_Line1
+Keraniganj,Hasnabad,230 kV,0.0,Existing,Keraniganj_230kVtoHasnabad_230kV_Line2
+Keraniganj,Hasnabad,230 kV,0.0,Existing,Keraniganj_230kVtoHasnabad_230kV_Line3
+Keraniganj,Hasnabad,230 kV,0.0,Existing,Keraniganj_230kVtoHasnabad_230kV_Line4
+Keraniganj,Aminbazar,230 kV,0.0,Existing,Keraniganj_230kVtoAminbazar_230kV_Line1
+Keraniganj,Aminbazar,230 kV,0.0,Existing,Keraniganj_230kVtoAminbazar_230kV_Line2
+Keraniganj,Aminbazar,230 kV,0.0,Existing,Keraniganj_230kVtoAminbazar_230kV_Line3
+Keraniganj,Aminbazar,230 kV,0.0,Existing,Keraniganj_230kVtoAminbazar_230kV_Line4
+Sikalbaha,Anowara,230 kV,17.0,Existing,Sikalbaha_230kVtoAnowara_230kV_Line1
+Sikalbaha,Anowara,230 kV,17.0,Existing,Sikalbaha_230kVtoAnowara_230kV_Line2
+Shyampur,Hasnabad,230 kV,0.0,Existing,Shyampur_230kVtoHasnabad_230kV_Line1
+Shyampur,Hasnabad,230 kV,0.0,Existing,Shyampur_230kVtoHasnabad_230kV_Line2
+Shyampur,Hasnabad,230 kV,0.0,Existing,Shyampur_230kVtoHasnabad_230kV_Line3
+Shyampur,Hasnabad,230 kV,0.0,Existing,Shyampur_230kVtoHasnabad_230kV_Line4
+Shyampur,Meghnaghat,230 kV,0.0,Existing,Shyampur_230kVtoMeghnaghat_230kV_Line1
+Shyampur,Meghnaghat,230 kV,0.0,Existing,Shyampur_230kVtoMeghnaghat_230kV_Line2
+Shyampur,Meghnaghat,230 kV,0.0,Existing,Shyampur_230kVtoMeghnaghat_230kV_Line3
+Shyampur,Meghnaghat,230 kV,0.0,Existing,Shyampur_230kVtoMeghnaghat_230kV_Line4
+Patuakhali,Payra,230 kV,46.5,Existing,Patuakhali_230kVtoPayra_230kV_Line1
+Patuakhali,Payra,230 kV,46.5,Existing,Patuakhali_230kVtoPayra_230kV_Line2
+Ishurdi,Rajshahi,230 kV,79.0,Existing,Ishurdi_230kVtoRajshahi_230kV_Line1
+Ishurdi,Rajshahi,230 kV,79.0,Existing,Ishurdi_230kVtoRajshahi_230kV_Line2
+Jhenaidah,Bheramara,230 kV,2.0,Existing,Jhenaidah_230kVtoBheramara_230kV_Line1
+Jhenaidah,Bheramara,230 kV,2.0,Existing,Jhenaidah_230kVtoBheramara_230kV_Line2
+Jhenaidah,Bheramara,230 kV,2.0,Existing,Jhenaidah_230kVtoBheramara_230kV_Line3
+Jhenaidah,Bheramara,230 kV,2.0,Existing,Jhenaidah_230kVtoBheramara_230kV_Line4
+Jhenaidah,Khulna (S),230 kV,2.0,Existing,Jhenaidah_230kVtoKhulna (S)_230kV_Line1
+Jhenaidah,Khulna (S),230 kV,2.0,Existing,Jhenaidah_230kVtoKhulna (S)_230kV_Line2
+Jhenaidah,Khulna (S),230 kV,2.0,Existing,Jhenaidah_230kVtoKhulna (S)_230kV_Line3
+Jhenaidah,Khulna (S),230 kV,2.0,Existing,Jhenaidah_230kVtoKhulna (S)_230kV_Line4
+Sikalbaha,Hathazari,230 kV,28.0,Existing,Sikalbaha_230kVtoHathazari_230kV_Line1
+Sikalbaha,Hathazari,230 kV,28.0,Existing,Sikalbaha_230kVtoHathazari_230kV_Line2
+Mongla,Khulna(S),230 kV,24.0,Existing,Mongla_230kVtoKhulna(S)_230kV_Line1
+Mongla,Khulna(S),230 kV,24.0,Existing,Mongla_230kVtoKhulna(S)_230kV_Line2
+Barishal(N),Gopalganj,230 kV,75.0,Existing,Barishal(N)_230kVtoGopalganj_230kV_Line1
+Barishal(N),Gopalganj,230 kV,75.0,Existing,Barishal(N)_230kVtoGopalganj_230kV_Line2
+Gopalganj,Faridpur,230 kV,49.0,Existing,Gopalganj_230kVtoFaridpur_230kV_Line1
+Gopalganj,Faridpur,230 kV,49.0,Existing,Gopalganj_230kVtoFaridpur_230kV_Line2
+Madunaghat(N),Sikalbaha,230 kV,6.0,Existing,Madunaghat(N)_230kVtoSikalbaha_230kV_Line1
+Madunaghat(N),Sikalbaha,230 kV,6.0,Existing,Madunaghat(N)_230kVtoSikalbaha_230kV_Line2
+Madunaghat(N),Hathazari,230 kV,6.0,Existing,Madunaghat(N)_230kVtoHathazari_230kV_Line1
+Madunaghat(N),Hathazari,230 kV,6.0,Existing,Madunaghat(N)_230kVtoHathazari_230kV_Line2
+Rooppur,Baghabari,230 kV,65.0,Existing,Rooppur_230kVtoBaghabari_230kV_Line1
+Rooppur,Baghabari,230 kV,65.0,Existing,Rooppur_230kVtoBaghabari_230kV_Line2
+Khula 330MW,Khula(S),230 kV,14.0,Existing,Khula 330MW_230kVtoKhula(S)_230kV_Line1
+Bogura(West),Bogura,230 kV,11.0,Existing,Bogura(West)_230kVtoBogura_230kV_Line1
+Bogura(West),Bogura,230 kV,11.0,Existing,Bogura(West)_230kVtoBogura_230kV_Line2
+Bogura(West),Barapukuria,230 kV,11.0,Existing,Bogura(West)_230kVtoBarapukuria_230kV_Line1
+Bogura(West),Barapukuria,230 kV,11.0,Existing,Bogura(West)_230kVtoBarapukuria_230kV_Line2
+Sreepur,Ashuganj,230 kV,1.4,Existing,Sreepur_230kVtoAshuganj_230kV_Line1
+Sreepur,Ashuganj,230 kV,1.4,Existing,Sreepur_230kVtoAshuganj_230kV_Line2
+Sreepur,Ashuganj,230 kV,1.4,Existing,Sreepur_230kVtoAshuganj_230kV_Line3
+Sreepur,Ashuganj,230 kV,1.4,Existing,Sreepur_230kVtoAshuganj_230kV_Line4
+Sreepur,Sirajganj,230 kV,1.4,Existing,Sreepur_230kVtoSirajganj_230kV_Line1
+Sreepur,Sirajganj,230 kV,1.4,Existing,Sreepur_230kVtoSirajganj_230kV_Line2
+Sreepur,Sirajganj,230 kV,1.4,Existing,Sreepur_230kVtoSirajganj_230kV_Line3
+Sreepur,Sirajganj,230 kV,1.4,Existing,Sreepur_230kVtoSirajganj_230kV_Line4
+Madunaght(O),Madunaghat 400kV,230 kV,7.0,Existing,Madunaght(O)_230kVtoMadunaghat 400kV_230kV_Line1
+Madunaght(O),Madunaghat 400kV,230 kV,7.0,Existing,Madunaght(O)_230kVtoMadunaghat 400kV_230kV_Line2
+Sonagazi (EGCB),Mirsarai,230 kV,13.3,Existing,Sonagazi (EGCB)_230kVtoMirsarai_230kV_Line1
+Bogura(S),Noagaon (Partial),230 kV,12.0,Ongoing,Bogura(S)_230kVtoNoagaon (Partial)_230kV_Line1
+Bogura(S),Noagaon (Partial),230 kV,12.0,Ongoing,Bogura(S)_230kVtoNoagaon (Partial)_230kV_Line2
+Bogura(S),Noagaon,230 kV,1.0,Ongoing,Bogura(S)_230kVtoNoagaon_230kV_Line1
+Bogura(S),Noagaon,230 kV,1.0,Ongoing,Bogura(S)_230kVtoNoagaon_230kV_Line2
+Bogura(S),Noagaon,230 kV,1.0,Ongoing,Bogura(S)_230kVtoNoagaon_230kV_Line3
+Bogura(S),Noagaon,230 kV,1.0,Ongoing,Bogura(S)_230kVtoNoagaon_230kV_Line4
+Korerhat,Chowmuhani,230 kV,54.0,Existing,Korerhat_230kVtoChowmuhani_230kV_Line1
+Korerhat,Chowmuhani,230 kV,54.0,Existing,Korerhat_230kVtoChowmuhani_230kV_Line2
+Korerhat,Chowmuhani,230 kV,54.0,Existing,Korerhat_230kVtoChowmuhani_230kV_Line3
+Korerhat,Chowmuhani,230 kV,54.0,Existing,Korerhat_230kVtoChowmuhani_230kV_Line4
+Chowmuhani,Kachua,230 kV,51.0,Existing,Chowmuhani_230kVtoKachua_230kV_Line1
+Chowmuhani,Kachua,230 kV,51.0,Existing,Chowmuhani_230kVtoKachua_230kV_Line2
+Chowmuhani,Kachua,230 kV,51.0,Existing,Chowmuhani_230kVtoKachua_230kV_Line3
+Chowmuhani,Kachua,230 kV,51.0,Existing,Chowmuhani_230kVtoKachua_230kV_Line4
+Chowmuhani,Maijdee,230 kV,20.0,Existing,Chowmuhani_230kVtoMaijdee_230kV_Line1
+Chowmuhani,Maijdee,230 kV,20.0,Existing,Chowmuhani_230kVtoMaijdee_230kV_Line2
+Barapukuria,Purbasadipur,230 kV,38.7,Existing,Barapukuria_230kVtoPurbasadipur_230kV_Line1
+Barapukuria,Purbasadipur,230 kV,38.7,Existing,Barapukuria_230kVtoPurbasadipur_230kV_Line2
+Kachua,Gazaria,230 kV,49.0,Existing,Kachua_230kVtoGazaria_230kV_Line1
+Kachua,Gazaria,230 kV,49.0,Existing,Kachua_230kVtoGazaria_230kV_Line2
+Kachua,Gazaria,230 kV,49.0,Existing,Kachua_230kVtoGazaria_230kV_Line3
+Kachua,Gazaria,230 kV,49.0,Existing,Kachua_230kVtoGazaria_230kV_Line4
+Ghorasal GIS2AIS double circuit,Ghorasal GIS2AIS double circuit,230 kV,1.1,Existing,Ghorasal GIS2AIS double circuit_230kVtoGhorasal GIS2AIS double circuit_230kV_Line1
+Ghorasal GIS2AIS double circuit,Ghorasal GIS2AIS double circuit,230 kV,1.1,Existing,Ghorasal GIS2AIS double circuit_230kVtoGhorasal GIS2AIS double circuit_230kV_Line2
+Ghorasal GIS2AIS 3rd Circuit,Ghorasal GIS2AIS 3rd Circuit,230 kV,1.1,Existing,Ghorasal GIS2AIS 3rd Circuit_230kVtoGhorasal GIS2AIS 3rd Circuit_230kV_Line1
+Shahjibazar,Brahmanbaria,132 kV,57.0,Existing,Shahjibazar_132kVtoBrahmanbaria_132kV_Line1
+Shahjibazar,Brahmanbaria,132 kV,57.0,Existing,Shahjibazar_132kVtoBrahmanbaria_132kV_Line2
+Brahmanbaria,Ashuganj,132 kV,17.0,Existing,Brahmanbaria_132kVtoAshuganj_132kV_Line1
+Brahmanbaria,Ashuganj,132 kV,17.0,Existing,Brahmanbaria_132kVtoAshuganj_132kV_Line2
+Ashuganj,Ghorasal,132 kV,45.0,Existing,Ashuganj_132kVtoGhorasal_132kV_Line1
+Ashuganj,Ghorasal,132 kV,45.0,Existing,Ashuganj_132kVtoGhorasal_132kV_Line2
+Ghorasal,Narsingdi,132 kV,13.0,Existing,Ghorasal_132kVtoNarsingdi_132kV_Line1
+Ghorasal,Narsingdi,132 kV,13.0,Existing,Ghorasal_132kVtoNarsingdi_132kV_Line2
+Narsingdi,Haripur,132 kV,34.0,Existing,Narsingdi_132kVtoHaripur_132kV_Line1
+Narsingdi,Bhulta,132 kV,16.0,Existing,Narsingdi_132kVtoBhulta_132kV_Line1
+Bhulta,Haripur,132 kV,15.0,Existing,Bhulta_132kVtoHaripur_132kV_Line1
+Haripur,Siddhirganj,132 kV,2.0,Existing,Haripur_132kVtoSiddhirganj_132kV_Line1
+Haripur,Siddhirganj,132 kV,2.0,Existing,Haripur_132kVtoSiddhirganj_132kV_Line2
+Shahjibazar,Srimangal,132 kV,36.0,Existing,Shahjibazar_132kVtoSrimangal_132kV_Line1
+Shahjibazar,Srimangal,132 kV,36.0,Existing,Shahjibazar_132kVtoSrimangal_132kV_Line2
+Srimangal,Fenchuganj,132 kV,49.0,Existing,Srimangal_132kVtoFenchuganj_132kV_Line1
+Srimangal,Fenchuganj,132 kV,49.0,Existing,Srimangal_132kVtoFenchuganj_132kV_Line2
+Fenchuganj,Fenchuganj PS,132 kV,4.0,Existing,Fenchuganj_132kVtoFenchuganj PS_132kV_Line1
+Fenchuganj,Fenchuganj PS,132 kV,4.0,Existing,Fenchuganj_132kVtoFenchuganj PS_132kV_Line2
+Fenchuganj,Fenchuganj PS,132 kV,4.0,Existing,Fenchuganj_132kVtoFenchuganj PS_132kV_Line3
+Fenchuganj,Fenchuganj PS,132 kV,4.0,Existing,Fenchuganj_132kVtoFenchuganj PS_132kV_Line4
+Fenchuganj,Sylhet,132 kV,32.0,Existing,Fenchuganj_132kVtoSylhet_132kV_Line1
+Fenchuganj,Sylhet,132 kV,32.0,Existing,Fenchuganj_132kVtoSylhet_132kV_Line2
+Sylhet,Chhatak,132 kV,33.0,Existing,Sylhet_132kVtoChhatak_132kV_Line1
+Sylhet,Chhatak,132 kV,33.0,Existing,Sylhet_132kVtoChhatak_132kV_Line2
+Kaptai,Hathazari,132 kV,45.0,Existing,Kaptai_132kVtoHathazari_132kV_Line1
+Kaptai,Hathazari,132 kV,45.0,Existing,Kaptai_132kVtoHathazari_132kV_Line2
+Hathazari,Baroirhat,132 kV,63.0,Existing,Hathazari_132kVtoBaroirhat_132kV_Line1
+Hathazari,Baroirhat,132 kV,63.0,Existing,Hathazari_132kVtoBaroirhat_132kV_Line2
+Feni,Comilla (N),132 kV,66.0,Existing,Feni_132kVtoComilla (N)_132kV_Line1
+Feni,Comilla (N),132 kV,66.0,Existing,Feni_132kVtoComilla (N)_132kV_Line2
+Comilla (N),Daudkandi,132 kV,55.0,Existing,Comilla (N)_132kVtoDaudkandi_132kV_Line1
+Comilla (N),Daudkandi,132 kV,55.0,Existing,Comilla (N)_132kVtoDaudkandi_132kV_Line2
+Daudkandi,Sonargaon,132 kV,62.0,Existing,Daudkandi_132kVtoSonargaon_132kV_Line1
+Daudkandi,Sonargaon,132 kV,62.0,Existing,Daudkandi_132kVtoSonargaon_132kV_Line2
+Sonargaon,Haripur,132 kV,15.0,Existing,Sonargaon_132kVtoHaripur_132kV_Line1
+Sonargaon,Haripur,132 kV,15.0,Existing,Sonargaon_132kVtoHaripur_132kV_Line2
+Haripur,Siddhirganj,132 kV,2.0,Existing,Haripur_132kVtoSiddhirganj_132kV_Line1
+Haripur,Siddhirganj,132 kV,2.0,Existing,Haripur_132kVtoSiddhirganj_132kV_Line2
+Khulshi,Halishahar,132 kV,13.0,Existing,Khulshi_132kVtoHalishahar_132kV_Line1
+Khulshi,Halishahar,132 kV,13.0,Existing,Khulshi_132kVtoHalishahar_132kV_Line2
+Comilla (N),Chandpur,132 kV,78.0,Existing,Comilla (N)_132kVtoChandpur_132kV_Line1
+Comilla (N),Comilla (S),132 kV,16.0,Existing,Comilla (N)_132kVtoComilla (S)_132kV_Line1
+Comilla (S),Chandpur,132 kV,62.0,Existing,Comilla (S)_132kVtoChandpur_132kV_Line1
+Ashuganj,Kishoreganj,132 kV,52.0,Existing,Ashuganj_132kVtoKishoreganj_132kV_Line1
+Ashuganj,Kishoreganj,132 kV,52.0,Existing,Ashuganj_132kVtoKishoreganj_132kV_Line2
+Kishoreganj,Mymensingh,132 kV,59.0,Existing,Kishoreganj_132kVtoMymensingh_132kV_Line1
+Kishoreganj,Mymensingh,132 kV,59.0,Existing,Kishoreganj_132kVtoMymensingh_132kV_Line2
+Mymensingh,Jamalpur,132 kV,55.0,Existing,Mymensingh_132kVtoJamalpur_132kV_Line1
+Mymensingh,Jamalpur,132 kV,55.0,Existing,Mymensingh_132kVtoJamalpur_132kV_Line2
+Madunaghat,Sikalbaha,132 kV,17.0,Existing,Madunaghat_132kVtoSikalbaha_132kV_Line1
+Madunaghat,TKC,132 kV,9.0,Existing,Madunaghat_132kVtoTKC_132kV_Line1
+TKC,Sikalbaha,132 kV,9.0,Existing,TKC_132kVtoSikalbaha_132kV_Line1
+Sikalbaha,Dohazari,132 kV,32.0,Existing,Sikalbaha_132kVtoDohazari_132kV_Line1
+Sikalbaha,Dohazari,132 kV,32.0,Existing,Sikalbaha_132kVtoDohazari_132kV_Line2
+Sikalbaha,Juldah,132 kV,8.0,Existing,Sikalbaha_132kVtoJuldah_132kV_Line1
+Juldah,Halishahar,132 kV,8.0,Existing,Juldah_132kVtoHalishahar_132kV_Line1
+Khulshi,Baroaulia,132 kV,15.0,Existing,Khulshi_132kVtoBaroaulia_132kV_Line1
+Khulshi,AKSML,132 kV,11.0,Existing,Khulshi_132kVtoAKSML_132kV_Line1
+AKSML,Baroaulia,132 kV,4.0,Existing,AKSML_132kVtoBaroaulia_132kV_Line1
+Madunaghat,Khulshi,132 kV,13.0,Existing,Madunaghat_132kVtoKhulshi_132kV_Line1
+Madunaghat,Khulshi,132 kV,13.0,Existing,Madunaghat_132kVtoKhulshi_132kV_Line1
+Kaptai,Chandraghona,132 kV,12.0,Existing,Kaptai_132kVtoChandraghona_132kV_Line1
+Kaptai,Chandraghona,132 kV,12.0,Existing,Kaptai_132kVtoChandraghona_132kV_Line2
+Chandraghona,Madunaghat,132 kV,27.0,Existing,Chandraghona_132kVtoMadunaghat_132kV_Line1
+Chandraghona,Madunaghat,132 kV,27.0,Existing,Chandraghona_132kVtoMadunaghat_132kV_Line2
+Madunaghat,Hathazari,132 kV,10.0,Existing,Madunaghat_132kVtoHathazari_132kV_Line1
+Madunaghat,Hathazari,132 kV,10.0,Existing,Madunaghat_132kVtoHathazari_132kV_Line2
+Hathazari,Baroaulia,132 kV,11.0,Existing,Hathazari_132kVtoBaroaulia_132kV_Line1
+Hathazari,Baroaulia,132 kV,11.0,Existing,Hathazari_132kVtoBaroaulia_132kV_Line2
+Dohazari,Cox's Bazar,132 kV,87.0,Existing,Dohazari_132kVtoCox's Bazar_132kV_Line1
+Dohazari,Cox's Bazar,132 kV,87.0,Existing,Dohazari_132kVtoCox's Bazar_132kV_Line2
+Feni,Chowmuhani,132 kV,32.0,Existing,Feni_132kVtoChowmuhani_132kV_Line1
+Feni,Chowmuhani,132 kV,32.0,Existing,Feni_132kVtoChowmuhani_132kV_Line2
+Baroaulia,Kabir Steel,132 kV,4.0,Existing,Baroaulia_132kVtoKabir Steel_132kV_Line1
+Mymensingh,Netrokona,132 kV,34.0,Existing,Mymensingh_132kVtoNetrokona_132kV_Line1
+Mymensingh,Netrokona,132 kV,34.0,Existing,Mymensingh_132kVtoNetrokona_132kV_Line2
+Goalpara,Khulna (C),132 kV,2.0,Existing,Goalpara_132kVtoKhulna (C)_132kV_Line1
+Goalpara,Khulna (C),132 kV,2.0,Existing,Goalpara_132kVtoKhulna (C)_132kV_Line2
+Khulna (C),Noapara,132 kV,23.0,Existing,Khulna (C)_132kVtoNoapara_132kV_Line1
+Khulna (C),Noapara,132 kV,23.0,Existing,Khulna (C)_132kVtoNoapara_132kV_Line2
+Noapara,Jessore,132 kV,28.0,Existing,Noapara_132kVtoJessore_132kV_Line1
+Noapara,Jessore,132 kV,28.0,Existing,Noapara_132kVtoJessore_132kV_Line2
+Jessore,Jhenaidah,132 kV,48.0,Existing,Jessore_132kVtoJhenaidah_132kV_Line1
+Jessore,Jhenaidah,132 kV,48.0,Existing,Jessore_132kVtoJhenaidah_132kV_Line2
+Jhenaidah,Kustia,132 kV,43.0,Existing,Jhenaidah_132kVtoKustia_132kV_Line1
+Jhenaidah,Kustia,132 kV,43.0,Existing,Jhenaidah_132kVtoKustia_132kV_Line2
+Kustia,Bheramana,132 kV,23.0,Existing,Kustia_132kVtoBheramana_132kV_Line1
+Kustia,Bheramana,132 kV,23.0,Existing,Kustia_132kVtoBheramana_132kV_Line2
+Bheramara,Ishwardi,132 kV,10.0,Existing,Bheramara_132kVtoIshwardi_132kV_Line1
+Bheramara,Ishwardi,132 kV,10.0,Existing,Bheramara_132kVtoIshwardi_132kV_Line2
+Ishwardi,Natore,132 kV,42.0,Existing,Ishwardi_132kVtoNatore_132kV_Line1
+Ishwardi,Natore,132 kV,42.0,Existing,Ishwardi_132kVtoNatore_132kV_Line2
+Natore,Bogra,132 kV,61.0,Existing,Natore_132kVtoBogra_132kV_Line1
+Natore,Bogra,132 kV,61.0,Existing,Natore_132kVtoBogra_132kV_Line2
+Bogra,Palashbari,132 kV,50.0,Existing,Bogra_132kVtoPalashbari_132kV_Line1
+Bogra,Palashbari,132 kV,50.0,Existing,Bogra_132kVtoPalashbari_132kV_Line2
+Palashbari,Rangpur,132 kV,52.0,Existing,Palashbari_132kVtoRangpur_132kV_Line1
+Palashbari,Rangpur,132 kV,52.0,Existing,Palashbari_132kVtoRangpur_132kV_Line2
+Rangpur,Saidpur,132 kV,42.0,Existing,Rangpur_132kVtoSaidpur_132kV_Line1
+Rangpur,Saidpur,132 kV,42.0,Existing,Rangpur_132kVtoSaidpur_132kV_Line2
+Saidpur,Purbasadipur,132 kV,25.0,Existing,Saidpur_132kVtoPurbasadipur_132kV_Line1
+Saidpur,Purbasadipur,132 kV,25.0,Existing,Saidpur_132kVtoPurbasadipur_132kV_Line2
+Purbasadipur,Thakurgaon,132 kV,45.0,Existing,Purbasadipur_132kVtoThakurgaon_132kV_Line1
+Purbasadipur,Thakurgaon,132 kV,45.0,Existing,Purbasadipur_132kVtoThakurgaon_132kV_Line2
+Barisal,Bhandaria,132 kV,49.0,Existing,Barisal_132kVtoBhandaria_132kV_Line1
+Bhandaria,Bagerhat,132 kV,40.0,Existing,Bhandaria_132kVtoBagerhat_132kV_Line1
+Bagerhat,Mongla,132 kV,28.0,Existing,Bagerhat_132kVtoMongla_132kV_Line1
+Barisal,Patuakhali,132 kV,38.0,Existing,Barisal_132kVtoPatuakhali_132kV_Line1
+Bheramara,Faridpur,132 kV,105.0,Existing,Bheramara_132kVtoFaridpur_132kV_Line1
+Bheramara,Faridpur,132 kV,105.0,Existing,Bheramara_132kVtoFaridpur_132kV_Line2
+Faridpur,Madaripur,132 kV,66.0,Existing,Faridpur_132kVtoMadaripur_132kV_Line1
+Faridpur,Madaripur,132 kV,66.0,Existing,Faridpur_132kVtoMadaripur_132kV_Line2
+Madaripur,Barisal(N),132 kV,49.0,Existing,Madaripur_132kVtoBarisal(N)_132kV_Line1
+Madaripur,Barisal(N),132 kV,49.0,Existing,Madaripur_132kVtoBarisal(N)_132kV_Line2
+Barishal(N),Barishal,132 kV,10.0,Existing,Barishal(N)_132kVtoBarishal_132kV_Line1
+Barishal(N),Barishal,132 kV,10.0,Existing,Barishal(N)_132kVtoBarishal_132kV_Line2
+Rajshahi,Natore,132 kV,37.0,Existing,Rajshahi_132kVtoNatore_132kV_Line1
+Ishwardi,Baghabari,132 kV,63.0,Existing,Ishwardi_132kVtoBaghabari_132kV_Line1
+Baghabari,Shahjadpur,132 kV,5.0,Existing,Baghabari_132kVtoShahjadpur_132kV_Line1
+Ishwardi,Pabna,132 kV,18.0,Existing,Ishwardi_132kVtoPabna_132kV_Line1
+Pabna,Shahjadpur,132 kV,41.0,Existing,Pabna_132kVtoShahjadpur_132kV_Line1
+Bogra,Sirajganj,132 kV,66.0,Existing,Bogra_132kVtoSirajganj_132kV_Line1
+Bogra,Sirajganj,132 kV,66.0,Existing,Bogra_132kVtoSirajganj_132kV_Line2
+Sirajganj,Shahjadpur,132 kV,34.0,Existing,Sirajganj_132kVtoShahjadpur_132kV_Line1
+Sirajganj,Baghabari,132 kV,40.0,Existing,Sirajganj_132kVtoBaghabari_132kV_Line1
+Rajshahi,Chapai Nawabganj,132 kV,48.0,Existing,Rajshahi_132kVtoChapai Nawabganj_132kV_Line1
+Rajshahi,Chapai Nawabganj,132 kV,48.0,Existing,Rajshahi_132kVtoChapai Nawabganj_132kV_Line2
+Rangpur,Lalmonirhat,132 kV,38.0,Existing,Rangpur_132kVtoLalmonirhat_132kV_Line1
+Bogra,Naogaon,132 kV,44.0,Existing,Bogra_132kVtoNaogaon_132kV_Line1
+Bogra,Naogaon,132 kV,44.0,Existing,Bogra_132kVtoNaogaon_132kV_Line2
+Kabirpur,Tangail,132 kV,51.0,Existing,Kabirpur_132kVtoTangail_132kV_Line1
+Kabirpur,Tangail,132 kV,51.0,Existing,Kabirpur_132kVtoTangail_132kV_Line2
+Tongi,Mirpur,132 kV,17.0,Existing,Tongi_132kVtoMirpur_132kV_Line1
+Tongi,Uttara,132 kV,15.0,Existing,Tongi_132kVtoUttara_132kV_Line1
+Uttara,Mirpur,132 kV,9.0,Existing,Uttara_132kVtoMirpur_132kV_Line1
+Mirpur,Aminbazar,132 kV,7.0,Existing,Mirpur_132kVtoAminbazar_132kV_Line1
+Mirpur,Aminbazar,132 kV,7.0,Existing,Mirpur_132kVtoAminbazar_132kV_Line2
+Aminbazar,Kallayanpur,132 kV,4.0,Existing,Aminbazar_132kVtoKallayanpur_132kV_Line1
+Aminbazar,Kallayanpur,132 kV,4.0,Existing,Aminbazar_132kVtoKallayanpur_132kV_Line2
+Hasnabad,Lalbagh,132 kV,30.0,Existing,Hasnabad_132kVtoLalbagh_132kV_Line1
+Kamrangirchar,Lalbagh,132 kV,3.0,Existing,Kamrangirchar_132kVtoLalbagh_132kV_Line1
+Kallayanpur,Kamrangirchar,132 kV,11.0,Existing,Kallayanpur_132kVtoKamrangirchar_132kV_Line1
+Kallayanpur,Keraniganj,132 kV,20.0,Existing,Kallayanpur_132kVtoKeraniganj_132kV_Line1
+Hasnabad,Keraniganj,132 kV,14.0,Existing,Hasnabad_132kVtoKeraniganj_132kV_Line1
+Tongi,New Tongi,132 kV,1.0,Existing,Tongi_132kVtoNew Tongi_132kV_Line1
+Tongi,New Tongi,132 kV,1.0,Existing,Tongi_132kVtoNew Tongi_132kV_Line2
+Hasnabad,Sitalakhya,132 kV,13.0,Existing,Hasnabad_132kVtoSitalakhya_132kV_Line1
+Madanganj,Sitalakhya,132 kV,4.0,Existing,Madanganj_132kVtoSitalakhya_132kV_Line1
+Hasnabad,Shyampur,132 kV,21.0,Existing,Hasnabad_132kVtoShyampur_132kV_Line1
+Shyampur,Haripur,132 kV,30.0,Existing,Shyampur_132kVtoHaripur_132kV_Line1
+Madanganj,Haripur,132 kV,12.0,Existing,Madanganj_132kVtoHaripur_132kV_Line1
+Siddhirganj,Ullon,132 kV,16.0,Existing,Siddhirganj_132kVtoUllon_132kV_Line1
+Siddhirganj,Ullon,132 kV,16.0,Existing,Siddhirganj_132kVtoUllon_132kV_Line2
+Haripur,Matuail,132 kV,6.0,Existing,Haripur_132kVtoMatuail_132kV_Line1
+Maniknagar,Matuail,132 kV,16.0,Existing,Maniknagar_132kVtoMatuail_132kV_Line1
+Siddhirganj,Maniknagar,132 kV,10.0,Existing,Siddhirganj_132kVtoManiknagar_132kV_Line1
+Maniknagar,Narinda,132 kV,5.0,Existing,Maniknagar_132kVtoNarinda_132kV_Line1
+Maniknagar,Narinda,132 kV,5.0,Existing,Maniknagar_132kVtoNarinda_132kV_Line2
+Ullon,Dhanmondi,132 kV,6.0,Existing,Ullon_132kVtoDhanmondi_132kV_Line1
+Ullon,Dhanmondi,132 kV,6.0,Existing,Ullon_132kVtoDhanmondi_132kV_Line2
+Ullon,Dhanmondi,132 kV,6.0,Existing,Ullon_132kVtoDhanmondi_132kV_Line1
+Ullon,Dhanmondi,132 kV,6.0,Existing,Ullon_132kVtoDhanmondi_132kV_Line2
+Tongi,Kabirpur,132 kV,23.0,Existing,Tongi_132kVtoKabirpur_132kV_Line1
+Tongi,Kabirpur,132 kV,23.0,Existing,Tongi_132kVtoKabirpur_132kV_Line2
+Kabirpur,Manikganj,132 kV,32.0,Existing,Kabirpur_132kVtoManikganj_132kV_Line1
+Kabirpur,Manikganj,132 kV,32.0,Existing,Kabirpur_132kVtoManikganj_132kV_Line2
+Ullon,Rampura,132 kV,4.0,Existing,Ullon_132kVtoRampura_132kV_Line1
+Ullon,Rampura,132 kV,4.0,Existing,Ullon_132kVtoRampura_132kV_Line2
+Rampura,Bashundhara,132 kV,8.0,Existing,Rampura_132kVtoBashundhara_132kV_Line1
+Rampura,Bashundhara,132 kV,8.0,Existing,Rampura_132kVtoBashundhara_132kV_Line2
+Bashundhara,Tongi,132 kV,11.0,Existing,Bashundhara_132kVtoTongi_132kV_Line1
+Bashundhara,Tongi,132 kV,11.0,Existing,Bashundhara_132kVtoTongi_132kV_Line2
+Rampura,Moghbazar,132 kV,5.0,Existing,Rampura_132kVtoMoghbazar_132kV_Line1
+Rampura,Moghbazar,132 kV,5.0,Existing,Rampura_132kVtoMoghbazar_132kV_Line2
+Ghorasal,Joydevpur,132 kV,28.0,Existing,Ghorasal_132kVtoJoydevpur_132kV_Line1
+Ghorasal,Joydevpur,132 kV,28.0,Existing,Ghorasal_132kVtoJoydevpur_132kV_Line2
+Baghabari,Shahjadpur,132 kV,6.0,Existing,Baghabari_132kVtoShahjadpur_132kV_Line1
+Chandpur,Chowmuhani,132 kV,68.0,Existing,Chandpur_132kVtoChowmuhani_132kV_Line1
+Chandpur,Chowmuhani,132 kV,68.0,Existing,Chandpur_132kVtoChowmuhani_132kV_Line2
+Barapukuria,Rangpur,132 kV,42.0,Existing,Barapukuria_132kVtoRangpur_132kV_Line1
+Barapukuria,Rangpur,132 kV,42.0,Existing,Barapukuria_132kVtoRangpur_132kV_Line2
+Barapukuria,Saidpur,132 kV,36.0,Existing,Barapukuria_132kVtoSaidpur_132kV_Line1
+Barapukuria,Saidpur,132 kV,36.0,Existing,Barapukuria_132kVtoSaidpur_132kV_Line2
+Madaripur,Gopalganj,132 kV,45.0,Existing,Madaripur_132kVtoGopalganj_132kV_Line1
+Khulna (C),Khulna(S),132 kV,9.0,Existing,Khulna (C)_132kVtoKhulna(S)_132kV_Line1
+Khulna (C),Khulna(S),132 kV,9.0,Existing,Khulna (C)_132kVtoKhulna(S)_132kV_Line2
+Khulna(S),Satkhira,132 kV,47.0,Existing,Khulna(S)_132kVtoSatkhira_132kV_Line1
+Khulna(S),Satkhira,132 kV,47.0,Existing,Khulna(S)_132kVtoSatkhira_132kV_Line2
+Rajshahi,Natore,132 kV,40.0,Existing,Rajshahi_132kVtoNatore_132kV_Line1
+Rampura,Gulshan,132 kV,3.0,Existing,Rampura_132kVtoGulshan_132kV_Line1
+Rampura,Gulshan,132 kV,3.0,Existing,Rampura_132kVtoGulshan_132kV_Line2
+Sikalbaha,Bakulia,132 kV,4.0,Existing,Sikalbaha_132kVtoBakulia_132kV_Line1
+Sikalbaha,Bakulia,132 kV,4.0,Existing,Sikalbaha_132kVtoBakulia_132kV_Line2
+Juldah,Shahmirpur,132 kV,6.0,Existing,Juldah_132kVtoShahmirpur_132kV_Line1
+Juldah,Shahmirpur,132 kV,6.0,Existing,Juldah_132kVtoShahmirpur_132kV_Line2
+Khulshi,Bakulia,132 kV,15.0,Existing,Khulshi_132kVtoBakulia_132kV_Line1
+Khulshi,Bakulia,132 kV,15.0,Existing,Khulshi_132kVtoBakulia_132kV_Line2
+Haripur,Maniknagar,132 kV,13.0,Existing,Haripur_132kVtoManiknagar_132kV_Line1
+Joydevpur,Kodda PP,132 kV,8.0,Existing,Joydevpur_132kVtoKodda PP_132kV_Line1
+Joydevpur,Kodda PP,132 kV,8.0,Existing,Joydevpur_132kVtoKodda PP_132kV_Line2
+Kodda PP,Kabirpur,132 kV,10.0,Existing,Kodda PP_132kVtoKabirpur_132kV_Line1
+Kodda PP,Kabirpur,132 kV,10.0,Existing,Kodda PP_132kVtoKabirpur_132kV_Line2
+Sikalbaha,Shahmirpur,132 kV,9.0,Existing,Sikalbaha_132kVtoShahmirpur_132kV_Line1
+Sikalbaha,Shahmirpur,132 kV,9.0,Existing,Sikalbaha_132kVtoShahmirpur_132kV_Line2
+Khulshi,Halishahar,132 kV,13.0,Existing,Khulshi_132kVtoHalishahar_132kV_Line1
+BograOld,BograNew,132 kV,2.0,Existing,BograOld_132kVtoBograNew_132kV_Line1
+BograOld,BograNew,132 kV,2.0,Existing,BograOld_132kVtoBograNew_132kV_Line2
+Ashuganj,Shahjibazar,132 kV,53.0,Existing,Ashuganj_132kVtoShahjibazar_132kV_Line1
+Khulna (S),Gallamari,132 kV,4.0,Existing,Khulna (S)_132kVtoGallamari_132kV_Line1
+Khulna (S),Gallamari,132 kV,4.0,Existing,Khulna (S)_132kVtoGallamari_132kV_Line2
+Naogaon,Niyamatpur,132 kV,46.0,Existing,Naogaon_132kVtoNiyamatpur_132kV_Line1
+Aminbazar,Savar,132 kV,16.0,Existing,Aminbazar_132kVtoSavar_132kV_Line1
+Aminbazar,Savar,132 kV,16.0,Existing,Aminbazar_132kVtoSavar_132kV_Line2
+Jhenaidah,Magura,132 kV,27.0,Existing,Jhenaidah_132kVtoMagura_132kV_Line1
+Jhenaidah,Magura,132 kV,27.0,Existing,Jhenaidah_132kVtoMagura_132kV_Line2
+Jhenaidah,Chuadanga,132 kV,39.0,Existing,Jhenaidah_132kVtoChuadanga_132kV_Line1
+Naogaon,Joypurhat,132 kV,46.0,Existing,Naogaon_132kVtoJoypurhat_132kV_Line1
+Thakurgaon,Panchagarh,132 kV,45.0,Existing,Thakurgaon_132kVtoPanchagarh_132kV_Line1
+Sonargaon S/S to Megnaghat Rental PP,Sonargaon S/S to Megnaghat Rental PP,132 kV,5.0,Existing,Sonargaon S/S to Megnaghat Rental PP_132kVtoSonargaon S/S to Megnaghat Rental PP_132kV_Line1
+Sonargaon S/S to Megnaghat Rental PP,Sonargaon S/S to Megnaghat Rental PP,132 kV,5.0,Existing,Sonargaon S/S to Megnaghat Rental PP_132kVtoSonargaon S/S to Megnaghat Rental PP_132kV_Line2
+Shiddhirganj to Siddhirganj Dutch Bangla PP,Shiddhirganj to Siddhirganj Dutch Bangla PP,132 kV,2.0,Existing,Shiddhirganj to Siddhirganj Dutch Bangla PP_132kVtoShiddhirganj to Siddhirganj Dutch Bangla PP_132kV_Line1
+Goalpara,Khulna ©,132 kV,2.0,Existing,Goalpara_132kVtoKhulna ©_132kV_Line1
+Noapara PP to Noapara Ss,Noapara PP to Noapara Ss,132 kV,2.0,Existing,Noapara PP to Noapara Ss_132kVtoNoapara PP to Noapara Ss_132kV_Line1
+Daudkandi PP to Daudkandi ss,Daudkandi PP to Daudkandi ss,132 kV,1.0,Existing,Daudkandi PP to Daudkandi ss_132kVtoDaudkandi PP to Daudkandi ss_132kV_Line1
+Gopalganj PP to Gopalganj ss,Gopalganj PP to Gopalganj ss,132 kV,1.0,Existing,Gopalganj PP to Gopalganj ss_132kVtoGopalganj PP to Gopalganj ss_132kV_Line1
+Shiddhirganj desh energy PP to Siddhirganj ss,Shiddhirganj desh energy PP to Siddhirganj ss,132 kV,3.0,Existing,Shiddhirganj desh energy PP to Siddhirganj ss_132kVtoShiddhirganj desh energy PP to Siddhirganj ss_132kV_Line1
+Faridpur PP to Faridpur,Bheramara,132 kV,1.0,Existing,Faridpur PP to Faridpur_132kVtoBheramara_132kV_Line1
+Bera PP to Baghabari,Ishwardi line,132 kV,5.0,Existing,Bera PP to Baghabari_132kVtoIshwardi line_132kV_Line1
+Amnura PP to Rajshahi,Chapai,132 kV,13.0,Existing,Amnura PP to Rajshahi_132kVtoChapai_132kV_Line1
+Madanganj,Munsiganj,132 kV,4.0,Existing,Madanganj_132kVtoMunsiganj_132kV_Line1
+Madanganj,Munsiganj,132 kV,4.0,Existing,Madanganj_132kVtoMunsiganj_132kV_Line2
+Old Airport,Cantonment,132 kV,7.0,Existing,Old Airport_132kVtoCantonment_132kV_Line1
+Old Airport,Cantonment,132 kV,7.0,Existing,Old Airport_132kVtoCantonment_132kV_Line2
+Fenchuganj,Kulaura,132 kV,25.0,Existing,Fenchuganj_132kVtoKulaura_132kV_Line1
+Fenchuganj,Kulaura,132 kV,25.0,Existing,Fenchuganj_132kVtoKulaura_132kV_Line2
+Jamalpur,Sherpur,132 kV,20.0,Existing,Jamalpur_132kVtoSherpur_132kV_Line1
+Jamalpur,Sherpur,132 kV,20.0,Existing,Jamalpur_132kVtoSherpur_132kV_Line2
+Old Airport,Sajmasjid,132 kV,8.0,Existing,Old Airport_132kVtoSajmasjid_132kV_Line1
+Old Airport,Sajmasjid,132 kV,8.0,Existing,Old Airport_132kVtoSajmasjid_132kV_Line2
+Rampura,Madertek,132 kV,5.0,Existing,Rampura_132kVtoMadertek_132kV_Line1
+Rampura,Madertek,132 kV,5.0,Existing,Rampura_132kVtoMadertek_132kV_Line2
+Comilla(N),Comilla(S),132 kV,19.0,Existing,Comilla(N)_132kVtoComilla(S)_132kV_Line1
+Comilla(N),Comilla(S),132 kV,19.0,Existing,Comilla(N)_132kVtoComilla(S)_132kV_Line2
+Goalpara,Bagerhat,132 kV,45.0,Existing,Goalpara_132kVtoBagerhat_132kV_Line1
+Goalpara,Bagerhat,132 kV,45.0,Existing,Goalpara_132kVtoBagerhat_132kV_Line2
+Kaliakoir,Kabirpur,132 kV,4.0,Existing,Kaliakoir_132kVtoKabirpur_132kV_Line1
+Kaliakoir,Kabirpur,132 kV,4.0,Existing,Kaliakoir_132kVtoKabirpur_132kV_Line2
+Kaliakoir,Kabirpur,132 kV,4.0,Existing,Kaliakoir_132kVtoKabirpur_132kV_Line3
+Kaliakoir,Kabirpur,132 kV,4.0,Existing,Kaliakoir_132kVtoKabirpur_132kV_Line4
+Kaliakoir,Tangail,132 kV,4.0,Existing,Kaliakoir_132kVtoTangail_132kV_Line1
+Kaliakoir,Tangail,132 kV,4.0,Existing,Kaliakoir_132kVtoTangail_132kV_Line2
+Kaliakoir,Tangail,132 kV,4.0,Existing,Kaliakoir_132kVtoTangail_132kV_Line3
+Kaliakoir,Tangail,132 kV,4.0,Existing,Kaliakoir_132kVtoTangail_132kV_Line4
+Tangail,RPCL,132 kV,93.0,Existing,Tangail_132kVtoRPCL_132kV_Line1
+Tangail,RPCL,132 kV,93.0,Existing,Tangail_132kVtoRPCL_132kV_Line2
+Amnura,Chapai Nawabganj,132 kV,13.0,Existing,Amnura_132kVtoChapai Nawabganj_132kV_Line1
+Kaliakoir,Dhamrai,132 kV,23.0,Existing,Kaliakoir_132kVtoDhamrai_132kV_Line1
+Kaliakoir,Dhamrai,132 kV,23.0,Existing,Kaliakoir_132kVtoDhamrai_132kV_Line2
+Rangamati,Khagrachari,132 kV,52.0,Existing,Rangamati_132kVtoKhagrachari_132kV_Line1
+Rangamati,Khagrachari,132 kV,52.0,Existing,Rangamati_132kVtoKhagrachari_132kV_Line2
+Chandraghona,Rangamati,132 kV,28.0,Existing,Chandraghona_132kVtoRangamati_132kV_Line1
+Chandraghona,Rangamati,132 kV,28.0,Existing,Chandraghona_132kVtoRangamati_132kV_Line2
+Chhatak,Sunamganj,132 kV,32.0,Existing,Chhatak_132kVtoSunamganj_132kV_Line1
+Chhatak,Sunamganj,132 kV,32.0,Existing,Chhatak_132kVtoSunamganj_132kV_Line2
+Beanibazar,Sylhet T-Connection,132 kV,30.0,Existing,Beanibazar_132kVtoSylhet T-Connection_132kV_Line1
+Beanibazar,Sylhet T-Connection,132 kV,30.0,Existing,Beanibazar_132kVtoSylhet T-Connection_132kV_Line2
+Uttara 3P,Tongi,132 kV,1.0,Existing,Uttara 3P_132kVtoTongi_132kV_Line1
+Uttara 3P,Mirpur,132 kV,1.0,Existing,Uttara 3P_132kVtoMirpur_132kV_Line1
+Dohazari-Cox's Bazar,Matarbari,132 kV,18.0,Existing,Dohazari-Cox's Bazar_132kVtoMatarbari_132kV_Line1
+Feni,Baroirhat,132 kV,28.0,Existing,Feni_132kVtoBaroirhat_132kV_Line1
+Feni,Baroirhat,132 kV,28.0,Existing,Feni_132kVtoBaroirhat_132kV_Line2
+Brahmanbaria,Narsingdi,132 kV,55.0,Existing,Brahmanbaria_132kVtoNarsingdi_132kV_Line1
+Brahmanbaria,Narsingdi,132 kV,55.0,Existing,Brahmanbaria_132kVtoNarsingdi_132kV_Line2
+Saidpur,Jaldhaka,132 kV,30.0,Existing,Saidpur_132kVtoJaldhaka_132kV_Line1
+Saidpur,Jaldhaka,132 kV,30.0,Existing,Saidpur_132kVtoJaldhaka_132kV_Line2
+RNPP,Ishurdi,132 kV,7.0,Existing,RNPP_132kVtoIshurdi_132kV_Line1
+RNPP,Ishurdi,132 kV,7.0,Existing,RNPP_132kVtoIshurdi_132kV_Line2
+Confedence PP,Bogura 230kV,132 kV,8.0,Existing,Confedence PP_132kVtoBogura 230kV_132kV_Line1
+Confedence PP,Bogura 230kV,132 kV,8.0,Existing,Confedence PP_132kVtoBogura 230kV_132kV_Line2
+United PP,Jamalpur,132 kV,3.0,Existing,United PP_132kVtoJamalpur_132kV_Line1
+United PP,Jamalpur,132 kV,3.0,Existing,United PP_132kVtoJamalpur_132kV_Line2
+United PP,Jamalpur,132 kV,3.0,Existing,United PP_132kVtoJamalpur_132kV_Line3
+United PP,Jamalpur,132 kV,3.0,Existing,United PP_132kVtoJamalpur_132kV_Line4
+United PP,Sherpur,132 kV,3.0,Existing,United PP_132kVtoSherpur_132kV_Line1
+United PP,Sherpur,132 kV,3.0,Existing,United PP_132kVtoSherpur_132kV_Line2
+United PP,Sherpur,132 kV,3.0,Existing,United PP_132kVtoSherpur_132kV_Line3
+United PP,Sherpur,132 kV,3.0,Existing,United PP_132kVtoSherpur_132kV_Line4
+Labanchora PP,Goalpara,132 kV,6.0,Existing,Labanchora PP_132kVtoGoalpara_132kV_Line1
+Labanchora PP,Goalpara,132 kV,6.0,Existing,Labanchora PP_132kVtoGoalpara_132kV_Line2
+Labanchora PP,Bagerhat,132 kV,6.0,Existing,Labanchora PP_132kVtoBagerhat_132kV_Line1
+Labanchora PP,Bagerhat,132 kV,6.0,Existing,Labanchora PP_132kVtoBagerhat_132kV_Line2
+Mymensingh,Bhaluka,132 kV,43.0,Existing,Mymensingh_132kVtoBhaluka_132kV_Line1
+Mymensingh,Bhaluka,132 kV,43.0,Existing,Mymensingh_132kVtoBhaluka_132kV_Line2
+Mahasthangarh,Bogura,132 kV,1.0,Existing,Mahasthangarh_132kVtoBogura_132kV_Line1
+Mahasthangarh,Bogura,132 kV,1.0,Existing,Mahasthangarh_132kVtoBogura_132kV_Line2
+Mahasthangarh,Palashbari,132 kV,1.0,Existing,Mahasthangarh_132kVtoPalashbari_132kV_Line1
+Mahasthangarh,Palashbari,132 kV,1.0,Existing,Mahasthangarh_132kVtoPalashbari_132kV_Line2
+Modhumati PP,Gopalganj,132 kV,15.0,Existing,Modhumati PP_132kVtoGopalganj_132kV_Line1
+Jashore,Benapole,132 kV,31.0,Existing,Jashore_132kVtoBenapole_132kV_Line1
+Jashore,Benapole,132 kV,31.0,Existing,Jashore_132kVtoBenapole_132kV_Line2
+Madaripur,Shariatpur,132 kV,22.0,Existing,Madaripur_132kVtoShariatpur_132kV_Line1
+Madaripur,Shariatpur,132 kV,22.0,Existing,Madaripur_132kVtoShariatpur_132kV_Line2
+Shyampur,Shyampur,132 kV,0.0,Existing,Shyampur_132kVtoShyampur_132kV_Line1
+Shyampur,Shyampur,132 kV,0.0,Existing,Shyampur_132kVtoShyampur_132kV_Line2
+Shyampur,Shyampur,132 kV,0.0,Existing,Shyampur_132kVtoShyampur_132kV_Line3
+Shyampur,Shyampur,132 kV,0.0,Existing,Shyampur_132kVtoShyampur_132kV_Line4
+Shyampur,Haripur,132 kV,0.0,Existing,Shyampur_132kVtoHaripur_132kV_Line1
+Shyampur,Haripur,132 kV,0.0,Existing,Shyampur_132kVtoHaripur_132kV_Line2
+Shyampur,Haripur,132 kV,0.0,Existing,Shyampur_132kVtoHaripur_132kV_Line3
+Shyampur,Haripur,132 kV,0.0,Existing,Shyampur_132kVtoHaripur_132kV_Line4
+Rangpur,Kurigram,132 kV,41.0,Existing,Rangpur_132kVtoKurigram_132kV_Line1
+Magura,Narail,132 kV,39.0,Existing,Magura_132kVtoNarail_132kV_Line1
+Magura,Narail,132 kV,39.0,Existing,Magura_132kVtoNarail_132kV_Line2
+Sherpur (Bogura),Bogura,132 kV,1.0,Existing,Sherpur (Bogura)_132kVtoBogura_132kV_Line1
+Sherpur (Bogura),Bogura,132 kV,1.0,Existing,Sherpur (Bogura)_132kVtoBogura_132kV_Line2
+Sherpur (Bogura),Bogura,132 kV,1.0,Existing,Sherpur (Bogura)_132kVtoBogura_132kV_Line3
+Sherpur (Bogura),Bogura,132 kV,1.0,Existing,Sherpur (Bogura)_132kVtoBogura_132kV_Line4
+Sherpur (Bogura),Sirajganj,132 kV,1.0,Existing,Sherpur (Bogura)_132kVtoSirajganj_132kV_Line1
+Sherpur (Bogura),Sirajganj,132 kV,1.0,Existing,Sherpur (Bogura)_132kVtoSirajganj_132kV_Line2
+Sherpur (Bogura),Sirajganj,132 kV,1.0,Existing,Sherpur (Bogura)_132kVtoSirajganj_132kV_Line3
+Sherpur (Bogura),Sirajganj,132 kV,1.0,Existing,Sherpur (Bogura)_132kVtoSirajganj_132kV_Line4
+Rajshahi)N),Rajshahi,132 kV,0.0,Existing,Rajshahi)N)_132kVtoRajshahi_132kV_Line1
+Rajshahi)N),Rajshahi,132 kV,0.0,Existing,Rajshahi)N)_132kVtoRajshahi_132kV_Line2
+Rajshahi)N),Rajshahi,132 kV,0.0,Existing,Rajshahi)N)_132kVtoRajshahi_132kV_Line3
+Rajshahi)N),Rajshahi,132 kV,0.0,Existing,Rajshahi)N)_132kVtoRajshahi_132kV_Line4
+Rajshahi)N),Chapai-Nawabganj-Amnura,132 kV,0.0,Existing,Rajshahi)N)_132kVtoChapai-Nawabganj-Amnura_132kV_Line1
+Rajshahi)N),Chapai-Nawabganj-Amnura,132 kV,0.0,Existing,Rajshahi)N)_132kVtoChapai-Nawabganj-Amnura_132kV_Line2
+Rajshahi)N),Chapai-Nawabganj-Amnura,132 kV,0.0,Existing,Rajshahi)N)_132kVtoChapai-Nawabganj-Amnura_132kV_Line3
+Rajshahi)N),Chapai-Nawabganj-Amnura,132 kV,0.0,Existing,Rajshahi)N)_132kVtoChapai-Nawabganj-Amnura_132kV_Line4
+Rampura,Aftabnagar,132 kV,4.0,Existing,Rampura_132kVtoAftabnagar_132kV_Line1
+Rampura,Aftabnagar,132 kV,4.0,Existing,Rampura_132kVtoAftabnagar_132kV_Line2
+Chowddagram,Feni,132 kV,1.0,Existing,Chowddagram_132kVtoFeni_132kV_Line1
+Chowddagram,Feni,132 kV,1.0,Existing,Chowddagram_132kVtoFeni_132kV_Line2
+Chowddagram,Feni,132 kV,1.0,Existing,Chowddagram_132kVtoFeni_132kV_Line3
+Chowddagram,Feni,132 kV,1.0,Existing,Chowddagram_132kVtoFeni_132kV_Line4
+Chowddagram,Cumilla(N),132 kV,1.0,Existing,Chowddagram_132kVtoCumilla(N)_132kV_Line1
+Chowddagram,Cumilla(N),132 kV,1.0,Existing,Chowddagram_132kVtoCumilla(N)_132kV_Line2
+Chowddagram,Cumilla(N),132 kV,1.0,Existing,Chowddagram_132kVtoCumilla(N)_132kV_Line3
+Chowddagram,Cumilla(N),132 kV,1.0,Existing,Chowddagram_132kVtoCumilla(N)_132kV_Line4
+Gopalganj(N),Faridpur,132 kV,2.0,Existing,Gopalganj(N)_132kVtoFaridpur_132kV_Line1
+Gopalganj(N),Faridpur,132 kV,2.0,Existing,Gopalganj(N)_132kVtoFaridpur_132kV_Line2
+Gopalganj(N),Faridpur,132 kV,2.0,Existing,Gopalganj(N)_132kVtoFaridpur_132kV_Line3
+Gopalganj(N),Faridpur,132 kV,2.0,Existing,Gopalganj(N)_132kVtoFaridpur_132kV_Line4
+Gopalganj(N),Madaripur,132 kV,2.0,Existing,Gopalganj(N)_132kVtoMadaripur_132kV_Line1
+Gopalganj(N),Madaripur,132 kV,2.0,Existing,Gopalganj(N)_132kVtoMadaripur_132kV_Line2
+Gopalganj(N),Madaripur,132 kV,2.0,Existing,Gopalganj(N)_132kVtoMadaripur_132kV_Line3
+Gopalganj(N),Madaripur,132 kV,2.0,Existing,Gopalganj(N)_132kVtoMadaripur_132kV_Line4
+Gopalganj(N),Gopalanj,132 kV,11.0,Existing,Gopalganj(N)_132kVtoGopalanj_132kV_Line1
+Gopalganj(N),Gopalanj,132 kV,11.0,Existing,Gopalganj(N)_132kVtoGopalanj_132kV_Line2
+Gopalganj(N),Gopalanj,132 kV,11.0,Existing,Gopalganj(N)_132kVtoGopalanj_132kV_Line3
+Gopalganj(N),Gopalanj,132 kV,11.0,Existing,Gopalganj(N)_132kVtoGopalanj_132kV_Line4
+Gopalganj(N),Madaripur,132 kV,11.0,Existing,Gopalganj(N)_132kVtoMadaripur_132kV_Line1
+Gopalganj(N),Madaripur,132 kV,11.0,Existing,Gopalganj(N)_132kVtoMadaripur_132kV_Line2
+Gopalganj(N),Madaripur,132 kV,11.0,Existing,Gopalganj(N)_132kVtoMadaripur_132kV_Line3
+Gopalganj(N),Madaripur,132 kV,11.0,Existing,Gopalganj(N)_132kVtoMadaripur_132kV_Line4
+Kodda,Rajendrapur,132 kV,25.0,Existing,Kodda_132kVtoRajendrapur_132kV_Line1
+Kodda,Rajendrapur,132 kV,25.0,Existing,Kodda_132kVtoRajendrapur_132kV_Line2
+Confidence PP,Rangpur,132 kV,1.0,Existing,Confidence PP_132kVtoRangpur_132kV_Line1
+Confidence PP,Rangpur,132 kV,1.0,Existing,Confidence PP_132kVtoRangpur_132kV_Line2
+Confidence PP,Rangpur,132 kV,1.0,Existing,Confidence PP_132kVtoRangpur_132kV_Line3
+Confidence PP,Rangpur,132 kV,1.0,Existing,Confidence PP_132kVtoRangpur_132kV_Line4
+Confidence PP,Palashbari,132 kV,1.0,Existing,Confidence PP_132kVtoPalashbari_132kV_Line1
+Confidence PP,Palashbari,132 kV,1.0,Existing,Confidence PP_132kVtoPalashbari_132kV_Line2
+Confidence PP,Palashbari,132 kV,1.0,Existing,Confidence PP_132kVtoPalashbari_132kV_Line3
+Confidence PP,Palashbari,132 kV,1.0,Existing,Confidence PP_132kVtoPalashbari_132kV_Line4
+Rampur,Khulshi,132 kV,3.0,Existing,Rampur_132kVtoKhulshi_132kV_Line1
+Rampur,Khulshi,132 kV,3.0,Existing,Rampur_132kVtoKhulshi_132kV_Line2
+Rampur,Khulshi,132 kV,3.0,Existing,Rampur_132kVtoKhulshi_132kV_Line3
+Rampur,Khulshi,132 kV,3.0,Existing,Rampur_132kVtoKhulshi_132kV_Line4
+Rampur,Halishahar,132 kV,3.0,Existing,Rampur_132kVtoHalishahar_132kV_Line1
+Rampur,Halishahar,132 kV,3.0,Existing,Rampur_132kVtoHalishahar_132kV_Line2
+Rampur,Halishahar,132 kV,3.0,Existing,Rampur_132kVtoHalishahar_132kV_Line3
+Rampur,Halishahar,132 kV,3.0,Existing,Rampur_132kVtoHalishahar_132kV_Line4
+Rampur,Agrabad,132 kV,5.0,Existing,Rampur_132kVtoAgrabad_132kV_Line1
+Rampur,Agrabad,132 kV,5.0,Existing,Rampur_132kVtoAgrabad_132kV_Line2
+Keraniganj,Sreenagar,132 kV,16.0,Existing,Keraniganj_132kVtoSreenagar_132kV_Line1
+Keraniganj,Sreenagar,132 kV,16.0,Existing,Keraniganj_132kVtoSreenagar_132kV_Line2
+Keraniganj,Nawabganj,132 kV,27.0,Existing,Keraniganj_132kVtoNawabganj_132kV_Line1
+Keraniganj,Nawabganj,132 kV,27.0,Existing,Keraniganj_132kVtoNawabganj_132kV_Line2
+Fatullah,Shyampur,132 kV,1.0,Existing,Fatullah_132kVtoShyampur_132kV_Line1
+Fatullah,Shyampur,132 kV,1.0,Existing,Fatullah_132kVtoShyampur_132kV_Line2
+Fatullah,Haripur,132 kV,1.0,Existing,Fatullah_132kVtoHaripur_132kV_Line1
+Fatullah,Haripur,132 kV,1.0,Existing,Fatullah_132kVtoHaripur_132kV_Line2
+DU,Dhanmondi,132 kV,2.0,Existing,DU_132kVtoDhanmondi_132kV_Line1
+DU,Dhanmondi,132 kV,2.0,Existing,DU_132kVtoDhanmondi_132kV_Line2
+Bagerhat,Mongla,132 kV,29.0,Existing,Bagerhat_132kVtoMongla_132kV_Line1
+Bagerhat,Mongla,132 kV,29.0,Existing,Bagerhat_132kVtoMongla_132kV_Line2
+Baghabari,Bangura,132 kV,25.0,Existing,Baghabari_132kVtoBangura_132kV_Line1
+Baghabari,Bangura,132 kV,25.0,Existing,Baghabari_132kVtoBangura_132kV_Line2
+Bakerganj,Barguna,132 kV,50.0,Existing,Bakerganj_132kVtoBarguna_132kV_Line1
+Gallamari,Gopalganj,132 kV,52.0,Existing,Gallamari_132kVtoGopalganj_132kV_Line1
+Gallamari,Gopalganj,132 kV,52.0,Existing,Gallamari_132kVtoGopalganj_132kV_Line2
+Gopalganj,Madaripur 2nd Ckt,132 kV,45.0,Existing,Gopalganj_132kVtoMadaripur 2nd Ckt_132kV_Line1
+Mithapukur,Rangpur,132 kV,1.0,Existing,Mithapukur_132kVtoRangpur_132kV_Line1
+Mithapukur,Rangpur,132 kV,1.0,Existing,Mithapukur_132kVtoRangpur_132kV_Line2
+Mithapukur,Rangpur,132 kV,1.0,Existing,Mithapukur_132kVtoRangpur_132kV_Line3
+Mithapukur,Rangpur,132 kV,1.0,Existing,Mithapukur_132kVtoRangpur_132kV_Line4
+Mithapukur,Palashbari,132 kV,1.0,Existing,Mithapukur_132kVtoPalashbari_132kV_Line1
+Mithapukur,Palashbari,132 kV,1.0,Existing,Mithapukur_132kVtoPalashbari_132kV_Line2
+Mithapukur,Palashbari,132 kV,1.0,Existing,Mithapukur_132kVtoPalashbari_132kV_Line3
+Mithapukur,Palashbari,132 kV,1.0,Existing,Mithapukur_132kVtoPalashbari_132kV_Line4
+Maniknagar,Kazla,132 kV,3.0,Existing,Maniknagar_132kVtoKazla_132kV_Line1
+Maniknagar,Kazla,132 kV,3.0,Existing,Maniknagar_132kVtoKazla_132kV_Line2
+Hasnabad,Keraniganj PP line re-routing atKeraniganj,132 kV,3.0,Existing,Hasnabad_132kVtoKeraniganj PP line re-routing atKeraniganj_132kV_Line1
+Hasnabad,Keraniganj PP line re-routing atKeraniganj,132 kV,3.0,Existing,Hasnabad_132kVtoKeraniganj PP line re-routing atKeraniganj_132kV_Line2
+Hasnabad,Keraniganj PP line re-routing atKeraniganj,132 kV,3.0,Existing,Hasnabad_132kVtoKeraniganj PP line re-routing atKeraniganj_132kV_Line3
+Hasnabad,Keraniganj PP line re-routing atKeraniganj,132 kV,3.0,Existing,Hasnabad_132kVtoKeraniganj PP line re-routing atKeraniganj_132kV_Line4
+Purbachal,Basundhara,132 kV,5.0,Existing,Purbachal_132kVtoBasundhara_132kV_Line1
+Purbachal,Basundhara,132 kV,5.0,Existing,Purbachal_132kVtoBasundhara_132kV_Line2
+Banani,Basundhara,132 kV,13.0,Existing,Banani_132kVtoBasundhara_132kV_Line1
+Banani,Basundhara,132 kV,13.0,Existing,Banani_132kVtoBasundhara_132kV_Line2
+Rajbari,Bhermara,132 kV,1.0,Existing,Rajbari_132kVtoBhermara_132kV_Line1
+Rajbari,Bhermara,132 kV,1.0,Existing,Rajbari_132kVtoBhermara_132kV_Line2
+Rajbari,Bhermara,132 kV,1.0,Existing,Rajbari_132kVtoBhermara_132kV_Line3
+Rajbari,Bhermara,132 kV,1.0,Existing,Rajbari_132kVtoBhermara_132kV_Line4
+Rajbari,Fardipur,132 kV,1.0,Existing,Rajbari_132kVtoFardipur_132kV_Line1
+Rajbari,Fardipur,132 kV,1.0,Existing,Rajbari_132kVtoFardipur_132kV_Line2
+Rajbari,Fardipur,132 kV,1.0,Existing,Rajbari_132kVtoFardipur_132kV_Line3
+Rajbari,Fardipur,132 kV,1.0,Existing,Rajbari_132kVtoFardipur_132kV_Line4
+S/c LILO of Jhenaidah,Chuadanga at Jhenaidah,132 kV,3.0,Existing,S/c LILO of Jhenaidah_132kVtoChuadanga at Jhenaidah_132kV_Line1
+S/c LILO of Jhenaidah,Chuadanga at Jhenaidah,132 kV,3.0,Existing,S/c LILO of Jhenaidah_132kVtoChuadanga at Jhenaidah_132kV_Line2
+Keraniganj,Lalbagh& Kamrangirchar four circuit,132 kV,3.0,Existing,Keraniganj_132kVtoLalbagh& Kamrangirchar four circuit_132kV_Line1
+Keraniganj,Lalbagh& Kamrangirchar four circuit,132 kV,3.0,Existing,Keraniganj_132kVtoLalbagh& Kamrangirchar four circuit_132kV_Line2
+Keraniganj,Lalbagh& Kamrangirchar four circuit,132 kV,3.0,Existing,Keraniganj_132kVtoLalbagh& Kamrangirchar four circuit_132kV_Line3
+Keraniganj,Lalbagh& Kamrangirchar four circuit,132 kV,3.0,Existing,Keraniganj_132kVtoLalbagh& Kamrangirchar four circuit_132kV_Line4
+Tongi,Tongi-3 (Mill Gate),132 kV,3.0,Existing,Tongi_132kVtoTongi-3 (Mill Gate)_132kV_Line1
+Tongi,Tongi-3 (Mill Gate),132 kV,3.0,Existing,Tongi_132kVtoTongi-3 (Mill Gate)_132kV_Line2
+Jhenaidah,Jessore,132 kV,0.0,Existing,Jhenaidah_132kVtoJessore_132kV_Line1
+Jhenaidah,Jessore,132 kV,0.0,Existing,Jhenaidah_132kVtoJessore_132kV_Line2
+Jhenaidah,Jessore,132 kV,0.0,Existing,Jhenaidah_132kVtoJessore_132kV_Line3
+Jhenaidah,Jessore,132 kV,0.0,Existing,Jhenaidah_132kVtoJessore_132kV_Line4
+Jhenaidah,Jhenaidah,132 kV,0.0,Existing,Jhenaidah_132kVtoJhenaidah_132kV_Line1
+Jhenaidah,Jhenaidah,132 kV,0.0,Existing,Jhenaidah_132kVtoJhenaidah_132kV_Line2
+Jhenaidah,Jhenaidah,132 kV,0.0,Existing,Jhenaidah_132kVtoJhenaidah_132kV_Line3
+Jhenaidah,Jhenaidah,132 kV,0.0,Existing,Jhenaidah_132kVtoJhenaidah_132kV_Line4
+Manaknagar,Motijheel,132 kV,2.0,Existing,Manaknagar_132kVtoMotijheel_132kV_Line1
+Manaknagar,Motijheel,132 kV,2.0,Existing,Manaknagar_132kVtoMotijheel_132kV_Line2
+Motijheel,Bangabhaban,132 kV,1.0,Existing,Motijheel_132kVtoBangabhaban_132kV_Line1
+Motijheel,Bangabhaban,132 kV,1.0,Existing,Motijheel_132kVtoBangabhaban_132kV_Line2
+Madanganj,Char Saidpur,132 kV,3.0,Existing,Madanganj_132kVtoChar Saidpur_132kV_Line1
+Madanganj,Char Saidpur,132 kV,3.0,Existing,Madanganj_132kVtoChar Saidpur_132kV_Line2
+Kamrangirchar,Zigatola,132 kV,7.0,Existing,Kamrangirchar_132kVtoZigatola_132kV_Line1
+Kamrangirchar,Zigatola,132 kV,7.0,Existing,Kamrangirchar_132kVtoZigatola_132kV_Line2
+Energaon,Mongla,132 kV,9.0,Existing,Energaon_132kVtoMongla_132kV_Line1
+Hasnabad,Postogola,132 kV,2.0,Existing,Hasnabad_132kVtoPostogola_132kV_Line1
+Hasnabad,Postogola,132 kV,2.0,Existing,Hasnabad_132kVtoPostogola_132kV_Line2
+Bashundhara,Purbachal,132 kV,6.0,Existing,Bashundhara_132kVtoPurbachal_132kV_Line1
+Bashundhara,Purbachal,132 kV,6.0,Existing,Bashundhara_132kVtoPurbachal_132kV_Line2
+Chapai Nawabganj,Rahanpur,132 kV,26.0,Existing,Chapai Nawabganj_132kVtoRahanpur_132kV_Line1
+Sholoshahar,Madunaghat,132 kV,0.0,Existing,Sholoshahar_132kVtoMadunaghat_132kV_Line1
+Sholoshahar,Khulshi,132 kV,0.0,Existing,Sholoshahar_132kVtoKhulshi_132kV_Line1
+Madunaghat,Kalurghat,132 kV,7.0,Existing,Madunaghat_132kVtoKalurghat_132kV_Line1
+Madunaghat,Kalurghat,132 kV,7.0,Existing,Madunaghat_132kVtoKalurghat_132kV_Line2
+Khulshi,Halishahar LILO at Rampur,132 kV,3.0,Existing,Khulshi_132kVtoHalishahar LILO at Rampur_132kV_Line1
+Sudarganj Solar,Rangpur,132 kV,36.0,Existing,Sudarganj Solar_132kVtoRangpur_132kV_Line1
+Sudarganj Solar,Rangpur,132 kV,36.0,Existing,Sudarganj Solar_132kVtoRangpur_132kV_Line2
+Rampura,Dhaka University,132 kV,7.0,Existing,Rampura_132kVtoDhaka University_132kV_Line1
+Rampura,Dhaka University,132 kV,7.0,Existing,Rampura_132kVtoDhaka University_132kV_Line2
+Aminbazar 400/132kV transformer connecting132kV line,Aminbazar 400/132kV transformer connecting132kV line,132 kV,1.0,Existing,Aminbazar 400/132kV transformer connecting132kV line_132kVtoAminbazar 400/132kV transformer connecting132kV line_132kV_Line1
+Sripur,Bhaluka,132 kV,22.0,Existing,Sripur_132kVtoBhaluka_132kV_Line1
+Sripur,Bhaluka,132 kV,22.0,Existing,Sripur_132kVtoBhaluka_132kV_Line2
+Mirzapur,Kaliakoir,132 kV,2.0,Existing,Mirzapur_132kVtoKaliakoir_132kV_Line1
+Mirzapur,Kaliakoir,132 kV,2.0,Existing,Mirzapur_132kVtoKaliakoir_132kV_Line2
+Mirzapur,Kaliakoir,132 kV,2.0,Existing,Mirzapur_132kVtoKaliakoir_132kV_Line3
+Mirzapur,Kaliakoir,132 kV,2.0,Existing,Mirzapur_132kVtoKaliakoir_132kV_Line4
+Mirzapur,Tangail,132 kV,2.0,Existing,Mirzapur_132kVtoTangail_132kV_Line1
+Mirzapur,Tangail,132 kV,2.0,Existing,Mirzapur_132kVtoTangail_132kV_Line2
+Mirzapur,Tangail,132 kV,2.0,Existing,Mirzapur_132kVtoTangail_132kV_Line3
+Mirzapur,Tangail,132 kV,2.0,Existing,Mirzapur_132kVtoTangail_132kV_Line4
+Sylhet(S),Sylhet,132 kV,2.0,Existing,Sylhet(S)_132kVtoSylhet_132kV_Line1
+Sylhet(S),Sylhet,132 kV,2.0,Existing,Sylhet(S)_132kVtoSylhet_132kV_Line2
+Sylhet(S),Sylhet,132 kV,2.0,Existing,Sylhet(S)_132kVtoSylhet_132kV_Line3
+Sylhet(S),Sylhet,132 kV,2.0,Existing,Sylhet(S)_132kVtoSylhet_132kV_Line4
+Sylhet(S),Fenchuganj,132 kV,2.0,Existing,Sylhet(S)_132kVtoFenchuganj_132kV_Line1
+Sylhet(S),Fenchuganj,132 kV,2.0,Existing,Sylhet(S)_132kVtoFenchuganj_132kV_Line2
+Sylhet(S),Fenchuganj,132 kV,2.0,Existing,Sylhet(S)_132kVtoFenchuganj_132kV_Line3
+Sylhet(S),Fenchuganj,132 kV,2.0,Existing,Sylhet(S)_132kVtoFenchuganj_132kV_Line4
+Ullapara,Sirajganj,132 kV,3.0,Existing,Ullapara_132kVtoSirajganj_132kV_Line1
+Ullapara,Sirajganj,132 kV,3.0,Existing,Ullapara_132kVtoSirajganj_132kV_Line2
+Ullapara,Sirajganj,132 kV,3.0,Existing,Ullapara_132kVtoSirajganj_132kV_Line3
+Ullapara,Sirajganj,132 kV,3.0,Existing,Ullapara_132kVtoSirajganj_132kV_Line4
+Ullapara,Shahjadpur-Baghabari,132 kV,3.0,Existing,Ullapara_132kVtoShahjadpur-Baghabari_132kV_Line1
+Ullapara,Shahjadpur-Baghabari,132 kV,3.0,Existing,Ullapara_132kVtoShahjadpur-Baghabari_132kV_Line2
+Ullapara,Shahjadpur-Baghabari,132 kV,3.0,Existing,Ullapara_132kVtoShahjadpur-Baghabari_132kV_Line3
+Ullapara,Shahjadpur-Baghabari,132 kV,3.0,Existing,Ullapara_132kVtoShahjadpur-Baghabari_132kV_Line4
+Sholoshahor substation,Madunaghat,132 kV,1.0,Existing,Sholoshahor substation_132kVtoMadunaghat_132kV_Line1
+Sholoshahor substation,Madunaghat,132 kV,1.0,Existing,Sholoshahor substation_132kVtoMadunaghat_132kV_Line2
+Sholoshahor substation,Khulshi (Circuit-2),132 kV,1.0,Existing,Sholoshahor substation_132kVtoKhulshi (Circuit-2)_132kV_Line1
+Sholoshahor substation,Khulshi (Circuit-2),132 kV,1.0,Existing,Sholoshahor substation_132kVtoKhulshi (Circuit-2)_132kV_Line2
+Rahanpur,Niamatpur,132 kV,2.0,Existing,Rahanpur_132kVtoNiamatpur_132kV_Line1
+Rahanpur,Niamatpur,132 kV,2.0,Existing,Rahanpur_132kVtoNiamatpur_132kV_Line2
+Rahanpur,Niamatpur,132 kV,2.0,Existing,Rahanpur_132kVtoNiamatpur_132kV_Line3
+Rahanpur,Niamatpur,132 kV,2.0,Existing,Rahanpur_132kVtoNiamatpur_132kV_Line4
+Rahanpur,Chowdala,132 kV,2.0,Existing,Rahanpur_132kVtoChowdala_132kV_Line1
+Rahanpur,Chowdala,132 kV,2.0,Existing,Rahanpur_132kVtoChowdala_132kV_Line2
+Rahanpur,Chowdala,132 kV,2.0,Existing,Rahanpur_132kVtoChowdala_132kV_Line3
+Rahanpur,Chowdala,132 kV,2.0,Existing,Rahanpur_132kVtoChowdala_132kV_Line4
+Bhaluka,Barmi (BR Powergen),132 kV,32.0,Ongoing,Bhaluka_132kVtoBarmi (BR Powergen)_132kV_Line1
+Bhaluka,Barmi (BR Powergen),132 kV,32.0,Ongoing,Bhaluka_132kVtoBarmi (BR Powergen)_132kV_Line2
+Ghatail,Tangail,132 kV,1.0,Ongoing,Ghatail_132kVtoTangail_132kV_Line1
+Ghatail,Tangail,132 kV,1.0,Ongoing,Ghatail_132kVtoTangail_132kV_Line2
+Ghatail,RPCL,132 kV,1.0,Ongoing,Ghatail_132kVtoRPCL_132kV_Line1
+Ghatail,RPCL,132 kV,1.0,Ongoing,Ghatail_132kVtoRPCL_132kV_Line2
+Niyamatpur,Rahanpur (LILO point),132 kV,28.0,Ongoing,Niyamatpur_132kVtoRahanpur (LILO point)_132kV_Line1
+Niyamatpur,Rahanpur (LILO point),132 kV,28.0,Ongoing,Niyamatpur_132kVtoRahanpur (LILO point)_132kV_Line2
+Naogaon,Joypurhat,132 kV,47.0,Existing,Naogaon_132kVtoJoypurhat_132kV_Line1
+Panchagarh,Thakurgaon,132 kV,45.0,Existing,Panchagarh_132kVtoThakurgaon_132kV_Line1
+US DK,Cox's Bazar,132 kV,11.0,Ongoing,US DK_132kVtoCox's Bazar_132kV_Line1
+Barishal (N),Bhandaria,132 kV,47.0,Ongoing,Barishal (N)_132kVtoBhandaria_132kV_Line1
+Barishal (N),Bhandaria,132 kV,47.0,Ongoing,Barishal (N)_132kVtoBhandaria_132kV_Line2
+Pubail,Ghorashal,132 kV,3.0,Ongoing,Pubail_132kVtoGhorashal_132kV_Line1
+Pubail,Ghorashal,132 kV,3.0,Ongoing,Pubail_132kVtoGhorashal_132kV_Line2
+Pubail,Ghorashal,132 kV,3.0,Ongoing,Pubail_132kVtoGhorashal_132kV_Line3
+Pubail,Ghorashal,132 kV,3.0,Ongoing,Pubail_132kVtoGhorashal_132kV_Line4
+Pubail,Joydevpur,132 kV,3.0,Ongoing,Pubail_132kVtoJoydevpur_132kV_Line1
+Pubail,Joydevpur,132 kV,3.0,Ongoing,Pubail_132kVtoJoydevpur_132kV_Line2
+Pubail,Joydevpur,132 kV,3.0,Ongoing,Pubail_132kVtoJoydevpur_132kV_Line3
+Pubail,Joydevpur,132 kV,3.0,Ongoing,Pubail_132kVtoJoydevpur_132kV_Line4
+Sirangj 68MW Solar,Sirajganj,132 kV,10.0,Existing,Sirangj 68MW Solar_132kVtoSirajganj_132kV_Line1
+Sirangj 68MW Solar,Sirajganj,132 kV,10.0,Existing,Sirangj 68MW Solar_132kVtoSirajganj_132kV_Line2
+Muradnagar,Cumilla(N),132 kV,2.0,Existing,Muradnagar_132kVtoCumilla(N)_132kV_Line1
+Muradnagar,Cumilla(N),132 kV,2.0,Existing,Muradnagar_132kVtoCumilla(N)_132kV_Line2
+Muradnagar,Cumilla(N),132 kV,2.0,Existing,Muradnagar_132kVtoCumilla(N)_132kV_Line3
+Muradnagar,Cumilla(N),132 kV,2.0,Existing,Muradnagar_132kVtoCumilla(N)_132kV_Line4
+Muradnagar,Daudkandi,132 kV,2.0,Existing,Muradnagar_132kVtoDaudkandi_132kV_Line1
+Muradnagar,Daudkandi,132 kV,2.0,Existing,Muradnagar_132kVtoDaudkandi_132kV_Line2
+Muradnagar,Daudkandi,132 kV,2.0,Existing,Muradnagar_132kVtoDaudkandi_132kV_Line3
+Muradnagar,Daudkandi,132 kV,2.0,Existing,Muradnagar_132kVtoDaudkandi_132kV_Line4
+Bajitpur,Ashuganj,132 kV,0.0,Existing,Bajitpur_132kVtoAshuganj_132kV_Line1
+Bajitpur,Ashuganj,132 kV,0.0,Existing,Bajitpur_132kVtoAshuganj_132kV_Line2
+Bajitpur,Ashuganj,132 kV,0.0,Existing,Bajitpur_132kVtoAshuganj_132kV_Line3
+Bajitpur,Ashuganj,132 kV,0.0,Existing,Bajitpur_132kVtoAshuganj_132kV_Line4
+Bajitpur,Kishoreganj,132 kV,0.0,Existing,Bajitpur_132kVtoKishoreganj_132kV_Line1
+Bajitpur,Kishoreganj,132 kV,0.0,Existing,Bajitpur_132kVtoKishoreganj_132kV_Line2
+Bajitpur,Kishoreganj,132 kV,0.0,Existing,Bajitpur_132kVtoKishoreganj_132kV_Line3
+Bajitpur,Kishoreganj,132 kV,0.0,Existing,Bajitpur_132kVtoKishoreganj_132kV_Line4
+Rahanpur,Chowdala(Section onward),132 kV,7.0,Ongoing,Rahanpur_132kVtoChowdala(Section onward)_132kV_Line1
+Rahanpur,Chowdala(Section onward),132 kV,7.0,Ongoing,Rahanpur_132kVtoChowdala(Section onward)_132kV_Line2
+Muktagacha,Ghatial,132 kV,1.0,Ongoing,Muktagacha_132kVtoGhatial_132kV_Line1
+Muktagacha,Ghatial,132 kV,1.0,Ongoing,Muktagacha_132kVtoGhatial_132kV_Line2
+Muktagacha,Ghatial,132 kV,1.0,Ongoing,Muktagacha_132kVtoGhatial_132kV_Line3
+Muktagacha,Ghatial,132 kV,1.0,Ongoing,Muktagacha_132kVtoGhatial_132kV_Line4
+Muktagacha,RPCL,132 kV,1.0,Ongoing,Muktagacha_132kVtoRPCL_132kV_Line1
+Muktagacha,RPCL,132 kV,1.0,Ongoing,Muktagacha_132kVtoRPCL_132kV_Line2
+Muktagacha,RPCL,132 kV,1.0,Ongoing,Muktagacha_132kVtoRPCL_132kV_Line3
+Muktagacha,RPCL,132 kV,1.0,Ongoing,Muktagacha_132kVtoRPCL_132kV_Line4
+Muradnagar,Kosba,132 kV,24.0,Existing,Muradnagar_132kVtoKosba_132kV_Line1
+Muradnagar,Kosba,132 kV,24.0,Existing,Muradnagar_132kVtoKosba_132kV_Line2
+Jhenaidah,Chuadanga,132 kV,39.0,Existing,Jhenaidah_132kVtoChuadanga_132kV_Line1
+Kurigram,Lalmonirht 2nd circuit,132 kV,31.0,Existing,Kurigram_132kVtoLalmonirht 2nd circuit_132kV_Line1
+Bhulta (N),Hairpur,132 kV,0.0,Ongoing,Bhulta (N)_132kVtoHairpur_132kV_Line1
+Bhulta (N),Hairpur,132 kV,0.0,Ongoing,Bhulta (N)_132kVtoHairpur_132kV_Line2
+Bhulta (N),Hairpur,132 kV,0.0,Ongoing,Bhulta (N)_132kVtoHairpur_132kV_Line3
+Bhulta (N),Hairpur,132 kV,0.0,Ongoing,Bhulta (N)_132kVtoHairpur_132kV_Line4
+Bhulta (N),Narsinghdi,132 kV,0.0,Ongoing,Bhulta (N)_132kVtoNarsinghdi_132kV_Line1
+Bhulta (N),Narsinghdi,132 kV,0.0,Ongoing,Bhulta (N)_132kVtoNarsinghdi_132kV_Line2
+Bhulta (N),Narsinghdi,132 kV,0.0,Ongoing,Bhulta (N)_132kVtoNarsinghdi_132kV_Line3
+Bhulta (N),Narsinghdi,132 kV,0.0,Ongoing,Bhulta (N)_132kVtoNarsinghdi_132kV_Line4
+Patiya,Sikalbaha,132 kV,0.0,Ongoing,Patiya_132kVtoSikalbaha_132kV_Line1
+Patiya,Sikalbaha,132 kV,0.0,Ongoing,Patiya_132kVtoSikalbaha_132kV_Line2
+Patiya,Sikalbaha,132 kV,0.0,Ongoing,Patiya_132kVtoSikalbaha_132kV_Line3
+Patiya,Sikalbaha,132 kV,0.0,Ongoing,Patiya_132kVtoSikalbaha_132kV_Line4
+Patiya,Dohazari,132 kV,0.0,Ongoing,Patiya_132kVtoDohazari_132kV_Line1
+Patiya,Dohazari,132 kV,0.0,Ongoing,Patiya_132kVtoDohazari_132kV_Line2
+Patiya,Dohazari,132 kV,0.0,Ongoing,Patiya_132kVtoDohazari_132kV_Line3
+Patiya,Dohazari,132 kV,0.0,Ongoing,Patiya_132kVtoDohazari_132kV_Line4
+Anandabazar,Halishahar,132 kV,0.0,Ongoing,Anandabazar_132kVtoHalishahar_132kV_Line1
+Anandabazar,Halishahar,132 kV,0.0,Ongoing,Anandabazar_132kVtoHalishahar_132kV_Line2
+Anandabazar,Halishahar,132 kV,0.0,Ongoing,Anandabazar_132kVtoHalishahar_132kV_Line3
+Anandabazar,Halishahar,132 kV,0.0,Ongoing,Anandabazar_132kVtoHalishahar_132kV_Line4
+Anandabazar,Khulsi,132 kV,0.0,Ongoing,Anandabazar_132kVtoKhulsi_132kV_Line1
+Anandabazar,Khulsi,132 kV,0.0,Ongoing,Anandabazar_132kVtoKhulsi_132kV_Line2
+Anandabazar,Khulsi,132 kV,0.0,Ongoing,Anandabazar_132kVtoKhulsi_132kV_Line3
+Anandabazar,Khulsi,132 kV,0.0,Ongoing,Anandabazar_132kVtoKhulsi_132kV_Line4
+Cumilla(N),Chandina,132 kV,16.0,Ongoing,Cumilla(N)_132kVtoChandina_132kV_Line1
+Cumilla(N),Chandina,132 kV,16.0,Ongoing,Cumilla(N)_132kVtoChandina_132kV_Line2
+Rajendrapur,Sreepur,132 kV,20.0,Ongoing,Rajendrapur_132kVtoSreepur_132kV_Line1
+Rajendrapur,Sreepur,132 kV,20.0,Ongoing,Rajendrapur_132kVtoSreepur_132kV_Line2
+Araihazar,Bhulta,132 kV,8.0,Ongoing,Araihazar_132kVtoBhulta_132kV_Line1
+Araihazar,Bhulta,132 kV,8.0,Ongoing,Araihazar_132kVtoBhulta_132kV_Line2
+Dynamics Solar Plant,Ishurdi,132 kV,22.0,Ongoing,Dynamics Solar Plant_132kVtoIshurdi_132kV_Line1
+Dynamics Solar Plant,Ishurdi,132 kV,22.0,Ongoing,Dynamics Solar Plant_132kVtoIshurdi_132kV_Line2
+Kachua,Laksam,132 kV,32.0,Ongoing,Kachua_132kVtoLaksam_132kV_Line1
+Kachua,Laksam,132 kV,32.0,Ongoing,Kachua_132kVtoLaksam_132kV_Line2
+Chowmuhani,Lakshmipur,132 kV,27.0,Ongoing,Chowmuhani_132kVtoLakshmipur_132kV_Line1
+Chowmuhani,Lakshmipur,132 kV,27.0,Ongoing,Chowmuhani_132kVtoLakshmipur_132kV_Line2
+Taraganj,Saidpur,132 kV,0.0,Existing,Taraganj_132kVtoSaidpur_132kV_Line1
+Taraganj,Saidpur,132 kV,0.0,Existing,Taraganj_132kVtoSaidpur_132kV_Line2
+Taraganj,Saidpur,132 kV,0.0,Existing,Taraganj_132kVtoSaidpur_132kV_Line3
+Taraganj,Saidpur,132 kV,0.0,Existing,Taraganj_132kVtoSaidpur_132kV_Line4
+Taraganj,Rangpur,132 kV,0.0,Existing,Taraganj_132kVtoRangpur_132kV_Line1
+Taraganj,Rangpur,132 kV,0.0,Existing,Taraganj_132kVtoRangpur_132kV_Line2
+Taraganj,Rangpur,132 kV,0.0,Existing,Taraganj_132kVtoRangpur_132kV_Line3
+Taraganj,Rangpur,132 kV,0.0,Existing,Taraganj_132kVtoRangpur_132kV_Line4
+Dagunbhuyan,Feni,132 kV,3.0,Ongoing,Dagunbhuyan_132kVtoFeni_132kV_Line1
+Dagunbhuyan,Feni,132 kV,3.0,Ongoing,Dagunbhuyan_132kVtoFeni_132kV_Line2
+Dagunbhuyan,Feni,132 kV,3.0,Ongoing,Dagunbhuyan_132kVtoFeni_132kV_Line3
+Dagunbhuyan,Feni,132 kV,3.0,Ongoing,Dagunbhuyan_132kVtoFeni_132kV_Line4
+Dagunbhuyan,Chowmuhani,132 kV,3.0,Ongoing,Dagunbhuyan_132kVtoChowmuhani_132kV_Line1
+Dagunbhuyan,Chowmuhani,132 kV,3.0,Ongoing,Dagunbhuyan_132kVtoChowmuhani_132kV_Line2
+Dagunbhuyan,Chowmuhani,132 kV,3.0,Ongoing,Dagunbhuyan_132kVtoChowmuhani_132kV_Line3
+Dagunbhuyan,Chowmuhani,132 kV,3.0,Ongoing,Dagunbhuyan_132kVtoChowmuhani_132kV_Line4
+Rampura,Basundhara,132 kV,12.0,Existing,Rampura_132kVtoBasundhara_132kV_Line1
+Rampura,Basundhara,132 kV,12.0,Existing,Rampura_132kVtoBasundhara_132kV_Line2
+Sripur,Kodda (Partial),132 kV,9.0,Ongoing,Sripur_132kVtoKodda (Partial)_132kV_Line1
+Sripur,Kodda (Partial),132 kV,9.0,Ongoing,Sripur_132kVtoKodda (Partial)_132kV_Line2
+Sirajganj Solar,Sirajganj Grid,132 kV,10.0,Existing,Sirajganj Solar_132kVtoSirajganj Grid_132kV_Line1
+Sirajganj Solar,Sirajganj Grid,132 kV,10.0,Existing,Sirajganj Solar_132kVtoSirajganj Grid_132kV_Line2
+Sathia,Ishwardi,132 kV,1.0,Existing,Sathia_132kVtoIshwardi_132kV_Line1
+Sathia,Ishwardi,132 kV,1.0,Existing,Sathia_132kVtoIshwardi_132kV_Line2
+Sathia,Baghabari,132 kV,1.0,Existing,Sathia_132kVtoBaghabari_132kV_Line1
+Sathia,Baghabari,132 kV,1.0,Existing,Sathia_132kVtoBaghabari_132kV_Line2
+Kaliganj,Maheshpur,132 kV,26.0,Ongoing,Kaliganj_132kVtoMaheshpur_132kV_Line1
+Kaliganj,Maheshpur,132 kV,26.0,Ongoing,Kaliganj_132kVtoMaheshpur_132kV_Line2
+Feni 230/132 kV,Feni Chauddagram,132 kV,4.0,Ongoing,Feni 230/132 kV_132kVtoFeni Chauddagram_132kV_Line1
+Feni 230/132 kV,Feni Chauddagram,132 kV,4.0,Ongoing,Feni 230/132 kV_132kVtoFeni Chauddagram_132kV_Line2
+Feni 230/132 kV,Feni Chauddagram,132 kV,4.0,Ongoing,Feni 230/132 kV_132kVtoFeni Chauddagram_132kV_Line3
+Feni 230/132 kV,Feni Chauddagram,132 kV,4.0,Ongoing,Feni 230/132 kV_132kVtoFeni Chauddagram_132kV_Line4
+Bakerganj,Barishal,132 kV,3.0,Existing,Bakerganj_132kVtoBarishal_132kV_Line1
+Bakerganj,Barishal,132 kV,3.0,Existing,Bakerganj_132kVtoBarishal_132kV_Line2
+Bakerganj,Patuakhali,132 kV,3.0,Existing,Bakerganj_132kVtoPatuakhali_132kV_Line1
+Bakerganj,Patuakhali,132 kV,3.0,Existing,Bakerganj_132kVtoPatuakhali_132kV_Line2
+Sathia,Pabna 64 MW Solar,132 kV,35.0,Ongoing,Sathia_132kVtoPabna 64 MW Solar_132kV_Line1
+Sathia,Pabna 64 MW Solar,132 kV,35.0,Ongoing,Sathia_132kVtoPabna 64 MW Solar_132kV_Line2
