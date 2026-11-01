@@ -1,0 +1,421 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bangladesh Grid Intelligence | Mock</title>
+<style>
+  :root {
+    --bg: #0b0e14;
+    --bg-2: #121722;
+    --panel: #161c29;
+    --line: #2a3243;
+    --text: #e8ecf4;
+    --muted: #9aa5ba;
+    --accent: #3ddc97;
+    --accent-2: #f5b942;
+    --hot: #ff5d5d;
+    --cool: #4da3ff;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  a { color: var(--accent); }
+
+  /* ---------- top bar ---------- */
+  .topbar {
+    position: fixed; inset: 0 0 auto 0; z-index: 50;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 14px 32px;
+    background: linear-gradient(to bottom, rgba(11,14,20,.92), rgba(11,14,20,0));
+    pointer-events: none;
+  }
+  .brand { font-weight: 700; letter-spacing: .04em; font-size: 14px; pointer-events: auto; }
+  .brand span { color: var(--accent); }
+  .topbar a.cta {
+    pointer-events: auto; text-decoration: none; color: var(--bg);
+    background: var(--accent); padding: 8px 16px; border-radius: 999px;
+    font-size: 13px; font-weight: 600;
+  }
+
+  /* ---------- hero ---------- */
+  .hero {
+    min-height: 100vh;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 120px 8vw 80px;
+    background:
+      radial-gradient(1000px 500px at 80% 20%, rgba(61,220,151,.12), transparent 60%),
+      radial-gradient(800px 400px at 10% 90%, rgba(77,163,255,.10), transparent 60%),
+      var(--bg);
+    position: relative;
+  }
+  .eyebrow {
+    color: var(--accent); font-size: 13px; font-weight: 600;
+    letter-spacing: .14em; text-transform: uppercase; margin-bottom: 18px;
+  }
+  .hero h1 {
+    font-size: clamp(36px, 6vw, 76px); line-height: 1.05; margin: 0 0 24px;
+    max-width: 16ch; letter-spacing: -.02em;
+  }
+  .hero h1 em { font-style: normal; color: var(--accent); }
+  .hero .lede { font-size: clamp(17px, 1.6vw, 22px); color: var(--muted); max-width: 60ch; margin: 0 0 40px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; max-width: 980px; }
+  .stat {
+    background: rgba(22,28,41,.7); border: 1px solid var(--line);
+    border-radius: 12px; padding: 18px 20px;
+  }
+  .stat b { display: block; font-size: 32px; letter-spacing: -.02em; }
+  .stat span { color: var(--muted); font-size: 14px; }
+  .stat small { display: block; margin-top: 6px; color: #6d788d; font-size: 11px; }
+  .scroll-hint {
+    position: absolute; bottom: 28px; left: 8vw; color: var(--muted); font-size: 13px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .scroll-hint i {
+    width: 18px; height: 28px; border: 2px solid var(--muted); border-radius: 10px; position: relative;
+  }
+  .scroll-hint i::after {
+    content: ""; position: absolute; left: 50%; top: 5px; width: 3px; height: 6px;
+    background: var(--muted); border-radius: 2px; transform: translateX(-50%);
+    animation: wheel 1.6s infinite;
+  }
+  @keyframes wheel { 0% { opacity: 1; top: 5px; } 100% { opacity: 0; top: 14px; } }
+
+  /* ---------- story (split layout) ---------- */
+  .story {
+    display: grid; grid-template-columns: minmax(320px, 38%) 1fr;
+    gap: 0; background: var(--bg-2);
+    border-top: 1px solid var(--line);
+  }
+  .narrative { padding: 0 3vw 0 6vw; }
+  .card {
+    min-height: 90vh; display: flex; flex-direction: column; justify-content: center;
+    opacity: .35; transition: opacity .4s ease;
+  }
+  .card.active { opacity: 1; }
+  .card .kicker {
+    font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--accent-2); font-weight: 700; margin-bottom: 10px;
+  }
+  .card h2 { font-size: clamp(26px, 2.8vw, 40px); line-height: 1.15; margin: 0 0 16px; letter-spacing: -.01em; }
+  .card p { color: #c3cbdb; margin: 0 0 14px; font-size: 17px; }
+  .card .callout {
+    margin-top: 10px; padding: 14px 16px; border-left: 3px solid var(--accent);
+    background: rgba(61,220,151,.07); border-radius: 0 8px 8px 0; font-size: 15px; color: var(--text);
+  }
+  .card .so-what { font-size: 14px; color: var(--muted); }
+  .card .so-what b { color: var(--accent-2); }
+  .legend-row { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 8px; font-size: 13px; color: var(--muted); }
+  .legend-row i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+
+  .stage-col { position: relative; }
+  .stage {
+    position: sticky; top: 0; height: 100vh; padding: 76px 24px 24px 0;
+  }
+  .frame {
+    position: relative; width: 100%; height: 100%;
+    border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
+    background: #05070b; box-shadow: 0 20px 60px rgba(0,0,0,.45);
+  }
+  .frame iframe {
+    position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+    opacity: 0; visibility: hidden; transition: opacity .6s ease, visibility .6s;
+    pointer-events: none; background: #05070b;
+  }
+  .frame iframe.on { opacity: 1; visibility: visible; }
+  .frame.interactive iframe.on { pointer-events: auto; }
+  .loading {
+    position: absolute; inset: 0; display: grid; place-items: center;
+    color: var(--muted); font-size: 14px; text-align: center; pointer-events: none;
+    transition: opacity .4s;
+  }
+  .loading.hide { opacity: 0; }
+  .loading .spin {
+    width: 28px; height: 28px; margin: 0 auto 12px; border-radius: 50%;
+    border: 3px solid var(--line); border-top-color: var(--accent); animation: spin 1s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .map-caption {
+    position: absolute; left: 14px; bottom: 14px; z-index: 5;
+    background: rgba(11,14,20,.85); backdrop-filter: blur(6px);
+    border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px;
+    font-size: 12px; color: var(--muted); max-width: 60%;
+  }
+  .map-caption b { color: var(--text); display: block; font-size: 13px; }
+  .explore {
+    position: absolute; right: 14px; top: 14px; z-index: 5;
+    background: rgba(11,14,20,.85); color: var(--text); border: 1px solid var(--line);
+    border-radius: 999px; padding: 7px 14px; font-size: 12px; cursor: pointer;
+  }
+  .explore:hover { border-color: var(--accent); }
+  .frame.interactive .explore { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+
+  .progress {
+    position: absolute; right: 36px; top: 50%; transform: translateY(-50%); z-index: 6;
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .progress button {
+    width: 10px; height: 10px; padding: 0; border-radius: 50%; border: 1px solid var(--muted);
+    background: transparent; cursor: pointer; transition: all .3s;
+  }
+  .progress button.on { background: var(--accent); border-color: var(--accent); transform: scale(1.4); }
+
+  /* ---------- closing ---------- */
+  .closing {
+    padding: 120px 8vw; text-align: center;
+    background: radial-gradient(800px 360px at 50% 0%, rgba(61,220,151,.12), transparent 70%), var(--bg);
+    border-top: 1px solid var(--line);
+  }
+  .closing h2 { font-size: clamp(28px, 4vw, 52px); margin: 0 0 16px; letter-spacing: -.02em; }
+  .closing p { color: var(--muted); max-width: 60ch; margin: 0 auto 32px; font-size: 18px; }
+  .audiences { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; max-width: 1000px; margin: 0 auto 40px; text-align: left; }
+  .audiences div { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+  .audiences b { display: block; margin-bottom: 6px; color: var(--accent); }
+  .audiences span { color: var(--muted); font-size: 14px; }
+  .btn {
+    display: inline-block; padding: 14px 28px; border-radius: 999px; background: var(--accent);
+    color: var(--bg); font-weight: 700; text-decoration: none;
+  }
+  footer { padding: 28px 8vw; color: #6d788d; font-size: 12px; text-align: center; border-top: 1px solid var(--line); }
+
+  /* ---------- small screens: map on top, text beneath ---------- */
+  @media (max-width: 900px) {
+    .topbar { padding: 12px 18px; }
+    .story { display: block; }
+    .stage-col { position: sticky; top: 0; z-index: 10; order: -1; }
+    .stage { height: 48vh; padding: 56px 12px 8px; }
+    .progress { display: none; }
+    .narrative { padding: 0 20px; }
+    .card { min-height: 70vh; }
+    .map-caption { max-width: 80%; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">GRID<span>/</span>BD</div>
+  <a class="cta" href="#closing">Talk to us</a>
+</div>
+
+<!-- ===================== HERO / MOTIVATION ===================== -->
+<header class="hero" id="top">
+  <div class="eyebrow">Bangladesh power transmission Â· 132 / 230 / 400 kV</div>
+  <h1>Every taka of power is decided on <em>the grid</em>.</h1>
+  <p class="lede">
+    Demand is climbing, fuel is mostly imported, and billions in new generation and transmission are
+    queued up. Where electricity flows, which plants run and what it costs are now
+    investment questions. We modelled the national grid so you can see the answers.
+  </p>
+  <div class="stats">
+    <div class="stat"><b>[ ~ GW ]</b><span>Peak demand to serve</span><small>placeholder, replace with sourced figure</small></div>
+    <div class="stat"><b>3 levels</b><span>132, 230 and 400 kV network modelled</span></div>
+    <div class="stat"><b>$4.6m</b><span>Modelled saving in one day (16 Apr 2026)</span><small>$17.89m empirical vs $13.27m economic dispatch</small></div>
+  </div>
+  <div class="scroll-hint"><i></i> Scroll to follow the story</div>
+</header>
+
+<!-- ===================== SCROLLYTELLING ===================== -->
+<main class="story" id="story">
+
+  <section class="narrative">
+
+    <article class="card" data-map="0">
+      <div class="kicker">Chapter 1 Â· The network</div>
+      <h2>A national grid, line by line</h2>
+      <p>
+        Substations and transmission lines at three voltage levels carry power from plants
+        to cities, factories and export-oriented industry. This is the physical asset base
+        that every project has to connect to.
+      </p>
+      <p class="so-what"><b>Why it matters:</b> new capacity is only as valuable as the grid that can take it.</p>
+    </article>
+
+    <article class="card" data-map="0">
+      <div class="kicker">Chapter 1 Â· The network</div>
+      <h2>Where the grid is under strain</h2>
+      <p>
+        Each line is coloured by how heavily it is loaded and sized by how much power it carries.
+        Hotspots point to where congestion limits delivery, and where reinforcement or storage
+        can unlock value.
+      </p>
+      <div class="legend-row">
+        <span><i style="background:#57b55f"></i>Light load</span>
+        <span><i style="background:#f5d442"></i>Moderate</span>
+        <span><i style="background:#e5484d"></i>Near limit</span>
+      </div>
+      <div class="callout">Thicker line = more power. Redder line = closer to its limit.</div>
+    </article>
+
+    <article class="card" data-map="1">
+      <div class="kicker">Chapter 2 Â· Power flow</div>
+      <h2>Electricity does not stand still</h2>
+      <p>
+        Power moves across the country every hour, generally from generation hubs towards
+        load centres such as Dhaka and Chattogram, and in from cross-border interconnectors.
+      </p>
+      <p class="so-what"><b>Why it matters:</b> direction and volume of flow decide where a new plant, line or battery earns its keep.</p>
+    </article>
+
+    <article class="card" data-map="1">
+      <div class="kicker">Chapter 2 Â· Power flow</div>
+      <h2>Following the megawatts</h2>
+      <p>
+        The animation shows the direction of flow across the transmission network. Corridors that
+        carry a lot of power in one direction for many hours are candidates for upgrades.
+      </p>
+      <div class="callout">Moving markers show the direction of flow on each line.</div>
+    </article>
+
+    <article class="card" data-map="2">
+      <div class="kicker">Chapter 3 Â· Dispatch</div>
+      <h2>Who generates, and what does it cost?</h2>
+      <p>
+        Dispatch decides which plants run each hour. We compare what actually happened
+        (<b>empirical</b>) with what a least-cost schedule would have chosen (<b>economic</b>),
+        subject to the same network limits.
+      </p>
+      <div class="legend-row">
+        <span><i style="background:#4da3ff"></i>Economic is higher</span>
+        <span><i style="background:#ff5d5d"></i>Empirical is higher</span>
+      </div>
+    </article>
+
+    <article class="card" data-map="2">
+      <div class="kicker">Chapter 3 Â· Dispatch</div>
+      <h2>The gap is the opportunity</h2>
+      <p>
+        On 16 April 2026 the least-cost schedule costs <b>$13.27m</b> against <b>$17.89m</b>
+        for actual operation, about <b>26% lower</b>. Use the hour slider and zone filter on the
+        map to see where and when the schedules diverge.
+      </p>
+      <p class="so-what">
+        <b>Why it matters:</b> the gap points to where fuel-cost savings, flexibility and
+        grid investment pay back. Totals are as stated in the source data.
+      </p>
+    </article>
+
+  </section>
+
+  <div class="stage-col">
+    <div class="stage">
+      <div class="frame" id="frame">
+        <div class="loading" id="loading"><div><div class="spin"></div>Loading mapâ€¦</div></div>
+
+        <!-- Sources are set lazily by the script below -->
+        <iframe id="map-0" title="Network and line loading" data-src="../interactive-powerflow-map-v0.html"></iframe>
+        <iframe id="map-1" title="Power flow direction"    data-src="../htmlanimbdgrid1.html"></iframe>
+        <iframe id="map-2" title="Dispatch comparison"     data-src="../dispatch2.html"></iframe>
+
+        <div class="map-caption" id="caption"><b></b><span></span></div>
+        <button class="explore" id="explore" type="button">Explore map</button>
+        <div class="progress" id="progress" aria-label="Map progress">
+          <button type="button" data-go="0" aria-label="Network"></button>
+          <button type="button" data-go="1" aria-label="Power flow"></button>
+          <button type="button" data-go="2" aria-label="Dispatch"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- ===================== CLOSING ===================== -->
+<section class="closing" id="closing">
+  <h2>From a map to a decision</h2>
+  <p>The same model can be run for your project, corridor or policy scenario.</p>
+  <div class="audiences">
+    <div><b>Investors</b><span>Stress-test returns against congestion, curtailment and fuel-price scenarios.</span></div>
+    <div><b>Development banks</b><span>Prioritise transmission and storage with measurable system-level benefit.</span></div>
+    <div><b>Project developers</b><span>Check where a plant or connection point is worth the most.</span></div>
+    <div><b>Large consumers</b><span>Understand supply risk and cost at your connection points.</span></div>
+  </div>
+  <a class="btn" href="mailto:hello@example.com">Request a briefing</a>
+</section>
+
+<footer>Mock for discussion Â· Modelled data, 16 April 2026 Â· Figures marked as placeholders are not sourced.</footer>
+
+<script>
+(function () {
+  // One entry per map. `src` lives on the iframe's data-src attribute.
+  const MAPS = [
+    { title: "Network and line loading", sub: "Hourly line loading, 16 April 2026" },
+    { title: "Power flow direction",     sub: "Animated flow across the grid" },
+    { title: "Dispatch comparison",      sub: "Empirical vs economic dispatch, 16 April 2026" },
+  ];
+
+  const frames   = MAPS.map((_, i) => document.getElementById("map-" + i));
+  const dots     = [...document.querySelectorAll("#progress button")];
+  const cards    = [...document.querySelectorAll(".card")];
+  const frame    = document.getElementById("frame");
+  const loading  = document.getElementById("loading");
+  const caption  = document.getElementById("caption");
+  const explore  = document.getElementById("explore");
+  const loaded   = new Set();
+  let current    = -1;
+
+  function load(i) {
+    if (i < 0 || i >= frames.length || loaded.has(i)) return;
+    loaded.add(i);
+    const f = frames[i];
+    f.addEventListener("load", () => {
+      f.dataset.ready = "1";
+      if (i === current) loading.classList.add("hide");
+    });
+    f.src = f.dataset.src;
+  }
+
+  function show(i) {
+    if (i === current) return;
+    current = i;
+    load(i);
+    load(i + 1); // pre-fetch the next map so the transition is smooth
+    frames.forEach((f, k) => f.classList.toggle("on", k === i));
+    dots.forEach((d, k) => d.classList.toggle("on", k === i));
+    caption.querySelector("b").textContent = MAPS[i].title;
+    caption.querySelector("span").textContent = MAPS[i].sub;
+    loading.classList.toggle("hide", frames[i].dataset.ready === "1");
+    // map interaction is per-map: reset when switching
+    frame.classList.remove("interactive");
+    explore.textContent = "Explore map";
+  }
+
+  // Start loading the first (largest) map when the story is a screen away
+  new IntersectionObserver((entries) => {
+    if (entries.some(e => e.isIntersecting)) { load(0); }
+  }, { rootMargin: "100% 0px" }).observe(document.getElementById("story"));
+
+  // Active card = the one crossing the middle of the viewport
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      cards.forEach(c => c.classList.toggle("active", c === e.target));
+      show(Number(e.target.dataset.map));
+    });
+  }, { rootMargin: "-45% 0px -45% 0px" });
+  cards.forEach(c => io.observe(c));
+
+  // Initial state before any card is in range
+  show(0);
+
+  // Let the user take over the map (wheel/drag would otherwise scroll the page)
+  explore.addEventListener("click", () => {
+    const on = frame.classList.toggle("interactive");
+    explore.textContent = on ? "Back to scrolling" : "Explore map";
+  });
+
+  // Click a dot to jump to that chapter
+  dots.forEach(d => d.addEventListener("click", () => {
+    const target = cards.find(c => Number(c.dataset.map) === Number(d.dataset.go));
+    if (target) target.scrollIntoView({ behavior: "smooth", block: "center" });
+  }));
+})();
+</script>
+</body>
+</html>
