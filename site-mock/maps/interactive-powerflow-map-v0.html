@@ -3,12 +3,30 @@
 <head>
 <meta charset="utf-8">
 <title>Hourly Line Loading: 16 April 2026</title>
-<script src="https://unpkg.com/deck.gl@9.4.0/dist.min.js"></script>
-<link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet">
-<script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+<script>
+(function () {
+  function addScript(code) {
+    var script = document.createElement("script");
+    script.text = code;
+    document.head.appendChild(script);
+  }
+  var ready = window.parent && window.parent !== window && window.parent.__vendorReady;
+  if (ready && ready.deck && ready.maplibre && ready.maplibreCss) {
+    var style = document.createElement("style");
+    style.textContent = ready.maplibreCss;
+    document.head.appendChild(style);
+    addScript(ready.deck);
+    addScript(ready.maplibre);
+    return;
+  }
+  document.write('<script src="https://unpkg.com/deck.gl@9.4.0/dist.min.js"><\/script>');
+  document.write('<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css">');
+  document.write('<script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"><\/script>');
+})();
+</script>
 <style>
-  body { margin: 0; padding: 0; }
-  #map { position: absolute; inset: 0; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+  #map { position: absolute; inset: 0; touch-action: none; }
   #title-box, #hour-box {
     position: absolute;
     top: 20px;
@@ -47,11 +65,16 @@ const tipStyle = { fontFamily: "Arial", color: "white" };
 const view = DATA.view;
 const map = new maplibregl.Map({
   container: "map",
-  style: "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
+  style: (window.parent && window.parent.__basemapStyles && JSON.parse(JSON.stringify(window.parent.__basemapStyles.voyager))) || "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
   center: [view.longitude, view.latitude],
   zoom: view.zoom,
   pitch: view.pitch,
-  bearing: 0
+  bearing: 0,
+  dragPan: true,
+  scrollZoom: true,
+  touchZoomRotate: true,
+  doubleClickZoom: true,
+  cooperativeGestures: false
 });
 
 let hour = 0;

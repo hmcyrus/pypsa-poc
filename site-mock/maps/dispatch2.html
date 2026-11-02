@@ -4,9 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Bangladesh grid</title>
-<script src="https://unpkg.com/deck.gl@9.4.0/dist.min.js"></script>
-<link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet">
-<script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+<script>
+(function () {
+  function addScript(code) {
+    var script = document.createElement("script");
+    script.text = code;
+    document.head.appendChild(script);
+  }
+  var ready = window.parent && window.parent !== window && window.parent.__vendorReady;
+  if (ready && ready.deck && ready.maplibre && ready.maplibreCss) {
+    var style = document.createElement("style");
+    style.textContent = ready.maplibreCss;
+    document.head.appendChild(style);
+    addScript(ready.deck);
+    addScript(ready.maplibre);
+    return;
+  }
+  document.write('<script src="https://unpkg.com/deck.gl@9.4.0/dist.min.js"><\/script>');
+  document.write('<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css">');
+  document.write('<script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"><\/script>');
+})();
+</script>
 <style>
   html, body {
     margin: 0;
@@ -19,11 +37,9 @@
     overscroll-behavior: none;
   }
   body {
-    position: fixed;
-    inset: 0;
     width: 100%;
     height: 100%;
-    height: 100dvh;
+    min-height: 0;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -81,7 +97,9 @@
     min-height: 0;
     width: 100%;
     position: relative;
+    z-index: 1;
     overflow: hidden;
+    contain: paint;
     touch-action: none;
   }
   #legend {
@@ -219,11 +237,14 @@
     background: #12151c;
     color: #e8eaed;
     position: relative;
-    z-index: 4;
+    z-index: 30;
     border-top: 1px solid #2a3140;
     user-select: none;
     overflow: visible;
+    touch-action: manipulation;
   }
+  #dock button,
+  #dock input { touch-action: manipulation; }
   #dock, #dock * { box-sizing: border-box; }
   .dock-pop {
     position: relative;
@@ -1035,13 +1056,18 @@ const nationalBounds = [[minLon, minLat], [maxLon, maxLat]];
 
 const map = new maplibregl.Map({
   container: "map",
-  style: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+  style: (window.parent && window.parent.__basemapStyles && JSON.parse(JSON.stringify(window.parent.__basemapStyles.dark))) || "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
   center: [(minLon + maxLon) / 2, (minLat + maxLat) / 2],
   zoom: 6,
   pitch: 0,
   bearing: 0,
   minZoom: 5,
-  maxZoom: 14
+  maxZoom: 14,
+  dragPan: true,
+  scrollZoom: true,
+  touchZoomRotate: true,
+  doubleClickZoom: true,
+  cooperativeGestures: false
 });
 
 let hour = 0;
@@ -1178,17 +1204,11 @@ function togglePopover(entry) {
   setPopover(entry, willOpen);
 }
 
-for (const entry of popovers) {
-  entry.btn.addEventListener("click", (event) => {
-    event.stopPropagation();
-    togglePopover(entry);
-  });
-}
-
 document.addEventListener("click", (event) => {
   const raw = event.target;
   const target = raw && raw.nodeType === 1 ? raw : raw && raw.parentElement;
   if (!target || !target.closest) return;
+  if (target.closest("#dock")) return;
   for (const entry of popovers) {
     if (entry.panel.hidden) continue;
     if (entry.btn.contains(target) || entry.panel.contains(target)) continue;
@@ -1562,11 +1582,8 @@ function setPlaying(next) {
   renderChrome();
 }
 
-playBtn.addEventListener("click", () => {
-  setPlaying(!playing);
-});
-
-slider.addEventListener("pointerdown", () => {
+slider.addEventListener("pointerdown", (event) => {
+  event.stopPropagation();
   setPlaying(false);
 });
 
@@ -1574,45 +1591,93 @@ slider.addEventListener("input", () => {
   setHour(slider.value);
 });
 
-for (const chip of chips) {
-  chip.addEventListener("click", () => {
-    intervalMs = Number(chip.getAttribute("data-ms"));
-    for (const other of chips) {
-      other.setAttribute("aria-pressed", other === chip ? "true" : "false");
-    }
-    speedBtn.textContent = chip.textContent.trim();
-    if (playing) startTimer();
-  });
+const dock = document.getElementById("dock");
+let lastDockButton = null;
+let lastDockAt = 0;
+
+function selectSpeed(btn) {
+  intervalMs = Number(btn.getAttribute("data-ms"));
+  for (const other of chips) {
+    other.setAttribute("aria-pressed", other === btn ? "true" : "false");
+  }
+  speedBtn.textContent = btn.textContent.trim();
+  if (playing) startTimer();
+  setPopover(popovers[2], false);
 }
 
-zoneRow.addEventListener("click", (event) => {
-  const btn = event.target.closest("button");
-  if (!btn || !zoneRow.contains(btn)) return;
-  if (!btn.dataset.zone) selectNational();
-  else selectZone(btn.dataset.zone);
-  setPopover(popovers[0], false);
+function toggleLayer(btn) {
+  const key = btn.dataset.layer;
+  if (show.delta && (key === "empirical" || key === "economic")) return;
+  if (key === "delta") {
+    show.delta = !show.delta;
+    if (show.delta) {
+      show.empirical = false;
+      show.economic = false;
+    } else {
+      show.empirical = true;
+      show.economic = true;
+    }
+  } else {
+    show[key] = !show[key];
+  }
+  syncLayerChips();
+  pushLayers();
+}
+
+function performDockButton(btn) {
+  if (btn.id === "play-btn") {
+    setPlaying(!playing);
+    return;
+  }
+  const pop = popovers.find((entry) => entry.btn === btn);
+  if (pop) {
+    togglePopover(pop);
+    return;
+  }
+  if (btn.classList.contains("chip")) {
+    selectSpeed(btn);
+    return;
+  }
+  if (zoneRow.contains(btn)) {
+    if (!btn.dataset.zone) selectNational();
+    else selectZone(btn.dataset.zone);
+    setPopover(popovers[0], false);
+    return;
+  }
+  if (btn.classList.contains("layer-chip")) toggleLayer(btn);
+}
+
+function runDockButton(btn) {
+  const now = performance.now();
+  if (btn === lastDockButton && now - lastDockAt < 450) return;
+  lastDockButton = btn;
+  lastDockAt = now;
+  performDockButton(btn);
+}
+
+function dockButtonFromEvent(event) {
+  const raw = event.target;
+  const target = raw && raw.nodeType === 1 ? raw : raw && raw.parentElement;
+  if (!target || !target.closest) return null;
+  const btn = target.closest("button");
+  if (!btn || !dock.contains(btn)) return null;
+  return btn;
+}
+
+dock.addEventListener("pointerup", (event) => {
+  const btn = dockButtonFromEvent(event);
+  if (!btn) return;
+  event.stopPropagation();
+  runDockButton(btn);
 });
 
-for (const btn of layerButtons) {
-  btn.addEventListener("click", () => {
-    const key = btn.dataset.layer;
-    if (show.delta && (key === "empirical" || key === "economic")) return;
-    if (key === "delta") {
-      show.delta = !show.delta;
-      if (show.delta) {
-        show.empirical = false;
-        show.economic = false;
-      } else {
-        show.empirical = true;
-        show.economic = true;
-      }
-    } else {
-      show[key] = !show[key];
-    }
-    syncLayerChips();
-    pushLayers();
-  });
-}
+dock.addEventListener("click", (event) => {
+  const btn = dockButtonFromEvent(event);
+  if (!btn) return;
+  event.preventDefault();
+  event.stopPropagation();
+  runDockButton(btn);
+});
 
 legendToggle.addEventListener("click", () => {
   const open = legendRoot.classList.toggle("open");

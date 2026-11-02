@@ -104,19 +104,23 @@
   .card-map { display: none; }
 
   .stage-col { position: relative; }
-  .stage { position: sticky; top: 0; height: 100vh; padding: 76px 24px 24px 0; }
+  .stage {
+    position: sticky; top: 0; height: 100vh; height: 100dvh;
+    padding: 76px 24px 16px 0;
+    display: flex; flex-direction: column;
+  }
   .frame {
-    position: relative; width: 100%; height: 100%;
+    position: relative; width: 100%; flex: 1 1 auto; height: auto; min-height: 0;
     border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
     background: #05070b; box-shadow: 0 20px 60px rgba(0,0,0,.45);
   }
   .frame iframe {
-    position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+    position: absolute; top: 0; right: 0; left: 0; bottom: 56px;
+    width: 100%; height: calc(100% - 56px); border: 0;
     opacity: 0; visibility: hidden; transition: opacity .45s ease;
-    pointer-events: none; background: #05070b;
+    pointer-events: auto; background: #05070b;
   }
   .frame iframe.on { opacity: 1; visibility: visible; }
-  .frame.interactive iframe.on { pointer-events: auto; }
   .loading {
     position: absolute; inset: 0; display: grid; place-items: center;
     color: var(--muted); font-size: 14px; text-align: center; pointer-events: none;
@@ -134,16 +138,18 @@
   .frame.empty .empty-note { display: grid; }
   .frame.empty .loading { display: none; }
   .map-caption {
-    position: absolute; left: 14px; bottom: 14px; z-index: 5;
+    position: absolute; left: 14px; right: 14px; bottom: 10px; z-index: 5;
     background: rgba(11,14,20,.85);
     border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px;
-    font-size: 12px; color: var(--muted); max-width: 70%;
+    font-size: 12px; color: var(--muted);
+    pointer-events: none;
   }
   .map-caption b { color: var(--text); display: block; font-size: 13px; }
   .explore {
     position: absolute; right: 14px; top: 14px; z-index: 5;
     background: rgba(11,14,20,.85); color: var(--text); border: 1px solid var(--line);
     border-radius: 999px; padding: 7px 14px; font-size: 12px; cursor: pointer;
+    display: none;
   }
   .frame.interactive .explore,
   .card-map.interactive .explore { background: var(--accent); color: var(--bg); border-color: var(--accent); }
@@ -176,12 +182,27 @@
       border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
       background: #05070b;
     }
-    .card[data-map="none"] .card-map { display: none; }
+    .card-map .explore { display: none; }
+    .card[data-map="none"] .card-map {
+      display: grid;
+      place-items: center;
+      height: 34vh;
+      min-height: 180px;
+      padding: 16px;
+      text-align: center;
+      color: var(--muted);
+      background: linear-gradient(180deg, #070a11 0%, #0d121e 100%);
+    }
+    .card[data-map="none"] .card-map::before {
+      content: "Map placeholder: this story section will include an interactive layer in the next update.";
+      max-width: 46ch;
+      font-size: 14px;
+      line-height: 1.4;
+    }
     .card-map iframe {
       position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
-      opacity: 1; visibility: visible; pointer-events: none; background: #05070b;
+      opacity: 1; visibility: visible; pointer-events: auto; background: #05070b;
     }
-    .card-map.interactive iframe { pointer-events: auto; }
     .progress { display: none; }
   }
 </style>
@@ -296,6 +317,38 @@
   const mq = window.matchMedia("(max-width: 900px)");
   const loaded = new Set();
   let current = null;
+  const VENDOR_URLS = {
+    deck: "https://unpkg.com/deck.gl@9.4.0/dist.min.js",
+    maplibre: "https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js",
+    maplibreCss: "https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css",
+    deckJson: "https://unpkg.com/@deck.gl/json@9.4.0/dist.min.js"
+  };
+  const STYLE_URLS = {
+    voyager: "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
+    dark: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
+  };
+  const vendorReady = (async () => {
+    try {
+      const pairs = await Promise.all(Object.entries(VENDOR_URLS).map(async ([key, url]) => {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(url);
+        return [key, await response.text()];
+      }));
+      window.__vendorReady = Object.fromEntries(pairs);
+    } catch (err) {
+      window.__vendorReady = null;
+    }
+    try {
+      const pairs = await Promise.all(Object.entries(STYLE_URLS).map(async ([key, url]) => {
+        const response = await fetch(url, { mode: "cors" });
+        if (!response.ok) throw new Error(url);
+        return [key, await response.json()];
+      }));
+      window.__basemapStyles = Object.fromEntries(pairs);
+    } catch (err) {
+      window.__basemapStyles = null;
+    }
+  })();
   try { localStorage.removeItem("gridbd-mobile-layout"); } catch (err) { /* ignore */ }
 
   function mapIndex(card) {
@@ -317,7 +370,7 @@
       f.dataset.ready = "1";
       if (i === current) loading.classList.add("hide");
     });
-    f.src = f.dataset.src;
+    vendorReady.then(() => { f.src = f.dataset.src; });
   }
 
   function resetExplore() {

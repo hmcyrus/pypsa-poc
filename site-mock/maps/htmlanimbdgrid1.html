@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<!-- deck.gl standalone bundle -->
-		<script src="https://unpkg.com/deck.gl@^9.0.0/dist.min.js"></script>
-		<!-- <script src="https://unpkg.com/deck.gl@^8.8.0/dist.min.js"></script> -->
-		<script src="https://unpkg.com/@deck.gl/json@^9.0.0/dist.min.js"></script>
-		<script src="https://unpkg.com/@deck.gl/carto@^8.8.0/dist.min.js"></script>
-		<!-- Maplibre dependencies -->
-		<script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
-		<!-- <link href='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css' rel='stylesheet' /> -->
-		<!-- <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script> -->
-		<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" /> -->
+		<script>
+		(function () {
+			function addScript(code) {
+				var script = document.createElement("script");
+				script.text = code;
+				document.head.appendChild(script);
+			}
+			var ready = window.parent && window.parent !== window && window.parent.__vendorReady;
+			if (ready && ready.deck && ready.maplibre && ready.maplibreCss && ready.deckJson) {
+				var style = document.createElement("style");
+				style.textContent = ready.maplibreCss;
+				document.head.appendChild(style);
+				addScript(ready.deck);
+				addScript(ready.maplibre);
+				addScript(ready.deckJson);
+				return;
+			}
+			document.write('<script src="https://unpkg.com/deck.gl@9.4.0/dist.min.js"><\/script>');
+			document.write('<script src="https://unpkg.com/@deck.gl/json@9.4.0/dist.min.js"><\/script>');
+			document.write('<script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"><\/script>');
+			document.write('<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css">');
+		})();
+		</script>
+		<script src="https://unpkg.com/@deck.gl/carto@8.9.0/dist.min.js"></script>
 		<style>
-			body { margin:0; padding:0; }
-			#map { width: 100vw; height: 100vh; }
+			html, body { margin:0; padding:0; height:100%; }
+			#map { position:absolute; inset:0; touch-action: none; }
 		</style>
 	</head>
 <body>
@@ -25965,6 +25979,9 @@
     ]
 };
 
+	if (window.parent && window.parent.__basemapStyles && window.parent.__basemapStyles.dark) {
+		lineflowData.mapStyle = JSON.parse(JSON.stringify(window.parent.__basemapStyles.dark));
+	}
 	const jsonConverter = new deck.JSONConverter({
             configuration: {
                 classes: Object.assign({}, deck) // Instantiates all primitive layers
